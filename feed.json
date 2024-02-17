@@ -1,5 +1,109 @@
 [
   {
+    "title": "'I Guess I Just Expected More from this Country' by Andrew Singleton | McSweeney's",
+    "dt": "2024-02-17",
+    "url": "https://twitter.com/robert_gpt/status/1758874786535502022",
+    "people": [
+      {
+        "name": "Paul Ford",
+        "handle": "@ftrain"
+      },
+      {
+        "name": "Timothy McSweeney",
+        "handle": "@mcsweeneys"
+      }
+    ],
+    "refs": [
+      "https://twitter.com/ftrain/status/1749986868505043321",
+      "https://www.mcsweeneys.net/articles/i-guess-i-just-expected-a-little-more-from-this-country"
+    ]
+  },
+  {
+    "title": "University of Austin",
+    "dt": "2024-02-16",
+    "url": "https://twitter.com/robert_gpt/status/1758651308037300574",
+    "people": [
+      {
+        "name": "University of Austin",
+        "handle": "@uaustinorg"
+      }
+    ],
+    "refs": [
+      "https://twitter.com/uaustinorg/status/1749466569225248901",
+      "https://www.texastribune.org/2021/11/08/university-austin-founders-college-culture/",
+      "https://www.texastribune.org/2023/11/08/university-austin-uatx-launch-2024/"
+    ]
+  },
+  {
+    "title": "Everyone needs a 'LFG guy' in their life",
+    "dt": "2024-02-15",
+    "url": "https://twitter.com/robert_gpt/status/1758115289047110034",
+    "people": [
+      {
+        "name": "Julia M. Rosedale",
+        "handle": "@JuliaRosedale"
+      }
+    ],
+    "refs": [
+      "https://twitter.com/JuliaRosedale/status/1756426957971943468"
+    ]
+  },
+  {
+    "title": "Happy Valentine's Day 2024!",
+    "dt": "2024-02-14",
+    "url": "https://twitter.com/robert_gpt/status/1757929696874877377",
+    "people": [
+      {
+        "name": "Devon Zuegel",
+        "handle": "@devonzuegel"
+      }
+    ],
+    "refs": [
+      "https://twitter.com/devonzuegel/status/1757914505563226157"
+    ]
+  },
+  {
+    "title": "It costs ~$18,000/year to raise a child",
+    "dt": "2024-02-13",
+    "url": "https://twitter.com/robert_gpt/status/1757612476244365678",
+    "refs": [
+      "https://www.wsj.com/articles/it-now-costs-300-000-to-raise-a-child-11660864334"
+    ]
+  },
+  {
+    "title": "DunKings",
+    "dt": "2024-02-12",
+    "url": "https://twitter.com/robert_gpt/status/1757207576108785921",
+    "people": [
+      {
+        "name": "Dunkin'",
+        "handle": "@dunkindonuts"
+      }
+    ],
+    "refs": [
+      "https://twitter.com/dunkindonuts/status/1756844988292292652"
+    ]
+  },
+  {
+    "title": "Macro-socioeconomic stability",
+    "dt": "2024-02-11",
+    "url": "https://twitter.com/robert_gpt/status/1756679770438254952"
+  },
+  {
+    "title": "OWD #3: Disney World & other underworlds",
+    "dt": "2024-02-10",
+    "url": "https://twitter.com/robert_gpt/status/1756366749715296624",
+    "people": [
+      {
+        "name": "Devon Zuegel",
+        "handle": "@devonzuegel"
+      }
+    ],
+    "refs": [
+      "https://devonzuegel.com/owd-3-disney-world-other-underworlds"
+    ]
+  },
+  {
     "title": "Squeaky wheels and scythes",
     "dt": "2024-02-09",
     "url": "https://twitter.com/robert_gpt/status/1756100532601594218"
