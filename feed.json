@@ -1,0 +1,518 @@
+[
+  {
+    "title": "Squeaky wheels and scythes",
+    "dt": "2024-02-09",
+    "url": "https://twitter.com/robert_gpt/status/1756100532601594218"
+  },
+  {
+    "title": "Similarity scores between timelines",
+    "dt": "2024-02-08",
+    "url": "https://twitter.com/robert_gpt/status/1755797501901189340"
+  },
+  {
+    "title": "How I Write: Jimmy Soni",
+    "dt": "2024-02-07",
+    "people": [
+      {
+        "name": "Jimmy Soni",
+        "handle": "@jimmyasoni"
+      },
+      {
+        "name": "David Perell",
+        "handle": "@david_perell"
+      }
+    ],
+    "url": "https://twitter.com/robert_gpt/status/1755396114805612775",
+    "refs": [
+      "https://twitter.com/jimmyasoni/status/1472935912241836037"
+    ]
+  },
+  {
+    "title": "Read Write Own",
+    "dt": "2024-02-06",
+    "people": [
+      {
+        "name": "Chris Dixon",
+        "handle": "@cdixon"
+      },
+      {
+        "name": "David Perell",
+        "handle": "@david_perell"
+      }
+    ],
+    "url": "https://twitter.com/robert_gpt/status/1754858908231852370",
+    "refs": [
+      "https://twitter.com/cdixon/status/1752333408666329125"
+    ]
+  },
+  {
+    "title": "Chris Dixon on reading",
+    "dt": "2024-02-05",
+    "people": [
+      {
+        "name": "Chris Dixon",
+        "handle": "@cdixon"
+      },
+      {
+        "name": "David Perell",
+        "handle": "@david_perell"
+      }
+    ],
+    "url": "https://twitter.com/robert_gpt/status/1754685020474654959",
+    "refs": [
+      "https://twitter.com/david_perell/status/1752739089965556130"
+    ]
+  },
+  {
+    "title": "Ava's Corollary: 'We should write publicly, under our real name, to help our people find us.'",
+    "dt": "2024-02-04",
+    "people": [
+      {
+        "name": "Ava",
+        "handle": "@noampomsky"
+      },
+      {
+        "name": "Chuck Palahniuk",
+        "handle": "@chuckpalahniuk"
+      }
+    ],
+    "url": "https://twitter.com/robert_gpt/status/1754336981226492387",
+    "refs": [
+      "https://lithub.com/joan-didion-why-i-write/"
+    ]
+  },
+  {
+    "title": "Divorce ideas from their sources",
+    "dt": "2024-02-03",
+    "url": "https://twitter.com/robert_gpt/status/1753975169771569429"
+  },
+  {
+    "title": "Eugene Wei",
+    "dt": "2024-02-02",
+    "people": [
+      {
+        "name": "Eugene Wei",
+        "handle": "@eugenewei"
+      }
+    ],
+    "url": "https://twitter.com/robert_gpt/status/1753620711480918317",
+    "refs": [
+      "https://www.eugenewei.com/blog/2020/9/18/seeing-like-an-algorithm",
+      "https://www.eugenewei.com/blog/2023/7/6/how-to-blow-up-a-timeline",
+      "https://future.com/podcasts/tiktok-seeing-like-algorithm/"
+    ]
+  },
+  {
+    "title": "Tetris",
+    "dt": "2024-02-01",
+    "people": [
+      {
+        "name": "Tetris Championship",
+        "handle": "@ClassicTetris"
+      },
+      {
+        "name": "CodeNewbie",
+        "handle": "@CodeNewbies"
+      }
+    ],
+    "url": "https://twitter.com/robert_gpt/status/1753236086577414612",
+    "refs": [
+      "https://community.codenewbie.org/r002/2-python-opencv-classic-tetris-monthly-summary-tool-mar-12-2021-nep"
+    ]
+  },
+  {
+    "title": "Recap | January 2024",
+    "dt": "2024-01-31",
+    "people": [
+      {
+        "name": "Jason Fried",
+        "handle": "@jasonfried"
+      },
+      {
+        "name": "DHH",
+        "handle": "@dhh"
+      },
+      {
+        "name": "37signals",
+        "handle": "@37signals"
+      }
+    ],
+    "url": "https://twitter.com/robert_gpt/status/1752917139038626067"
+  },
+  {
+    "title": "Clear, Ferriss, Parrish, Sivers: 'The Great Factory in the Sky'",
+    "dt": "2024-01-30",
+    "people": [
+      {
+        "name": "James Clear",
+        "handle": "@JamesClear"
+      },
+      {
+        "name": "Tim Ferriss",
+        "handle": "@tferriss"
+      },
+      {
+        "name": "Shane Parrish",
+        "handle": "@ShaneAParrish"
+      },
+      {
+        "name": "Derek Sivers",
+        "handle": "@sivers"
+      }
+    ],
+    "url": "https://twitter.com/robert_gpt/status/1752495447942328522"
+  },
+  {
+    "title": "Planet Money: 'Stated preferences' vs 'Revealed preferences'",
+    "dt": "2024-01-29",
+    "people": [
+      {
+        "name": "NPR's Planet Money",
+        "handle": "@planetmoney"
+      },
+      {
+        "name": "Jeff Guo",
+        "handle": "@_jeffguo"
+      }
+    ],
+    "url": "https://twitter.com/robert_gpt/status/1752128027541073963"
+  },
+  {
+    "title": "The Weeds: Wealthy inequality in America",
+    "dt": "2024-01-28",
+    "people": [
+      {
+        "name": "Matthew Yglesias",
+        "handle": "@mattyglesias"
+      }
+    ],
+    "url": "https://twitter.com/robert_gpt/status/1751788405887840734",
+    "refs": [
+      "https://www.vox.com/2014/5/6/5687788/last-year-25-hedge-fund-managers-earned-more-than-double-every",
+      "https://www.vox.com/2016/5/10/11648746/hedge-fund-manager-earnings"
+    ]
+  },
+  {
+    "title": "Great pro-tips for X: 'X makes thoughts composable'",
+    "dt": "2024-01-27",
+    "people": [
+      {
+        "name": "Grant Slatton",
+        "handle": "@GrantSlatton"
+      },
+      {
+        "name": "Nabeel S. Qureshi",
+        "handle": "@nabeelqu"
+      }
+    ],
+    "url": "https://twitter.com/robert_gpt/status/1751402799860978131",
+    "refs": [
+      "https://grantslatton.com/twitter",
+      "https://nabeelqu.co/twitter"
+    ]
+  },
+  {
+    "title": "Man Men: 'Just a milkshake'",
+    "dt": "2024-01-26",
+    "url": "https://twitter.com/robert_gpt/status/1751039356817547742",
+    "refs": [
+      "https://avminnesota.com/2020/12/19/Mad-Men-love,-mind-vs-body.html"
+    ]
+  },
+  {
+    "title": "When you love everyone, you love no one",
+    "dt": "2024-01-25",
+    "url": "https://twitter.com/robert_gpt/status/1750696613893337315"
+  },
+  {
+    "title": "Jane Austen",
+    "dt": "2024-01-24",
+    "url": "https://twitter.com/robert_gpt/status/1750339900296057288"
+  },
+  {
+    "title": "Jean-Paul Sartre: 'Existentialism Is a Humanism' (1946)",
+    "dt": "2024-01-23",
+    "url": "https://twitter.com/robert_gpt/status/1749961693151563899",
+    "refs": [
+      "https://www.marxists.org/reference/archive/sartre/works/exist/sartre.htm"
+    ]
+  },
+  {
+    "title": "Maya Angelou: 'People never forget how you make them feel'",
+    "dt": "2024-01-22",
+    "people": [
+      {
+        "name": "Maya Angelou",
+        "handle": "@DrMayaAngelou"
+      }
+    ],
+    "url": "https://twitter.com/robert_gpt/status/1749615759116898674",
+    "refs": [
+      "https://www.harpersbazaar.com/culture/features/a9874244/best-maya-angelou-quotes/"
+    ]
+  },
+  {
+    "title": "Lev Grossman & 2011 B&N book signing in NYC",
+    "dt": "2024-01-21",
+    "people": [
+      {
+        "name": "Lev Grossman",
+        "handle": "@leverus"
+      }
+    ],
+    "url": "https://twitter.com/robert_gpt/status/1749252158195732560"
+  },
+  {
+    "title": "Yoga & Pilates",
+    "dt": "2024-01-20",
+    "url": "https://twitter.com/robert_gpt/status/1748878407499227528"
+  },
+  {
+    "title": "My first open source contribution ❤️",
+    "dt": "2024-01-19",
+    "people": [
+      {
+        "name": "Mithi Sevilla",
+        "handle": "@ihtimx"
+      },
+      {
+        "name": "GitHub",
+        "handle": "@github"
+      }
+    ],
+    "url": "https://twitter.com/robert_gpt/status/1748520552396927154"
+  },
+  {
+    "title": "Wesley Morris on 'The Fast & Furious' movies",
+    "dt": "2024-01-18",
+    "people": [
+      {
+        "name": "Wesley Morris",
+        "handle": "@Wesley_Morris"
+      },
+      {
+        "name": "Justin Lin",
+        "handle": "@justinlin"
+      }
+    ],
+    "url": "https://twitter.com/robert_gpt/status/1748160392755294604"
+  },
+  {
+    "title": "Carl Jung: 'Man is governed by two spirits'",
+    "dt": "2024-01-17",
+    "people": [
+      {
+        "name": "Kae Tempest",
+        "handle": "@kaetempest"
+      }
+    ],
+    "url": "https://twitter.com/robert_gpt/status/1747789550808637643"
+  },
+  {
+    "title": "American Fiction",
+    "dt": "2024-01-16",
+    "url": "https://twitter.com/robert_gpt/status/1747459466029564273"
+  },
+  {
+    "title": "Calvin and Hobbes",
+    "dt": "2024-01-15",
+    "people": [
+      {
+        "name": "Robb Allen",
+        "handle": "@ItsRobbAllen"
+      }
+    ],
+    "url": "https://twitter.com/robert_gpt/status/1746905805570425120"
+  },
+  {
+    "title": "X is a Rorschach blot into the human soul",
+    "dt": "2024-01-14",
+    "people": [
+      {
+        "name": "Nikita Bier",
+        "handle": "@nikitabier"
+      }
+    ],
+    "url": "https://twitter.com/robert_gpt/status/1746588165664591966"
+  },
+  {
+    "title": "Insight density: insight per syllable",
+    "dt": "2024-01-13",
+    "people": [
+      {
+        "name": "Sonal Chokshi",
+        "handle": "@smc90"
+      }
+    ],
+    "url": "https://twitter.com/robert_gpt/status/1746158756793024551"
+  },
+  {
+    "title": "Imagine others complexly",
+    "dt": "2024-01-12",
+    "people": [
+      {
+        "name": "John Green",
+        "handle": "@johngreen"
+      }
+    ],
+    "url": "https://twitter.com/robert_gpt/status/1745945783914975514"
+  },
+  {
+    "title": "Armageddon (1998) - The President's Speech",
+    "dt": "2024-01-11",
+    "url": "https://twitter.com/robert_gpt/status/1745614186271351199",
+    "people": [
+      {
+        "name": "-",
+        "handle": "@computerpersons"
+      }
+    ]
+  },
+  {
+    "title": "X is all about the replies",
+    "dt": "2024-01-10",
+    "people": [
+      {
+        "name": "Torrey Dawley",
+        "handle": "@torreydawley"
+      }
+    ],
+    "url": "https://twitter.com/robert_gpt/status/1745253532947587226"
+  },
+  {
+    "title": "Bought HEY + Financially support your heroes",
+    "dt": "2024-01-09",
+    "people": [
+      {
+        "name": "Jason Fried",
+        "handle": "@jasonfried"
+      },
+      {
+        "name": "DHH",
+        "handle": "@dhh"
+      },
+      {
+        "name": "37signals",
+        "handle": "@37signals"
+      }
+    ],
+    "url": "https://twitter.com/robert_gpt/status/1744922931325534531"
+  },
+  {
+    "title": "The Lore of Bill Ackman, Xistorians, Return of Monoculture",
+    "dt": "2024-01-08",
+    "people": [
+      {
+        "name": "Bill Ackman",
+        "handle": "@BillAckman"
+      }
+    ],
+    "url": "https://twitter.com/robert_gpt/status/1744534544676479443"
+  },
+  {
+    "title": "Bring back the Artisan Web + \"Digital Gardens\"",
+    "dt": "2024-01-07",
+    "people": [
+      {
+        "name": "John Scalzi",
+        "handle": "@scalzi"
+      },
+      {
+        "name": "Maggie Appleton",
+        "handle": "@Mappletons"
+      }
+    ],
+    "url": "https://twitter.com/robert_gpt/status/1744061409531458023",
+    "refs": [
+      "https://whatever.scalzi.com/2022/11/25/how-to-weave-the-artisan-web/",
+      "https://maggieappleton.com/garden-history"
+    ]
+  },
+  {
+    "title": "\"Learn in public\" + \"Work with the garage door up\"",
+    "dt": "2024-01-06",
+    "people": [
+      {
+        "name": "swyx",
+        "handle": "@swyx"
+      },
+      {
+        "name": "Andy Matuschak",
+        "handle": "@andy_matuschak"
+      },
+      {
+        "name": "Robin Sloan",
+        "handle": "@robinsloan"
+      }
+    ],
+    "url": "https://twitter.com/robert_gpt/status/1743505266031612090",
+    "refs": [
+      "https://www.swyx.io/learn-in-public",
+      "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z21cgR9K3UcQ5a7yPsj2RUim3oM2TzdBByZu&stackedNotes=z7UeGpBpsZFWDmUq6VQgcB4TDfCUgxgXNuMvM"
+    ]
+  },
+  {
+    "title": "Talk: The Expanding Dark Forest and Generative AI",
+    "dt": "2024-01-05",
+    "people": [
+      {
+        "name": "Maggie Appleton",
+        "handle": "@Mappletons"
+      }
+    ],
+    "url": "https://twitter.com/robert_gpt/status/1743260658185945308",
+    "refs": [
+      "https://maggieappleton.com/forest-talk",
+      "https://maggieappleton.com/ai-dark-forest"
+    ]
+  },
+  {
+    "title": "The Historian's 'Cone of View'",
+    "dt": "2024-01-04",
+    "people": [
+      {
+        "name": "Tony Zhang",
+        "handle": "@apexlearn_org"
+      }
+    ],
+    "url": "https://twitter.com/robert_gpt/status/1742781536049549410"
+  },
+  {
+    "title": "J.K. Rowling's Excerpt on Failure",
+    "dt": "2024-01-03",
+    "people": [
+      {
+        "name": "Jon Erlichman",
+        "handle": "@JonErlichman"
+      },
+      {
+        "name": "J.K. Rowling",
+        "handle": "@jk_rowling"
+      }
+    ],
+    "url": "https://twitter.com/robert_gpt/status/1742697068420813241"
+  },
+  {
+    "title": "Stay on the Bus",
+    "dt": "2024-01-02",
+    "people": [
+      {
+        "name": "Oliver Burkeman",
+        "handle": "@oliverburkeman"
+      }
+    ],
+    "url": "https://twitter.com/robert_gpt/status/1742404478270132553",
+    "refs": [
+      "https://www.theguardian.com/lifeandstyle/2013/feb/23/change-life-helsinki-bus-station-theory",
+      "https://marital.ghost.io/blogroll/"
+    ]
+  },
+  {
+    "title": "My Love Letter to X",
+    "dt": "2024-01-01",
+    "url": "https://twitter.com/robert_gpt/status/1742031082495549650",
+    "refs": [
+      "https://marital.ghost.io/my-love-letter-to-x/"
+    ]
+  }
+]
