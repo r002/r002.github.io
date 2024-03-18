@@ -29,12 +29,12 @@ a {
   outline-color: transparent;
   cursor: pointer;
   color: blue;
-  text-decoration: underline;
+  /* text-decoration-style: wavy; */
 }
 
 a:link {
   color: blue;
-  text-decoration: underline;
+  text-decoration-style: solid;
 }
 
 a:visited {
@@ -52,8 +52,8 @@ a:hover {
 }
 
 a:active {
-  background: #6900ff;
-  color: #cdfeaa;
+  background: yellow;
+  color: black;
 }
 
 img {
@@ -64,8 +64,9 @@ img {
 }
 
 .header {
-  height: 70px;
-  padding: 20px;
+  /* height: 70px; */
+  padding-top: 20px;
+  padding-bottom: 17px;
   box-sizing: border-box;
   font-size: 24px;
   font-weight: bold;
@@ -77,6 +78,24 @@ img {
 .header a {
   color: #4A4A46;
   text-decoration: none;
+}
+
+.subheader {
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 11px;
+}
+
+.subheader a {
+  /* color: #4A4A46; */
+  color: blue;
+  /* text-decoration-style: wavy; */
+}
+
+.version {
+  font-size: 12px;
+  margin-top: 8px;
+  font-weight: normal;
 }
 
 #maincontent {
