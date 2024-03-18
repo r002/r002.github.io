@@ -1,0 +1,196 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Serif:ital@0;1&family=Open+Sans:ital@0;1&family=Raleway&display=swap');
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  color: #4A4A46;
+  background-color: #fafafa;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+ul, p {
+  font-family: "Canela Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  font-size: 24px;
+}
+
+a {
+  outline-color: transparent;
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+a:link {
+  color: blue;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:focus {
+  text-decoration: none;
+  background: yellow;
+}
+
+a:hover {
+  text-decoration: none;
+  background: yellow;
+}
+
+a:active {
+  background: #6900ff;
+  color: #cdfeaa;
+}
+
+img {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.header {
+  height: 70px;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: white;
+  text-align: center;
+  border-bottom: gainsboro 1px solid;
+}
+
+.header a {
+  color: #4A4A46;
+  text-decoration: none;
+}
+
+#maincontent {
+  position:relative;
+  left:0;
+  /* background-color: pink; */
+  width: 100vw;
+  height: 100vh;
+  /* margin: 0 auto; */
+  /* margin-top: 50px; */
+  transition: 1s;
+}
+
+.card {
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  top:50px;
+  left:0;
+  background-color: white;
+  box-sizing: border-box;
+  width: 1000px;
+  /* width: 630px; */
+  /* height: 200px; */
+  padding: 0;
+  margin: 0 auto;
+  border: gainsboro 1px solid;
+  opacity: 0;
+  /* display: none; */
+  transition: 1s;
+  /* text-align: center; */
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.card-dt {
+  font-size: 18px;
+}
+
+
+.card-content {
+  padding: 30px;
+  font-size: 24px;
+  line-height: 42px;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.card-subheader {
+  font-size: 22px;
+  font-weight: bold;
+  border-bottom: 3px dashed black;
+  /* border-style: dashed; */
+  width: fit-content;
+  margin: 0px auto;
+  margin-top: 40px;
+  /* text-decoration: underline; */
+}
+
+.quote {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 21px; 
+  width: 700px;
+  padding: 15px;
+  margin: 0px auto;
+  margin-bottom: 30px;
+  background-color: lightyellow;
+}
+
+.tweet {
+  width: fit-content;
+  margin: 0px auto;
+}
+
+.card-img {
+  /* margin-right: -20px; */
+  /* margin-bottom: -20px; */
+  /* background-color: pink; */
+  width: 100%;
+  height: 1024px;
+  /* box-sizing: border-box; */
+  /* padding: 0; */
+  background-size: cover;
+}
+
+.card-caption {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+  margin-top: -30px;
+  /* background-color: pink; */
+}
+
+.tag {
+  border: gainsboro 1px solid;
+  padding: 5px;
+  font-size: 10px;
+  text-transform: uppercase; 
+}
+
+.tag:hover {
+  background: yellow;
+  cursor: pointer;
+}

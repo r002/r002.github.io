@@ -1,14 +1,32 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="refresh" content="0; url=https://r002.github.io/feed.json">
-        <script type="text/javascript">
-            window.location.href="https://r002.github.io/feed.json";
-        </script>
-        <title>r002.github.io | Page Redirection</title>
-    </head>
-    <body>
-        If you are not redirected automatically, please go <a href="https://r002.github.io/feed.json">here</a>.
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+  <title>Robert Lin | Curiosity Maze</title>
+  <link rel="stylesheet" href="css/index.css">
+  <script type="module">
+    import { route } from './js/index.js';
+  
+    const urlParams = new URLSearchParams(window.location.search);
+    const s = urlParams.get('s') ?? ",";
+    route(s);
+  </script>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <div class="header">
+    <a href="/">Robert Lin | Curiosity Maze</a>
+  </div>
+  <div id="maincontent">
+    <div class="card" id="r95" style="left: 2000px; z-index: 1; opacity: 0;"></div>
+    <div class="card" id="r96" style="left: 2000px; z-index: 1; opacity: 0;"></div>
+    <div class="card" id="r97" style="left: 2000px; z-index: 1; opacity: 0;"></div>
+    <div class="card" id="r98" style="left: 2000px; z-index: 1; opacity: 0;"></div>
+    <div class="card" id="r99" style="left: 2000px; z-index: 1; opacity: 0;"></div>
+    <div class="card" id="r100" style="left: 2000px; z-index: 1; opacity: 0;"></div>
+  </div>
+  <br /><br />
+
+</body>
+
 </html>
