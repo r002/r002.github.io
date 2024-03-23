@@ -1,5 +1,97 @@
 [
   {
+    "title": "The twin drivers of a good life: what you do & who you do it with.",
+    "dt": "2024-03-22",
+    "url": "https://twitter.com/robert_gpt/status/1771319499100143939",
+    "people": [
+      {
+        "name": "Tim Ferriss",
+        "handle": "@tferriss"
+      }
+    ],
+    "refs": [
+      "https://twitter.com/tferriss/status/1771268255455347164"
+    ]
+  },
+  {
+    "title": "John Wick: Champion of Diversity for People with Disabilities!",
+    "dt": "2024-03-21",
+    "url": "https://twitter.com/robert_gpt/status/1770973929940672870"
+  },
+  {
+    "title": "Elon Musk",
+    "dt": "2024-03-20",
+    "url": "https://twitter.com/robert_gpt/status/1770628227213496705",
+    "people": [
+      {
+        "name": "anna",
+        "handle": "@annaarthoe"
+      }
+    ],
+    "refs": [
+      "https://r002.github.io/?s=p0,p1,p2"
+    ]
+  },
+  {
+    "title": "Changing my  \"Eleanor-Roosevelt-great-minds-discuss-ideas\" belief",
+    "dt": "2024-03-19",
+    "url": "https://twitter.com/robert_gpt/status/1770218484393562299",
+    "people": [
+      {
+        "name": "Kendall",
+        "handle": "@Kenny___Rose"
+      }
+    ],
+    "refs": [
+      "https://twitter.com/Kenny___Rose/status/1770178519907061864"
+    ]
+  },
+  {
+    "title": "New personal website relaunch: Robert's Curiosity Maze",
+    "dt": "2024-03-18",
+    "url": "https://twitter.com/robert_gpt/status/1769894036741951658",
+    "people": [
+      {
+        "name": "X",
+        "handle": "@X"
+      },
+      {
+        "name": "Maggie Appleton",
+        "handle": "@Mappletons"
+      },
+      {
+        "name": "Amelia Wattenberger",
+        "handle": "@Wattenberger"
+      },
+      {
+        "name": "Anne-Laure Le Cunff",
+        "handle": "@neuranne"
+      },
+      {
+        "name": "Andy Matuschak",
+        "handle": "@andy_matuschak"
+      }
+    ],
+    "refs": [
+      "https://r002.github.io/",
+      "https://github.com/r002/r002.github.io/blob/main/README.md"
+    ]
+  },
+  {
+    "title": "\"Just about everything starts w/ one good programmer lifting.\" —DHH",
+    "dt": "2024-03-17",
+    "url": "https://twitter.com/robert_gpt/status/1769233462572011560",
+    "people": [
+      {
+        "name": "DHH",
+        "handle": "@dhh"
+      }
+    ],
+    "refs": [
+      "https://twitter.com/dhh/status/1769122119915573411"
+    ]
+  },
+  {
     "title": "#TimelessApril",
     "dt": "2024-03-16",
     "url": "https://twitter.com/robert_gpt/status/1768998824901509174",
@@ -1041,7 +1133,7 @@
     "dt": "2024-01-01",
     "url": "https://twitter.com/robert_gpt/status/1742031082495549650",
     "refs": [
-      "https://marital.ghost.io/my-love-letter-to-x/"
+      "https://r002.github.io/?s=p0,p1,p2,p3"
     ]
   }
 ]
