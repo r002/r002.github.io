@@ -24,12 +24,13 @@ const ALL_POSTS = new Set([
     "p0",
     "p1",
     "p2",
-    "p3"
+    "p3",
+    "p4"
   ]);
 
 const FETCHED_POSTS = new Map();
-const LOCS = new Map();
-let CURRENT_LOC = "r100"; // The middle locId currently in view
+window.LOCS = new Map();
+window.CURRENT_LOC = "r100"; // The middle locId currently in view
 const DEFAULT_POST = "p0";
 
 // Check is a state has been requested; if so render the state
@@ -42,12 +43,15 @@ export async function route(s) {
   for(const postId of postArr) {
     if(!ALL_POSTS.has(postId)){
       // An invalid entry was passed in; goto default post
-      // console.error("!! Invalid post passed in");
+      console.error("!! Invalid post passed in");
       route(DEFAULT_POST);
       return;
     } else {
-      const post = await fetchPost(postId);
-      FETCHED_POSTS.set(postId, post); // This mutates GLOBAL state!!
+      // Only fetch the post if we didn't already previously fetch it
+      if(!FETCHED_POSTS.has(postId)){
+        const post = await fetchPost(postId);
+        FETCHED_POSTS.set(postId, post); // This mutates GLOBAL state!!
+      }
     }
   }
   // console.log(FETCHED_POSTS);
@@ -68,32 +72,50 @@ export async function route(s) {
     for(const postId of postArr) {
       // console.log(">> postId:", postId);
 
-      if (!postId.includes("n")) {
-        // Shunt left
-        // console.log(">> Shunt left:", postId, LOCS.get(postId), -1*offsetMult)
-        shuntPost(LOCS.get(postId), -1*offsetMult++); // Shunts the post one unit left // TODO: -1 is wrong; make dynamic
-      } else {
+      if (postId.includes("n")) {
+        // Load a new post in center of the page
         const loc = RIGHT_LOCS.pop();
         const postIdClean = postId.replace("n", "");
         loadPost(postIdClean, loc);
         shuntPost(loc, 0);
-        CURRENT_LOC = loc;
+        SETCURRENTLOC(loc);
+
+        // Load postnavitem in postnavbar
+        const post = FETCHED_POSTS.get(postIdClean);
+        document.getElementById("postnavbar").innerHTML += `
+          <div class="postnavitem" id="nav_${post.id}" onclick="panToExistingPost('${post.id}n');">
+            ${post.title}
+          </div>`;
+      } else {
+        // Shunt existing post left
+        // console.log(">> Shunt left:", postId, LOCS.get(postId), -1*offsetMult)
+        shuntPost(window.LOCS.get(postId), -1*offsetMult++); // Shunts the post left by offsetMult
       }
     }
-
-    // console.log(">> CURRENT_LOC:", CURRENT_LOC);
+    setSelectedNavPost();
     updateUrl(`${s.replace("n", "")}`);
     return;
   }
 
-  ///////////////// Routing logic for vanilla loading all posts
+  ///////////////// Routing logic for vanilla loading all posts (initial load logic)
   //
-  CURRENT_LOC = RIGHT_LOCS[RIGHT_LOCS.length-1]; // CURRENT_LOC loads first!
+  SETCURRENTLOC(RIGHT_LOCS[RIGHT_LOCS.length-1]); // CURRENT_LOC loads first!
+  // console.log(">> LOCS:", LOCS);
   for(let i = postArr.length; i > 0; i--) {
     const loc = RIGHT_LOCS.pop();
     loadPost(postArr[i-1], loc);  // loc=r2
     shuntPost(loc, i-postArr.length);
+
+    // Load postnavitem in postnavbar
+    const post = FETCHED_POSTS.get(postArr[i-1]);
+    document.getElementById("postnavbar").innerHTML = `
+      <div class="postnavitem" id="nav_${post.id}" onclick="panToExistingPost('${post.id}n');">
+        ${post.title}
+      </div>
+      ${document.getElementById("postnavbar").innerHTML}
+    `;
   }
+  setSelectedNavPost();
   updateUrl(s);
 
   ///////////////// Routing logic for panning to an existing post
@@ -103,6 +125,21 @@ export async function route(s) {
     const bangPost = postArr.filter(x => x.includes("!"))[0];
     // console.log(">> Pan to existing post! s:", s, bangPost);
     panToExistingPost(bangPost);
+  }
+}
+
+function setSelectedNavPost() {
+  // console.log(">> getElementsByClassName:", document.getElementsByClassName("postnavitem"));
+  for(const el of document.getElementsByClassName("postnavitem")) {
+    el.style.opacity = 0.4;
+  }
+  // Identify the post that's currently in view
+  for (const [pid, locId] of window.LOCS.entries()) {
+    // console.log(`pid: ${pid}, locId: ${locId}`);
+    if(window.CURRENT_LOC === locId) {
+      document.getElementById(`nav_${pid}`).style.opacity=1;
+      break;
+    }
   }
 }
 
@@ -131,12 +168,12 @@ function panToExistingPost(targetPost) {
   // console.log(">> offset:", offset);
 
   document.getElementById("maincontent").style=`left:${(1000+50)*offset}px;`;
-  const destLoc = LOCS.get(cleanPid);
+  const destLoc = window.LOCS.get(cleanPid);
   // console.log(">> destLoc:", destLoc);
   // console.log(">>CURRENT_LOC:", CURRENT_LOC);
-  document.getElementById(CURRENT_LOC).style.opacity="0.5";
+  document.getElementById(window.CURRENT_LOC).style.opacity="0.5";
   document.getElementById(destLoc).style.opacity="1";
-  CURRENT_LOC = destLoc; // Update global CURRENT_LOC
+  SETCURRENTLOC(destLoc); // Update global CURRENT_LOC
 
   if (targetPost.includes("n")){
     updateUrl(getCurrentState().replace("!", "").replace(cleanPid, `${cleanPid}!`));
@@ -145,7 +182,10 @@ function panToExistingPost(targetPost) {
   if(getCurrentState().slice(-1)==="!"){
     updateUrl(`${getCurrentState().replace("!", "")}`);
   }
+
+  setSelectedNavPost();
 }
+window.panToExistingPost = panToExistingPost;
 
 function getCurrentState() {
   const urlParams = new URLSearchParams(window.location.search);
@@ -155,6 +195,7 @@ function getCurrentState() {
 }
 
 async function fetchPost(postId) {
+  // console.log(">> fetchPost(postId)():", postId);
   const rs = await fetch(`posts/${postId}.json`);
   const post = await rs.json();
   return post;
@@ -167,11 +208,11 @@ window.toggleTag = toggleTag;
 
 function loadPost(postId, loc) {
   // Keep track of which node contains the post
-  LOCS.set(postId, loc); // eg. p1=>r2
+  window.LOCS.set(postId, loc); // eg. p1=>r2
 
   // console.log(">> FETCHED_POSTS", FETCHED_POSTS);
   const post = FETCHED_POSTS.get(postId);
-  // console.log(">> postId", postId, post);
+  // console.log(">> post title:", post.title);
 
   document.getElementById(loc).innerHTML = `
   <div class="card-content">
@@ -184,12 +225,15 @@ function loadPost(postId, loc) {
     </div>
 
     <div class="card-body">
+      <p>
+        <img src="img/${post.img.src}" title="${post.img.title}" />
+          ${post.img.caption ? "<div class=\"card-caption\">" + post.img.caption + "</div>" : ""}
+      </p>
       ${post.body}
     </div>
 
   </div>
-  </div>
-  `
+  </div>`;
   // Initialize Twitter renders (universally applied right now though unnecessary on posts w/ no embedded tweets
   // fix later - 3/17/24)
   // console.log(">> Fire twitter render logic");
@@ -199,10 +243,15 @@ function loadPost(postId, loc) {
 }
 
 export function shuntPost(locationId, offset) {
-  const op = offset === 0 ? 1 : 0.5;
+  const op = offset === 0 ? 1 : 0.3;
   document.getElementById(locationId).style = `left:${(window.innerWidth-1000)/2+(1000+50)*offset}px;z-index:1;opacity:${op};`;
 }
 
 function updateUrl(newState) {
   history.pushState(null, "", `${window.location.pathname}?s=${newState}`);
+}
+
+function SETCURRENTLOC(loc) {
+  window.CURRENT_LOC = loc;
+  // console.log("SETCURRENTLOC(loc):", window.CURRENT_LOC);
 }
