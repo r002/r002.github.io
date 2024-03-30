@@ -1050,6 +1050,7 @@
   {
     "title": "My first open source contribution ❤️",
     "dt": "2024-01-19",
+    "url": "https://twitter.com/robert_gpt/status/1748520552396927154",
     "people": [
       {
         "name": "Mithi Sevilla",
@@ -1060,7 +1061,10 @@
         "handle": "@github"
       }
     ],
-    "url": "https://twitter.com/robert_gpt/status/1748520552396927154"
+    "refs": [
+      "https://twitter.com/github/status/1746744469863719096",
+      "https://community.codenewbie.org/r002/project-1-march-6-2021-mithi-epic-react-exercises-3n2g"
+    ]
   },
   {
     "title": "Wesley Morris on 'The Fast & Furious' movies",
