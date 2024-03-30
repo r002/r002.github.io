@@ -1,5 +1,164 @@
 [
   {
+    "title": "Dum spiro spero",
+    "dt": "2024-03-30",
+    "url": "https://twitter.com/robert_gpt/status/1774154785664450969",
+    "people": [
+      {
+        "name": "Tyler Cho",
+        "handle": "@TheTylerCho"
+      }
+    ],
+    "refs": [
+      "https://twitter.com/TheTylerCho/status/1774062748197855286"
+    ]
+  },
+  {
+    "title": "Adventures of the Open-Source Avenger: Embarking Upon 52 Weeks of Open-Source",
+    "dt": "2024-03-29",
+    "url": "https://twitter.com/robert_gpt/status/1773746403522810182",
+    "people": [
+      {
+        "name": "CodeNewbie",
+        "handle": "@CodeNewbies"
+      }
+    ],
+    "refs": [
+      "https://community.codenewbie.org/r002/adventures-of-the-open-source-avenger-embarking-upon-52-weeks-of-open-source-22i9"
+    ]
+  },
+  {
+    "title": "Pet Phrases",
+    "dt": "2024-03-28",
+    "url": "https://twitter.com/robert_gpt/status/1773548204866371684",
+    "people": [
+      {
+        "name": "Steph Smith",
+        "handle": "@stephsmithio"
+      }
+    ],
+    "refs": [
+      "https://twitter.com/stephsmithio/status/1773402811486867462"
+    ]
+  },
+  {
+    "title": "X Will Save the World: The Future of Social Media & Society",
+    "dt": "2024-03-27",
+    "url": "https://twitter.com/robert_gpt/status/1773170762293166379",
+    "people": [
+      {
+        "name": "X",
+        "handle": "@X"
+      },
+      {
+        "name": "Reddit",
+        "handle": "@Reddit"
+      },
+      {
+        "name": "Nabeel S. Qureshi",
+        "handle": "@nabeelqu"
+      },
+      {
+        "name": "Ava",
+        "handle": "@noampomsky"
+      },
+      {
+        "name": "Edge City",
+        "handle": "@JoinEdgeCity"
+      },
+      {
+        "name": "Devon Zuegel",
+        "handle": "@devonzuegel"
+      },
+      {
+        "name": "Gary Sheng",
+        "handle": "@garysheng"
+      },
+      {
+        "name": "Alexandra Allen",
+        "handle": "@AlexandraAllen_"
+      }
+    ],
+    "refs": [
+      "https://www.edgeesmeralda.com",
+      "https://twitter.com/nabeelqu/status/1748703572920070166",
+      "https://twitter.com/noampomsky/status/1754308879499022735"
+    ]
+  },
+  {
+    "title": "Tim Ferriss 10th anniversary fan meetup - Cincinnati, OH",
+    "dt": "2024-03-26",
+    "url": "https://twitter.com/robert_gpt/status/1772815860119245170",
+    "people": [
+      {
+        "name": "Tim Ferriss",
+        "handle": "@tferriss"
+      },
+      {
+        "name": "Rae",
+        "handle": "@raechellambert"
+      },
+      {
+        "name": "River",
+        "handle": "@getriver_io"
+      }
+    ],
+    "refs": [
+      "https://twitter.com/tferriss/status/1772614795352551918",
+      "https://app.getriver.io/events/tim-ferriss-10th-anniversary-fan-meetup-cincinnati-oh-gi6"
+    ]
+  },
+  {
+    "title": "Dating apps have never made sense to me",
+    "dt": "2024-03-25",
+    "url": "https://twitter.com/robert_gpt/status/1772096483455562129",
+    "people": [
+      {
+        "name": "Paige",
+        "handle": "@climatepaige"
+      }
+    ],
+    "refs": [
+      "https://twitter.com/climatepaige/status/1772057122173325756"
+    ]
+  },
+  {
+    "title": "Spin by Robert Charles Wilson is my favorite sci-fi book ever",
+    "dt": "2024-03-24",
+    "url": "https://twitter.com/robert_gpt/status/1772096483455562129",
+    "people": [
+      {
+        "name": "Brandon Beylo",
+        "handle": "@marketplunger1"
+      },
+      {
+        "name": "Robert Charles Wilson",
+        "handle": "@RobertCWilson"
+      }
+    ],
+    "refs": [
+      "https://twitter.com/marketplunger1/status/1771913332015964422"
+    ]
+  },
+  {
+    "title": "Add post panning navbar to personal site",
+    "dt": "2024-03-23",
+    "url": "https://twitter.com/robert_gpt/status/1771712203701231957",
+    "people": [
+      {
+        "name": "Kevin Cannon",
+        "handle": "@multikev"
+      },
+      {
+        "name": "Zac Jones",
+        "handle": "@zacjones93"
+      }
+    ],
+    "refs": [
+      "https://r002.github.io"
+    ]
+  },
+  {
     "title": "The twin drivers of a good life: what you do & who you do it with.",
     "dt": "2024-03-22",
     "url": "https://twitter.com/robert_gpt/status/1771319499100143939",
