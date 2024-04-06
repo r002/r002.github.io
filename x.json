@@ -1,5 +1,45 @@
 [
   {
+    "id": 97,
+    "title": "UX must be aesthetically beautiful, inspire, delight",
+    "dt": "2024-04-06",
+    "url": "https://twitter.com/robert_gpt/status/1776590577573704141",
+    "people": [
+      {
+        "name": "Resend",
+        "handle": "@resend"
+      }
+    ],
+    "refs": [
+      "https://twitter.com/resend/status/1772995007965811111"
+    ]
+  },
+  {
+    "id": 96,
+    "title": "Alone but not lonely?",
+    "dt": "2024-04-05",
+    "url": "https://twitter.com/robert_gpt/status/1776235966253986045",
+    "people": [
+      {
+        "name": "Rae",
+        "handle": "@raechellambert"
+      },
+      {
+        "name": "Scott Galloway",
+        "handle": "@profgalloway"
+      }
+    ],
+    "refs": [
+      "https://twitter.com/raechellambert/status/1771936379737440489"
+    ]
+  },
+  {
+    "id": 95,
+    "title": "Tomorrow, and Tomorrow, and Tomorrow by Gabrielle Zevin - My favorite book of 2023",
+    "dt": "2024-04-04",
+    "url": "https://twitter.com/robert_gpt/status/1776015001842557037"
+  },
+  {
     "id": 94,
     "title": "Avatar: The Last Airbender - Four Nations",
     "dt": "2024-04-03",
