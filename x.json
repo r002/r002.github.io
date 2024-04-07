@@ -1,5 +1,20 @@
 [
   {
+    "id": 98,
+    "title": "Just start. Then iterate. Initium dimidium facti.",
+    "dt": "2024-04-07",
+    "url": "https://twitter.com/robert_gpt/status/1776991740571877864",
+    "people": [
+      {
+        "name": "Grant",
+        "handle": "@granawkins"
+      }
+    ],
+    "refs": [
+      "https://twitter.com/granawkins/status/1776768555377389999"
+    ]
+  },
+  {
     "id": 97,
     "title": "UX must aesthetically please, inspire, delight",
     "dt": "2024-04-06",
