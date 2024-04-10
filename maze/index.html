@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+  <title>Robert Lin | Curiosity Maze</title>
+  <link rel="stylesheet" href="../css/index.css">
+  <script type="module">
+    import { route } from '../js/index.js';
+  
+    const urlParams = new URLSearchParams(window.location.search);
+    const s = urlParams.get('s') ?? "p0";
+    route(s);
+  </script>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <div class="header">
+    <a href=".">Robert Lin • Curiosity Maze</a><br />
+    <div class="subheader">
+      <a href="../xna">XNA</a> • 
+      <a href="https://github.com/r002/r002.github.io?tab=readme-ov-file#roberts-curiosity-maze-%EF%B8%8F">Readme</a> • 
+      <a href="https://github.com/r002/r002.github.io">Source</a> • 
+      <a href="https://r002.github.io/x.json">Thought supply chain</a>
+    </div>
+    <div class="version" title="v.1.2.11: regorg site structure">
+      v.1.2.11 • 2024-04-07
+    </div>
+  </div>
+  <div id="postnavbar">
+  </div>
+  <div id="maincontent">
+    <div class="card" id="r95" style="left: 6000px; z-index: 1; opacity: 0;"></div>
+    <div class="card" id="r96" style="left: 6000px; z-index: 1; opacity: 0;"></div>
+    <div class="card" id="r97" style="left: 6000px; z-index: 1; opacity: 0;"></div>
+    <div class="card" id="r98" style="left: 6000px; z-index: 1; opacity: 0;"></div>
+    <div class="card" id="r99" style="left: 6000px; z-index: 1; opacity: 0;"></div>
+    <div class="card" id="r100" style="left: 6000px; z-index: 1; opacity: 0;"></div>
+  </div>
+  <br /><br />
+
+</body>
+
+</html>

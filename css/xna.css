@@ -1,0 +1,158 @@
+html {
+  overflow:   scroll;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+#categoriescontent {
+  width: 500px;
+  /* background-color: yellow; */
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+#searchcontent {
+    /* margin: 0px auto; */
+    margin-top: 50px;
+    margin-left: 100px;
+    /* background-color: yellow; */
+    width: fit-content;
+    /* background-color: pink; */
+    /* box-sizing: border-box; */
+}
+
+#searchmsg {
+  /* font-style: italic; */
+  margin-bottom: 7px;
+  font-size: 16px;
+  /* text-align: center; */
+}
+
+#search {
+    font-size: 50px;
+    /* margin-bottom: 100px; */
+}
+
+#searchresult {
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+#xnacontent {
+  display: flex;
+  flex-flow: row;
+  /* background-color: yellow; */
+  width: fit-content;
+  margin: 0 auto;
+  /* border: 1px black solid; */
+}
+
+#gridcontainer {
+  /* background-color: yellow; */
+  width: fit-content;
+  /* margin: 0px auto; */
+  margin-top: 50px;
+  /* margin-left: 100px; */
+}
+
+#people {
+  display: grid;
+  grid-template-columns: 42px 42px 42px 42px 42px 42px 42px 42px;
+  grid-gap: 0px;
+  background-color: #fafafa;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.paneheader {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 8px;
+}
+
+.toggle {
+  cursor: pointer;
+  color: blue;
+}
+
+.sel {
+  color: black;
+  font-weight: bold;
+  /* text-decoration: underline; */
+}
+
+.toggle:hover {
+  color: black;
+  background-color: yellow;
+}
+
+.person {
+  height: 42px;
+  background-size: cover;
+  border: 1px solid #fafafa;
+  box-sizing: border-box;
+}
+
+.person:hover {
+  cursor: pointer;
+}
+
+.person-sel {
+  border: 5px solid orange;
+}
+
+.dim {
+  opacity: .1;
+}
+
+.tweetresult {
+  padding: 10px;
+  /* margin-bottom: 5px; */
+  background-color: white;
+  /* border: 1px solid lightgrey; */
+  font-size: 30px;
+}
+
+.tweetresult a {
+  text-decoration: none;
+}
+
+.month {
+  display: grid;
+  grid-template-columns: 90px 40px 40px 40px 40px 40px 40px 40px;
+  grid-gap: 0px;
+  background-color: #fafafa;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  height: 40px;
+  /* margin: 1px; */
+  /* padding: 10px; */
+  border: 1px solid #fafafa;
+  box-sizing: border-box;
+  /* font-size: 150%; */
+}
+
+.box:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.nocolor {
+  background-color: #fafafa;
+  color: black;
+  height: 40px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.selected {
+  background-color: orange;
+}

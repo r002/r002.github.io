@@ -196,7 +196,7 @@ function getCurrentState() {
 
 async function fetchPost(postId) {
   // console.log(">> fetchPost(postId)():", postId);
-  const rs = await fetch(`posts/${postId}.json`);
+  const rs = await fetch(`../posts/${postId}.json`);
   const post = await rs.json();
   return post;
 }
@@ -226,7 +226,7 @@ function loadPost(postId, loc) {
 
     <div class="card-body">
       <p>
-        <img src="img/${post.img.src}" title="${post.img.title}" />
+        <img src="../img/${post.img.src}" title="${post.img.title}" />
           ${post.img.caption ? "<div class=\"card-caption\">" + post.img.caption + "</div>" : ""}
       </p>
       ${post.body}
