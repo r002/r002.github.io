@@ -1,5 +1,32 @@
 [
   {
+    "id": 101,
+    "title": "XNA: 'Help your people find you' (Edge Esmeralda application)",
+    "dt": "2024-04-10",
+    "url": "https://twitter.com/robert_gpt/status/1778180551666487694",
+    "people": [
+      {
+        "name": "X",
+        "handle": "@X"
+      },
+      {
+        "name": "Edge City",
+        "handle": "@JoinEdgeCity"
+      },
+      {
+        "name": "Visakan Veerasamy",
+        "handle": "@visakanv"
+      },
+      {
+        "name": "Tyler Cho",
+        "handle": "@TheTylerCho"
+      }
+    ],
+    "refs": [
+      "https://twitter.com/JoinEdgeCity/status/1772713309147398500"
+    ]
+  },
+  {
     "id": 100,
     "title": "Ignore what you dislike; instead, build beauty & wonder",
     "dt": "2024-04-09",
