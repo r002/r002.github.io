@@ -1,5 +1,11 @@
 [
   {
+    "id": 102,
+    "title": "The Eclipse: For a moment we all gazed skyward",
+    "dt": "2024-04-11",
+    "url": "https://twitter.com/robert_gpt/status/1778563924717171186"
+  },
+  {
     "id": 101,
     "title": "XNA: 'Help your people find you' (Edge Esmeralda application)",
     "dt": "2024-04-10",
@@ -20,6 +26,14 @@
       {
         "name": "Tyler Cho",
         "handle": "@TheTylerCho"
+      },
+      {
+        "name": "David Perell",
+        "handle": "@david_perell"
+      },
+      {
+        "name": "Tim Ferriss",
+        "handle": "@tferriss"
       }
     ],
     "refs": [
