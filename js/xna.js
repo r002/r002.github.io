@@ -118,7 +118,7 @@ function indexDB(dbArr) {
       // Index people
       if (tweet.people) {
         for (const person of tweet.people) {
-          const handle = person.handle.substr(1).toLowerCase();
+          const handle = person.handle.substr(1);
           if(!mapPPL.has(handle)){
             mapPPL.set(handle, [tweet.id]);
           } else {
@@ -126,7 +126,7 @@ function indexDB(dbArr) {
           }
 
           // Index people's names into mapTag
-          const arr = person.name.toLowerCase().split(/[ -]/).filter(token => token!=="");
+          const arr = person.name.split(/[ -]/).filter(token => token!=="");
           for (const nameWord of arr) {
             if(!mapTAG.has(nameWord)){
               mapTAG.set(nameWord, [tweet.id]);
@@ -142,7 +142,7 @@ function indexDB(dbArr) {
       if (tweet.tags) {
           for (const tag of tweet.tags) {
               for (let tagWord of tag.split(" ")) {
-                  tagWord = tagWord.toLowerCase();
+                  tagWord = tagWord;
                   if(!mapTAG.has(tagWord)){
                       mapTAG.set(tagWord, [tweet.id]);
                   } else {
@@ -250,7 +250,7 @@ function highltppl(tid) {
   Array.from(document.getElementsByClassName("person")).forEach(p=>p.classList.add("dim"));
   if (t.people) {
     // console.log(t.people.map(p=>p.handle));
-    t.people.forEach(p=>document.getElementById(p.handle.substr(1).toLowerCase()).classList.remove("dim"));
+    t.people.forEach(p=>document.getElementById(p.handle.substr(1)).classList.remove("dim"));
   }
 }
 
@@ -304,7 +304,7 @@ function renderstream() {
             document.getElementById(`d${id}`).classList.add("selected");
             const t = arrTWEET[id-1];
             if (t.people) {
-              t.people.forEach(p=>document.getElementById(p.handle.substr(1).toLowerCase()).classList.remove("dim"));
+              t.people.forEach(p=>document.getElementById(p.handle.substr(1)).classList.remove("dim"));
             }
         }
     }
@@ -312,7 +312,7 @@ function renderstream() {
 
 function searchDB(query) {
     const rs = new Set();
-    for (const token of query.toLowerCase().split(" ")){
+    for (const token of query.split(" ")){
         if (mapTAG.has(token)) {
           mapTAG.get(token).forEach(tid=>rs.add(tid));
         }
