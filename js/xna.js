@@ -2,10 +2,10 @@
 const DBURL = "https://r002.github.io/x.json"; 
 
 let SELECTEDPERSON = "";
-let DBMAP, // map of keywords => [tids]
-    arrTWEET, // [tweet objs] from oldest to newest
-    mapPPL, // map of @handle => [tids]
-    TIDS;  // [tids] from newest to oldest
+let mapTAG,    // map of tags => [tids]
+    arrTWEET,  // [tweet objs] from oldest to newest
+    mapPPL,    // map of handle => [tids]
+    TIDS;      // [tids] from newest to oldest
 
 loadtweets();
 
@@ -74,26 +74,27 @@ function renderppl(mode) {
   if (mode === "revchrono") {
     const revsersechrono = Array.from(mapPPL.keys()).reverse();
     for (let handle of revsersechrono) {
-      s += `<div class="person" id=${handle}
-             onmouseover="highltperson('${handle}')"
-             onmouseout="unhighltperson()"
-             onclick="selectperson('${handle}')"
-             style='background-image: url("../img/pfp/${handle}.jpg")'></div>`;
+      s += genperson(handle);
     }
   }
   else if (mode === "frequency") {
     const personArr = Array.from(mapPPL);
     personArr.sort((a, b) => a[1].length - b[1].length).reverse();
     for (const p of personArr) {
-      s += `<div class="person" id=${p[0]}
-             onmouseover="highltperson('${p[0]}')"
-             onmouseout="unhighltperson()"
-             onclick="selectperson('${p[0]}')"
-             style='background-image: url("../img/pfp/${p[0]}.jpg")'></div>`;
+      s += genperson(p[0]);
     }
   }
   document.getElementById("people").innerHTML = s;
   document.getElementById("titlepeople").innerHTML = `People (${mapPPL.size})`;
+}
+
+function genperson(handle) {
+  return `<div class="person" id="${handle}"
+          title="@${handle}"
+          onmouseover="highltperson('${handle}')"
+          onmouseout="unhighltperson()"
+          onclick="selectperson('${handle}')"
+          style='background-image: url("../img/pfp/${handle}.jpg")'></div>`;
 }
 
 function toggle(el) {
@@ -110,18 +111,28 @@ function toggle(el) {
 }
 
 function indexDB(dbArr) {
-    DBMAP = new Map();
+    mapTAG = new Map();
     mapPPL = new Map();
 
     for (let tweet of dbArr) {
       // Index people
       if (tweet.people) {
         for (const person of tweet.people) {
-          const handle = person.handle.substr(1);
+          const handle = person.handle.substr(1).toLowerCase();
           if(!mapPPL.has(handle)){
             mapPPL.set(handle, [tweet.id]);
           } else {
             mapPPL.get(handle).push(tweet.id);
+          }
+
+          // Index people's names into mapTag
+          const arr = person.name.toLowerCase().split(/[ -]/).filter(token => token!=="");
+          for (const nameWord of arr) {
+            if(!mapTAG.has(nameWord)){
+              mapTAG.set(nameWord, [tweet.id]);
+            } else {
+              mapTAG.get(nameWord).push(tweet.id);
+            }
           }
           // console.log(`>> index added: ${handle} => ${JSON.stringify(DBPPL.get(handle))}`);
         }
@@ -130,18 +141,19 @@ function indexDB(dbArr) {
       // Index tags
       if (tweet.tags) {
           for (const tag of tweet.tags) {
-              for (let keyword of tag.split(" ")) {
-                  if(!DBMAP.has(keyword)){
-                      DBMAP.set(keyword, [tweet.id]);
+              for (let tagWord of tag.split(" ")) {
+                  tagWord = tagWord.toLowerCase();
+                  if(!mapTAG.has(tagWord)){
+                      mapTAG.set(tagWord, [tweet.id]);
                   } else {
-                      DBMAP.get(keyword).push(tweet.id);
+                      mapTAG.get(tagWord).push(tweet.id);
                   }
                   // console.log(`>> index added: ${keyword} => ${JSON.stringify(DBMAP.get(keyword))}`);
               }
           }
       }
     }
-    console.log(">> index finished; DBMAP size:", DBMAP.size);
+    console.log(">> index finished; DBMAP size:", mapTAG.size);
     console.log(">> index finished; DBPPL size:", mapPPL.size);
 }
 
@@ -198,8 +210,10 @@ function rendercalendar(dbArr) {
     if (i%7 === 0){
       s += `<div class="nocolor"></div>`;
     }
-    
-    s += `<div id="d${i}" class="box" onmouseover="rendertweets([${i}]);highltppl(${i});"
+
+    s += `<div id="d${i}" class="box"
+          title="${genprettydate(tweet.dt)}"
+          onmouseover="rendertweets([${i}]);highltppl(${i});"
           onmouseout="renderstream();resetppl();"
           onclick="goto(${i})"></div>`;
     i++;
@@ -207,6 +221,14 @@ function rendercalendar(dbArr) {
 
   s += "</div>";
   document.getElementById("gridcontainer").innerHTML = s;
+}
+
+function genprettydate(dt) {
+  const dateParts = dt.split("-");
+  const dateObject = new Date(dateParts[0], dateParts[1] - 1, dateParts[2]);
+  const options = { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' };
+  const formattedDate = new Intl.DateTimeFormat('en-US', options).format(dateObject);
+  return formattedDate.replace(",", " -");
 }
 
 function goto(id) {
@@ -228,9 +250,7 @@ function highltppl(tid) {
   Array.from(document.getElementsByClassName("person")).forEach(p=>p.classList.add("dim"));
   if (t.people) {
     // console.log(t.people.map(p=>p.handle));
-    for (const p of t.people) {
-      document.getElementById(p.handle.substr(1)).classList.remove("dim");
-    }
+    t.people.forEach(p=>document.getElementById(p.handle.substr(1).toLowerCase()).classList.remove("dim"));
   }
 }
 
@@ -241,6 +261,7 @@ function rendertweets(tidArr) {
     const t = arrTWEET[id-1];
     const e = t.title.length >= 31 ? "..." : "";
     s += `<div class="tweetresult" 
+            title="${genprettydate(t.dt)}"
             onmouseover="highltdays([${t.id}]);highltppl(${t.id});"
             onmouseout="unhighltdays([${t.id}]);resetppl();">
             ${leftpad(t.id)}: 
@@ -248,6 +269,7 @@ function rendertweets(tidArr) {
           </div>`;
   }
   document.getElementById("searchresult").innerHTML = s;
+  document.getElementById("titletimestream").innerHTML = `Tweet Timestream (${tidArr.length})`;
 }
 
 function leftpad(id){
@@ -282,9 +304,7 @@ function renderstream() {
             document.getElementById(`d${id}`).classList.add("selected");
             const t = arrTWEET[id-1];
             if (t.people) {
-                for (const p of t.people) {
-                  document.getElementById(p.handle.substr(1)).classList.remove("dim");
-                }
+              t.people.forEach(p=>document.getElementById(p.handle.substr(1).toLowerCase()).classList.remove("dim"));
             }
         }
     }
@@ -292,11 +312,12 @@ function renderstream() {
 
 function searchDB(query) {
     const rs = new Set();
-    for (const word of query.split(" ")){
-        if (DBMAP.has(word)) {
-            for(const tweetId of DBMAP.get(word)) {
-                rs.add(tweetId);
-            }
+    for (const token of query.toLowerCase().split(" ")){
+        if (mapTAG.has(token)) {
+          mapTAG.get(token).forEach(tid=>rs.add(tid));
+        }
+        if (mapPPL.has(token)) {
+          mapPPL.get(token).forEach(tid=>rs.add(tid));
         }
     }
     return Array.from(rs);

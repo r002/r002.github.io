@@ -2,7 +2,7 @@
 ### Wednesday - April 10, 2024
 **Motivation:** I humbly submit that humanity has not quite yet figured out how best to leverage social tech **`to help people connect and build genuine human relationships`**. We have at our fingertips the power to reach any other human being in the world ***instantly*** on demand! And we've developed technology that can help us sift through oceans of data and classify at **hyper-granuality** a person's interests and a tweet's contents.
 
-And yet— with all this marvel and wonder, all we've done is monetize UGC by promoting clickbait that makes people the ***angriest?***? Whatever fodder that riles up people the most for ad views? ***Seriously?!*** 🤔
+And yet— with all this marvel and wonder, all we've done is monetize UGC by promoting clickbait that makes people the ***angriest?*** Whatever fodder that riles up people the most for ad views? ***Seriously?!*** 🤔
 
 **`XNA`** is my attempt to introduce **`better legibility for social media` in the spirit of `building genuine human connections` over `shared interests and values`**. (Here, I've started with X but this can theoretically be similarly applied to Bluesky or any other social media platform.)
 
@@ -47,8 +47,9 @@ Onward and upward!! Accelerate!! 🌎🚀✨
 **
 
 ## TODO
-- [ ] Display `(count)` next to `Tweet Timestream`
-- [ ] When mousing over `tweets` and `day boxes`, show the full date in the `title` mouseover
+- [x] Finish indexing all people in the database so they can be searched
+- [x] Display `(count)` next to `Tweet Timestream`
+- [x] When mousing over `tweets` and `day boxes`, show the full date in the `title` mouseover
 
 **
 
