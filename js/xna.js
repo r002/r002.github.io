@@ -1,5 +1,5 @@
 // initial load all of my tweets
-const DBURL = "https://r002.github.io/x.json"; 
+const DBURL = "../x.json"; 
 
 let SELECTEDPERSON = "";
 let mapTAG,    // map of tags => [tids]
@@ -263,13 +263,13 @@ function rendertweets(tidArr) {
   let s = "";
   for (const id of tidArr) {
     const t = arrTWEET[id-1];
-    const e = t.title.length >= 31 ? "..." : "";
+    const e = t.title.length >= 51 ? "..." : "";
     s += `<div class="tweetresult" 
             title="${genprettydate(t.dt)}"
             onmouseover="highltdays([${t.id}]);highltppl(${t.id});"
             onmouseout="unhighltdays([${t.id}]);resetppl();">
             ${leftpad(t.id)}: 
-            <a href="${t.url}" target="_blank">${t.title.substr(0,31) + e}</a>
+            <a href="${t.url}" target="_blank">${t.title.substr(0,51) + e}</a>
           </div>`;
   }
   document.getElementById("searchresult").innerHTML = s;
