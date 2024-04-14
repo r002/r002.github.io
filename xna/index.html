@@ -5,6 +5,15 @@
   <link rel="stylesheet" href="../css/index.css">
   <link rel="stylesheet" href="../css/xna.css">
   <script type="text/javascript" src="../js/xna.js"></script>
+  <script type="text/javascript">
+    fetch("../changelog.json")
+      .then(rs=>rs.json()
+      .then(releases=>{
+        const r = releases[0]; // get the latest release notes
+        document.getElementById("releasenotes").title = `build v.${r.version}\n${r.notes.map(note=>`• ${note}`).join("\n")}`;
+        document.getElementById("releasenotes").innerHTML = `<a href="../changelog.json">v.${r.version} • ${r.dt}<a/>`;
+    }));
+  </script>
 </head>
 
 <body>
@@ -16,9 +25,7 @@
       <a href="https://github.com/r002/r002.github.io">Source</a> • 
       <a href="https://r002.github.io/x.json">Thought supply chain</a>
     </div>
-    <div class="version" title="v.1.3.5: increase tweet title cutoff to 51 chars">
-      v.1.3.5 • 2024-04-13
-    </div>
+    <div id="releasenotes" class="version" title=""></div>
   </div>
 
   <div id="xnacontent">
@@ -42,7 +49,7 @@
 
     <div id="categoriescontent">
       <div id="titlepeople" class="paneheader"
-           title="people whom I find interesting in the world 🌎">
+           title="people or entities I find interesting in the world 🌎">
         People
       </div>
       <span id="togglechronological" class="toggle sel"

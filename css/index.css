@@ -117,8 +117,14 @@ img {
 
 .version {
   font-size: 12px;
-  margin-top: 8px;
   font-weight: normal;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 8px;
+}
+
+.version a {
+  background-color: white;
 }
 
 #maincontent {

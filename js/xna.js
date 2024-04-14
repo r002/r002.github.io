@@ -64,7 +64,7 @@ function selectperson(handle){
     SELECTEDPERSON = handle;
     // clear and disable search
     document.getElementById("search").value = "";
-    document.getElementById("search").placeholder = "unselect person to re-enable"
+    document.getElementById("search").placeholder = "deselect person to re-enable"
     document.getElementById("search").disabled = true;
   }
   
@@ -216,7 +216,7 @@ function rendercalendar(dbArr) {
     }
 
     s += `<div id="d${i}" class="box"
-          title="${genprettydate(tweet.dt)}"
+          title="${genenhancedtip(tweet)}"
           onmouseover="rendertweets([${i}]);highltppl(${i});"
           onmouseout="renderstream();resetppl();"
           onclick="goto(${i})"></div>`;
@@ -227,12 +227,19 @@ function rendercalendar(dbArr) {
   document.getElementById("gridcontainer").innerHTML = s;
 }
 
+function genenhancedtip(t) {
+  const ppl = t.people != null ? `       | ${t.people.map(p=>p.name).join(", ")}` : "";
+  return `${leftpad(t.id)} | ${genprettydate(t.dt)}\n` + 
+         `       | ${t.title}\n${ppl}`;
+}
+
 function genprettydate(dt) {
   const dateParts = dt.split("-");
   const dateObject = new Date(dateParts[0], dateParts[1] - 1, dateParts[2]);
-  const options = { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' };
+  const options = { year: 'numeric', month: 'short', day: 'numeric', weekday: 'long' };
   const formattedDate = new Intl.DateTimeFormat('en-US', options).format(dateObject);
-  return formattedDate.replace(",", " -");
+  const parts = formattedDate.split(", ");
+  return `${parts[1]}, ${parts[2]} - ${parts[0]}`;
 }
 
 function goto(id) {
@@ -265,7 +272,7 @@ function rendertweets(tidArr) {
     const t = arrTWEET[id-1];
     const e = t.title.length >= 51 ? "..." : "";
     s += `<div class="tweetresult" 
-            title="${genprettydate(t.dt)}"
+            title="${genenhancedtip(t)}"
             onmouseover="highltdays([${t.id}]);highltppl(${t.id});"
             onmouseout="unhighltdays([${t.id}]);resetppl();">
             ${leftpad(t.id)}: 

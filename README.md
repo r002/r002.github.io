@@ -47,12 +47,15 @@ Onward and upward!! Accelerate!! 🌎🚀✨
 **
 
 ## TODO
-- [ ] Code a script to automatically push `x.json` and `new pfps` to GitHub
-- [ ] Scrolling should only scroll the `Tweet Timestream` center pane
-- [ ] Index all tweet titles in the database so they can be searched
-- [x] Finish indexing all people in the database so they can be searched
-- [x] Display `(count)` next to `Tweet Timestream`
-- [x] When mousing over `tweets` and `day boxes`, show the full date in the `title` mouseover
+- [ ] code a script to automatically push `x.json` and `new pfps` to GitHub
+- [ ] scrolling should only scroll the `Tweet Timestream` center pane
+- [ ] index all tweet titles in the database so they can be searched
+- [ ] revamp the `calendar` sidebar -> display all days in the year & always center current week
+- [x] enhance tooltips for day boxes & tweet titles
+- [x] add `changelog` - source changelog from `json` file
+- [x] finish indexing all people in the database so they can be searched
+- [x] display `(count)` next to `Tweet Timestream`
+- [x] when mousing over `tweets` and `day boxes`, show the full date in the `title` mouseover
 
 **
 
