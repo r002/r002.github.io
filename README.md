@@ -51,6 +51,7 @@ Onward and upward!! Accelerate!! 🌎🚀✨
 - [ ] scrolling should only scroll the `Tweet Timestream` center pane
 - [ ] index all tweet titles in the database so they can be searched
 - [ ] revamp the `calendar` sidebar -> display all days in the year & always center current week
+- [ ] build chrome extension that extracts & transforms a tweet's text, ppl, & ref links into json
 - [x] enhance tooltips for day boxes & tweet titles
 - [x] add `changelog` - source changelog from `json` file
 - [x] finish indexing all people in the database so they can be searched
