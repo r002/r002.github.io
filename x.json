@@ -1,7 +1,31 @@
 [
   {
+    "id": 106,
+    "title": "'I'm not making it for them. I'm making it for me.' by Rick Rubin",
+    "dt": "2024-04-15",
+    "url": "https://twitter.com/robert_gpt/status/1779862758470623677",
+    "people": [
+      {
+        "name": "Elon Musk",
+        "handle": "@elonmusk"
+      },
+      {
+        "name": "rick branson",
+        "handle": "@rbranson"
+      },
+      {
+        "name": "Rick Rubin",
+        "handle": "@RickRubin"
+      }
+    ],
+    "refs": [
+      "https://twitter.com/elonmusk/status/1742405058690457971",
+      "https://twitter.com/rbranson/status/1742082368054403502"
+    ]
+  },
+  {
     "id": 105,
-    "title": "'Make sure your efforts are compounding' by James Clear",
+    "title": "'Make sure your efforts compound' by James Clear",
     "dt": "2024-04-14",
     "url": "https://twitter.com/robert_gpt/status/1779496887373951163",
     "people": [

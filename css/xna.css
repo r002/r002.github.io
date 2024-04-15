@@ -33,6 +33,7 @@ html {
 
 #search {
     font-size: 50px;
+    width: 100%;
     /* margin-bottom: 100px; */
 }
 
@@ -70,6 +71,7 @@ html {
 .paneheader {
   font-weight: bold;
   font-size: 25px;
+  width: fit-content;
   margin-bottom: 8px;
 }
 
