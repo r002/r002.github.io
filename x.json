@@ -1,5 +1,33 @@
 [
   {
+    "id": 107,
+    "title": "Subscribed to @PirateWires",
+    "dt": "2024-04-16",
+    "url": "https://twitter.com/robert_gpt/status/1780186664016425351",
+    "people": [
+      {
+        "name": "California Forever",
+        "handle": "@CAForever"
+      },
+      {
+        "name": "Paul Graham",
+        "handle": "@paulg"
+      },
+      {
+        "name": "Palmer Luckey",
+        "handle": "@PalmerLuckey"
+      },
+      {
+        "name": "Mike Solana",
+        "handle": "@micsolana"
+      },
+      {
+        "name": "Pirate Wires",
+        "handle": "@PirateWires"
+      }
+    ]
+  },
+  {
     "id": 106,
     "title": "'I'm not making it for them. I'm making it for me.' by Rick Rubin",
     "dt": "2024-04-15",
