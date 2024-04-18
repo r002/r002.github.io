@@ -1,27 +1,90 @@
 // initial load all of my tweets
-const DBURL = "../x.json"; 
+const DBURL = "../x.json";
+const ORGSURL = "../data/orgs.json";
+const MEDIAURL = "../data/media.json";
 
 let SELECTEDPERSON = "";
 let mapTAG,    // map of tags => [tids]
     mapPPL,    // map of handle => [tids]
     dbPPL,     // map of handle => personObjs
+    setORGS,   // set of orgs
+    setMEDIA,  // set of media
     arrTWEET,  // [tweetObjs] from oldest to newest
     arrTIDS;   // [tids] from newest to oldest
 
-loadtweets();
+fetchdata();
 
-function loadtweets() {
-    fetch(DBURL).then(payload =>{
-        payload.json().then(rs =>{
-            console.log(">> dbArr length:", rs.length);
-            arrTIDS = rs.map(t=>t.id);
-            arrTWEET = rs.reverse();
-            indexDB(arrTWEET);
-            rendercalendar(arrTWEET);
-            renderppl("revchrono");
-            renderDefaultStream();
-        });
-    });
+async function fetchdata() {
+  const tweetspayload = await fetch(DBURL);
+  const tweets = await tweetspayload.json();
+  console.log(">> tweets length:", tweets.length);
+
+  const orgspayload = await fetch(ORGSURL);
+  const orgs = await orgspayload.json();
+  console.log(">> orgs length:", orgs.length);
+
+  const mediapayload = await fetch(MEDIAURL);
+  const media = await mediapayload.json();
+  console.log(">> media length:", media.length);
+
+  arrTIDS = tweets.map(t=>t.id);
+  arrTWEET = tweets.reverse();
+  indexDB(arrTWEET, orgs, media);
+  rendercalendar(arrTWEET);
+  rendermeta("revchrono");
+  renderDefaultStream();
+}
+
+function indexDB(dbArr, orgsArr, mediaArr) {
+  mapTAG = new Map();
+  mapPPL = new Map();
+  dbPPL = new Map();
+  setORGS = new Set(orgsArr.map(o=>o.substr(1).toLowerCase()));
+  setMEDIA = new Set(mediaArr.map(o=>o.substr(1).toLowerCase()));
+
+  for (let tweet of dbArr) {
+    // Index people
+    if (tweet.people) {
+      for (const person of tweet.people) {
+        const handle = person.handle.substr(1).toLowerCase();
+        dbPPL.set(handle, person);
+        if(!mapPPL.has(handle)){
+          mapPPL.set(handle, [tweet.id]);
+        } else {
+          mapPPL.get(handle).push(tweet.id);
+        }
+
+        // Index people's names into mapTAG
+        const arr = person.name.toLowerCase().split(/[ -]/).filter(token => token!=="");
+        for (const nameWord of arr) {
+          if(!mapTAG.has(nameWord)){
+            mapTAG.set(nameWord, [tweet.id]);
+          } else {
+            mapTAG.get(nameWord).push(tweet.id);
+          }
+        }
+        // console.log(`>> index added: ${handle} => ${JSON.stringify(DBPPL.get(handle))}`);
+      }
+    }
+
+    // Index tags
+    if (tweet.tags) {
+        for (const tag of tweet.tags) {
+            for (let tagWord of tag.split(" ")) {
+                tagWord = tagWord.toLowerCase();
+                if(!mapTAG.has(tagWord)){
+                    mapTAG.set(tagWord, [tweet.id]);
+                } else {
+                    mapTAG.get(tagWord).push(tweet.id);
+                }
+                // console.log(`>> index added: ${keyword} => ${JSON.stringify(DBMAP.get(keyword))}`);
+            }
+        }
+    }
+  }
+  console.log(">> index finished; mapTAG size:", mapTAG.size);
+  console.log(">> index finished; mapPPL size:", mapPPL.size);
+  console.log(">> index finished; dbPPL size:", dbPPL.size);
 }
 
 function renderDefaultStream() {
@@ -70,26 +133,49 @@ function selectperson(handle){
   
 }
 
-function renderppl(mode) {
-  let s = "";
+function rendermeta(mode) {
+  let ppl = orgs = media = "";
+  let pplcount = orgscount = mediacount = 0;
   if (mode === "revchrono") {
     const revsersechrono = Array.from(mapPPL.keys()).reverse();
     for (let handle of revsersechrono) {
-      s += genperson(handle);
+      if (setORGS.has(handle)) {
+        orgs += genavatar(handle);
+        orgscount++;
+      } else if (setMEDIA.has(handle)) {
+        media += genavatar(handle);
+        mediacount++;
+      } else {
+        ppl += genavatar(handle);
+        pplcount++;
+      }
     }
   }
   else if (mode === "frequency") {
     const personArr = Array.from(mapPPL);
     personArr.sort((a, b) => a[1].length - b[1].length).reverse();
     for (const p of personArr) {
-      s += genperson(p[0]);
+      if (setORGS.has(p[0])) {
+        orgs += genavatar(p[0]);
+        orgscount++;
+      } else if (setMEDIA.has(p[0])) {
+        media += genavatar(p[0]);
+        mediacount++;
+      } else {
+        ppl += genavatar(p[0]);
+        pplcount++;
+      }
     }
   }
-  document.getElementById("people").innerHTML = s;
-  document.getElementById("titlepeople").innerHTML = `People (${mapPPL.size})`;
+  document.getElementById("people").innerHTML = ppl;
+  document.getElementById("orgs").innerHTML = orgs;
+  document.getElementById("media").innerHTML = media;
+  document.getElementById("titlepeople").innerHTML = `People (${pplcount})`;
+  document.getElementById("titleorgs").innerHTML = `Organizations (${orgscount})`;
+  document.getElementById("titlemedia").innerHTML = `TV + Movies (${mediacount})`;
 }
 
-function genperson(pid) { // pid is a person's handle, but just lowercase
+function genavatar(pid) { // pid is a person's handle, but just lowercase
   return `<div class="person" id="${pid}"
           title="${dbPPL.get(pid).handle}"
           onmouseover="highltperson('${pid}')"
@@ -109,56 +195,6 @@ function toggle(el) {
     highltperson(temp);
     selectperson(temp);
   }
-}
-
-function indexDB(dbArr) {
-    mapTAG = new Map();
-    mapPPL = new Map();
-    dbPPL = new Map();
-
-    for (let tweet of dbArr) {
-      // Index people
-      if (tweet.people) {
-        for (const person of tweet.people) {
-          const handle = person.handle.substr(1).toLowerCase();
-          dbPPL.set(handle, person);
-          if(!mapPPL.has(handle)){
-            mapPPL.set(handle, [tweet.id]);
-          } else {
-            mapPPL.get(handle).push(tweet.id);
-          }
-
-          // Index people's names into mapTAG
-          const arr = person.name.toLowerCase().split(/[ -]/).filter(token => token!=="");
-          for (const nameWord of arr) {
-            if(!mapTAG.has(nameWord)){
-              mapTAG.set(nameWord, [tweet.id]);
-            } else {
-              mapTAG.get(nameWord).push(tweet.id);
-            }
-          }
-          // console.log(`>> index added: ${handle} => ${JSON.stringify(DBPPL.get(handle))}`);
-        }
-      }
-
-      // Index tags
-      if (tweet.tags) {
-          for (const tag of tweet.tags) {
-              for (let tagWord of tag.split(" ")) {
-                  tagWord = tagWord.toLowerCase();
-                  if(!mapTAG.has(tagWord)){
-                      mapTAG.set(tagWord, [tweet.id]);
-                  } else {
-                      mapTAG.get(tagWord).push(tweet.id);
-                  }
-                  // console.log(`>> index added: ${keyword} => ${JSON.stringify(DBMAP.get(keyword))}`);
-              }
-          }
-      }
-    }
-    console.log(">> index finished; mapTAG size:", mapTAG.size);
-    console.log(">> index finished; mapPPL size:", mapPPL.size);
-    console.log(">> index finished; dbPPL size:", dbPPL.size);
 }
 
 function rendercalendar(dbArr) {

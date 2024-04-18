@@ -59,7 +59,7 @@ html {
   /* margin-left: 100px; */
 }
 
-#people {
+.avatargrid {
   display: grid;
   grid-template-columns: 42px 42px 42px 42px 42px 42px 42px 42px;
   grid-gap: 0px;
@@ -72,7 +72,7 @@ html {
   font-weight: bold;
   font-size: 25px;
   width: fit-content;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 .toggle {

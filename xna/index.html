@@ -48,25 +48,35 @@
     </div>
 
     <div id="categoriescontent">
-      <div id="titlepeople" class="paneheader"
-           title="people or entities I find interesting in the world 🌎">
-        People
-      </div>
+
       <span id="togglechronological" class="toggle sel"
-        onclick="renderppl('revchrono'); toggle(this);"
+        onclick="rendermeta('revchrono'); toggle(this);"
         title="People I've most recently interacted with">Reverse-Chronological</span> | 
       <span id="togglefrequency" class="toggle"
-        onclick="renderppl('frequency'); toggle(this);"
+        onclick="rendermeta('frequency'); toggle(this);"
         title="People who've most influenced me">Frequency</span>
       <br /><br />
 
-      <div id="people">
+      <div id="titlepeople" class="paneheader"
+           title="🧑 interesting people">
+        People
       </div>
+      <div id="people" class="avatargrid"></div>
+      <br />
+
+      <div id="titleorgs" class="paneheader"
+          title="🏛 organizations that inspire wonder">
+        Organizations
+      </div>
+      <div id="orgs" class="avatargrid"></div>
       <br />
       
-      <h2>TV + Movies</h2>
-      🚧👨‍🍳 <em>Still cooking!!</em> 👨‍🍳🚧
-      <br /><br />
+      <div id="titlemedia" class="paneheader"
+          title="📺 cool media">
+        TV + Movies
+      </div>
+      <div id="media" class="avatargrid"></div>
+      <br />
 
       <h2>Books</h2>
       🚧👨‍🍳 <em>Still cooking!!</em> 👨‍🍳🚧

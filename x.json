@@ -1,5 +1,20 @@
 [
   {
+    "id": 109,
+    "title": "xkcd | 'Dependency'",
+    "dt": "2024-04-18",
+    "url": "https://twitter.com/robert_gpt/status/1781068506181607658",
+    "people": [
+      {
+        "name": "Randall Munroe",
+        "handle": "@xkcd"
+      }
+    ],
+    "refs": [
+      "https://xkcd.com/2347"
+    ]
+  },
+  {
     "id": 108,
     "title": "The Last Airbender (2010) - Tsunami scene",
     "dt": "2024-04-17",
@@ -1141,7 +1156,7 @@
   },
   {
     "id": 38,
-    "title": "How I Write: Jimmy Soni",
+    "title": "HIW | Jimmy Soni",
     "dt": "2024-02-07",
     "people": [
       {
@@ -1179,7 +1194,7 @@
   },
   {
     "id": 36,
-    "title": "Chris Dixon on reading",
+    "title": "HIW | Chris Dixon on reading",
     "dt": "2024-02-05",
     "people": [
       {
