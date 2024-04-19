@@ -50,6 +50,7 @@ Onward and upward!! Accelerate!! 🌎🚀✨
 - [ ] code a script to automatically push `x.json` and `new pfps` to GitHub
 - [ ] scrolling should only scroll the `Tweet Timestream` center pane
 - [ ] index all tweet titles in the database so they can be searched
+- [ ] strip all punctuation when indexing dbs
 - [ ] revamp the `calendar` sidebar -> display all days in the year & always center current week
 - [ ] build chrome extension that extracts & transforms a tweet's text, ppl, & ref links into json
 - [x] separate `people`, `organizations`, `media` sections
