@@ -30,7 +30,7 @@ async function fetchdata() {
   arrTIDS = tweets.map(t=>t.id);
   arrTWEET = tweets.reverse();
   indexDB(arrTWEET, orgs, media);
-  rendercalendar(arrTWEET);
+  rendercalendar();
   rendermeta("revchrono");
   renderDefaultStream();
 }
@@ -197,76 +197,66 @@ function toggle(el) {
   }
 }
 
-function rendercalendar(dbArr) {
-  let curMonth = "01";
-  let s = `
-  <div class="month">
-    <div class="nocolor">Jan &nbsp;&nbsp;&nbsp; 1</div>
-    <div class="nocolor"></div>`;
+let tid = 1;
+function rendermonth(startday, daycount) {
+  let s = "";
 
-  let i = 1;
-  for (const tweet of dbArr) {
-
-    if (tweet.dt.split("-")[1] !== curMonth) {
-        // console.log(tweet.dt.split("-")[1], curMonth, tweet.title);
-        curMonth = tweet.dt.split("-")[1];
-
-        if (curMonth==="02") {
-            s += `<div class="nocolor"></div>
-                  <div class="nocolor"></div>
-                  <div class="nocolor"></div>
-                </div>
-                <div class="month">
-                    <div class="nocolor">Feb &nbsp;&nbsp;&nbsp; 5</div>
-                    <div class="nocolor"></div>
-                    <div class="nocolor"></div>
-                    <div class="nocolor"></div>
-                    <div class="nocolor"></div>`;
-        } else if (curMonth==="03") {
-            s += `<div class="nocolor"></div>
-                  <div class="nocolor"></div>
-                </div>
-                <div class="month">
-                    <div class="nocolor">Mar &nbsp;&nbsp;&nbsp; 9</div>
-                    <div class="nocolor"></div>
-                    <div class="nocolor"></div>
-                    <div class="nocolor"></div>
-                    <div class="nocolor"></div>
-                    <div class="nocolor"></div>`;
-        }  else if (curMonth==="04") {
-            s += `<div class="nocolor"></div>
-                  <div class="nocolor"></div>
-                  <div class="nocolor"></div>
-                  <div class="nocolor"></div>
-                  <div class="nocolor"></div>
-                  <div class="nocolor"></div>
-                </div>
-                <div class="month">
-                    <div class="nocolor">Apr &nbsp;&nbsp;&nbsp; 14</div>
-                    <div class="nocolor"></div>`;
-        }
-    }
-
-    if (i%7 === 0){
-      s += `<div class="nocolor"></div>`;
-    }
-
-    s += `<div id="d${i}" class="box"
-          title="${genenhancedtip(tweet)}"
-          onmouseover="rendertweets([${i}]);highltppl(${i});"
-          onmouseout="renderstream();resetppl();"
-          onclick="goto(${i})"></div>`;
-    i++;
+  for (let i=0; i<startday; i++) {
+    s += `<div class="ph"></div>`;
   }
 
-  s += "</div>";
-  document.getElementById("gridcontainer").innerHTML = s;
+  for (let i=0; i<daycount; i++) {
+    const tweet = arrTWEET[tid-1];
+    if (tweet) {
+      s += `<div id="d${tid}" class="day past"
+            title="${genenhancedtip(tweet)}"
+            onmouseover="rendertweets([${tid}]);highltppl(${tid});"
+            onmouseout="renderstream();resetppl();"
+            onclick="goto(${tid})"></div>`;
+    } else {
+      s += `<div id="d${tid}" class="day"
+            title="Day ${tid}"></div>`;
+    }
+    tid++;
+  }
+  return s;
+}
+
+function rendercalendar() {
+  const jan = rendermonth(1, 31);
+  const feb = rendermonth(4, 29);
+  const mar = rendermonth(5, 31);
+  const apr = rendermonth(1, 30);
+  const may = rendermonth(3, 31);
+  const jun = rendermonth(6, 30);
+  const jul = rendermonth(1, 31);
+  const aug = rendermonth(4, 31);
+  const sep = rendermonth(0, 30);
+  const oct = rendermonth(2, 31);
+  const nov = rendermonth(5, 30);
+  const dec = rendermonth(0, 31);
+  
+  document.getElementById("2024-01").innerHTML = jan;
+  document.getElementById("2024-02").innerHTML = feb;
+  document.getElementById("2024-03").innerHTML = mar;
+  document.getElementById("2024-04").innerHTML = apr;
+  document.getElementById("2024-05").innerHTML = may;
+  document.getElementById("2024-06").innerHTML = jun;
+  document.getElementById("2024-07").innerHTML = jul;
+  document.getElementById("2024-08").innerHTML = aug;
+  document.getElementById("2024-09").innerHTML = sep;
+  document.getElementById("2024-10").innerHTML = oct;
+  document.getElementById("2024-11").innerHTML = nov;
+  document.getElementById("2024-12").innerHTML = dec;
 }
 
 function genenhancedtip(t) {
+  if (!t) {
+    return ""; // tweet doesn't yet exist; just return no tooltip
+  }
   const ppl = t.people != null ? `       | ${t.people.map(p=>p.name).join(", ")}` : "";
   return `${leftpad(t.id)} | ${genprettydate(t.dt)}\n` + 
-         `       | ${t.title}\n${ppl}`;
+        `       | ${t.title}\n${ppl}`;
 }
 
 function genprettydate(dt) {
@@ -335,7 +325,7 @@ function renderstream() {
     const query = document.getElementById("search").value;
     const lastChar = query.slice(-1);
     // reset all selected boxes
-    Array.from(document.getElementsByClassName("box")).forEach(el => el.classList.remove("selected"));
+    Array.from(document.getElementsByClassName("day")).forEach(el => el.classList.remove("selected"));
 
     if (query==="") {
       renderDefaultStream();

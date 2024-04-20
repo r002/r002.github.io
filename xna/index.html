@@ -4,6 +4,7 @@
   <title>Robert Lin | XNA</title>
   <link rel="stylesheet" href="../css/index.css">
   <link rel="stylesheet" href="../css/xna.css">
+  <link rel="stylesheet" href="../css/calendar.css">
   <script type="text/javascript" src="../js/xna.js"></script>
   <script type="text/javascript">
     fetch("../changelog.json")
@@ -29,7 +30,33 @@
   </div>
 
   <div id="xnacontent">
-    <div id="gridcontainer">
+    <div class="yearwrapper">
+      <div id="titleyear" class="paneheader"
+        title="🤵 2024: year of connection 💃">
+          2024 | "Year of Connection"
+      </div>
+      <div class="year">
+        <div class="quarter">
+          <div id="2024-01" class="month"></div>
+          <div id="2024-02" class="month"></div>
+          <div id="2024-03" class="month"></div>
+        </div>
+        <div class="quarter">
+          <div id="2024-04" class="month"></div>
+          <div id="2024-05" class="month"></div>
+          <div id="2024-06" class="month"></div>
+        </div>
+        <div class="quarter">
+          <div id="2024-07" class="month"></div>
+          <div id="2024-08" class="month"></div>
+          <div id="2024-09" class="month"></div>
+        </div>
+        <div class="quarter">
+          <div id="2024-10" class="month"></div>
+          <div id="2024-11" class="month"></div>
+          <div id="2024-12" class="month"></div>
+        </div>
+      </div>
     </div>
 
     <div id="searchcontent">
@@ -48,7 +75,10 @@
     </div>
 
     <div id="categoriescontent">
-
+      <div id="titlepeople" class="paneheader"
+           title="🧑 interesting people">
+        People
+      </div>
       <span id="togglechronological" class="toggle sel"
         onclick="rendermeta('revchrono'); toggle(this);"
         title="People I've most recently interacted with">Reverse-Chronological</span> | 
@@ -56,11 +86,6 @@
         onclick="rendermeta('frequency'); toggle(this);"
         title="People who've most influenced me">Frequency</span>
       <br /><br />
-
-      <div id="titlepeople" class="paneheader"
-           title="🧑 interesting people">
-        People
-      </div>
       <div id="people" class="avatargrid"></div>
       <br />
 

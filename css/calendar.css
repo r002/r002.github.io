@@ -1,0 +1,56 @@
+.yearwrapper {
+  margin-top: 50px;
+}
+
+.year {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.quarter {
+  display: flex;
+  flex-direction: column;
+  margin-right: 8px;
+}
+
+.month {
+  display: grid;
+  grid-template-columns: repeat(7, 14px);
+  /* grid-template-rows: repeat(4, 1fr); */
+  grid-gap: 0px;
+  background-color: #fafafa;
+  /* background-color: yellow; */
+  color: #444;
+  margin-bottom: 7px;
+}
+
+.ph {
+  background-color: transparent;
+  /* height: 14px; */
+  border: 1px transparent solid;
+  box-sizing: border-box;
+}
+
+.day {
+  background-color: #444;
+  /* padding: 2px; */
+  /* width: 15px; */
+  height: 14px;
+  border: 1px white solid;
+  box-sizing: border-box;
+  /* border-radius: 4px; */
+}
+
+.day:hover {
+  background-color: orange;
+  cursor: pointer;
+}
+
+.past {
+  background-color: green;
+}
+
+.selected {
+  background-color: orange;
+}
