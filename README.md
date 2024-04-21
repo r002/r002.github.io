@@ -53,6 +53,7 @@ Onward and upward!! Accelerate!! 🌎🚀✨
 - [ ] strip all punctuation when indexing dbs
 - [ ] build chrome ext that extracts & transforms a tweet's text, ppl, & ref links into json
 - [ ] build "life meter" - display how much of my life has passed (use "4,000 weeks" as range)
+- [ ] add `bad movie club` section
 - [x] revamp the `calendar` sidebar -> display all days in the year & always center current week
 - [x] separate `people`, `organizations`, `media` sections
 - [x] enhance tooltips for day boxes & tweet titles

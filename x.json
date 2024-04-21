@@ -1,9 +1,24 @@
 [
   {
+    "id": 111,
+    "title": "Took Greyhound bus from Indianapolis to Cincinnati",
+    "dt": "2024-04-20",
+    "url": "https://twitter.com/robert_gpt/status/1781798539653259659",
+    "people": [
+      {
+        "name": "Greyhound Bus",
+        "handle": "@GreyhoundBus"
+      }
+    ]
+  },
+  {
     "id": 110,
     "title": "Life happens in seasons; right now is my 'Just Get It Done' season",
     "dt": "2024-04-19",
-    "url": "https://twitter.com/robert_gpt/status/1781267740637991360"
+    "url": "https://twitter.com/robert_gpt/status/1781267740637991360",
+    "tags": [
+      "lfg"
+    ]
   },
   {
     "id": 109,
@@ -1086,6 +1101,9 @@
     ],
     "refs": [
       "https://twitter.com/JuliaRosedale/status/1756426957971943468"
+    ],
+    "tags": [
+      "lfg"
     ]
   },
   {
@@ -1706,6 +1724,12 @@
     "id": 1,
     "title": "My Love Letter to X",
     "dt": "2024-01-01",
+    "people": [
+      {
+        "name": "X",
+        "handle": "@X"
+      }
+    ],
     "url": "https://twitter.com/robert_gpt/status/1742031082495549650",
     "refs": [
       "https://r002.github.io/?s=p0,p1,p2,p3"
@@ -1714,12 +1738,6 @@
       "social media",
       "elon musk",
       "love letter"
-    ],
-    "people": [
-      {
-        "name": "X",
-        "handle": "@X"
-      }
     ]
   }
 ]
