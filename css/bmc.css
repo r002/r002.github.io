@@ -1,0 +1,67 @@
+#id {
+  margin-top: 50px;
+}
+
+.yearmovies {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 12px;
+  width: 840px;
+  margin: 0 auto;
+  background-color: var(--dark-grey);
+  /* background-color: yellow; */
+}
+
+.monthtitle {
+  text-align: center;
+  position: absolute;
+  background-color: #0ABAB5;
+  border: 1px solid #0ABAB5;
+  color: black;
+  text-transform: uppercase;
+  /* width: fit-content; */
+  width: 100%;
+  padding: 2px;
+  box-sizing: border-box;
+  top: -27px;
+}
+
+.monthtitleclickable {
+  text-align: center;
+  position: absolute;
+  background-color: #0ABAB5;
+  border: 1px solid #0ABAB5;
+  color: black;
+  text-transform: uppercase;
+  /* width: fit-content; */
+  width: 100%;
+  padding: 2px;
+  box-sizing: border-box;
+  top: -27px;
+}
+
+.monthtitleclickable:hover {
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+.movie {
+  position:relative; 
+  /* display: flex; */
+  /* flex-direction: column; */
+  background-size: cover;
+  border: 1px solid gainsboro;
+  width: 200px;
+  height: 300px;
+  margin-bottom: 35px;
+}
+
+.yearheader {
+  /* background-color: yellow; */
+  font-weight: bold;
+  font-size: 25px;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}

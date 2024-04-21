@@ -47,13 +47,20 @@ Onward and upward!! Accelerate!! 🌎🚀✨
 **
 
 ## TODO
-- [ ] code a script to automatically push `x.json` and `new pfps` to GitHub
+- [ ] research `blueskey` and `x` apis for posting
+  - [ ] build a central GUI that posts to both simultaneously?
+  - [ ] research how to bring `analytics counts` to `bluesky` (see how many impressions/clicks each post got)
 - [ ] scrolling should only scroll the `Tweet Timestream` center pane
 - [ ] index all tweet titles in the database so they can be searched
 - [ ] strip all punctuation when indexing dbs
 - [ ] build chrome ext that extracts & transforms a tweet's text, ppl, & ref links into json
 - [ ] build "life meter" - display how much of my life has passed (use "4,000 weeks" as range)
-- [ ] add `bad movie club` section
+- [ ] write a preprocessor that scans `x.json` & reports discrepancies w/ `media.json`, `orgs.json`, and `/pfp`
+- [ ] build `wheel` page
+  - [ ] track every week's pick
+  - [ ] build histogram of everyone's who's been picked
+- [x] add `bad movie club` section
+- [x] code a script to automatically push `x.json` and `new pfps` to GitHub
 - [x] revamp the `calendar` sidebar -> display all days in the year & always center current week
 - [x] separate `people`, `organizations`, `media` sections
 - [x] enhance tooltips for day boxes & tweet titles

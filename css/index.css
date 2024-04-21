@@ -1,20 +1,5 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'); */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Serif:ital@0;1&family=Open+Sans:ital@0;1&family=Raleway&display=swap');
-
-body {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-
-  color: #4A4A46;
-  background-color: #fafafa;
-  padding: 0;
-  margin: 0;
-  overflow-x: hidden;
-}
-
 ul, ol, p {
   font-family: "Canela Text", serif;
   font-optical-sizing: auto;
@@ -23,37 +8,6 @@ ul, ol, p {
   font-variation-settings:
     "wdth" 100;
   font-size: 24px;
-}
-
-a {
-  outline-color: transparent;
-  cursor: pointer;
-  color: blue;
-  /* text-decoration-style: wavy; */
-}
-
-a:link {
-  color: blue;
-  text-decoration-style: solid;
-}
-
-a:visited {
-  color: blue;
-}
-
-a:focus {
-  text-decoration: none;
-  background: yellow;
-}
-
-a:hover {
-  text-decoration: none;
-  background: yellow;
-}
-
-a:active {
-  background: yellow;
-  color: black;
 }
 
 img {
@@ -84,47 +38,6 @@ img {
 .postnavitem:hover {
   background: yellow;
   cursor: pointer;
-}
-
-.header {
-  /* height: 70px; */
-  padding-top: 20px;
-  padding-bottom: 17px;
-  box-sizing: border-box;
-  font-size: 24px;
-  font-weight: bold;
-  background-color: white;
-  text-align: center;
-  border-bottom: gainsboro 1px solid;
-}
-
-.header a {
-  color: #4A4A46;
-  text-decoration: none;
-}
-
-.subheader {
-  font-size: 16px;
-  font-weight: normal;
-  margin-top: 11px;
-}
-
-.subheader a {
-  /* color: #4A4A46; */
-  color: blue;
-  /* text-decoration-style: wavy; */
-}
-
-.version {
-  font-size: 12px;
-  font-weight: normal;
-  width: fit-content;
-  margin: 0 auto;
-  margin-top: 8px;
-}
-
-.version a {
-  background-color: white;
 }
 
 #maincontent {

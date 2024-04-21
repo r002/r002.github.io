@@ -2,34 +2,28 @@
 <html lang="en">
 <head>    
   <title>Robert Lin | XNA</title>
+  <link rel="stylesheet" href="../css/header.css">
   <link rel="stylesheet" href="../css/index.css">
   <link rel="stylesheet" href="../css/xna.css">
   <link rel="stylesheet" href="../css/calendar.css">
+  <script type="text/javascript" src="../js/changelog.js"></script>
   <script type="text/javascript" src="../js/xna.js"></script>
-  <script type="text/javascript">
-    fetch("../changelog.json")
-      .then(rs=>rs.json()
-      .then(releases=>{
-        const r = releases[0]; // get the latest release notes
-        document.getElementById("releasenotes").title = `build v.${r.version}\n${r.notes.map(note=>`• ${note}`).join("\n")}`;
-        document.getElementById("releasenotes").innerHTML = `<a href="../changelog.json">v.${r.version} • ${r.dt}<a/>`;
-    }));
-  </script>
 </head>
 
 <body>
-  <div class="header">
+  <section class="header">
     <a href=".">Robert Lin • XNA</a><br />
     <div class="subheader">
       <a href="../maze">Curiosity Maze</a> • 
+      <a href="../bmc">BMC</a> • 
       <a href="https://github.com/r002/r002.github.io?tab=readme-ov-file#xna-help-your-people-find-you-">Readme</a> • 
       <a href="https://github.com/r002/r002.github.io">Source</a> • 
       <a href="https://r002.github.io/x.json">Thought supply chain</a>
     </div>
     <div id="releasenotes" class="version" title=""></div>
-  </div>
+  </section>
 
-  <div id="xnacontent">
+  <section id="xnacontent">
     <div class="yearwrapper">
       <div id="titleyear" class="paneheader"
         title="2024: year of connection 🤵💃">
@@ -103,6 +97,10 @@
       <div id="media" class="avatargrid"></div>
       <br />
 
+      <h2>Ballistic Rants</h2>
+      🚧👨‍🍳 <em>Still cooking!!</em> 👨‍🍳🚧
+      <br /><br />
+
       <h2>Books</h2>
       🚧👨‍🍳 <em>Still cooking!!</em> 👨‍🍳🚧
       <br /><br />
@@ -113,7 +111,7 @@
 
     </div>
 
-  </div>
+  </section>
 
 </body>
 

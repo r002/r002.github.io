@@ -1,5 +1,12 @@
 [
   {
+    "dt": "2024-04-21",
+    "version": "1.4.0",
+    "notes": [
+      "add `bad movie club` page"
+    ]
+  },
+  {
     "dt": "2024-04-19",
     "version": "1.3.9",
     "notes": [

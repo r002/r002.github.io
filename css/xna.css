@@ -61,7 +61,7 @@ html {
 
 .avatargrid {
   display: grid;
-  grid-template-columns: 42px 42px 42px 42px 42px 42px 42px 42px;
+  grid-template-columns: repeat(8, 42px);
   grid-gap: 0px;
   background-color: #fafafa;
   color: #444;
