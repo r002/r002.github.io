@@ -45,14 +45,16 @@ function renderthumbs() {
     for (const [yearMonth, m] of o.DICT.entries()) {
         const review = m.review != null ? m.review : "";
         const onclick = m.refs != null ? `onclick="window.open('${m.refs[0]}')"` : "";
-        const cursor = m.refs != null ? `cursor: pointer;` : "";
-        const mt = m.refs != null ? "monthtitleclickable" : "monthtitle";
+        // const cursor = m.refs != null ? `cursor: pointer;` : "";
+        // const mt = m.refs != null ? "monthtitleclickable" : "monthtitle";
 
-        s += `<div class="movie" title="${review}" ${onclick}
-                style='background-image: url("../img/bmc/${yearMonth}.jpg");${cursor}'>
-                  <div id="${yearMonth}" class="${mt}">
-                    ${m.month}
+        s += `<div style='display: flex;flex-direction: column;'>
+                <div id="${yearMonth}" class="monthtitle" title="${review}" ${onclick}>
+                  ${m.month}
+                  <div class="poster"
+                    style='background-image: url("../img/bmc/${yearMonth}.jpg");'>
                   </div>
+                </div>
               </div>`;
     };
     document.getElementById(o.ID).innerHTML = s;

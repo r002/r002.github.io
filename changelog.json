@@ -1,8 +1,9 @@
 [
   {
     "dt": "2024-04-21",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "notes": [
+      "minor gui tweaks",
       "add `bad movie club` page"
     ]
   },
@@ -32,13 +33,7 @@
     "version": "1.3.6",
     "notes": [
       "enhance tooltips for day boxes & tweet titles",
-      "add `changelog` - source changelog from `json` file"
-    ]
-  },
-  {
-    "dt": "2024-04-13",
-    "version": "1.3.5",
-    "notes": [
+      "add `changelog` - source changelog from `json` file",
       "increase tweet title cutoff to 51 chars"
     ]
   },
