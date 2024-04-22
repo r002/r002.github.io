@@ -296,13 +296,13 @@ function rendertweets(tidArr) {
   let s = "";
   for (const id of tidArr) {
     const t = arrTWEET[id-1];
-    const e = t.title.length >= 51 ? "..." : "";
+    const e = t.title.length >= 54 ? "..." : "";
     s += `<div class="tweetresult" 
             title="${genenhancedtip(t)}"
             onmouseover="highltdays([${t.id}]);highltppl(${t.id});"
             onmouseout="unhighltdays([${t.id}]);resetppl();">
             ${leftpad(t.id)}: 
-            <a href="${t.url}" target="_blank">${t.title.substr(0,51) + e}</a>
+            <a href="${t.url}" target="_blank">${t.title.substr(0,54) + e}</a>
           </div>`;
   }
   document.getElementById("searchresult").innerHTML = s;
