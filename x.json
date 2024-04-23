@@ -1,5 +1,41 @@
 [
   {
+    "id": 113,
+    "title": "#TIMWEEK",
+    "dt": "2024-04-22",
+    "url": "https://twitter.com/robert_gpt/status/1782600708291764595",
+    "people": [
+      {
+        "name": "Tim Ferriss",
+        "handle": "@tferriss"
+      },
+      {
+        "name": "Derek Sivers",
+        "handle": "@sivers"
+      },
+      {
+        "name": "Brené Brown",
+        "handle": "@BreneBrown"
+      },
+      {
+        "name": "Brené Brown",
+        "handle": "@BreneBrown"
+      },
+      {
+        "name": "Rae",
+        "handle": "@raechellambert"
+      },
+      {
+        "name": "River",
+        "handle": "@getriver_io"
+      }
+    ],
+    "refs": [
+      "https://twitter.com/raechellambert/status/1772663492694122609",
+      "https://app.getriver.io/events/tim-ferriss-10th-anniversary-fan-meetup-cincinnati-oh-gi6"
+    ]
+  },
+  {
     "id": 112,
     "title": "Released 'Bad Movie Club' page on personal site 👨‍💻",
     "dt": "2024-04-21",
