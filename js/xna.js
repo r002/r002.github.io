@@ -234,7 +234,7 @@ function rendermonth(startday, daycount) {
             onclick="goto('${dt}')"></div>`;
     } else {
       s += `<div id="${dayNo}" class="day"
-            title="${dayNo}"></div>`;
+            title="Day ${dayNo}"></div>`;
     }
     dayNo++;
   }
