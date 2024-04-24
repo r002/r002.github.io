@@ -1,7 +1,41 @@
 [
   {
+    "id": 115,
+    "title": "#TIMWEEK - Day #2: Hustle & Grit",
+    "dt": "2024-04-23",
+    "url": "https://twitter.com/robert_gpt/status/1782895101452210549",
+    "people": [
+      {
+        "name": "Tim Ferriss",
+        "handle": "@tferriss"
+      },
+      {
+        "name": "Paul Graham",
+        "handle": "@paulg"
+      }
+    ],
+    "refs": [
+      "https://twitter.com/robert_gpt/status/1782600716009218190"
+    ]
+  },
+  {
+    "id": 114,
+    "title": "Accepted to Edge Esmeralda 2024! 🥳",
+    "dt": "2024-04-23",
+    "url": "https://twitter.com/robert_gpt/status/1782891534460842230",
+    "people": [
+      {
+        "name": "Edge City",
+        "handle": "@JoinEdgeCity"
+      }
+    ],
+    "refs": [
+      "https://twitter.com/robert_gpt/status/1778180551666487694"
+    ]
+  },
+  {
     "id": 113,
-    "title": "#TIMWEEK",
+    "title": "#TIMWEEK - Day #1: 'True Not Useful'",
     "dt": "2024-04-22",
     "url": "https://twitter.com/robert_gpt/status/1782600708291764595",
     "people": [

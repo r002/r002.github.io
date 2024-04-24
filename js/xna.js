@@ -6,9 +6,12 @@ const MEDIAURL = "../data/media.json";
 let SELECTEDPERSON = "";
 let mapTAG,    // map of tags => [tids]
     mapPPL,    // map of handle => [tids]
+    mapDATE,   // map of date => [tweet]
+    mapTIDS,   // map of tid => tweet
     dbPPL,     // map of handle => personObjs
     setORGS,   // set of orgs
     setMEDIA,  // set of media
+    arrDATES,  // [dates]
     arrTWEET,  // [tweetObjs] from oldest to newest
     arrTIDS;   // [tids] from newest to oldest
 
@@ -29,6 +32,8 @@ async function fetchdata() {
 
   arrTIDS = tweets.map(t=>t.id);
   arrTWEET = tweets.reverse();
+  arrDATES = Array.from(new Set(tweets.map(t=>t.dt)));
+
   indexDB(arrTWEET, orgs, media);
   rendercalendar();
   rendermeta("revchrono");
@@ -39,28 +44,40 @@ function indexDB(dbArr, orgsArr, mediaArr) {
   mapTAG = new Map();
   mapPPL = new Map();
   dbPPL = new Map();
+  mapDATE = new Map();
+  mapTIDS = new Map();
   setORGS = new Set(orgsArr.map(o=>o.substr(1).toLowerCase()));
   setMEDIA = new Set(mediaArr.map(o=>o.substr(1).toLowerCase()));
 
-  for (let tweet of dbArr) {
+  for (let t of dbArr) {
+    // Index tweets by tid
+    mapTIDS.set(t.id, t);
+
+    // Index tweets by date
+    if(mapDATE.has(t.dt)) {
+      mapDATE.get(t.dt).push(t);
+    } else {
+      mapDATE.set(t.dt, [t]);
+    }
+
     // Index people
-    if (tweet.people) {
-      for (const person of tweet.people) {
+    if (t.people) {
+      for (const person of t.people) {
         const handle = person.handle.substr(1).toLowerCase();
         dbPPL.set(handle, person);
         if(!mapPPL.has(handle)){
-          mapPPL.set(handle, [tweet.id]);
+          mapPPL.set(handle, [t.id]);
         } else {
-          mapPPL.get(handle).push(tweet.id);
+          mapPPL.get(handle).push(t.id);
         }
 
         // Index people's names into mapTAG
         const arr = person.name.toLowerCase().split(/[ -]/).filter(token => token!=="");
         for (const nameWord of arr) {
           if(!mapTAG.has(nameWord)){
-            mapTAG.set(nameWord, [tweet.id]);
+            mapTAG.set(nameWord, [t.id]);
           } else {
-            mapTAG.get(nameWord).push(tweet.id);
+            mapTAG.get(nameWord).push(t.id);
           }
         }
         // console.log(`>> index added: ${handle} => ${JSON.stringify(DBPPL.get(handle))}`);
@@ -68,14 +85,14 @@ function indexDB(dbArr, orgsArr, mediaArr) {
     }
 
     // Index tags
-    if (tweet.tags) {
-        for (const tag of tweet.tags) {
+    if (t.tags) {
+        for (const tag of t.tags) {
             for (let tagWord of tag.split(" ")) {
                 tagWord = tagWord.toLowerCase();
                 if(!mapTAG.has(tagWord)){
-                    mapTAG.set(tagWord, [tweet.id]);
+                    mapTAG.set(tagWord, [t.id]);
                 } else {
-                    mapTAG.get(tagWord).push(tweet.id);
+                    mapTAG.get(tagWord).push(t.id);
                 }
                 // console.log(`>> index added: ${keyword} => ${JSON.stringify(DBMAP.get(keyword))}`);
             }
@@ -173,6 +190,7 @@ function rendermeta(mode) {
   document.getElementById("titlepeople").innerHTML = `People (${pplcount})`;
   document.getElementById("titleorgs").innerHTML = `Organizations (${orgscount})`;
   document.getElementById("titlemedia").innerHTML = `TV + Movies (${mediacount})`;
+  document.getElementById("titleyear").innerHTML = `2024 | "Year of Connection" (${arrDATES.length})`;
 }
 
 function genavatar(pid) { // pid is a person's handle, but just lowercase
@@ -197,7 +215,7 @@ function toggle(el) {
   }
 }
 
-let tid = 1;
+let dayNo = 1;
 function rendermonth(startday, daycount) {
   let s = "";
 
@@ -206,18 +224,19 @@ function rendermonth(startday, daycount) {
   }
 
   for (let i=0; i<daycount; i++) {
-    const tweet = arrTWEET[tid-1];
-    if (tweet) {
-      s += `<div id="d${tid}" class="day past"
-            title="${genenhancedtip(tweet)}"
-            onmouseover="rendertweets([${tid}]);highltppl(${tid});"
+    const dt = arrDATES[dayNo-1];
+    const tweetArr = mapDATE.get(dt);
+    if (tweetArr) {
+      s += `<div id="${dt}" class="day past"
+            title="${genenhancedtip(tweetArr)}"
+            onmouseover="rendertweets([${tweetArr.map(t=>t.id)}]);highltppl([${tweetArr.map(t=>t.id)}]);"
             onmouseout="renderstream();resetppl();"
-            onclick="goto(${tid})"></div>`;
+            onclick="goto('${dt}')"></div>`;
     } else {
-      s += `<div id="d${tid}" class="day"
-            title="Day ${tid}"></div>`;
+      s += `<div id="${dayNo}" class="day"
+            title="${dayNo}"></div>`;
     }
-    tid++;
+    dayNo++;
   }
   return s;
 }
@@ -250,13 +269,16 @@ function rendercalendar() {
   document.getElementById("2024-12").innerHTML = dec;
 }
 
-function genenhancedtip(t) {
-  if (!t) {
+function genenhancedtip(tweetArr) {
+  if (!tweetArr[0]) {
     return ""; // tweet doesn't yet exist; just return no tooltip
   }
-  const ppl = t.people != null ? `       | ${t.people.map(p=>p.name).join(", ")}` : "";
-  return `${leftpad(t.id)} | ${genprettydate(t.dt)}\n` + 
-        `       | ${t.title}\n${ppl}`;
+  const tooltip = [];
+  for (t of tweetArr) {
+    const ppl = t.people != null ? `       | ${t.people.map(p=>p.name).join(", ")}` : "";
+    tooltip.push(`${leftpad(t.id)} | ${genprettydate(t.dt)}\n       | ${t.title}\n${ppl}`);
+  }
+  return tooltip.reverse().join("\n");
 }
 
 function genprettydate(dt) {
@@ -268,26 +290,33 @@ function genprettydate(dt) {
   return `${parts[1]}, ${parts[2]} - ${parts[0]}`;
 }
 
-function goto(id) {
-  const t = arrTWEET[id-1];
+function goto(dt) {
+  const t = mapDATE.get(dt)[0]; // Just open the first tweet in the tweetArr
   window.open(t.url);
 }
 
 function highltdays(tidArr) {
-  arrTIDS.forEach(tid=>document.getElementById(`d${tid}`).classList.remove("selected"));
-  tidArr.forEach(tid=>document.getElementById(`d${tid}`).classList.add("selected"));
+  for (dayNo of tidArr) {
+    const dt = mapTIDS.get(dayNo).dt;
+    document.getElementById(dt).classList.add("selected");
+  }
 }
 
 function unhighltdays(tidArr) {
-  tidArr.forEach(tid=>document.getElementById(`d${tid}`).classList.remove("selected"));
+  for (dayNo of tidArr) {
+    const dt = mapTIDS.get(dayNo).dt;
+    document.getElementById(dt).classList.remove("selected");
+  }
 }
 
-function highltppl(tid) {
-  const t = arrTWEET[tid-1];
+function highltppl(tidArr) {
   Array.from(document.getElementsByClassName("person")).forEach(p=>p.classList.add("dim"));
-  if (t.people) {
-    // console.log(t.people.map(p=>p.handle));
-    t.people.forEach(p=>document.getElementById(p.handle.substr(1).toLowerCase()).classList.remove("dim"));
+  for (const tid of tidArr) {
+    const t = mapTIDS.get(tid);
+    if (t.people) {
+      // console.log(t.people.map(p=>p.handle));
+      t.people.forEach(p=>document.getElementById(p.handle.substr(1).toLowerCase()).classList.remove("dim"));
+    }
   }
 }
 
@@ -298,8 +327,8 @@ function rendertweets(tidArr) {
     const t = arrTWEET[id-1];
     const e = t.title.length >= 54 ? "..." : "";
     s += `<div class="tweetresult" 
-            title="${genenhancedtip(t)}"
-            onmouseover="highltdays([${t.id}]);highltppl(${t.id});"
+            title="${genenhancedtip([t])}"
+            onmouseover="highltdays([${t.id}]);highltppl([${t.id}]);"
             onmouseout="unhighltdays([${t.id}]);resetppl();">
             ${leftpad(t.id)}: 
             <a href="${t.url}" target="_blank">${t.title.substr(0,54) + e}</a>
@@ -337,9 +366,9 @@ function renderstream() {
 
         // Paint respective days in the calendar and highlight respective people
         Array.from(document.getElementsByClassName("person")).forEach(p=>p.classList.add("dim"));
-        for (const id of rs) {
-            document.getElementById(`d${id}`).classList.add("selected");
-            const t = arrTWEET[id-1];
+        for (const tid of rs) {
+            const t = mapTIDS.get(tid);
+            document.getElementById(`${t.dt}`).classList.add("selected");
             if (t.people) {
               t.people.forEach(p=>document.getElementById(p.handle.substr(1).toLowerCase()).classList.remove("dim"));
             }
