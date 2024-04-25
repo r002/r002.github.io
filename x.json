@@ -1,5 +1,28 @@
 [
   {
+    "id": 116,
+    "title": "#TIMWEEK - Day #3: Hire for the Person vs Hire for the Position",
+    "dt": "2024-04-24",
+    "url": "https://twitter.com/robert_gpt/status/1783330036126196191",
+    "people": [
+      {
+        "name": "Tim Ferriss",
+        "handle": "@tferriss"
+      },
+      {
+        "name": "Peter Thiel",
+        "handle": "@peterthiel"
+      },
+      {
+        "name": "Palantir",
+        "handle": "@PalantirTech"
+      }
+    ],
+    "refs": [
+      "https://twitter.com/robert_gpt/status/1782895101452210549"
+    ]
+  },
+  {
     "id": 115,
     "title": "#TIMWEEK - Day #2: Hustle & Grit",
     "dt": "2024-04-23",
