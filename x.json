@@ -1,5 +1,28 @@
 [
   {
+    "id": 117,
+    "title": "#TIMWEEK - Day #4: TFS 10th Anniversary Fan Meetup",
+    "dt": "2024-04-25",
+    "url": "https://twitter.com/robert_gpt/status/1783667335426953679",
+    "people": [
+      {
+        "name": "Tim Ferriss",
+        "handle": "@tferriss"
+      },
+      {
+        "name": "Rae",
+        "handle": "@raechellambert"
+      },
+      {
+        "name": "River",
+        "handle": "@getriver_io"
+      }
+    ],
+    "refs": [
+      "https://twitter.com/robert_gpt/status/1783330036126196191"
+    ]
+  },
+  {
     "id": 116,
     "title": "#TIMWEEK - Day #3: Hire for the Person vs Hire for the Position",
     "dt": "2024-04-24",
