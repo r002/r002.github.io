@@ -1,5 +1,34 @@
 [
   {
+    "id": 119,
+    "title": "'Get to the Arena Early' by Anu Atluru",
+    "dt": "2024-04-27",
+    "url": "https://twitter.com/robert_gpt/status/1784350981926326558",
+    "people": [
+      {
+        "name": "anu",
+        "handle": "@anuatluru"
+      },
+      {
+        "name": "Tyler Cho",
+        "handle": "@TheTylerCho"
+      },
+      {
+        "name": "Rae",
+        "handle": "@raechellambert"
+      },
+      {
+        "name": "jack",
+        "handle": "@jack"
+      }
+    ],
+    "refs": [
+      "https://twitter.com/anuatluru/status/1769873012218601657",
+      "https://twitter.com/jack/status/20",
+      "https://www.workingtheorys.com/p/before-the-crowd"
+    ]
+  },
+  {
     "id": 118,
     "title": "#TIMWEEK - Day #5: Body keeps the score",
     "dt": "2024-04-26",
