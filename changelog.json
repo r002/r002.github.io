@@ -1,7 +1,7 @@
 [
   {
     "dt": "2024-04-27",
-    "version": "1.4.3",
+    "version": "1.4.4",
     "notes": [
       "`day boxes` now show different green intensities",
       "strip punctuation before indexing names",
