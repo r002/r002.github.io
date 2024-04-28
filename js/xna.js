@@ -283,7 +283,7 @@ function genenhancedtip(tweetArr) {
   }
   const tooltip = [];
   for (t of tweetArr) {
-    const ppl = t.people != null ? `       | ${t.people.reverse().map(p=>p.name).join(", ")}` : "";
+    const ppl = t.people != null ? `       | ${t.people.map(p=>p.name).reverse().join(", ")}` : "";
     tooltip.push(`${leftpad(t.id)} | ${genprettydate(t.dt)}\n       | ${t.title}\n${ppl}`);
   }
   return tooltip.reverse().join("\n");
