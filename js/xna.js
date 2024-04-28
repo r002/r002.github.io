@@ -62,7 +62,7 @@ function indexDB(dbArr, orgsArr, mediaArr) {
 
     // Index people
     if (t.people) {
-      for (const person of t.people) {
+      for (const person of t.people.reverse()) {
         const handle = person.handle.substr(1).toLowerCase();
         dbPPL.set(handle, person);
         if(!mapPPL.has(handle)){
@@ -72,7 +72,8 @@ function indexDB(dbArr, orgsArr, mediaArr) {
         }
 
         // Index people's names into mapTAG
-        const arr = person.name.toLowerCase().split(/[ -]/).filter(token => token!=="");
+        const cleanName = person.name.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,""); // strip all punctuation
+        const arr = cleanName.toLowerCase().split(/[ -]/).filter(token => token!=="");
         for (const nameWord of arr) {
           if(!mapTAG.has(nameWord)){
             mapTAG.set(nameWord, [t.id]);
@@ -227,7 +228,7 @@ function rendermonth(startday, daycount) {
     const dt = arrDATES[dayNo-1];
     const tweetArr = mapDATE.get(dt);
     if (tweetArr) {
-      s += `<div id="${dt}" class="day past"
+      s += `<div id="${dt}" class="day ${getgreenintensity(tweetArr.length)}"
             title="${genenhancedtip(tweetArr)}"
             onmouseover="rendertweets([${tweetArr.map(t=>t.id)}]);highltppl([${tweetArr.map(t=>t.id)}]);"
             onmouseout="renderstream();resetppl();"
@@ -239,6 +240,13 @@ function rendermonth(startday, daycount) {
     dayNo++;
   }
   return s;
+}
+
+function getgreenintensity(tweetcount) {
+  if (tweetcount<3){
+    return `past${tweetcount}`;
+  }
+  return `past3`;
 }
 
 function rendercalendar() {

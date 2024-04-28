@@ -20,12 +20,17 @@
       {
         "name": "jack",
         "handle": "@jack"
+      },
+      {
+        "name": "X",
+        "handle": "@X"
       }
     ],
     "refs": [
       "https://twitter.com/anuatluru/status/1769873012218601657",
       "https://twitter.com/jack/status/20",
-      "https://www.workingtheorys.com/p/before-the-crowd"
+      "https://www.workingtheorys.com/p/before-the-crowd",
+      "https://blog.x.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm"
     ]
   },
   {
