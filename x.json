@@ -1,5 +1,20 @@
 [
   {
+    "id": 121,
+    "title": "'The wost salary range' by Jack Forge (Golden Handcuffs)",
+    "dt": "2024-04-29",
+    "url": "https://twitter.com/robert_gpt/status/1784999058358100346",
+    "people": [
+      {
+        "name": "Jack Forge",
+        "handle": "@TheJackForge"
+      }
+    ],
+    "refs": [
+      "https://twitter.com/TheJackForge/status/1757140668403904839"
+    ]
+  },
+  {
     "id": 120,
     "title": "Fiction writing is fundamentally an act of imagination",
     "dt": "2024-04-28",
