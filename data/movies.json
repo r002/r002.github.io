@@ -110,5 +110,19 @@
       "ticketCost": 5,
       "month": "March",
       "year": 2023
+  },
+  {
+    "title": "No movie",
+    "yearMonth": "2023-02",
+    "ticketCost": 0,
+    "month": "February",
+    "year": 2023
+  },
+  {
+    "title": "No movie",
+    "yearMonth": "2023-01",
+    "ticketCost": 0,
+    "month": "January",
+    "year": 2023
   }
 ]

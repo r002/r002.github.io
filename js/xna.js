@@ -2,6 +2,7 @@
 const DBURL = "../x.json";
 const ORGSURL = "../data/orgs.json";
 const MEDIAURL = "../data/media.json";
+const BOOKSURL = "../data/books.json";
 
 let SELECTEDPERSON = "";
 let mapTAG,    // map of tags => [tids]
@@ -11,6 +12,7 @@ let mapTAG,    // map of tags => [tids]
     dbPPL,     // map of handle => personObjs
     setORGS,   // set of orgs
     setMEDIA,  // set of media
+    setBOOKS,  // set of books
     arrDATES,  // [dates]
     arrTWEET,  // [tweetObjs] from oldest to newest
     arrTIDS;   // [tids] from newest to oldest
@@ -30,17 +32,21 @@ async function fetchdata() {
   const media = await mediapayload.json();
   console.log(">> media length:", media.length);
 
+  const bookspayload = await fetch(BOOKSURL);
+  const books = await bookspayload.json();
+  console.log(">> books length:", books.length);
+
   arrTIDS = tweets.map(t=>t.id);
   arrTWEET = tweets.reverse();
   arrDATES = Array.from(new Set(tweets.map(t=>t.dt)));
 
-  indexDB(arrTWEET, orgs, media);
+  indexDB(arrTWEET, orgs, media, books);
   rendercalendar();
   rendermeta("revchrono");
   renderDefaultStream();
 }
 
-function indexDB(dbArr, orgsArr, mediaArr) {
+function indexDB(dbArr, orgsArr, mediaArr, booksArr) {
   mapTAG = new Map();
   mapPPL = new Map();
   dbPPL = new Map();
@@ -48,6 +54,7 @@ function indexDB(dbArr, orgsArr, mediaArr) {
   mapTIDS = new Map();
   setORGS = new Set(orgsArr.map(o=>o.substr(1).toLowerCase()));
   setMEDIA = new Set(mediaArr.map(o=>o.substr(1).toLowerCase()));
+  setBOOKS = new Set(booksArr.map(o=>o.substr(1).toLowerCase()));
 
   for (let t of dbArr) {
     // Index tweets by tid
@@ -152,8 +159,8 @@ function selectperson(handle){
 }
 
 function rendermeta(mode) {
-  let ppl = orgs = media = "";
-  let pplcount = orgscount = mediacount = 0;
+  let ppl = orgs = media = books = "";
+  let pplcount = orgscount = mediacount = bookscount = 0;
   if (mode === "revchrono") {
     const revsersechrono = Array.from(mapPPL.keys()).reverse();
     for (let handle of revsersechrono) {
@@ -163,6 +170,9 @@ function rendermeta(mode) {
       } else if (setMEDIA.has(handle)) {
         media += genavatar(handle);
         mediacount++;
+      } else if (setBOOKS.has(handle)) {
+        books += genavatar(handle);
+        bookscount++;
       } else {
         ppl += genavatar(handle);
         pplcount++;
@@ -188,9 +198,11 @@ function rendermeta(mode) {
   document.getElementById("people").innerHTML = ppl;
   document.getElementById("orgs").innerHTML = orgs;
   document.getElementById("media").innerHTML = media;
+  document.getElementById("books").innerHTML = books;
   document.getElementById("titlepeople").innerHTML = `People (${pplcount})`;
   document.getElementById("titleorgs").innerHTML = `Organizations (${orgscount})`;
   document.getElementById("titlemedia").innerHTML = `TV + Movies (${mediacount})`;
+  document.getElementById("titlebooks").innerHTML = `Books (${bookscount})`;
   document.getElementById("titleyear").innerHTML = `2024 | "Year of Connection" (${arrDATES.length})`;
 }
 

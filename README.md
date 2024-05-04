@@ -59,6 +59,8 @@ Onward and upward!! Accelerate!! 🌎🚀✨
 - [ ] build `wheel` page
   - [ ] track every week's pick
   - [ ] build histogram of everyone's who's been picked
+- [ ] create `links` section
+- [x] create `books` section
 - [x] add `bad movie club` section
 - [x] code a script to automatically push `x.json` and `new pfps` to GitHub
 - [x] revamp the `calendar` sidebar -> display all days in the year & always center current week

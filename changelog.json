@@ -1,5 +1,13 @@
 [
   {
+    "dt": "2024-05-03",
+    "version": "1.4.6",
+    "notes": [
+      "added `books` section to XNA page",
+      "added placeholders to BMC page"
+    ]
+  },
+  {
     "dt": "2024-04-27",
     "version": "1.4.5",
     "notes": [
