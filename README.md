@@ -47,7 +47,7 @@ Onward and upward!! Accelerate!! 🌎🚀✨
 **
 
 ## TODO
-- [ ] research `blueskey` and `x` apis for posting
+- [ ] research `blueskey` and `x` apis for simultaneous posting
   - [ ] build a central GUI that posts to both simultaneously?
   - [ ] research how to bring `analytics counts` to `bluesky` (see how many impressions/clicks each post got)
 - [ ] scrolling should only scroll the `Tweet Timestream` center pane
@@ -58,10 +58,15 @@ Onward and upward!! Accelerate!! 🌎🚀✨
 - [ ] write a preprocessor that scans `x.json` & reports discrepancies w/ `media.json`, `orgs.json`, and `/pfp`
 - [ ] build `wheel` page
   - [ ] track every week's pick
-  - [ ] build histogram of everyone's who's been picked
-- [ ] create `links` section
-- [x] create `books` section
-- [x] add `bad movie club` section
+  - [ ] render histogram of everyone's who's been picked
+- [ ] add  `writing` page
+  - [ ] add `start` and `stop` timer buttons
+  - [ ] the page will track time (in increments of 15min blocks) spent writing that day (record timestamps?)
+    - [ ] writing should be intentional, focused, measured, delivery-oriented
+- [ ] add the `this is an educational resource` badge to topbar
+- [ ] create `links` section on XNA page
+- [x] create `books` section on XNA page
+- [x] add `bad movie club` page
 - [x] code a script to automatically push `x.json` and `new pfps` to GitHub
 - [x] revamp the `calendar` sidebar -> display all days in the year & always center current week
 - [x] separate `people`, `organizations`, `media` sections
