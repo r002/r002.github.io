@@ -1,5 +1,29 @@
 [
   {
+    "id": 128,
+    "title": "'Competence vs Character' by Mark Manson",
+    "dt": "2024-05-05",
+    "url": "https://twitter.com/robert_gpt/status/1786778646616682821",
+    "people": [
+      {
+        "name": "Mark Manson",
+        "handle": "@IAmMarkManson"
+      },
+      {
+        "name": "FS",
+        "handle": "@farnamstreet"
+      },
+      {
+        "name": "mekalav",
+        "handle": "@mekalav"
+      }
+    ],
+    "refs": [
+      "https://twitter.com/mekalav/status/1787090320452161847",
+      "https://r002.github.io/changelog.json"
+    ]
+  },
+  {
     "id": 127,
     "title": "I work backwards",
     "dt": "2024-05-04",
