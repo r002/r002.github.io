@@ -1,9 +1,29 @@
 [
   {
+    "id": 129,
+    "title": "Apple Welcome Note: 'Your Life's Work'",
+    "dt": "2024-05-06",
+    "url": "https://twitter.com/robert_gpt/status/1787477805418119502",
+    "people": [
+      {
+        "name": "Palak Zatakia",
+        "handle": "@palakzat"
+      },
+      {
+        "name": "Kumar Satish",
+        "handle": "@krsatish047"
+      }
+    ],
+    "refs": [
+      "https://twitter.com/palakzat/status/1479445955862695936",
+      "https://twitter.com/krsatish047/status/1479660709453905921"
+    ]
+  },
+  {
     "id": 128,
     "title": "'Competence vs Character' by Mark Manson",
     "dt": "2024-05-05",
-    "url": "https://twitter.com/robert_gpt/status/1786778646616682821",
+    "url": "https://twitter.com/robert_gpt/status/1787172534728675720",
     "people": [
       {
         "name": "Mark Manson",
