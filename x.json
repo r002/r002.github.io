@@ -1,5 +1,28 @@
 [
   {
+    "id": 130,
+    "title": "Started reading 'The Inner Game of Tennis' by Tim Gallwey",
+    "dt": "2024-05-07",
+    "url": "https://twitter.com/robert_gpt/status/1787755430258647503",
+    "people": [
+      {
+        "name": "Tim Gallwey",
+        "handle": "@the_innergame"
+      },
+      {
+        "name": "The Inner Game of Tennis",
+        "handle": "@InnerGameTennis"
+      },
+      {
+        "name": "Tyler Cho",
+        "handle": "@TheTylerCho"
+      }
+    ],
+    "refs": [
+      "https://twitter.com/TheTylerCho/status/1774116279202336999"
+    ]
+  },
+  {
     "id": 129,
     "title": "Apple Welcome Note: 'Your Life's Work'",
     "dt": "2024-05-06",
