@@ -1,7 +1,66 @@
 [
   {
+    "id": 134,
+    "title": "`The End of Social Media` - Jack Dorsey x Mike Solana",
+    "dt": "2024-05-11",
+    "url": "https://twitter.com/robert_gpt/status/1789377010403262797",
+    "people": [
+      {
+        "name": "jack",
+        "handle": "@jack"
+      },
+      {
+        "name": "Mike Solana",
+        "handle": "@micsolana"
+      },
+      {
+        "name": "Pirate Wires",
+        "handle": "@PirateWires"
+      }
+    ],
+    "refs": [
+      "https://www.piratewires.com/p/interview-with-jack-dorsey-mike-solana"
+    ]
+  },
+  {
+    "id": 133,
+    "title": "`The AdTech Book` - Clearcode",
+    "dt": "2024-05-10",
+    "url": "https://twitter.com/robert_gpt/status/1789061565708197915",
+    "people": [
+      {
+        "name": "Clearcode",
+        "handle": "@clearcodehq"
+      }
+    ],
+    "refs": [
+      "https://adtechbook.clearcode.cc/adtech-platforms-and-intermediaries/"
+    ]
+  },
+  {
+    "id": 132,
+    "title": "To make interesting friends, be interesting first",
+    "dt": "2024-05-09",
+    "url": "https://twitter.com/robert_gpt/status/1788776790602731847"
+  },
+  {
+    "id": 131,
+    "title": "`Wat` - A lightning talk by Gary Bernhardt (CodeMash 2012)",
+    "dt": "2024-05-08",
+    "url": "https://twitter.com/robert_gpt/status/1788325639419773247",
+    "people": [
+      {
+        "name": "Gary Bernhardt",
+        "handle": "@garybernhardt"
+      }
+    ],
+    "refs": [
+      "https://destroyallsoftware.com/talks/wat"
+    ]
+  },
+  {
     "id": 130,
-    "title": "Started reading 'The Inner Game of Tennis' by Tim Gallwey",
+    "title": "Started reading 'The Inner Game of Tennis' - Tim Gallwey",
     "dt": "2024-05-07",
     "url": "https://twitter.com/robert_gpt/status/1787755430258647503",
     "people": [
@@ -29,6 +88,10 @@
     "url": "https://twitter.com/robert_gpt/status/1787477805418119502",
     "people": [
       {
+        "name": "Apple",
+        "handle": "@Apple"
+      },
+      {
         "name": "Palak Zatakia",
         "handle": "@palakzat"
       },
@@ -44,7 +107,7 @@
   },
   {
     "id": 128,
-    "title": "'Competence vs Character' by Mark Manson",
+    "title": "'Competence vs Character' - Mark Manson",
     "dt": "2024-05-05",
     "url": "https://twitter.com/robert_gpt/status/1787172534728675720",
     "people": [
@@ -153,7 +216,7 @@
   },
   {
     "id": 121,
-    "title": "'The wost salary range' by Jack Forge (Golden Handcuffs)",
+    "title": "'The wost salary range' - Jack Forge (Golden Handcuffs)",
     "dt": "2024-04-29",
     "url": "https://twitter.com/robert_gpt/status/1784999058358100346",
     "people": [
@@ -183,7 +246,7 @@
   },
   {
     "id": 119,
-    "title": "'Get to the Arena Early' by Anu Atluru",
+    "title": "'Get to the Arena Early' - Anu Atluru",
     "dt": "2024-04-27",
     "url": "https://twitter.com/robert_gpt/status/1784350981926326558",
     "people": [
