@@ -1,5 +1,36 @@
 [
   {
+    "id": 136,
+    "title": "Learn by example: Public Key Cryptography",
+    "dt": "2024-05-13",
+    "url": "https://twitter.com/robert_gpt/status/1790156707869397110",
+    "people": [
+      {
+        "name": "Computerphile",
+        "handle": "@computer_phile"
+      }
+    ],
+    "refs": [
+      "https://www.youtube.com/watch?v=GSIDS_lvRv4",
+      "https://en.wikibooks.org/wiki/Cryptography/A_Basic_Public_Key_Example"
+    ]
+  },
+  {
+    "id": 135,
+    "title": "Shokunin",
+    "dt": "2024-05-12",
+    "url": "https://twitter.com/robert_gpt/status/1789835194947555651",
+    "people": [
+      {
+        "name": "shoku",
+        "handle": "@sershokunin"
+      }
+    ],
+    "refs": [
+      "https://twitter.com/sershokunin/status/1789638583520739503"
+    ]
+  },
+  {
     "id": 134,
     "title": "`The End of Social Media` - Jack Dorsey x Mike Solana",
     "dt": "2024-05-11",
