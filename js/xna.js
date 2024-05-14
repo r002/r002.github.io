@@ -114,9 +114,9 @@ function indexDB(dbArr, orgsArr, mediaArr, booksArr) {
 
 function renderDefaultStream() {
   if(SELECTEDPERSON==="") {
-    rendertweets(arrTIDS);
+    rendertweets(arrTIDS, true);
   } else {
-    rendertweets(mapPPL.get(SELECTEDPERSON));
+    rendertweets(mapPPL.get(SELECTEDPERSON), false);
   }
 }
 
@@ -126,7 +126,7 @@ function highltperson(handle) {
   document.getElementById(handle).classList.remove("dim");
 
   // Highlight tweets
-  rendertweets(mapPPL.get(handle));
+  rendertweets(mapPPL.get(handle), false);
 
   // Highlight days
   highltdays(mapPPL.get(handle));
@@ -242,7 +242,7 @@ function rendermonth(startday, daycount) {
     if (tweetArr) {
       s += `<div id="${dt}" class="day ${getgreenintensity(tweetArr.length)}"
             title="${genenhancedtip(tweetArr)}"
-            onmouseover="rendertweets([${tweetArr.map(t=>t.id)}]);highltppl([${tweetArr.map(t=>t.id)}]);"
+            onmouseover="rendertweets([${tweetArr.map(t=>t.id)}]);highltppl([${tweetArr.map(t=>t.id)}], false);"
             onmouseout="renderstream();resetppl();"
             onclick="goto('${dt}')"></div>`;
     } else {
@@ -296,18 +296,23 @@ function genenhancedtip(tweetArr) {
   const tooltip = [];
   for (t of tweetArr) {
     const ppl = t.people != null ? `       | ${t.people.map(p=>p.name).reverse().join(", ")}` : "";
-    tooltip.push(`${leftpad(t.id)} | ${genprettydate(t.dt)}\n       | ${t.title}\n${ppl}`);
+    tooltip.push(`${leftpad(t.id)} | ${genprettydate(t.dt, "long")}\n       | ${t.title}\n${ppl}`);
   }
   return tooltip.reverse().join("\n");
 }
 
-function genprettydate(dt) {
+function genprettydate(dt, fmt) {
   const dateParts = dt.split("-");
   const dateObject = new Date(dateParts[0], dateParts[1] - 1, dateParts[2]);
   const options = { year: 'numeric', month: 'short', day: 'numeric', weekday: 'long' };
   const formattedDate = new Intl.DateTimeFormat('en-US', options).format(dateObject);
   const parts = formattedDate.split(", ");
-  return `${parts[1]}, ${parts[2]} - ${parts[0]}`;
+  switch(fmt) {
+    case "long":
+      return `${parts[1]}, ${parts[2]} - ${parts[0]}`;
+    case "short":
+      return `${parts[1]}`;
+  }
 }
 
 function goto(dt) {
@@ -340,21 +345,73 @@ function highltppl(tidArr) {
   }
 }
 
-function rendertweets(tidArr) {
-  tidArr.sort((a, b) => b - a); // sort largest to smallest
-  let s = "";
+function genweektitle(weekNo, weekstartdt, weekenddt) {
+  const startparts = weekstartdt.split("-");
+  const endparts = weekenddt.split("-");
+  if(startparts[1]===endparts[1]) {
+    const startdt = genprettydate(weekstartdt,"short");
+    return `Week #${weekNo}: ${startdt}-${endparts[2].replace(/^0+/, '')}`;
+  }
+  return `Week #${weekNo}: ${genprettydate(weekstartdt,"short")}-${genprettydate(weekenddt,"short")}`;
+}
+
+
+function rendertweets(tidArr, all) {
+  tidArr.sort((a, b) => a - b); // sort smallest to largest
+  // console.log(tidArr);
+  let sArr = [];
+  let weekNo = 1;
+  const days = ['Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat'];
+
+  // sArr.push(`<div class="tweetresult">Week #1: Monday - Jan 1, 2024</div>`);
+
+  let weekstartdt = arrTWEET[0].dt;
+  let weekenddt, weektitle, d;
+  let t;
   for (const id of tidArr) {
-    const t = arrTWEET[id-1];
+    t = arrTWEET[id-1];
     const e = t.title.length > 54 ? "..." : "";
-    s += `<div class="tweetresult" 
+    // console.log(t.dt, t.title);
+
+    if (all) {
+      d = new Date(t.dt);
+      if("Sat"===days[d.getUTCDay()]) {
+        weekenddt = t.dt;
+        weektitle = genweektitle(weekNo++, weekstartdt, weekenddt);
+      } else if("Sun"===days[d.getUTCDay()]) {
+          // console.log(`\t>>> ${weektitle} <<<`);
+          sArr.push(`<div class="tweetresult" style="text-align:center;background-color:#fafafa;
+                        border-top:1px dotted gainsboro;border-bottom:1px dotted gainsboro;">
+                        ${weektitle}
+                    </div>`);
+          weekstartdt = t.dt;
+      }
+    }
+
+    sArr.push(`<div class="tweetresult" 
             title="${genenhancedtip([t])}"
             onmouseover="highltdays([${t.id}]);highltppl([${t.id}]);"
             onmouseout="unhighltdays([${t.id}]);resetppl();">
             ${leftpad(t.id)}: 
             <a href="${t.url}" target="_blank">${t.title.substr(0,54).trim() + e}</a>
-          </div>`;
+          </div>`);
   }
-  document.getElementById("searchresult").innerHTML = s;
+
+  if (all) {
+    // If Sunday hasn't passed, render current week's weektitle
+    if (days[d.getUTCDay()] !== "Sun") {
+      // console.log(`\t>>> ${weektitle} <<<`);
+      weekenddt = t.dt;
+      weektitle = genweektitle(weekNo++, weekstartdt, weekenddt);
+      sArr.push(`<div class="tweetresult" style="text-align:center;background-color:#fafafa;
+                    border-top:1px dotted gainsboro;border-bottom:1px dotted gainsboro;">
+                    ${weektitle}
+                </div>`);
+      weekstartdt = t.dt;
+    }
+  }
+  sArr.reverse();
+  document.getElementById("searchresult").innerHTML = sArr.join("\n");
   document.getElementById("titletimestream").innerHTML = `Tweet Timestream (${tidArr.length})`;
 }
 
@@ -382,7 +439,7 @@ function renderstream() {
     } else if (lastChar===" ") {
         // console.log(">> fire search:", query.split(" "));
         const rs = searchDB(query);
-        rendertweets(rs);
+        rendertweets(rs, false);
 
         // Paint respective days in the calendar and highlight respective people
         Array.from(document.getElementsByClassName("person")).forEach(p=>p.classList.add("dim"));

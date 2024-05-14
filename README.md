@@ -63,8 +63,12 @@ Onward and upward!! Accelerate!! 🌎🚀✨
   - [ ] add `start` and `stop` timer buttons
   - [ ] the page will track time (in increments of 15min blocks) spent writing that day (record timestamps?)
     - [ ] writing should be intentional, focused, measured, delivery-oriented
+- [ ] write script to generate metadata
+  - [ ] calculate number of weeks that have elapsed
+- [ ] write pre-commit hook to ensure metadata integrity
 - [ ] add the `this is an educational resource` badge to topbar
 - [ ] create `links` section on XNA page
+- [x] separate `timestream` by `week # divider`
 - [x] create `books` section on XNA page
 - [x] add `bad movie club` page
 - [x] code a script to automatically push `x.json` and `new pfps` to GitHub

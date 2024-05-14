@@ -1,10 +1,17 @@
 [
   {
+    "dt": "2024-05-13",
+    "version": "1.4.7",
+    "notes": [
+      "add `week count dividers` to `timestream`"
+    ]
+  },
+  {
     "dt": "2024-05-03",
     "version": "1.4.6",
     "notes": [
-      "added `books` section to XNA page",
-      "added placeholders to BMC page"
+      "add `books` section to XNA page",
+      "add placeholders to BMC page"
     ]
   },
   {
