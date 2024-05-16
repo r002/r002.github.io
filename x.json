@@ -1,5 +1,64 @@
 [
   {
+    "id": 139,
+    "title": "How the US Is Destroying Young People's Future | Scott Galloway | TED",
+    "dt": "2024-05-15",
+    "url": "https://twitter.com/robert_gpt/status/1790908196845920482",
+    "people": [
+      {
+        "name": "Scott Galloway",
+        "handle": "@profgalloway"
+      },
+      {
+        "name": "TED Talks",
+        "handle": "@TEDTalks"
+      },
+      {
+        "name": "Rae",
+        "handle": "@raechellambert"
+      }
+    ],
+    "refs": [
+      "https://twitter.com/raechellambert/status/1787564790086316350",
+      "https://www.youtube.com/watch?v=qEJ4hkpQW8E"
+    ]
+  },
+  {
+    "id": 138,
+    "title": "LLMs - kernel smoothing over positional embeddings",
+    "dt": "2024-05-15",
+    "url": "https://twitter.com/robert_gpt/status/1790905916692250923",
+    "people": [
+      {
+        "name": "martin_casado",
+        "handle": "@martin_casado"
+      },
+      {
+        "name": "a16z",
+        "handle": "@a16z"
+      }
+    ],
+    "refs": [
+      "https://twitter.com/martin_casado/status/1782094516335550480",
+      "https://a16z.simplecast.com/episodes/ad-summit-intelligence-MM1wwF4Y?t=16m52s"
+    ]
+  },
+  {
+    "id": 137,
+    "title": "Why Didn't Scot Peterson Try to Stop the Parkland Shooter? | The Atlantic",
+    "dt": "2024-05-14",
+    "url": "https://twitter.com/robert_gpt/status/1790520562508272021",
+    "people": [
+      {
+        "name": "The Atlantic",
+        "handle": "@TheAtlantic"
+      }
+    ],
+    "refs": [
+      "https://www.theatlantic.com/magazine/archive/2024/03/parkland-shooter-scot-peterson-coward-broward/677170/?gift=PASE9IFK1eIhBuluYT-nJ_Q2j2AKCqVwwuuEXCCwAYY"
+    ]
+  },
+  {
     "id": 136,
     "title": "Learn by example: Public Key Cryptography",
     "dt": "2024-05-13",
