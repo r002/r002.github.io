@@ -1,9 +1,56 @@
 [
   {
+    "id": 142,
+    "title": "Tim Ferriss: 'Do less than you think you're able'",
+    "dt": "2024-05-17",
+    "url": "https://x.com/robert_gpt/status/1791667583336210859",
+    "people": [
+      {
+        "name": "Tim Ferriss",
+        "handle": "@tferriss"
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "title": "Ellsberg Paradox: 'Man or Bear?' 🧔🐻🌲",
+    "dt": "2024-05-17",
+    "url": "https://x.com/robert_gpt/status/1791634921858941171",
+    "people": [
+      {
+        "name": "TikTok US",
+        "handle": "@tiktok_us"
+      }
+    ],
+    "refs": [
+      "https://en.wikipedia.org/wiki/Ellsberg_paradox",
+      "https://www.tiktok.com/@screenshothq/video/7356208240008498465?lang=en"
+    ]
+  },
+  {
+    "id": 140,
+    "title": "Do whatever it takes to keep PROD running (Uber Eats Canada)",
+    "dt": "2024-05-16",
+    "url": "https://x.com/robert_gpt/status/1791209025708712409",
+    "people": [
+      {
+        "name": "Flo Crivello",
+        "handle": "@Altimor"
+      },
+      {
+        "name": "Uber Eats",
+        "handle": "@UberEats"
+      }
+    ],
+    "refs": [
+      "https://x.com/Altimor/status/1679235946334781440"
+    ]
+  },
+  {
     "id": 139,
     "title": "How the US Is Destroying Young People's Future | Scott Galloway | TED",
     "dt": "2024-05-15",
-    "url": "https://twitter.com/robert_gpt/status/1790908196845920482",
+    "url": "https://x.com/robert_gpt/status/1790908196845920482",
     "people": [
       {
         "name": "Scott Galloway",
@@ -19,7 +66,7 @@
       }
     ],
     "refs": [
-      "https://twitter.com/raechellambert/status/1787564790086316350",
+      "https://x.com/raechellambert/status/1787564790086316350",
       "https://www.youtube.com/watch?v=qEJ4hkpQW8E"
     ]
   },
@@ -27,7 +74,7 @@
     "id": 138,
     "title": "LLMs - kernel smoothing over positional embeddings",
     "dt": "2024-05-15",
-    "url": "https://twitter.com/robert_gpt/status/1790905916692250923",
+    "url": "https://x.com/robert_gpt/status/1790905916692250923",
     "people": [
       {
         "name": "martin_casado",
@@ -39,7 +86,7 @@
       }
     ],
     "refs": [
-      "https://twitter.com/martin_casado/status/1782094516335550480",
+      "https://x.com/martin_casado/status/1782094516335550480",
       "https://a16z.simplecast.com/episodes/ad-summit-intelligence-MM1wwF4Y?t=16m52s"
     ]
   },
@@ -47,7 +94,7 @@
     "id": 137,
     "title": "Why Didn't Scot Peterson Try to Stop the Parkland Shooter? | The Atlantic",
     "dt": "2024-05-14",
-    "url": "https://twitter.com/robert_gpt/status/1790520562508272021",
+    "url": "https://x.com/robert_gpt/status/1790520562508272021",
     "people": [
       {
         "name": "The Atlantic",
@@ -62,7 +109,7 @@
     "id": 136,
     "title": "Learn by example: Public Key Cryptography",
     "dt": "2024-05-13",
-    "url": "https://twitter.com/robert_gpt/status/1790156707869397110",
+    "url": "https://x.com/robert_gpt/status/1790156707869397110",
     "people": [
       {
         "name": "Computerphile",
@@ -78,7 +125,7 @@
     "id": 135,
     "title": "Shokunin",
     "dt": "2024-05-12",
-    "url": "https://twitter.com/robert_gpt/status/1789835194947555651",
+    "url": "https://x.com/robert_gpt/status/1789835194947555651",
     "people": [
       {
         "name": "shoku",
@@ -86,14 +133,14 @@
       }
     ],
     "refs": [
-      "https://twitter.com/sershokunin/status/1789638583520739503"
+      "https://x.com/sershokunin/status/1789638583520739503"
     ]
   },
   {
     "id": 134,
     "title": "`The End of Social Media` - Jack Dorsey x Mike Solana",
     "dt": "2024-05-11",
-    "url": "https://twitter.com/robert_gpt/status/1789377010403262797",
+    "url": "https://x.com/robert_gpt/status/1789377010403262797",
     "people": [
       {
         "name": "jack",
@@ -116,7 +163,7 @@
     "id": 133,
     "title": "`The AdTech Book` - Clearcode",
     "dt": "2024-05-10",
-    "url": "https://twitter.com/robert_gpt/status/1789061565708197915",
+    "url": "https://x.com/robert_gpt/status/1789061565708197915",
     "people": [
       {
         "name": "Clearcode",
@@ -131,13 +178,13 @@
     "id": 132,
     "title": "To make interesting friends, be interesting first",
     "dt": "2024-05-09",
-    "url": "https://twitter.com/robert_gpt/status/1788776790602731847"
+    "url": "https://x.com/robert_gpt/status/1788776790602731847"
   },
   {
     "id": 131,
     "title": "`Wat` - A lightning talk by Gary Bernhardt (CodeMash 2012)",
     "dt": "2024-05-08",
-    "url": "https://twitter.com/robert_gpt/status/1788325639419773247",
+    "url": "https://x.com/robert_gpt/status/1788325639419773247",
     "people": [
       {
         "name": "Gary Bernhardt",
@@ -152,7 +199,7 @@
     "id": 130,
     "title": "Started reading 'The Inner Game of Tennis' - Tim Gallwey",
     "dt": "2024-05-07",
-    "url": "https://twitter.com/robert_gpt/status/1787755430258647503",
+    "url": "https://x.com/robert_gpt/status/1787755430258647503",
     "people": [
       {
         "name": "Tim Gallwey",
@@ -168,14 +215,14 @@
       }
     ],
     "refs": [
-      "https://twitter.com/TheTylerCho/status/1774116279202336999"
+      "https://x.com/TheTylerCho/status/1774116279202336999"
     ]
   },
   {
     "id": 129,
     "title": "Apple Welcome Note: 'Your Life's Work'",
     "dt": "2024-05-06",
-    "url": "https://twitter.com/robert_gpt/status/1787477805418119502",
+    "url": "https://x.com/robert_gpt/status/1787477805418119502",
     "people": [
       {
         "name": "Apple",
@@ -191,15 +238,15 @@
       }
     ],
     "refs": [
-      "https://twitter.com/palakzat/status/1479445955862695936",
-      "https://twitter.com/krsatish047/status/1479660709453905921"
+      "https://x.com/palakzat/status/1479445955862695936",
+      "https://x.com/krsatish047/status/1479660709453905921"
     ]
   },
   {
     "id": 128,
     "title": "'Competence vs Character' - Mark Manson",
     "dt": "2024-05-05",
-    "url": "https://twitter.com/robert_gpt/status/1787172534728675720",
+    "url": "https://x.com/robert_gpt/status/1787172534728675720",
     "people": [
       {
         "name": "Mark Manson",
@@ -215,7 +262,7 @@
       }
     ],
     "refs": [
-      "https://twitter.com/mekalav/status/1787090320452161847",
+      "https://x.com/mekalav/status/1787090320452161847",
       "https://r002.github.io/changelog.json"
     ]
   },
@@ -223,13 +270,13 @@
     "id": 127,
     "title": "I work backwards",
     "dt": "2024-05-04",
-    "url": "https://twitter.com/robert_gpt/status/1786778646616682821"
+    "url": "https://x.com/robert_gpt/status/1786778646616682821"
   },
   {
     "id": 126,
     "title": "'Can ActivityPub save the internet?' - The Verge",
     "dt": "2024-05-03",
-    "url": "https://twitter.com/robert_gpt/status/1786532894090883519",
+    "url": "https://x.com/robert_gpt/status/1786532894090883519",
     "people": [
       {
         "name": "The Verge",
@@ -244,7 +291,7 @@
     "id": 125,
     "title": "The Imitation Game (2014) - 'Can Machines Think?'",
     "dt": "2024-05-03",
-    "url": "https://twitter.com/robert_gpt/status/1786528505896816798",
+    "url": "https://x.com/robert_gpt/status/1786528505896816798",
     "people": [
       {
         "name": "The Imitation Game",
@@ -259,7 +306,7 @@
     "id": 124,
     "title": "Up in the Air (2009)  - 'What is the Point?'",
     "dt": "2024-05-02",
-    "url": "https://twitter.com/robert_gpt/status/1786165325546795451",
+    "url": "https://x.com/robert_gpt/status/1786165325546795451",
     "people": [
       {
         "name": "Up in the Air",
@@ -274,7 +321,7 @@
     "id": 123,
     "title": "'Something Generous & Uplifting for all Humankind'",
     "dt": "2024-05-01",
-    "url": "https://twitter.com/robert_gpt/status/1785786953796825501",
+    "url": "https://x.com/robert_gpt/status/1785786953796825501",
     "people": [
       {
         "name": "The West Wing",
@@ -289,7 +336,7 @@
     "id": 122,
     "title": "'A bough incapable of bending will eventually break' - Foundation",
     "dt": "2024-04-30",
-    "url": "https://twitter.com/robert_gpt/status/1785434097961324999",
+    "url": "https://x.com/robert_gpt/status/1785434097961324999",
     "people": [
       {
         "name": "Lee Pace",
@@ -308,7 +355,7 @@
     "id": 121,
     "title": "'The wost salary range' - Jack Forge (Golden Handcuffs)",
     "dt": "2024-04-29",
-    "url": "https://twitter.com/robert_gpt/status/1784999058358100346",
+    "url": "https://x.com/robert_gpt/status/1784999058358100346",
     "people": [
       {
         "name": "Jack Forge",
@@ -316,14 +363,14 @@
       }
     ],
     "refs": [
-      "https://twitter.com/TheJackForge/status/1757140668403904839"
+      "https://x.com/TheJackForge/status/1757140668403904839"
     ]
   },
   {
     "id": 120,
     "title": "Fiction writing is fundamentally an act of imagination",
     "dt": "2024-04-28",
-    "url": "https://twitter.com/robert_gpt/status/1784602592326115741",
+    "url": "https://x.com/robert_gpt/status/1784602592326115741",
     "people": [
       {
         "name": "lina",
@@ -331,14 +378,14 @@
       }
     ],
     "refs": [
-      "https://twitter.com/linaeons/status/1759524505192739027"
+      "https://x.com/linaeons/status/1759524505192739027"
     ]
   },
   {
     "id": 119,
     "title": "'Get to the Arena Early' - Anu Atluru",
     "dt": "2024-04-27",
-    "url": "https://twitter.com/robert_gpt/status/1784350981926326558",
+    "url": "https://x.com/robert_gpt/status/1784350981926326558",
     "people": [
       {
         "name": "anu",
@@ -362,8 +409,8 @@
       }
     ],
     "refs": [
-      "https://twitter.com/anuatluru/status/1769873012218601657",
-      "https://twitter.com/jack/status/20",
+      "https://x.com/anuatluru/status/1769873012218601657",
+      "https://x.com/jack/status/20",
       "https://www.workingtheorys.com/p/before-the-crowd",
       "https://blog.x.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm"
     ]
@@ -372,7 +419,7 @@
     "id": 118,
     "title": "#TIMWEEK - Day #5: Body keeps the score",
     "dt": "2024-04-26",
-    "url": "https://twitter.com/robert_gpt/status/1783973509481267480",
+    "url": "https://x.com/robert_gpt/status/1783973509481267480",
     "people": [
       {
         "name": "Tim Ferriss",
@@ -384,14 +431,14 @@
       }
     ],
     "refs": [
-      "https://twitter.com/robert_gpt/status/1783667335426953679"
+      "https://x.com/robert_gpt/status/1783667335426953679"
     ]
   },
   {
     "id": 117,
     "title": "#TIMWEEK - Day #4: TFS 10th Anniversary Fan Meetup",
     "dt": "2024-04-25",
-    "url": "https://twitter.com/robert_gpt/status/1783667335426953679",
+    "url": "https://x.com/robert_gpt/status/1783667335426953679",
     "people": [
       {
         "name": "Tim Ferriss",
@@ -407,14 +454,14 @@
       }
     ],
     "refs": [
-      "https://twitter.com/robert_gpt/status/1783330036126196191"
+      "https://x.com/robert_gpt/status/1783330036126196191"
     ]
   },
   {
     "id": 116,
     "title": "#TIMWEEK - Day #3: Hire for the Person vs Hire for the Position",
     "dt": "2024-04-24",
-    "url": "https://twitter.com/robert_gpt/status/1783330036126196191",
+    "url": "https://x.com/robert_gpt/status/1783330036126196191",
     "people": [
       {
         "name": "Tim Ferriss",
@@ -430,14 +477,14 @@
       }
     ],
     "refs": [
-      "https://twitter.com/robert_gpt/status/1782895101452210549"
+      "https://x.com/robert_gpt/status/1782895101452210549"
     ]
   },
   {
     "id": 115,
     "title": "#TIMWEEK - Day #2: Hustle & Grit",
     "dt": "2024-04-23",
-    "url": "https://twitter.com/robert_gpt/status/1782895101452210549",
+    "url": "https://x.com/robert_gpt/status/1782895101452210549",
     "people": [
       {
         "name": "Tim Ferriss",
@@ -449,14 +496,14 @@
       }
     ],
     "refs": [
-      "https://twitter.com/robert_gpt/status/1782600716009218190"
+      "https://x.com/robert_gpt/status/1782600716009218190"
     ]
   },
   {
     "id": 114,
     "title": "Accepted to Edge Esmeralda 2024! 🥳",
     "dt": "2024-04-23",
-    "url": "https://twitter.com/robert_gpt/status/1782891534460842230",
+    "url": "https://x.com/robert_gpt/status/1782891534460842230",
     "people": [
       {
         "name": "Edge City",
@@ -464,14 +511,14 @@
       }
     ],
     "refs": [
-      "https://twitter.com/robert_gpt/status/1778180551666487694"
+      "https://x.com/robert_gpt/status/1778180551666487694"
     ]
   },
   {
     "id": 113,
     "title": "#TIMWEEK - Day #1: 'Useful Not True'",
     "dt": "2024-04-22",
-    "url": "https://twitter.com/robert_gpt/status/1782600708291764595",
+    "url": "https://x.com/robert_gpt/status/1782600708291764595",
     "people": [
       {
         "name": "Tim Ferriss",
@@ -500,7 +547,7 @@
     ],
     "refs": [
       "https://app.getriver.io/events/tim-ferriss-10th-anniversary-fan-meetup-cincinnati-oh-gi6",
-      "https://twitter.com/raechellambert/status/1772663492694122609",
+      "https://x.com/raechellambert/status/1772663492694122609",
       "https://sive.rs/pnt"
     ]
   },
@@ -508,7 +555,7 @@
     "id": 112,
     "title": "Released 'Bad Movie Club' page on personal site 👨‍💻",
     "dt": "2024-04-21",
-    "url": "https://twitter.com/robert_gpt/status/1782165067905069438",
+    "url": "https://x.com/robert_gpt/status/1782165067905069438",
     "people": [
       {
         "name": "Indiana Jones",
@@ -523,7 +570,7 @@
     "id": 111,
     "title": "Took Greyhound bus from Indianapolis to Cincinnati",
     "dt": "2024-04-20",
-    "url": "https://twitter.com/robert_gpt/status/1781798539653259659",
+    "url": "https://x.com/robert_gpt/status/1781798539653259659",
     "people": [
       {
         "name": "Greyhound Bus",
@@ -535,7 +582,7 @@
     "id": 110,
     "title": "Life happens in seasons; right now is my 'Just Get It Done' season",
     "dt": "2024-04-19",
-    "url": "https://twitter.com/robert_gpt/status/1781267740637991360",
+    "url": "https://x.com/robert_gpt/status/1781267740637991360",
     "tags": [
       "lfg"
     ]
@@ -544,7 +591,7 @@
     "id": 109,
     "title": "xkcd | 'Dependency'",
     "dt": "2024-04-18",
-    "url": "https://twitter.com/robert_gpt/status/1781068506181607658",
+    "url": "https://x.com/robert_gpt/status/1781068506181607658",
     "people": [
       {
         "name": "Randall Munroe",
@@ -559,7 +606,7 @@
     "id": 108,
     "title": "The Last Airbender (2010) - Tsunami scene",
     "dt": "2024-04-17",
-    "url": "https://twitter.com/robert_gpt/status/1780729965803123117",
+    "url": "https://x.com/robert_gpt/status/1780729965803123117",
     "people": [
       {
         "name": "Avatar: The Last Airbender",
@@ -574,7 +621,7 @@
     "id": 107,
     "title": "Subscribed to @PirateWires",
     "dt": "2024-04-16",
-    "url": "https://twitter.com/robert_gpt/status/1780186664016425351",
+    "url": "https://x.com/robert_gpt/status/1780186664016425351",
     "people": [
       {
         "name": "California Forever",
@@ -602,7 +649,7 @@
     "id": 106,
     "title": "'I'm not making it for them. I'm making it for me.' by Rick Rubin",
     "dt": "2024-04-15",
-    "url": "https://twitter.com/robert_gpt/status/1779862758470623677",
+    "url": "https://x.com/robert_gpt/status/1779862758470623677",
     "people": [
       {
         "name": "Elon Musk",
@@ -618,15 +665,15 @@
       }
     ],
     "refs": [
-      "https://twitter.com/elonmusk/status/1742405058690457971",
-      "https://twitter.com/rbranson/status/1742082368054403502"
+      "https://x.com/elonmusk/status/1742405058690457971",
+      "https://x.com/rbranson/status/1742082368054403502"
     ]
   },
   {
     "id": 105,
     "title": "'Make sure your efforts compound' by James Clear",
     "dt": "2024-04-14",
-    "url": "https://twitter.com/robert_gpt/status/1779496887373951163",
+    "url": "https://x.com/robert_gpt/status/1779496887373951163",
     "people": [
       {
         "name": "James Clear",
@@ -638,7 +685,7 @@
     "id": 104,
     "title": "'Software's Act III & the Essential Economy' by Amber Illig",
     "dt": "2024-04-13",
-    "url": "https://twitter.com/robert_gpt/status/1779150634995818976",
+    "url": "https://x.com/robert_gpt/status/1779150634995818976",
     "people": [
       {
         "name": "Amber Illig",
@@ -646,26 +693,26 @@
       }
     ],
     "refs": [
-      "https://twitter.com/AmberIllig/status/1754908295964590214"
+      "https://x.com/AmberIllig/status/1754908295964590214"
     ]
   },
   {
     "id": 103,
     "title": "Reconnecting with old friends is one of life's great joys",
     "dt": "2024-04-12",
-    "url": "https://twitter.com/robert_gpt/status/1778968951252283717"
+    "url": "https://x.com/robert_gpt/status/1778968951252283717"
   },
   {
     "id": 102,
     "title": "The Eclipse: For a moment we all gazed skyward",
     "dt": "2024-04-11",
-    "url": "https://twitter.com/robert_gpt/status/1778563924717171186"
+    "url": "https://x.com/robert_gpt/status/1778563924717171186"
   },
   {
     "id": 101,
     "title": "XNA: 'Help your people find you' (Edge Esmeralda application)",
     "dt": "2024-04-10",
-    "url": "https://twitter.com/robert_gpt/status/1778180551666487694",
+    "url": "https://x.com/robert_gpt/status/1778180551666487694",
     "people": [
       {
         "name": "X",
@@ -693,14 +740,14 @@
       }
     ],
     "refs": [
-      "https://twitter.com/JoinEdgeCity/status/1772713309147398500"
+      "https://x.com/JoinEdgeCity/status/1772713309147398500"
     ]
   },
   {
     "id": 100,
     "title": "Ignore what you dislike; instead, build beauty & wonder",
     "dt": "2024-04-09",
-    "url": "https://twitter.com/robert_gpt/status/1777885982286635367",
+    "url": "https://x.com/robert_gpt/status/1777885982286635367",
     "people": [
       {
         "name": "Visakan Veerasamy",
@@ -708,14 +755,14 @@
       }
     ],
     "refs": [
-      "https://twitter.com/visakanv/status/1758528961062306238"
+      "https://x.com/visakanv/status/1758528961062306238"
     ]
   },
   {
     "id": 99,
     "title": "'Focus on what you want to see more of' by Visa",
     "dt": "2024-04-08",
-    "url": "https://twitter.com/robert_gpt/status/1777485472740122764",
+    "url": "https://x.com/robert_gpt/status/1777485472740122764",
     "people": [
       {
         "name": "Visakan Veerasamy",
@@ -723,14 +770,14 @@
       }
     ],
     "refs": [
-      "https://twitter.com/visakanv/status/1550429250402263040"
+      "https://x.com/visakanv/status/1550429250402263040"
     ]
   },
   {
     "id": 98,
     "title": "Just start. Then iterate. Initium dimidium facti.",
     "dt": "2024-04-07",
-    "url": "https://twitter.com/robert_gpt/status/1776991740571877864",
+    "url": "https://x.com/robert_gpt/status/1776991740571877864",
     "people": [
       {
         "name": "Grant",
@@ -738,7 +785,7 @@
       }
     ],
     "refs": [
-      "https://twitter.com/granawkins/status/1776768555377389999"
+      "https://x.com/granawkins/status/1776768555377389999"
     ],
     "tags": [
       "latin"
@@ -748,7 +795,7 @@
     "id": 97,
     "title": "UX must aesthetically please, inspire, delight",
     "dt": "2024-04-06",
-    "url": "https://twitter.com/robert_gpt/status/1776590577573704141",
+    "url": "https://x.com/robert_gpt/status/1776590577573704141",
     "people": [
       {
         "name": "Resend",
@@ -756,14 +803,14 @@
       }
     ],
     "refs": [
-      "https://twitter.com/resend/status/1772995007965811111"
+      "https://x.com/resend/status/1772995007965811111"
     ]
   },
   {
     "id": 96,
     "title": "Alone but not lonely?",
     "dt": "2024-04-05",
-    "url": "https://twitter.com/robert_gpt/status/1776235966253986045",
+    "url": "https://x.com/robert_gpt/status/1776235966253986045",
     "people": [
       {
         "name": "Rae",
@@ -775,14 +822,14 @@
       }
     ],
     "refs": [
-      "https://twitter.com/raechellambert/status/1771936379737440489"
+      "https://x.com/raechellambert/status/1771936379737440489"
     ]
   },
   {
     "id": 95,
     "title": "Tomorrow, and Tomorrow, and Tomorrow by Gabrielle Zevin - My favorite book of 2023",
     "dt": "2024-04-04",
-    "url": "https://twitter.com/robert_gpt/status/1776015001842557037",
+    "url": "https://x.com/robert_gpt/status/1776015001842557037",
     "people": [
       {
         "name": "Tomorrow, and Tomorrow, and Tomorrow",
@@ -794,7 +841,7 @@
     "id": 94,
     "title": "Avatar: The Last Airbender - Four Nations",
     "dt": "2024-04-03",
-    "url": "https://twitter.com/robert_gpt/status/1775640957179789715",
+    "url": "https://x.com/robert_gpt/status/1775640957179789715",
     "people": [
       {
         "name": "Avatar: The Last Airbender",
@@ -806,7 +853,7 @@
     "id": 93,
     "title": "We called ourselves *Webmasters* in an era when the internet had SOUL",
     "dt": "2024-04-02",
-    "url": "https://twitter.com/robert_gpt/status/1775206441223160106",
+    "url": "https://x.com/robert_gpt/status/1775206441223160106",
     "people": [
       {
         "name": "Itay Dreyfus",
@@ -814,14 +861,14 @@
       }
     ],
     "refs": [
-      "https://twitter.com/itaydre/status/1775166832812478794"
+      "https://x.com/itaydre/status/1775166832812478794"
     ]
   },
   {
     "id": 92,
     "title": "Social Tech: Flourishmaxxing Should be Humanity's Prime Directive",
     "dt": "2024-04-01",
-    "url": "https://twitter.com/robert_gpt/status/1774849825978106145",
+    "url": "https://x.com/robert_gpt/status/1774849825978106145",
     "people": [
       {
         "name": "River",
@@ -833,14 +880,14 @@
       }
     ],
     "refs": [
-      "https://twitter.com/JoinEdgeCity/status/1773028140400464129"
+      "https://x.com/JoinEdgeCity/status/1773028140400464129"
     ]
   },
   {
     "id": 91,
     "title": "The Dewey Decimal System",
     "dt": "2024-03-31",
-    "url": "https://twitter.com/robert_gpt/status/1774507578329792772",
+    "url": "https://x.com/robert_gpt/status/1774507578329792772",
     "people": [
       {
         "name": "Cam",
@@ -855,7 +902,7 @@
     "id": 90,
     "title": "Dum spiro spero",
     "dt": "2024-03-30",
-    "url": "https://twitter.com/robert_gpt/status/1774154785664450969",
+    "url": "https://x.com/robert_gpt/status/1774154785664450969",
     "people": [
       {
         "name": "Tyler Cho",
@@ -863,7 +910,7 @@
       }
     ],
     "refs": [
-      "https://twitter.com/TheTylerCho/status/1774062748197855286"
+      "https://x.com/TheTylerCho/status/1774062748197855286"
     ],
     "tags": [
       "lore",
@@ -875,7 +922,7 @@
     "id": 89,
     "title": "Adventures of the Open-Source Avenger: Embarking Upon 52 Weeks of Open-Source",
     "dt": "2024-03-29",
-    "url": "https://twitter.com/robert_gpt/status/1773746403522810182",
+    "url": "https://x.com/robert_gpt/status/1773746403522810182",
     "people": [
       {
         "name": "CodeNewbie",
@@ -890,7 +937,7 @@
     "id": 88,
     "title": "Pet Phrases",
     "dt": "2024-03-28",
-    "url": "https://twitter.com/robert_gpt/status/1773548204866371684",
+    "url": "https://x.com/robert_gpt/status/1773548204866371684",
     "people": [
       {
         "name": "Steph Smith",
@@ -898,14 +945,14 @@
       }
     ],
     "refs": [
-      "https://twitter.com/stephsmithio/status/1773402811486867462"
+      "https://x.com/stephsmithio/status/1773402811486867462"
     ]
   },
   {
     "id": 87,
     "title": "X Will Save the World: The Future of Social Media & Society",
     "dt": "2024-03-27",
-    "url": "https://twitter.com/robert_gpt/status/1773170762293166379",
+    "url": "https://x.com/robert_gpt/status/1773170762293166379",
     "people": [
       {
         "name": "X",
@@ -942,8 +989,8 @@
     ],
     "refs": [
       "https://www.edgeesmeralda.com",
-      "https://twitter.com/nabeelqu/status/1748703572920070166",
-      "https://twitter.com/noampomsky/status/1754308879499022735"
+      "https://x.com/nabeelqu/status/1748703572920070166",
+      "https://x.com/noampomsky/status/1754308879499022735"
     ],
     "tags": [
       "social media"
@@ -953,7 +1000,7 @@
     "id": 86,
     "title": "Tim Ferriss 10th anniversary fan meetup - Cincinnati, OH",
     "dt": "2024-03-26",
-    "url": "https://twitter.com/robert_gpt/status/1772815860119245170",
+    "url": "https://x.com/robert_gpt/status/1772815860119245170",
     "people": [
       {
         "name": "Tim Ferriss",
@@ -969,7 +1016,7 @@
       }
     ],
     "refs": [
-      "https://twitter.com/tferriss/status/1772614795352551918",
+      "https://x.com/tferriss/status/1772614795352551918",
       "https://app.getriver.io/events/tim-ferriss-10th-anniversary-fan-meetup-cincinnati-oh-gi6"
     ]
   },
@@ -977,7 +1024,7 @@
     "id": 85,
     "title": "Dating apps have never made sense to me",
     "dt": "2024-03-25",
-    "url": "https://twitter.com/robert_gpt/status/1772096483455562129",
+    "url": "https://x.com/robert_gpt/status/1772096483455562129",
     "people": [
       {
         "name": "Paige",
@@ -985,14 +1032,14 @@
       }
     ],
     "refs": [
-      "https://twitter.com/climatepaige/status/1772057122173325756"
+      "https://x.com/climatepaige/status/1772057122173325756"
     ]
   },
   {
     "id": 84,
     "title": "Spin by Robert Charles Wilson is my favorite sci-fi book ever",
     "dt": "2024-03-24",
-    "url": "https://twitter.com/robert_gpt/status/1772096483455562129",
+    "url": "https://x.com/robert_gpt/status/1772096483455562129",
     "people": [
       {
         "name": "Brandon Beylo",
@@ -1004,14 +1051,14 @@
       }
     ],
     "refs": [
-      "https://twitter.com/marketplunger1/status/1771913332015964422"
+      "https://x.com/marketplunger1/status/1771913332015964422"
     ]
   },
   {
     "id": 83,
     "title": "Add post panning navbar to personal site",
     "dt": "2024-03-23",
-    "url": "https://twitter.com/robert_gpt/status/1771712203701231957",
+    "url": "https://x.com/robert_gpt/status/1771712203701231957",
     "people": [
       {
         "name": "Kevin Cannon",
@@ -1030,7 +1077,7 @@
     "id": 82,
     "title": "The twin drivers of a good life: what you do & who you do it with.",
     "dt": "2024-03-22",
-    "url": "https://twitter.com/robert_gpt/status/1771319499100143939",
+    "url": "https://x.com/robert_gpt/status/1771319499100143939",
     "people": [
       {
         "name": "Tim Ferriss",
@@ -1038,20 +1085,20 @@
       }
     ],
     "refs": [
-      "https://twitter.com/tferriss/status/1771268255455347164"
+      "https://x.com/tferriss/status/1771268255455347164"
     ]
   },
   {
     "id": 81,
     "title": "John Wick: Champion of Diversity for People with Disabilities!",
     "dt": "2024-03-21",
-    "url": "https://twitter.com/robert_gpt/status/1770973929940672870"
+    "url": "https://x.com/robert_gpt/status/1770973929940672870"
   },
   {
     "id": 80,
     "title": "Elon Musk",
     "dt": "2024-03-20",
-    "url": "https://twitter.com/robert_gpt/status/1770628227213496705",
+    "url": "https://x.com/robert_gpt/status/1770628227213496705",
     "people": [
       {
         "name": "anna",
@@ -1066,7 +1113,7 @@
     "id": 79,
     "title": "Changing my 'Eleanor-Roosevelt-great-minds-discuss-ideas' belief",
     "dt": "2024-03-19",
-    "url": "https://twitter.com/robert_gpt/status/1770218484393562299",
+    "url": "https://x.com/robert_gpt/status/1770218484393562299",
     "people": [
       {
         "name": "Kendall",
@@ -1074,14 +1121,14 @@
       }
     ],
     "refs": [
-      "https://twitter.com/Kenny___Rose/status/1770178519907061864"
+      "https://x.com/Kenny___Rose/status/1770178519907061864"
     ]
   },
   {
     "id": 78,
     "title": "New personal website relaunch: Robert's Curiosity Maze",
     "dt": "2024-03-18",
-    "url": "https://twitter.com/robert_gpt/status/1769894036741951658",
+    "url": "https://x.com/robert_gpt/status/1769894036741951658",
     "people": [
       {
         "name": "X",
@@ -1113,7 +1160,7 @@
     "id": 77,
     "title": "'Just about everything starts w/ one good programmer lifting.' —DHH",
     "dt": "2024-03-17",
-    "url": "https://twitter.com/robert_gpt/status/1769233462572011560",
+    "url": "https://x.com/robert_gpt/status/1769233462572011560",
     "people": [
       {
         "name": "DHH",
@@ -1121,14 +1168,14 @@
       }
     ],
     "refs": [
-      "https://twitter.com/dhh/status/1769122119915573411"
+      "https://x.com/dhh/status/1769122119915573411"
     ]
   },
   {
     "id": 76,
     "title": "#TimelessApril",
     "dt": "2024-03-16",
-    "url": "https://twitter.com/robert_gpt/status/1768998824901509174",
+    "url": "https://x.com/robert_gpt/status/1768998824901509174",
     "people": [
       {
         "name": "Brigitte Kratz",
@@ -1136,14 +1183,14 @@
       }
     ],
     "refs": [
-      "https://twitter.com/BrigitteKratz/status/1751310225636794677"
+      "https://x.com/BrigitteKratz/status/1751310225636794677"
     ]
   },
   {
     "id": 75,
     "title": "The Broad and Narrow Way",
     "dt": "2024-03-15",
-    "url": "https://twitter.com/robert_gpt/status/1768771459269140695",
+    "url": "https://x.com/robert_gpt/status/1768771459269140695",
     "people": [
       {
         "name": "British Museum",
@@ -1163,7 +1210,7 @@
     "id": 74,
     "title": "The word 'better' is too ambiguous-- we need to be precise about definitions",
     "dt": "2024-03-14",
-    "url": "https://twitter.com/robert_gpt/status/1768270321864306845",
+    "url": "https://x.com/robert_gpt/status/1768270321864306845",
     "people": [
       {
         "name": "Charles Marohn",
@@ -1171,14 +1218,14 @@
       }
     ],
     "refs": [
-      "https://twitter.com/clmarohn/status/1767785359079796795"
+      "https://x.com/clmarohn/status/1767785359079796795"
     ]
   },
   {
     "id": 73,
     "title": "Edge Esmeralda",
     "dt": "2024-03-13",
-    "url": "https://twitter.com/robert_gpt/status/1767927211737129296",
+    "url": "https://x.com/robert_gpt/status/1767927211737129296",
     "people": [
       {
         "name": "Devon Zuegel",
@@ -1186,7 +1233,7 @@
       }
     ],
     "refs": [
-      "https://twitter.com/devonzuegel/status/1767604453081796949",
+      "https://x.com/devonzuegel/status/1767604453081796949",
       "https://www.edgeesmeralda.com/welcome"
     ]
   },
@@ -1194,7 +1241,7 @@
     "id": 72,
     "title": "The Magical Night Out by Mathurah Ravi",
     "dt": "2024-03-12",
-    "url": "https://twitter.com/robert_gpt/status/1767577415885176954",
+    "url": "https://x.com/robert_gpt/status/1767577415885176954",
     "people": [
       {
         "name": "mathurah",
@@ -1202,7 +1249,7 @@
       }
     ],
     "refs": [
-      "https://twitter.com/mathurahravi/status/1763634589363294522",
+      "https://x.com/mathurahravi/status/1763634589363294522",
       "https://www.mathurah.com/thoughts/the-magical-night-out"
     ]
   },
@@ -1210,7 +1257,7 @@
     "id": 71,
     "title": "One man's 'empathy' is another's 'constraint'",
     "dt": "2024-03-11",
-    "url": "https://twitter.com/robert_gpt/status/1767321266803871842",
+    "url": "https://x.com/robert_gpt/status/1767321266803871842",
     "people": [
       {
         "name": "ash",
@@ -1218,14 +1265,14 @@
       }
     ],
     "refs": [
-      "https://twitter.com/ashleyyjoelle/status/1767054888939458672"
+      "https://x.com/ashleyyjoelle/status/1767054888939458672"
     ]
   },
   {
     "id": 70,
     "title": "Daily Thoughts on X",
     "dt": "2024-03-10",
-    "url": "https://twitter.com/robert_gpt/status/1766864585837961444",
+    "url": "https://x.com/robert_gpt/status/1766864585837961444",
     "refs": [
       "https://r002.github.io/feed.json"
     ]
@@ -1234,7 +1281,7 @@
     "id": 69,
     "title": "'A World Nobody Wants' by David Schaengold | COMPACT Magazine (Mar 8, 2024)",
     "dt": "2024-03-09",
-    "url": "https://twitter.com/robert_gpt/status/1766491330832695510",
+    "url": "https://x.com/robert_gpt/status/1766491330832695510",
     "people": [
       {
         "name": "David Schaengold",
@@ -1253,7 +1300,7 @@
     "id": 68,
     "title": "Mormons figured out Utopian societies",
     "dt": "2024-03-08",
-    "url": "https://twitter.com/robert_gpt/status/1766306556960821444",
+    "url": "https://x.com/robert_gpt/status/1766306556960821444",
     "people": [
       {
         "name": "Mike Higgins",
@@ -1261,14 +1308,14 @@
       }
     ],
     "refs": [
-      "https://twitter.com/meetmikehiggins/status/1766099387837551019"
+      "https://x.com/meetmikehiggins/status/1766099387837551019"
     ]
   },
   {
     "id": 67,
     "title": "Culdesac Village & Waymo Self-Driving",
     "dt": "2024-03-07",
-    "url": "https://twitter.com/robert_gpt/status/1765957962252894711",
+    "url": "https://x.com/robert_gpt/status/1765957962252894711",
     "people": [
       {
         "name": "Devon",
@@ -1284,7 +1331,7 @@
       }
     ],
     "refs": [
-      "https://twitter.com/devonzuegel/status/1765428886848831959",
+      "https://x.com/devonzuegel/status/1765428886848831959",
       "https://pbs.twimg.com/media/GIHxaBYbAAAUI9r?format=jpg&name=large",
       "https://pbs.twimg.com/media/GIHxaBJaQAAqPZh?format=jpg&name=large"
     ]
@@ -1293,7 +1340,7 @@
     "id": 66,
     "title": "Working theory on excellence",
     "dt": "2024-03-06",
-    "url": "https://twitter.com/robert_gpt/status/1765412186338521273",
+    "url": "https://x.com/robert_gpt/status/1765412186338521273",
     "people": [
       {
         "name": "Grand Canyon NPS",
@@ -1308,7 +1355,7 @@
     "id": 65,
     "title": "Traveling defragments your mind",
     "dt": "2024-03-05",
-    "url": "https://twitter.com/robert_gpt/status/1765009370138677687",
+    "url": "https://x.com/robert_gpt/status/1765009370138677687",
     "people": [
       {
         "name": "Grand Canyon NPS",
@@ -1323,7 +1370,7 @@
     "id": 64,
     "title": "Cornerstone Thoughts",
     "dt": "2024-03-04",
-    "url": "https://twitter.com/robert_gpt/status/1764652467244134607",
+    "url": "https://x.com/robert_gpt/status/1764652467244134607",
     "refs": [
       "https://pbs.twimg.com/media/GH1OEQdakAAAoA9?format=jpg&name=large"
     ]
@@ -1332,7 +1379,7 @@
     "id": 63,
     "title": "Delicate Arch at Arches National Park - Moab, Utah",
     "dt": "2024-03-03",
-    "url": "https://twitter.com/robert_gpt/status/1764280423851405419",
+    "url": "https://x.com/robert_gpt/status/1764280423851405419",
     "people": [
       {
         "name": "Arches National Park",
@@ -1347,7 +1394,7 @@
     "id": 62,
     "title": "HIW | Riva Tez going ballistic on the monotony of LA housing",
     "dt": "2024-03-02",
-    "url": "https://twitter.com/robert_gpt/status/1763913797478072817",
+    "url": "https://x.com/robert_gpt/status/1763913797478072817",
     "people": [
       {
         "name": "Riva Tez",
@@ -1359,20 +1406,20 @@
       }
     ],
     "refs": [
-      "https://twitter.com/david_perell/status/1714626113660502290"
+      "https://x.com/david_perell/status/1714626113660502290"
     ]
   },
   {
     "id": 61,
     "title": "Thoughts on traveling now I'm older",
     "dt": "2024-03-01",
-    "url": "https://twitter.com/robert_gpt/status/1763583078440870265"
+    "url": "https://x.com/robert_gpt/status/1763583078440870265"
   },
   {
     "id": 60,
     "title": "New 'Articles' feature releases on X!",
     "dt": "2024-02-29",
-    "url": "https://twitter.com/robert_gpt/status/1763331750103544200",
+    "url": "https://x.com/robert_gpt/status/1763331750103544200",
     "people": [
       {
         "name": "X",
@@ -1384,7 +1431,7 @@
     "id": 59,
     "title": "'Self-Transcendentalism' is the actual pinnacle of the real Maslow Hierachy",
     "dt": "2024-02-28",
-    "url": "https://twitter.com/robert_gpt/status/1762034747704832135",
+    "url": "https://x.com/robert_gpt/status/1762034747704832135",
     "people": [
       {
         "name": "Greg McKeown",
@@ -1396,7 +1443,7 @@
       }
     ],
     "refs": [
-      "https://twitter.com/tferriss/status/1757080411367166436",
+      "https://x.com/tferriss/status/1757080411367166436",
       "https://tim.blog/2024/01/31/greg-mckeown-purpose-essentialism/"
     ]
   },
@@ -1404,13 +1451,13 @@
     "id": 58,
     "title": "Your SO must be your intellectual equal",
     "dt": "2024-02-27",
-    "url": "https://twitter.com/robert_gpt/status/1762465638872744384"
+    "url": "https://x.com/robert_gpt/status/1762465638872744384"
   },
   {
     "id": 57,
     "title": "Play your own game; one you actually wish to win",
     "dt": "2024-02-26",
-    "url": "https://twitter.com/robert_gpt/status/1762034747704832135",
+    "url": "https://x.com/robert_gpt/status/1762034747704832135",
     "people": [
       {
         "name": "Visakan Veerasamy",
@@ -1418,14 +1465,14 @@
       }
     ],
     "refs": [
-      "https://twitter.com/visakanv/status/1761942559868547329"
+      "https://x.com/visakanv/status/1761942559868547329"
     ]
   },
   {
     "id": 56,
     "title": "The Car Accident",
     "dt": "2024-02-25",
-    "url": "https://twitter.com/robert_gpt/status/1761759996688077175",
+    "url": "https://x.com/robert_gpt/status/1761759996688077175",
     "people": [
       {
         "name": "Patricia Mou",
@@ -1445,7 +1492,7 @@
     "id": 55,
     "title": "'Why Women Still Can't Have It All' by Anne-Marie Slaughter | The Atlantic (Jul/Aug 2012)",
     "dt": "2024-02-24",
-    "url": "https://twitter.com/robert_gpt/status/1761381734287856039",
+    "url": "https://x.com/robert_gpt/status/1761381734287856039",
     "people": [
       {
         "name": "Cartoons Hate Her!",
@@ -1453,7 +1500,7 @@
       }
     ],
     "refs": [
-      "https://twitter.com/CartoonsHateHer/status/1761013773110759697",
+      "https://x.com/CartoonsHateHer/status/1761013773110759697",
       "https://www.theatlantic.com/magazine/archive/2012/07/why-women-still-cant-have-it-all/309020/"
     ]
   },
@@ -1461,7 +1508,7 @@
     "id": 54,
     "title": "Differences between remote vs in-office work",
     "dt": "2024-02-23",
-    "url": "https://twitter.com/robert_gpt/status/1761024045628150074",
+    "url": "https://x.com/robert_gpt/status/1761024045628150074",
     "people": [
       {
         "name": "Fernando",
@@ -1469,14 +1516,14 @@
       }
     ],
     "refs": [
-      "https://twitter.com/zetalyrae/status/1760849249267556753"
+      "https://x.com/zetalyrae/status/1760849249267556753"
     ]
   },
   {
     "id": 53,
     "title": "Patricia Mou's 'The Fourth Place' Concept",
     "dt": "2024-02-22",
-    "url": "https://twitter.com/robert_gpt/status/1760647514967949764",
+    "url": "https://x.com/robert_gpt/status/1760647514967949764",
     "people": [
       {
         "name": "Patricia Mou",
@@ -1493,20 +1540,20 @@
     ],
     "refs": [
       "https://www.wellnesswisdom.xyz/p/introducing-the-fourth-place-and",
-      "https://twitter.com/SebCuadros/status/1760439581659271623"
+      "https://x.com/SebCuadros/status/1760439581659271623"
     ]
   },
   {
     "id": 52,
     "title": "'Productive' vs 'Consumptive' Hobbies",
     "dt": "2024-02-21",
-    "url": "https://twitter.com/robert_gpt/status/1760289130007658713"
+    "url": "https://x.com/robert_gpt/status/1760289130007658713"
   },
   {
     "id": 51,
     "title": "Gemini vs Grok",
     "dt": "2024-02-20",
-    "url": "https://twitter.com/robert_gpt/status/1759937075976024150",
+    "url": "https://x.com/robert_gpt/status/1759937075976024150",
     "people": [
       {
         "name": "Google",
@@ -1533,7 +1580,7 @@
     "id": 50,
     "title": "Tim Ferriss x Gregory McKeown + lina's epic ChatGPT speech",
     "dt": "2024-02-19",
-    "url": "https://twitter.com/robert_gpt/status/1759740949868011698",
+    "url": "https://x.com/robert_gpt/status/1759740949868011698",
     "people": [
       {
         "name": "Tim Ferriss",
@@ -1545,8 +1592,8 @@
       }
     ],
     "refs": [
-      "https://twitter.com/tferriss/status/1757080411367166436",
-      "https://twitter.com/linaeons/status/1759524505192739027",
+      "https://x.com/tferriss/status/1757080411367166436",
+      "https://x.com/linaeons/status/1759524505192739027",
       "https://tim.blog/2024/01/31/greg-mckeown-purpose-essentialism/"
     ]
   },
@@ -1554,7 +1601,7 @@
     "id": 49,
     "title": "Anyone But You: The Valentine Encore",
     "dt": "2024-02-18",
-    "url": "https://twitter.com/robert_gpt/status/1759416396348272795",
+    "url": "https://x.com/robert_gpt/status/1759416396348272795",
     "people": [
       {
         "name": "Sydney Sweeney",
@@ -1581,7 +1628,7 @@
     "id": 48,
     "title": "'I Guess I Just Expected More from this Country' by Andrew Singleton | McSweeney's",
     "dt": "2024-02-17",
-    "url": "https://twitter.com/robert_gpt/status/1758874786535502022",
+    "url": "https://x.com/robert_gpt/status/1758874786535502022",
     "people": [
       {
         "name": "Paul Ford",
@@ -1593,7 +1640,7 @@
       }
     ],
     "refs": [
-      "https://twitter.com/ftrain/status/1749986868505043321",
+      "https://x.com/ftrain/status/1749986868505043321",
       "https://www.mcsweeneys.net/articles/i-guess-i-just-expected-a-little-more-from-this-country"
     ]
   },
@@ -1601,7 +1648,7 @@
     "id": 47,
     "title": "University of Austin",
     "dt": "2024-02-16",
-    "url": "https://twitter.com/robert_gpt/status/1758651308037300574",
+    "url": "https://x.com/robert_gpt/status/1758651308037300574",
     "people": [
       {
         "name": "University of Austin",
@@ -1609,7 +1656,7 @@
       }
     ],
     "refs": [
-      "https://twitter.com/uaustinorg/status/1749466569225248901",
+      "https://x.com/uaustinorg/status/1749466569225248901",
       "https://www.texastribune.org/2021/11/08/university-austin-founders-college-culture/",
       "https://www.texastribune.org/2023/11/08/university-austin-uatx-launch-2024/"
     ]
@@ -1618,7 +1665,7 @@
     "id": 46,
     "title": "Everyone needs a 'LFG guy' in their life",
     "dt": "2024-02-15",
-    "url": "https://twitter.com/robert_gpt/status/1758115289047110034",
+    "url": "https://x.com/robert_gpt/status/1758115289047110034",
     "people": [
       {
         "name": "Julia M. Rosedale",
@@ -1626,7 +1673,7 @@
       }
     ],
     "refs": [
-      "https://twitter.com/JuliaRosedale/status/1756426957971943468"
+      "https://x.com/JuliaRosedale/status/1756426957971943468"
     ],
     "tags": [
       "lfg"
@@ -1636,7 +1683,7 @@
     "id": 45,
     "title": "Happy Valentine's Day 2024!",
     "dt": "2024-02-14",
-    "url": "https://twitter.com/robert_gpt/status/1757929696874877377",
+    "url": "https://x.com/robert_gpt/status/1757929696874877377",
     "people": [
       {
         "name": "Devon Zuegel",
@@ -1644,14 +1691,14 @@
       }
     ],
     "refs": [
-      "https://twitter.com/devonzuegel/status/1757914505563226157"
+      "https://x.com/devonzuegel/status/1757914505563226157"
     ]
   },
   {
     "id": 44,
     "title": "It costs ~$18,000/year to raise a child",
     "dt": "2024-02-13",
-    "url": "https://twitter.com/robert_gpt/status/1757612476244365678",
+    "url": "https://x.com/robert_gpt/status/1757612476244365678",
     "refs": [
       "https://www.wsj.com/articles/it-now-costs-300-000-to-raise-a-child-11660864334"
     ]
@@ -1660,7 +1707,7 @@
     "id": 43,
     "title": "DunKings",
     "dt": "2024-02-12",
-    "url": "https://twitter.com/robert_gpt/status/1757207576108785921",
+    "url": "https://x.com/robert_gpt/status/1757207576108785921",
     "people": [
       {
         "name": "Dunkin'",
@@ -1668,20 +1715,20 @@
       }
     ],
     "refs": [
-      "https://twitter.com/dunkindonuts/status/1756844988292292652"
+      "https://x.com/dunkindonuts/status/1756844988292292652"
     ]
   },
   {
     "id": 42,
     "title": "Macro-socioeconomic stability",
     "dt": "2024-02-11",
-    "url": "https://twitter.com/robert_gpt/status/1756679770438254952"
+    "url": "https://x.com/robert_gpt/status/1756679770438254952"
   },
   {
     "id": 41,
     "title": "OWD #3: Disney World & other underworlds",
     "dt": "2024-02-10",
-    "url": "https://twitter.com/robert_gpt/status/1756366749715296624",
+    "url": "https://x.com/robert_gpt/status/1756366749715296624",
     "people": [
       {
         "name": "Devon Zuegel",
@@ -1696,13 +1743,13 @@
     "id": 40,
     "title": "Squeaky wheels and scythes",
     "dt": "2024-02-09",
-    "url": "https://twitter.com/robert_gpt/status/1756100532601594218"
+    "url": "https://x.com/robert_gpt/status/1756100532601594218"
   },
   {
     "id": 39,
     "title": "Similarity scores between timelines",
     "dt": "2024-02-08",
-    "url": "https://twitter.com/robert_gpt/status/1755797501901189340"
+    "url": "https://x.com/robert_gpt/status/1755797501901189340"
   },
   {
     "id": 38,
@@ -1718,9 +1765,9 @@
         "handle": "@david_perell"
       }
     ],
-    "url": "https://twitter.com/robert_gpt/status/1755396114805612775",
+    "url": "https://x.com/robert_gpt/status/1755396114805612775",
     "refs": [
-      "https://twitter.com/jimmyasoni/status/1472935912241836037"
+      "https://x.com/jimmyasoni/status/1472935912241836037"
     ]
   },
   {
@@ -1735,11 +1782,15 @@
       {
         "name": "David Perell",
         "handle": "@david_perell"
+      },
+      {
+        "name": "a16z",
+        "handle": "@a16z"
       }
     ],
-    "url": "https://twitter.com/robert_gpt/status/1754858908231852370",
+    "url": "https://x.com/robert_gpt/status/1754858908231852370",
     "refs": [
-      "https://twitter.com/cdixon/status/1752333408666329125"
+      "https://x.com/cdixon/status/1752333408666329125"
     ]
   },
   {
@@ -1754,11 +1805,15 @@
       {
         "name": "David Perell",
         "handle": "@david_perell"
+      },
+      {
+        "name": "a16z",
+        "handle": "@a16z"
       }
     ],
-    "url": "https://twitter.com/robert_gpt/status/1754685020474654959",
+    "url": "https://x.com/robert_gpt/status/1754685020474654959",
     "refs": [
-      "https://twitter.com/david_perell/status/1752739089965556130"
+      "https://x.com/david_perell/status/1752739089965556130"
     ]
   },
   {
@@ -1775,7 +1830,7 @@
         "handle": "@chuckpalahniuk"
       }
     ],
-    "url": "https://twitter.com/robert_gpt/status/1754336981226492387",
+    "url": "https://x.com/robert_gpt/status/1754336981226492387",
     "refs": [
       "https://lithub.com/joan-didion-why-i-write/"
     ]
@@ -1784,7 +1839,7 @@
     "id": 34,
     "title": "Divorce ideas from their sources",
     "dt": "2024-02-03",
-    "url": "https://twitter.com/robert_gpt/status/1753975169771569429"
+    "url": "https://x.com/robert_gpt/status/1753975169771569429"
   },
   {
     "id": 33,
@@ -1796,7 +1851,7 @@
         "handle": "@eugenewei"
       }
     ],
-    "url": "https://twitter.com/robert_gpt/status/1753620711480918317",
+    "url": "https://x.com/robert_gpt/status/1753620711480918317",
     "refs": [
       "https://www.eugenewei.com/blog/2020/9/18/seeing-like-an-algorithm",
       "https://www.eugenewei.com/blog/2023/7/6/how-to-blow-up-a-timeline",
@@ -1817,7 +1872,7 @@
         "handle": "@CodeNewbies"
       }
     ],
-    "url": "https://twitter.com/robert_gpt/status/1753236086577414612",
+    "url": "https://x.com/robert_gpt/status/1753236086577414612",
     "refs": [
       "https://community.codenewbie.org/r002/2-python-opencv-classic-tetris-monthly-summary-tool-mar-12-2021-nep"
     ]
@@ -1840,7 +1895,7 @@
         "handle": "@37signals"
       }
     ],
-    "url": "https://twitter.com/robert_gpt/status/1752917139038626067"
+    "url": "https://x.com/robert_gpt/status/1752917139038626067"
   },
   {
     "id": 30,
@@ -1864,7 +1919,7 @@
         "handle": "@sivers"
       }
     ],
-    "url": "https://twitter.com/robert_gpt/status/1752495447942328522"
+    "url": "https://x.com/robert_gpt/status/1752495447942328522"
   },
   {
     "id": 29,
@@ -1880,7 +1935,7 @@
         "handle": "@_jeffguo"
       }
     ],
-    "url": "https://twitter.com/robert_gpt/status/1752128027541073963"
+    "url": "https://x.com/robert_gpt/status/1752128027541073963"
   },
   {
     "id": 28,
@@ -1892,7 +1947,7 @@
         "handle": "@mattyglesias"
       }
     ],
-    "url": "https://twitter.com/robert_gpt/status/1751788405887840734",
+    "url": "https://x.com/robert_gpt/status/1751788405887840734",
     "refs": [
       "https://www.vox.com/2014/5/6/5687788/last-year-25-hedge-fund-managers-earned-more-than-double-every",
       "https://www.vox.com/2016/5/10/11648746/hedge-fund-manager-earnings"
@@ -1912,7 +1967,7 @@
         "handle": "@nabeelqu"
       }
     ],
-    "url": "https://twitter.com/robert_gpt/status/1751402799860978131",
+    "url": "https://x.com/robert_gpt/status/1751402799860978131",
     "refs": [
       "https://grantslatton.com/twitter",
       "https://nabeelqu.co/twitter"
@@ -1922,7 +1977,7 @@
     "id": 26,
     "title": "Man Men: 'Just a milkshake'",
     "dt": "2024-01-26",
-    "url": "https://twitter.com/robert_gpt/status/1751039356817547742",
+    "url": "https://x.com/robert_gpt/status/1751039356817547742",
     "refs": [
       "https://avminnesota.com/2020/12/19/Mad-Men-love,-mind-vs-body.html"
     ]
@@ -1931,19 +1986,19 @@
     "id": 25,
     "title": "When you love everyone, you love no one",
     "dt": "2024-01-25",
-    "url": "https://twitter.com/robert_gpt/status/1750696613893337315"
+    "url": "https://x.com/robert_gpt/status/1750696613893337315"
   },
   {
     "id": 24,
     "title": "Jane Austen",
     "dt": "2024-01-24",
-    "url": "https://twitter.com/robert_gpt/status/1750339900296057288"
+    "url": "https://x.com/robert_gpt/status/1750339900296057288"
   },
   {
     "id": 23,
     "title": "Jean-Paul Sartre: 'Existentialism Is a Humanism' (1946)",
     "dt": "2024-01-23",
-    "url": "https://twitter.com/robert_gpt/status/1749961693151563899",
+    "url": "https://x.com/robert_gpt/status/1749961693151563899",
     "refs": [
       "https://www.marxists.org/reference/archive/sartre/works/exist/sartre.htm"
     ]
@@ -1958,7 +2013,7 @@
         "handle": "@DrMayaAngelou"
       }
     ],
-    "url": "https://twitter.com/robert_gpt/status/1749615759116898674",
+    "url": "https://x.com/robert_gpt/status/1749615759116898674",
     "refs": [
       "https://www.harpersbazaar.com/culture/features/a9874244/best-maya-angelou-quotes/"
     ]
@@ -1973,19 +2028,19 @@
         "handle": "@leverus"
       }
     ],
-    "url": "https://twitter.com/robert_gpt/status/1749252158195732560"
+    "url": "https://x.com/robert_gpt/status/1749252158195732560"
   },
   {
     "id": 20,
     "title": "Yoga & Pilates",
     "dt": "2024-01-20",
-    "url": "https://twitter.com/robert_gpt/status/1748878407499227528"
+    "url": "https://x.com/robert_gpt/status/1748878407499227528"
   },
   {
     "id": 19,
     "title": "My first open source contribution ❤️",
     "dt": "2024-01-19",
-    "url": "https://twitter.com/robert_gpt/status/1748520552396927154",
+    "url": "https://x.com/robert_gpt/status/1748520552396927154",
     "people": [
       {
         "name": "Mithi Sevilla",
@@ -1997,7 +2052,7 @@
       }
     ],
     "refs": [
-      "https://twitter.com/github/status/1746744469863719096",
+      "https://x.com/github/status/1746744469863719096",
       "https://community.codenewbie.org/r002/project-1-march-6-2021-mithi-epic-react-exercises-3n2g"
     ]
   },
@@ -2015,7 +2070,7 @@
         "handle": "@justinlin"
       }
     ],
-    "url": "https://twitter.com/robert_gpt/status/1748160392755294604"
+    "url": "https://x.com/robert_gpt/status/1748160392755294604"
   },
   {
     "id": 17,
@@ -2027,13 +2082,13 @@
         "handle": "@kaetempest"
       }
     ],
-    "url": "https://twitter.com/robert_gpt/status/1747789550808637643"
+    "url": "https://x.com/robert_gpt/status/1747789550808637643"
   },
   {
     "id": 16,
     "title": "American Fiction",
     "dt": "2024-01-16",
-    "url": "https://twitter.com/robert_gpt/status/1747459466029564273"
+    "url": "https://x.com/robert_gpt/status/1747459466029564273"
   },
   {
     "id": 15,
@@ -2045,7 +2100,7 @@
         "handle": "@ItsRobbAllen"
       }
     ],
-    "url": "https://twitter.com/robert_gpt/status/1746905805570425120"
+    "url": "https://x.com/robert_gpt/status/1746905805570425120"
   },
   {
     "id": 14,
@@ -2057,7 +2112,7 @@
         "handle": "@nikitabier"
       }
     ],
-    "url": "https://twitter.com/robert_gpt/status/1746588165664591966"
+    "url": "https://x.com/robert_gpt/status/1746588165664591966"
   },
   {
     "id": 13,
@@ -2069,7 +2124,7 @@
         "handle": "@smc90"
       }
     ],
-    "url": "https://twitter.com/robert_gpt/status/1746158756793024551"
+    "url": "https://x.com/robert_gpt/status/1746158756793024551"
   },
   {
     "id": 12,
@@ -2081,13 +2136,13 @@
         "handle": "@johngreen"
       }
     ],
-    "url": "https://twitter.com/robert_gpt/status/1745945783914975514"
+    "url": "https://x.com/robert_gpt/status/1745945783914975514"
   },
   {
     "id": 11,
     "title": "Armageddon (1998) - The President's Speech",
     "dt": "2024-01-11",
-    "url": "https://twitter.com/robert_gpt/status/1745614186271351199",
+    "url": "https://x.com/robert_gpt/status/1745614186271351199",
     "people": [
       {
         "name": "Armageddon",
@@ -2109,7 +2164,7 @@
         "handle": "@torreydawley"
       }
     ],
-    "url": "https://twitter.com/robert_gpt/status/1745253532947587226"
+    "url": "https://x.com/robert_gpt/status/1745253532947587226"
   },
   {
     "id": 9,
@@ -2129,7 +2184,7 @@
         "handle": "@37signals"
       }
     ],
-    "url": "https://twitter.com/robert_gpt/status/1744922931325534531"
+    "url": "https://x.com/robert_gpt/status/1744922931325534531"
   },
   {
     "id": 8,
@@ -2141,7 +2196,7 @@
         "handle": "@BillAckman"
       }
     ],
-    "url": "https://twitter.com/robert_gpt/status/1744534544676479443"
+    "url": "https://x.com/robert_gpt/status/1744534544676479443"
   },
   {
     "id": 7,
@@ -2157,7 +2212,7 @@
         "handle": "@Mappletons"
       }
     ],
-    "url": "https://twitter.com/robert_gpt/status/1744061409531458023",
+    "url": "https://x.com/robert_gpt/status/1744061409531458023",
     "refs": [
       "https://whatever.scalzi.com/2022/11/25/how-to-weave-the-artisan-web/",
       "https://maggieappleton.com/garden-history"
@@ -2181,7 +2236,7 @@
         "handle": "@robinsloan"
       }
     ],
-    "url": "https://twitter.com/robert_gpt/status/1743505266031612090",
+    "url": "https://x.com/robert_gpt/status/1743505266031612090",
     "refs": [
       "https://www.swyx.io/learn-in-public",
       "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z21cgR9K3UcQ5a7yPsj2RUim3oM2TzdBByZu&stackedNotes=z7UeGpBpsZFWDmUq6VQgcB4TDfCUgxgXNuMvM"
@@ -2197,7 +2252,7 @@
         "handle": "@Mappletons"
       }
     ],
-    "url": "https://twitter.com/robert_gpt/status/1743260658185945308",
+    "url": "https://x.com/robert_gpt/status/1743260658185945308",
     "refs": [
       "https://maggieappleton.com/forest-talk",
       "https://maggieappleton.com/ai-dark-forest"
@@ -2213,7 +2268,7 @@
         "handle": "@apexlearn_org"
       }
     ],
-    "url": "https://twitter.com/robert_gpt/status/1742781536049549410"
+    "url": "https://x.com/robert_gpt/status/1742781536049549410"
   },
   {
     "id": 3,
@@ -2229,7 +2284,7 @@
         "handle": "@jk_rowling"
       }
     ],
-    "url": "https://twitter.com/robert_gpt/status/1742697068420813241"
+    "url": "https://x.com/robert_gpt/status/1742697068420813241"
   },
   {
     "id": 2,
@@ -2241,7 +2296,7 @@
         "handle": "@oliverburkeman"
       }
     ],
-    "url": "https://twitter.com/robert_gpt/status/1742404478270132553",
+    "url": "https://x.com/robert_gpt/status/1742404478270132553",
     "refs": [
       "https://www.theguardian.com/lifeandstyle/2013/feb/23/change-life-helsinki-bus-station-theory",
       "https://marital.ghost.io/blogroll/"
@@ -2260,7 +2315,7 @@
         "handle": "@X"
       }
     ],
-    "url": "https://twitter.com/robert_gpt/status/1742031082495549650",
+    "url": "https://x.com/robert_gpt/status/1742031082495549650",
     "refs": [
       "https://r002.github.io/?s=p0,p1,p2,p3"
     ],
