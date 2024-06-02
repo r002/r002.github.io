@@ -1,5 +1,245 @@
 [
   {
+    "id": 159,
+    "title": "The Other Zoey (2023)",
+    "dt": "2024-06-01",
+    "url": "https://x.com/robert_gpt/status/1797049297445253412",
+    "people": [
+      {
+        "name": "The Other Zoey",
+        "handle": "@The_Other_Zoey"
+      }
+    ],
+    "refs": [
+      "https://www.youtube.com/watch?v=iBbF1W3avMY"
+    ]
+  },
+  {
+    "id": 158,
+    "title": "Past Lives (2023)",
+    "dt": "2024-05-31",
+    "url": "https://x.com/robert_gpt/status/1796743183247774185",
+    "people": [
+      {
+        "name": "Past Lives",
+        "handle": "@pastlivesmovie"
+      }
+    ],
+    "refs": [
+      "https://www.youtube.com/watch?v=kA244xewjcI"
+    ]
+  },
+  {
+    "id": 157,
+    "title": "Exploit vs Explore",
+    "dt": "2024-05-30",
+    "url": "https://x.com/robert_gpt/status/1796337426698273056",
+    "people": [
+      {
+        "name": "dan",
+        "handle": "@mynamebedan"
+      }
+    ],
+    "refs": [
+      "https://x.com/mynamebedan/status/1796290367668805881"
+    ]
+  },
+  {
+    "id": 156,
+    "title": "Ryan Gosling Monologue - SNL + `I Was Made for Lovin' You`",
+    "dt": "2024-05-29",
+    "url": "https://x.com/robert_gpt/status/1795988988194435532",
+    "people": [
+      {
+        "name": "Ryan Gosling",
+        "handle": "@RyanGosling"
+      },
+      {
+        "name": "The Fall Guy",
+        "handle": "@TheFallGuyMovie"
+      }
+    ],
+    "refs": [
+      "https://www.youtube.com/watch?v=TVrULZ8SP3g",
+      "https://www.youtube.com/watch?v=35VDphr95dw"
+    ]
+  },
+  {
+    "id": 155,
+    "title": "The Fall Guy (2024)",
+    "dt": "2024-05-28",
+    "url": "https://x.com/robert_gpt/status/1795651508698042457",
+    "people": [
+      {
+        "name": "The Fall Guy",
+        "handle": "@TheFallGuyMovie"
+      },
+      {
+        "name": "Devon Zuegel",
+        "handle": "@devonzuegel"
+      }
+    ],
+    "refs": [
+      "https://www.youtube.com/watch?v=j7jPnwVGdZ8"
+    ]
+  },
+  {
+    "id": 154,
+    "title": "Canva Enterprise + Google I/O 2024",
+    "dt": "2024-05-27",
+    "url": "https://x.com/robert_gpt/status/1795264452679594426",
+    "people": [
+      {
+        "name": "Canva",
+        "handle": "@canva"
+      },
+      {
+        "name": "Google",
+        "handle": "@Google"
+      }
+    ],
+    "refs": [
+      "https://x.com/anothercohen/status/1794546736880640150",
+      "https://x.com/thatcryptobul/status/1794550510139347248"
+    ]
+  },
+  {
+    "id": 153,
+    "title": "'Creativity is vital' - Ethan Hawke",
+    "dt": "2024-05-26",
+    "url": "https://x.com/robert_gpt/status/1794906162623611044",
+    "people": [
+      {
+        "name": "Ethan Hawke",
+        "handle": "@ethanhawke"
+      },
+      {
+        "name": "TED Talks",
+        "handle": "@TEDTalks"
+      }
+    ],
+    "refs": [
+      "https://www.youtube.com/watch?v=WRS9Gek4V5Q&t=425s"
+    ]
+  },
+  {
+    "id": 152,
+    "title": "'In the pursuit of great, we failed to do good'",
+    "dt": "2024-05-25",
+    "url": "https://x.com/robert_gpt/status/1794523893576675664",
+    "people": [
+      {
+        "name": "Amanda Overton",
+        "handle": "@leeloo104"
+      },
+      {
+        "name": "Arcane",
+        "handle": "@arcaneshow"
+      }
+    ],
+    "refs": [
+      "https://www.youtube.com/watch?v=h43PUtr1BNc"
+    ]
+  },
+  {
+    "id": 151,
+    "title": "Arcane: Bridging the Rift",
+    "dt": "2024-05-24",
+    "url": "https://x.com/robert_gpt/status/1794150880641486987",
+    "people": [
+      {
+        "name": "Arcane",
+        "handle": "@arcaneshow"
+      }
+    ],
+    "refs": [
+      "https://www.youtube.com/watch?v=Mz4-38d3-AE"
+    ]
+  },
+  {
+    "id": 150,
+    "title": "'Burn the boats' — Hernán Cortés (1519)",
+    "dt": "2024-05-23",
+    "url": "https://x.com/robert_gpt/status/1793812714537554143"
+  },
+  {
+    "id": 149,
+    "title": "Microsoft Recall",
+    "dt": "2024-05-22",
+    "url": "https://x.com/robert_gpt/status/1793486471208288701"
+  },
+  {
+    "id": 148,
+    "title": "'The less you do, the harder it is to do things' - Levi",
+    "dt": "2024-05-22",
+    "url": "https://x.com/robert_gpt/status/1793151554804957340",
+    "people": [
+      {
+        "name": "Levi",
+        "handle": "@leviremmick"
+      }
+    ],
+    "refs": [
+      "https://x.com/leviremmick/status/1793332939264307455"
+    ]
+  },
+  {
+    "id": 147,
+    "title": "For one single brief, incandescent moment",
+    "dt": "2024-05-22",
+    "url": "https://x.com/robert_gpt/status/1793151554804957340"
+  },
+  {
+    "id": 146,
+    "title": "Xutual",
+    "dt": "2024-05-21",
+    "url": "https://x.com/robert_gpt/status/1793058003370787121"
+  },
+  {
+    "id": 145,
+    "title": "Arcane: League of Legends (2021)",
+    "dt": "2024-05-20",
+    "url": "https://x.com/robert_gpt/status/1792734171682525235",
+    "people": [
+      {
+        "name": "Arcane",
+        "handle": "@arcaneshow"
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "title": "Notes - The Inner Game of Tennis",
+    "dt": "2024-05-19",
+    "url": "https://x.com/robert_gpt/status/1792275960508662217",
+    "people": [
+      {
+        "name": "Tim Gallwey",
+        "handle": "@the_innergame"
+      },
+      {
+        "name": "The Inner Game of Tennis",
+        "handle": "@InnerGameTennis"
+      },
+      {
+        "name": "Tyler Cho",
+        "handle": "@TheTylerCho"
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "title": "Her",
+    "dt": "2024-05-18",
+    "url": "https://x.com/robert_gpt/status/1791915153551720574",
+    "people": [
+      {
+        "name": "Her",
+        "handle": "@herthemovie"
+      }
+    ]
+  },
+  {
     "id": 142,
     "title": "Tim Ferriss: 'Do less than you think you're able'",
     "dt": "2024-05-17",
