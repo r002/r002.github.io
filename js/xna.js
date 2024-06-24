@@ -348,7 +348,12 @@ function highltppl(tidArr) {
 function genweektitle(weekNo, weekstartdt, weekenddt) {
   const startparts = weekstartdt.split("-");
   const endparts = weekenddt.split("-");
-  if(startparts[1]===endparts[1]) {
+
+  if (weekstartdt===weekenddt) {
+    const startdt = genprettydate(weekstartdt,"short");
+    return `Week #${weekNo}: ${startdt}`;
+  }
+  if (startparts[1]===endparts[1]) {
     const startdt = genprettydate(weekstartdt,"short");
     return `Week #${weekNo}: ${startdt}-${endparts[2].replace(/^0+/, '')}`;
   }
@@ -360,11 +365,8 @@ function rendertweets(tidArr, all) {
   tidArr.sort((a, b) => a - b); // sort smallest to largest
   // console.log(tidArr);
   let sArr = [];
-  let weekNo = 1;
+  let weekNo = 0;
   const days = ['Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat'];
-
-  // sArr.push(`<div class="tweetresult">Week #1: Monday - Jan 1, 2024</div>`);
-
   let weekstartdt = arrTWEET[0].dt;
   let weekenddt, weektitle, d;
   let t;
@@ -374,10 +376,13 @@ function rendertweets(tidArr, all) {
     // console.log(t.dt, t.title);
 
     if (all) {
-      d = new Date(t.dt);
-      if("Sat"===days[d.getUTCDay()]) {
+      d = new Date(t.dt);  // This creates date obj in UTC
+      d.setHours(d.getHours()+5); // Convert the UTC date to ET
+      // console.log(d, d.getUTCDay(), days[d.getUTCDay()]);
+
+      if ("Sat"===days[d.getUTCDay()]) {
         weekenddt = t.dt;
-        weektitle = genweektitle(weekNo++, weekstartdt, weekenddt);
+        weektitle = genweektitle(++weekNo, weekstartdt, weekenddt);
       } else if("Sun"===days[d.getUTCDay()]) {
           // console.log(`\t>>> ${weektitle} <<<`);
           sArr.push(`<div class="tweetresult" style="text-align:center;background-color:#fafafa;
@@ -398,17 +403,19 @@ function rendertweets(tidArr, all) {
   }
 
   if (all) {
-    // If Sunday hasn't passed, render current week's weektitle
-    if (days[d.getUTCDay()] !== "Sun") {
+      d = new Date(t.dt);  // This creates date obj in UTC
+      d.setHours(d.getHours()+5); // Convert the UTC date to ET
+      if ("Sat"===days[d.getUTCDay()]) {
+        weekNo--; // Decrement one because we already incremented above without painting on Sat
+      }
       // console.log(`\t>>> ${weektitle} <<<`);
       weekenddt = t.dt;
-      weektitle = genweektitle(weekNo++, weekstartdt, weekenddt);
+      weektitle = genweektitle(++weekNo, weekstartdt, weekenddt);
       sArr.push(`<div class="tweetresult" style="text-align:center;background-color:#fafafa;
                     border-top:1px dotted gainsboro;border-bottom:1px dotted gainsboro;">
                     ${weektitle}
                 </div>`);
       weekstartdt = t.dt;
-    }
   }
   sArr.reverse();
   document.getElementById("searchresult").innerHTML = sArr.join("\n");
@@ -420,7 +427,7 @@ function leftpad(id){
 }
 
 function resetppl() {
-  if(SELECTEDPERSON==="") {
+  if (SELECTEDPERSON==="") {
     Array.from(document.getElementsByClassName("person")).forEach(p=>p.classList.remove("dim"));
   } else {
     highltperson(SELECTEDPERSON);
