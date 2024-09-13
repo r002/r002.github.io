@@ -50,7 +50,6 @@ Onward and upward!! Accelerate!! 🌎🚀✨
 - [ ] research `blueskey` and `x` apis for simultaneous posting
   - [ ] build a central GUI that posts to both simultaneously?
   - [ ] research how to bring `analytics counts` to `bluesky` (see how many impressions/clicks each post got)
-- [ ] scrolling should only scroll the `Tweet Timestream` center pane
 - [ ] index all tweet titles in the database so they can be searched
 - [ ] strip all punctuation when indexing dbs
 - [ ] build chrome ext that extracts & transforms a tweet's text, ppl, & ref links into json
@@ -68,6 +67,7 @@ Onward and upward!! Accelerate!! 🌎🚀✨
 - [ ] write pre-commit hook to ensure metadata integrity
 - [ ] add the `this is an educational resource` badge to topbar
 - [ ] create `links` section on XNA page
+- [ ] scrolling should only scroll the `timestream` center pane
 - [x] separate `timestream` by `week # divider`
 - [x] create `books` section on XNA page
 - [x] add `bad movie club` page

@@ -1,5 +1,225 @@
 [
   {
+    "id": 214,
+    "title": "Joe Biden drops out of race!",
+    "dt": "2024-07-21",
+    "url": "https://x.com/robert_gpt/status/1815209423624658960",
+    "people": [
+      {
+        "name": "Joe Biden",
+        "handle": "@JoeBiden"
+      }
+    ],
+    "refs": [
+      "https://britannica.com/story/have-any-us-presidents-decided-not-to-run-for-a-second-term"
+    ],
+    "img": "https://pbs.twimg.com/media/GTDrMSiXUAA9-Va?format=jpg&name=medium",
+    "tweetText": "https://britannica.com/story/have-any-us-presidents-decided-not-to-run-for-a-second-term…"
+  },
+  {
+    "id": 213,
+    "title": "Nourish the soul, mind, and body",
+    "dt": "2024-07-20",
+    "url": "https://x.com/robert_gpt/status/1814872369388740752",
+    "refs": [
+      "https://r002.github.io"
+    ],
+    "tweetText": "It's as important to nourish the soul as it is to nourish the mind and body. All three need nourishment, and require different sustenance."
+  },
+  {
+    "id": 212,
+    "title": "Life lesson: Bring earplugs to concerts",
+    "dt": "2024-07-19",
+    "url": "https://x.com/robert_gpt/status/1814501736079380749",
+    "refs": [
+      "https://r002.github.io"
+    ],
+    "tweetText": "Protip: bring ear plugs to concerts. If you forget, you can try buying them at Customer Service. ($2 at Riverbend in Cincinnati!!)"
+  },
+  {
+    "id": 211,
+    "title": "Populations affect correlations",
+    "dt": "2024-07-18",
+    "url": "https://x.com/robert_gpt/status/1814147764764234070",
+    "refs": [
+      "https://osf.io/preprints/osf/cd5kt"
+    ],
+    "img": "https://pbs.twimg.com/media/GS0ia9_WMAA55Uc?format=jpg&name=900x900",
+    "tweetText": "What's interesting to me ab this chart that @Codie_Sanchez shared was how different the correlations can vary depending on your culture. eg. Russian/English speakers are much better at \"being left alone\" (only a -0.2 r to life satisfaction) vs Estonian-speakers (a -0.6 r).\n\nFull study: https://osf.io/preprints/osf/cd5kt…"
+  },
+  {
+    "id": 210,
+    "title": "Why We Shouldn't Ban TikTok",
+    "dt": "2024-07-17",
+    "url": "https://x.com/robert_gpt/status/1813769421254488088",
+    "refs": [
+      "https://meetup.com/gdg-cloud-cincinnati/events/301876191/"
+    ],
+    "img": "https://pbs.twimg.com/media/GSvLtwoWIAAdPTQ?format=jpg&name=900x900",
+    "tweetText": "Last-min plug! Tmr (July 18 at 5:30p ET), I'll be channeling my inner-Atticus Finch & defending TikTok from the US ban that's been passed! Bringing back Lincoln-Douglas debates, ftw!! \"💪\"\n\nIf you're in the Cincy area, pls join us!! Meetup link below \"👇\" (There'll be free \"🍕\" too!!)"
+  },
+  {
+    "id": 209,
+    "title": "Discovered MrBeast",
+    "dt": "2024-07-16",
+    "url": "https://x.com/robert_gpt/status/1813422593870893503",
+    "refs": [
+      "https://r002.github.io"
+    ],
+    "tweetText": "Watched my first MrBeast video last night (the one where he gets together 50 YouTubers to compete for $1M). Afterwards, I watched three more vids (the laser challenge + \"protect yacht\" + \"protect Lamborghini\"). The spectacle of his videos is undeniable. He is 26yo & worth $500M. Incredibly impressive.\n\nRead up more on his Wikipedia page. He began posting YT vids when he was 13yo. Very inspiring story."
+  },
+  {
+    "id": 208,
+    "title": "Writing fiction: story & narrative",
+    "dt": "2024-07-15",
+    "url": "https://x.com/robert_gpt/status/1813044682634547329",
+    "refs": [
+      "https://r002.github.io"
+    ],
+    "tweetText": "Writing fiction is tough bc you need to figure out both the story & the narrative. Whereas, w/ writing non-fiction, the story already exists, so you're really just crafting the narrative: ie. trying to decide what scenes to include, what ppl & events to focus on, etc. But w/ writing fiction, you need to first create the clay itself before you can sculpt it."
+  },  
+  {
+    "id": 207,
+    "title": "“Cruelty is a failture of imagination” - Ian McEwan",
+    "dt": "2024-07-14",
+    "url": "https://x.com/robert_gpt/status/1812638771889734009",
+    "refs": [
+      "https://thebeliever.net/an-interview-with-ian-mcewan/"
+    ],
+    "img": "https://pbs.twimg.com/media/GSfIpKDXwAAHdQo?format=jpg&name=900x900",
+    "tweetText": "https://thebeliever.net/an-interview-with-ian-mcewan/…\n\nIan McEwan: \"Cruelty is a failure of imagination.\""
+  },
+  {
+    "id": 206,
+    "title": "Bad Therapy",
+    "dt": "2024-07-13",
+    "url": "https://x.com/robert_gpt/status/1812121276527350093",
+    "people": [
+      {
+        "name": "sankalp",
+        "handle": "@dejavucoder"
+      }
+    ],
+    "refs": [
+      "https://r002.github.io"
+    ],
+    "img": "https://pbs.twimg.com/media/GSSeHaVagAI912_?format=jpg&name=900x900",
+    "tweetText": "Not all therapy is good. In fact, a while back, there was that \"Bad Therapy\" book making the rounds that discussed this. Just repeatedly talking ab your problems isn't always healthy. Instead, *doing things* (that one viral tweet ab \"dancing being the best antidepressant\" comes to mind) will actually help you way more than an endless amount of talk therapy ever could."
+  },
+  {
+    "id": 205,
+    "title": "Regularly show up to develop a consistent habit",
+    "dt": "2024-07-12",
+    "url": "https://x.com/robert_gpt/status/1811920018403205292",
+    "people": [
+      {
+        "name": "Pat Walls",
+        "handle": "@thepatwalls"
+      }
+    ],
+    "refs": [
+      "https://r002.github.io"
+    ],
+    "img": "https://pbs.twimg.com/media/GSIj3WxWsAEJltv?format=png&name=900x900",
+    "tweetText": "Can't remember where I first read this, but if you're trying to build a new habit, the best first step is to simply regularly show up at a consistent time & place. Doesn't matter if you actually do the thing in the beginning (coding, writing, exercising, etc). But initially, just show up regularly & consistently.\n\nOnce you train your body to routinely be in a specific place at a specific time for a specific duration each day, the rest will follow."
+  },
+  {
+    "id": 204,
+    "title": "Installed last two remaining blinds from Home Depot",
+    "dt": "2024-07-11",
+    "url": "https://x.com/robert_gpt/status/1811605014219243713",
+    "refs": [
+      "https://r002.github.io"
+    ],
+    "img": "https://pbs.twimg.com/media/GSQcKjVX0AAIGSX?format=jpg&name=900x900",
+    "tweetText": "I finally installed the last two remaining blinds in my home today. These were tasks on The List! I've literally procrastinated for nine months but today was finally the day!! \"💪\"\n\nWhatever you've been putting off, just do it. One task every day, big or small. It'll set you free!!"
+  },  
+  {
+    "id": 203,
+    "title": "“That Crafty Feeling” - Zadie Smith (March 24, 2008)",
+    "dt": "2024-07-10",
+    "url": "https://x.com/robert_gpt/status/1811239855210344474",
+    "people": [
+      {
+        "name": "White Teeth",
+        "handle": "@ZadieSmith"
+      }
+    ],
+    "refs": [
+      "https://thebeliever.net/that-crafty-feeling/"
+    ],
+    "img": "https://pbs.twimg.com/media/GSLQeMhXEAA_Vg6?format=png&name=900x900",
+    "tweetText": "https://thebeliever.net/that-crafty-feeling/…\n\n\"I can’t tell you how many times I’ve sat backstage with a line of novelists at some festival, all of us with red pens in hand, frantically editing our published novels into fit form so that we might go on stage and read from them. It’s an unfortunate thing, but it turns out that the perfect state of mind to edit your own novel is two years after it’s published, ten minutes before you go on stage at a literary festival.\"  — @ZadieSmith"
+  },
+  {
+    "id": 202,
+    "title": "Just say 'no' to California",
+    "dt": "2024-07-09",
+    "url": "https://x.com/robert_gpt/status/1810886073662255381",
+    "people": [
+      {
+        "name": "Maggie Appleton",
+        "handle": "@Mappletons"
+      }
+    ],
+    "img": "https://pbs.twimg.com/media/GSGPSI-WwAA1a6I?format=jpg&name=medium",
+    "tweetText": "\"💯\" this. While I don't resent the idea, I do reject it as well & am always glad to see folks happy elsewhere & rejecting SF's gravitational pull. We need creatives & makers everywhere; this diversity is healthy for everyone.\n\nCongrats, Maggie, on your next chapter!! \"👏\""
+  },
+  {
+    "id": 201,
+    "title": "Mission Accomplished: Haircut",
+    "dt": "2024-07-09",
+    "url": "https://x.com/robert_gpt/status/1810843362477412778",
+    "img": "https://pbs.twimg.com/media/GSFn15BWgAAA5wE?format=jpg&name=900x900",
+    "tweetText": "Mission accomplished.\n\nJust do one thing a day. One single thing."
+  },
+  {
+    "id": 200,
+    "title": "The List",
+    "dt": "2024-07-08",
+    "url": "https://x.com/robert_gpt/status/1810504161068208389",
+    "tweetText": "Everyone has \"The List\". That list of, \"tasks I should do, but don't quite rise to the level of urgent.\" And so this list then just permanently occupies mental space.\n\nStarting tmr, I'm going to knock exactly one item off the list every day this next week.\n\nYou should too. Who's with me?! Let's do it together!\"💪\"\n\n(Tmr, I'm going to finally get a haircut.)"
+  },  
+  {
+    "id": 199,
+    "title": "Boxer & Biden - Animal Farm",
+    "dt": "2024-07-08",
+    "url": "https://x.com/robert_gpt/status/1810163436883517649",
+    "people": [
+      {
+        "name": "Rothmus",
+        "handle": "@Rothmus"
+      }
+    ],
+    "img": "https://pbs.twimg.com/media/GR3Gz1jXQAAftGN?format=jpg&name=900x900",
+    "tweetText": "Boxer. In that scene towards the end where he's being carted away to the slaughterhouse. That's what I kept thinking of when I watched the debate clips last week. Honestly, I blame Biden's team maybe more than I even fault Biden. Ppl around him are not telling him what he needs to hear. And I cannot blame the man for fighting. He's been a public servant just ab his entire adult life. He's a fighter; not a quitter. Never giving up & always trying his best is just who he is. He doesn't know how to quit.\n\nIn any case, this is why you should read the classics. They stay in your head long after you've finished them and give you great shorthand & references when communicating w/ others. It's basically having a whole other shared vernacular w/ ppl who share your preferences in books!"
+  },  
+  {
+    "id": 198,
+    "title": "“The whole thing was very clinical. Reduced to its technical essence, it was a problem of resource management”",
+    "dt": "2024-07-07",
+    "url": "https://x.com/robert_gpt/status/1810042041478664301",
+    "people": [
+      {
+        "name": "Michael Nielsen",
+        "handle": "@michael_nielsen"
+      },
+      {
+        "name": "Lev Grossman",
+        "handle": "@leverus"
+      }
+    ],
+    "img": "https://pbs.twimg.com/media/GR6MZLVagAAaTWm?format=jpg&name=medium",
+    "tweetText": "Great fiction —like, truly great, the kind you remember your whole life— have passages you remember long after you've closed the cover. They resonate in a way deep & personal in that particular season of life you're in when you'd first read it (and perhaps even now), bc they capture & express something so real in your own life that you're feeling intimately. And then years later, like an old friend, they revisit you, entirely randomly, apropos of nothing, from time to time in your mind's eye. That is great fiction."
+  },
+  {
+    "id": 197,
+    "title": "From Moon Missions to Coconut Trees: Iconic Quotes🚀🥥",
+    "dt": "2024-07-06",
+    "url": "https://x.com/robert_gpt/status/1809622366089040142",
+    "tweetText": "TIL: The person who gave us, \"What can be, unburdened by what has been\" (which I thought originated from LOTR but didn't!) also gave us, \"You think you just fell out of a coconut tree?\"\n\nI unironically \"❤\" how we've gone from, \"We choose to go to the Moon..\" to this. Peak oratory."
+  },
+  {
     "id": 196,
     "title": "Fiction Writing as a Bottom-Up Process",
     "dt": "2024-07-05",
