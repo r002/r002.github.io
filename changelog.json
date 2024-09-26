@@ -1,5 +1,13 @@
 [
   {
+    "dt": "2024-09-26",
+    "version": "1.4.10",
+    "notes": [
+      "put temp fix for `missed days` bug",
+      "update tweets"
+    ]
+  },
+  {
     "dt": "2024-09-12",
     "version": "1.4.9",
     "notes": [

@@ -47,6 +47,7 @@ Onward and upward!! Accelerate!! 🌎🚀✨
 **
 
 ## TODO
+- [ ] fix `[Missed Day]` calendar issue - `#219: July 26`
 - [ ] research `blueskey` and `x` apis for simultaneous posting
   - [ ] build a central GUI that posts to both simultaneously?
   - [ ] research how to bring `analytics counts` to `bluesky` (see how many impressions/clicks each post got)

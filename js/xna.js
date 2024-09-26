@@ -372,6 +372,11 @@ function rendertweets(tidArr, all) {
   let t;
   for (const id of tidArr) {
     t = arrTWEET[id-1];
+
+    if (!t) {  // Temp fix for the `[Missed Day] bug - 9/26/24
+      continue;
+    }
+
     const e = t.title.length > 54 ? "..." : "";
     // console.log(t.dt, t.title);
 
