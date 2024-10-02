@@ -1,12 +1,750 @@
 [
   {
+    "id": 289,
+    "title": "Steve Jobs: 'Real artists ship'",
+    "dt": "2024-10-01",
+    "url": "https://x.com/robert_gpt/status/1841264089198129495",
+    "people": [
+      {
+        "name": "Tyger Cho",
+        "handle": "@tyger_cho"
+      }
+    ],
+    "img": "https://pbs.twimg.com/media/GY16SkfXsAAz9U6?format=jpg&name=medium",
+    "tweetText": "S/o to @tyger_cho! That thing we discussed this past May? I did it! I finally did it. I've been thinking & talking ab it for years. But yesterday I finally shipped. \"💪\"\n\nFeels SO good. Starting is fine but finishing is where all the glory is. Hope you're well in SK, my friend!! \"✊\""
+  },
+  {
+    "id": 288,
+    "title": "Charlie Chaplin | The Great Dictator (1940)",
+    "dt": "2024-09-30",
+    "url": "https://x.com/robert_gpt/status/1840949726101012790",
+    "refs": [
+      "https://youtu.be/NJktSWTG0DE",
+      "https://www.charliechaplin.com/en/articles/29-the-final-speech-from-the-great-dictator-"
+    ],
+    "tweetText": "Charlie Chaplin | The Great Dictator (1940)\nMusic: Fordlândia by Jóhann Jóhannsson\nhttps://youtu.be/NJktSWTG0DE"
+  },
+  {
+    "id": 287,
+    "title": "The last 10% is what separates legends from mere mortals.",
+    "dt": "2024-09-29",
+    "url": "https://x.com/robert_gpt/status/1840598711358910850",
+    "tweetText": "The last 10% is what separates legends from mere mortals."
+  },  
+  {
+    "id": 286,
+    "title": "Power outage bc of Hurricane Helene",
+    "dt": "2024-09-28",
+    "url": "https://x.com/robert_gpt/status/1840116397558362223",
+    "tweetText": "Last night, like thousands of others in Ohio, I'd lost power bc of Hurricane Helene. (I honestly hadn't even known it was possible for the Midwest to get hurricanes, seriously.) I was one of the lucky ones so the outage was only ~5:45p to ab midnight. It was still a weird evening though. I was literally typing one of my final Slack messages for work for the week when the grid went. (I just finished typing it on my phone & sending it; the draft had synced flawlessly! TY, Salesforce! Keeping work uninterrupted even as civilization crumbled! \"💪\") And luckily, there were still a few hours of daylight left. We got dinner at a nearby sushi place (that'd been unaffected, somehow) & then bought some candles & returned home.\n\nI really enjoyed the downtime, personally. I even got some writing done on my phone which still had 4G. Obviously, I don't want rolling blackouts every week. But the whole ~6 hour experience made me think that the Jewish with their Shabbat practice are onto something, as are the Amish & their disinclination/selective use of electricity. I haven't put all the pieces together yet, but last night when we all returned to basics, we regained something raw, fundamental, and human. (To be clear though, I'm glad the return was short enough so none of the food in our fridge spoiled.) Still, it was long enough to shake me from my weekly Friday evening routine stupor. Thank you, Universe!! \"🙏\"\"🌌\""
+  },
+  {
+    "id": 285,
+    "title": "What's past is prologue",
+    "dt": "2024-09-27",
+    "url": "https://x.com/robert_gpt/status/1839847404025131126",
+    "people": [
+      {
+        "name": "Bianca Leigh",
+        "handle": "@biancaleighw"
+      }
+    ],
+    "tweetText": "\"What's past is prologue.\"\n~Shakespeare, The Tempest"
+  },  
+  {
+    "id": 284,
+    "title": "Planet Money | Money can buy happiness! (Sep 2024)",
+    "dt": "2024-09-26",
+    "url": "https://x.com/robert_gpt/status/1839514721050894657",
+    "refs": [
+      "https://npr.org/2024/09/18/1200121013/money-happiness-kahneman-killingsworth"
+    ],
+    "img": "https://pbs.twimg.com/media/GYdCJpMa4AAToXJ?format=jpg&name=large",
+    "tweetText": "Great Planet Money ep this week! An update on the famous 2010 \"Can Money Buy Happiness?\" study:\n- Kahneman was (mostly) wrong!\n- For 85% of the population, more money buys more happiness with NO plateau\n- For 15% of the population, more money buys more happiness even faster at the top end\n- For 15% of the population, Kahneman was correct: happiness plateaus at $75k/yr (in 2010 dollars)"
+  },
+  {
+    "id": 283,
+    "title": "Trevor Noah: 'Talking sh*t ab your partner is healthy'",
+    "dt": "2024-09-25",
+    "url": "https://x.com/robert_gpt/status/1839098750041829568",
+    "people": [
+      {
+        "name": "Jojo Mojo",
+        "handle": "@jojoxcvii"
+      }
+    ],
+    "tweetText": "\"Studies have shown that even just having a friend who you can talk sh*t about your partner to —which is healthy, btw— actually improves the chances of staying with your partner.\"  —@Trevornoah"
+  },
+  {
+    "id": 282,
+    "title": "What is the organizing principle of childless people?",
+    "dt": "2024-09-24",
+    "url": "https://x.com/robert_gpt/status/1838707656548323537",
+    "tweetText": "A q for all childless ppl out there ~40yo: What is your organizing principle? Do you have specific forcing functions after work that constrain you to a specific schedule? How do you spend your free time? Project-based? Flights of fancy in whatever interests you? Am legit curious."
+  },
+  {
+    "id": 281,
+    "title": "Paul Millerd: 'Writing can't be done in rational mode'",
+    "dt": "2024-09-23",
+    "url": "https://x.com/robert_gpt/status/1838086936893821306",
+    "people": [
+      {
+        "name": "Paul Millerd",
+        "handle": "@p_millerd"
+      },
+      {
+        "name": "David Perell",
+        "handle": "@david_perell"
+      }
+    ],
+    "refs": [
+      "https://www.youtube.com/watch?v=udwLnrzRIVo&t=3860s"
+    ],
+    "img": "https://pbs.twimg.com/media/GYIwPsAW8AAqpPH?format=jpg&name=medium",
+    "tweetText": "\"If you want to write, that is a creative act. And a creative act is very hard to do in rational mode.\" \n—@p_millerd\n\nGood writing starts w/ emotional truth. It's a fundamentally different way of operating. The best way I can phrase it: INTJs need to toggle to INFP when writing."
+  },  
+  {
+    "id": 280,
+    "title": "Janine Leger talking ab Edge City at Network Conference 2024",
+    "dt": "2024-09-22",
+    "url": "https://x.com/robert_gpt/status/1838026998037311527",
+    "people": [
+      {
+        "name": "Edge City",
+        "handle": "@JoinEdgeCity"
+      },
+      {
+        "name": "timour kosters",
+        "handle": "@timourxyz"
+      }
+    ],
+    "refs": [
+      "https://youtube.com/watch?v=OWEGg-ZTtSE"
+    ],
+    "img": "https://pbs.twimg.com/media/GYH7gf_XcAAzr7E?format=jpg&name=medium",
+    "tweetText": "All the @JoinEdgeCity folks! @timourxyz @JanineLeger @devonzuegel are in this space. The Network State Conference 2024 livestream just dropped too and opened w/ Janine talking ab Edge City. \"👍\"\n\nhttps://youtube.com/watch?v=OWEGg-ZTtSE…"
+  },  
+  {
+    "id": 279,
+    "title": "Europeans vs Americans re nuclear energy",
+    "dt": "2024-09-21",
+    "url": "https://x.com/robert_gpt/status/1837555896307929112",
+    "people": [
+      {
+        "name": "Mark Nelson",
+        "handle": "@energybants"
+      }
+    ],
+    "tweetText": "A reminder that the grass is greener wherever you water. I'm personally \"💯\" on the American side but also understand the nostalgic & safety/fear-driven desire to turn back the clock. The good news is Earth is large enough for all views. Germany is tearing down its nuclear plants & America is restarting theirs (so Microsoft can power AI). Fitting bookends that describe the current global state of play today. 2024 summer will be known in the future as the moment in history when the destinies of countries diverged bc of their nuclear policies."
+  },
+  {
+    "id": 278,
+    "title": "My favorite biographies of joint rivals",
+    "dt": "2024-09-20",
+    "url": "https://x.com/robert_gpt/status/1837322861125550290",
+    "people": [
+      {
+        "name": "Ulkar",
+        "handle": "@ulkar_aghayeva"
+      }
+    ],
+    "tweetText": "I'm also fascinated with biographical stories of rivals. The four that come to mind:\n- Pirates of Silicon Valley (1999) - The Steve Jobs vs Bill Gates story\n- 61* (2001) - The 1961 season where Roger Maris & Mickey Mantle faced off to break Babe Ruth's 1927 single-season home run record\n- Rush (2013) - The F1 rivalry between Briton James Hunt vs Austrian Niki Lauda that covers the 1976 motor-racing season\n- The Current War (2017) - Thomas Edison vs George Westinghouse over the US's electric power delivery system\n\nDoes anyone else have recommendations? Love this genre."
+  },  
+  {
+    "id": 277,
+    "title": "a16z | Governing democracy on the internet",
+    "dt": "2024-09-19",
+    "url": "https://x.com/robert_gpt/status/1836943120753185008",
+    "people": [
+      {
+        "name": "Noah Feldman",
+        "handle": "@NoahRFeldman"
+      },
+      {
+        "name": "Andy Hall",
+        "handle": "@ahall_research"
+      }
+    ],
+    "refs": [
+      "https://a16z.simplecast.com/episodes/governing-democracy-the-internet-and-boardrooms"
+    ],
+    "img": "https://pbs.twimg.com/media/GX4ewMPWEAAltHP?format=png&name=900x900",
+    "tweetText": "https://a16z.simplecast.com/episodes/governing-democracy-the-internet-and-boardrooms…\n\nGood listen this week. Three big challenges according to @NoahRFeldman & @ahall_research for exercising democracy on a global platform:\n\n1. Trolls who lack skin in the game (the \"Boaty McBoatface\" problem). Also: general lack of participation often selects for ppl w/ extreme preferences.\n\n2. Who gets to decide the policy? eg. The definitions of X or Y or Z? Geographically, laws make sense bc ppl can't easily relocate for advantage (eg. for a school district for their kids). But with VPNs, if policies simply changed based on your IP, things will get hyper-balkanized quickly.\n\n3. Who is the denominator? Voting is a means of self-determination & governance for a local population. eg. New Yorkers care ab congestion pricing bc that directly affects their QoL in Manhattan. Both drivers & non-drivers alike are affected.\n\nBut on a global platform, what is the \"local population\" that voting is meant to serve?"
+  },
+  {
+    "id": 276,
+    "title": "Amazon's 5-day RTO mandate",
+    "dt": "2024-09-18",
+    "url": "https://x.com/robert_gpt/status/1836280163593834800",
+    "people": [
+      {
+        "name": "John McBride",
+        "handle": "@johncodezzz"
+      }
+    ],
+    "tweetText": "I love this Amazon 5d RTO take, especially highlighting all the reasons cities give such massive tax breaks for office HQs.\n\nWhile I totally understand why ppl like WFH & avoiding 1-2 hour commutes, at the day's end I'm a collectivist on this. We all worked 5d a week at the office before. We can certainly do it again. Yes, individuals (especially parents of young children) may struggle more. And yes, I even grant some of you may be *less* productive at the office. But in my mind, all the benefits to the *surrounding office areas* are worth it. More money for small businesses like cafes and restaurants. More people doing stuff outside together after work bc they're already out. More foot traffic revitalizing our downtown urban cores or even the areas surrounding office parks. The list goes on and on.\n\nUltimately, I just don't want to live in a dystopian world where everyone's WFH and society is atomized. I want a society that is vibrant, connected, and alive! Not just with everyone stuck in their own individual bubbles at home all the time.\n\nI'm \"💯\" with Jassy on this one."
+  },
+  {
+    "id": 275,
+    "title": "Max Barry: 'Write with a daily word MAX'",
+    "dt": "2024-09-17",
+    "url": "https://x.com/robert_gpt/status/1836236343212409170",
+    "people": [
+      {
+        "name": "Max Barry",
+        "handle": "@MaxBarry"
+      }
+    ],
+    "tweetText": "One of my favorite authors, @MaxBarry has a great tip for aspiring writers: instead of trying to hit a daily word count (say, 500 words), pretend instead you have a daily word max. And you're only allowed to record 500 of your best words for that day. This is something that's helped me a lot. Spewing quantity to reach a daily count just means there's more chaff to have to sort through later. \"🙄\" #WritingCommunity"
+  },
+  {
+    "id": 274,
+    "title": "Delusions of grandeur",
+    "dt": "2024-09-16",
+    "url": "https://x.com/robert_gpt/status/1835863043407839739",
+    "tweetText": "Fueled by delusions of grandeur.\nSometimes, head canon's all you got.\n\nFor anyone who's ever put pen to paper, brush to canvas, or held the microphone, there's always that one moment right before you do the thing. \n\nDrink your own Kool-Aid.\nBelieve your own hype.\n\nYou are enough."
+  },
+  {
+    "id": 273,
+    "title": "John Rawls: The Veil of Ignorance",
+    "dt": "2024-09-15",
+    "url": "https://x.com/robert_gpt/status/1835488692116357602",
+    "people": [
+      {
+        "name": "Tom Hatfield",
+        "handle": "@WordMercenary"
+      }
+    ],
+    "refs": [
+      "https://plato.stanford.edu/entries/original-position/"
+    ],
+    "img": "https://pbs.twimg.com/media/GXc5EgYWIAA8ggE?format=jpg&name=medium",
+    "tweetText": "John Rawls's Veil of Ignorance applies here.\n\nhttps://plato.stanford.edu/entries/original-position/…"
+  },  
+  {
+    "id": 272,
+    "title": "Castle",
+    "dt": "2024-09-14",
+    "url": "https://x.com/robert_gpt/status/1835140061567897714",
+    "people": [
+      {
+        "name": "Visakan Veerasamy",
+        "handle": "@visakanv"
+      }
+    ],
+    "tweetText": "Right now we're watching Castle, the series that aired 8 seasons from 2009-2016. (Just started s3!) First, huge alpha in watching TV shows w/ the SO! That's definitely one of the highest leverage ways to build joint memories & convo topics. \"👍\" To this day, we still talk ab scenes from Mad Men, which we'd first watched during COVID.\n\nWatching Castle for us is funny though. I love the series bc I love watching Fillion and Katic. Will they or won't they? And I'm super-invested with every turn in that relationship. The plot of each ep, honestly at this point just breezes over me. Sometimes, I feel too tired to even follow what's going on.\n\nWhereas, she only watches for the murder mystery & Fillion annoys her to no end. \"😅\""
+  },
+  {
+    "id": 271,
+    "title": "Mark Zuckerberg's 20-year mistake | Platformer (Sep 2024)",
+    "dt": "2024-09-13",
+    "url": "https://x.com/robert_gpt/status/1834745574949605739",
+    "people": [
+      {
+        "name": "Casey Newton",
+        "handle": "@CaseyNewton"
+      }
+    ],
+    "refs": [
+      "Mark Zuckerberg’s 20-year mistake"
+    ],
+    "img": "https://pbs.twimg.com/media/GXZRf-wWAAAPPdK?format=png&name=900x900",
+    "tweetText": "Great piece by @CaseyNewton. I love Mark's current redemption arc. In particular, Casey shares a great insight that when FB accepted responsibility, it actually just gave license to others to heap even more blame their way.\n\n\"What [Zuckerberg] believes is unfair, I think, is the suggestion that Meta is primarily responsible for our polarized politics, the decline of democracy, or the dire state of mental health among young people in the United States.\n\n\"What led Zuckerberg to lose faith in the value of contrition? Here’s a guess: ultimately, it bought him very little, at least in the court of public opinion. Meta seems equally disliked in red and blue states; this week, 42 attorneys general endorsed a plan to force Zuckerberg to add warning labels to his products saying that they put children at risk. Why apologize, you can imagine him and his lieutenants asking one another, when it gets you nowhere?\""
+  },
+  {
+    "id": 270,
+    "title": "Builders must build",
+    "dt": "2024-09-12",
+    "url": "https://x.com/robert_gpt/status/1834391327762432031",
+    "people": [
+      {
+        "name": "evelyn",
+        "handle": "@evelynjunn"
+      }
+    ],
+    "tweetText": "\"💯\" true. Additionally, a corollary:\n\nIf you have a `builder side` and you don't build, you'll also literally go insane.\n\nNot all building is necessarily creative. For example, think of a carpenter building a chair. He's probably built a hundred chairs, each identical. But there's still a ton of craftmanship & attention to detail that's the fun part.\n\n(Incidentally, coding is much the same way too. I honestly think of coders more as craftsmen. You're not doing anything groundbreaking per se. But there's still a fine precision and technique to the craft which is what makes it enjoyable.)"
+  },
+  {
+    "id": 269,
+    "title": "'You can only do 1 or 2 things well'",
+    "dt": "2024-09-11",
+    "url": "https://x.com/robert_gpt/status/1834039628334236062",
+    "people": [
+      {
+        "name": "Henrik Karlsson",
+        "handle": "@phokarlsson"
+      }
+    ],
+    "img": "https://pbs.twimg.com/media/GXPRJVOXkAA1XF6?format=png&name=900x900",
+    "tweetText": "\"💯\" this.\n\n\"As a rule of thumb, you can only do 1 or 2 things well.\"\n\nAlso:"
+  },  
+  {
+    "id": 268,
+    "title": "Journey from v1-v3: SpaceX Raptor Rocket",
+    "dt": "2024-09-10",
+    "url": "https://x.com/robert_gpt/status/1833676659242750345",
+    "people": [
+      {
+        "name": "Black Hole",
+        "handle": "@konstructivizm"
+      }
+    ],
+    "img": "https://pbs.twimg.com/media/GVB4h6MXwAA8UoY?format=jpg&name=medium",
+    "tweetText": "I love this progression so much. It's essentially a tale of doing something for the first time. Running, coding, writing, etc.\n\nWhen you first learn to run long distances, you have so much extra movement in your motion. Over time, it's about maximizing efficiency: to maximize output while minimizing effort (ie. minimizing wasted movement).\n\nSame goes for coding. The first time you learn a new framework or write a new app, you write so much extra code. All superfluous & loc you eventually discard. But you can only get to the final product by writing (and deleting during refactors) all that extra code.\n\nAnd then, finally: writing. All the plot lines that never went anywhere. All the characters that never developed. All the reams of exposition and background descriptions that have no purpose. In the last mile, you just carve all that away. Weeks and months of effort, gone, bc they no longer serve the greater story when you read everything together.\n\nIf there's a way to directly go from v0 to v3, I'm all ears. If there's an easier way to do it, please lmk.\n\nUntil then, just keep chugging on. You'll delete most of it later. But ime, there's simply just no other way to get there. \"🫡\""
+  },
+  {
+    "id": 267,
+    "title": "The crux of 'mind magic'",
+    "dt": "2024-09-09",
+    "url": "https://x.com/robert_gpt/status/1833156315922776203",
+    "people": [
+      {
+        "name": "Isabel",
+        "handle": "@isabelunraveled"
+      }
+    ],
+    "tweetText": "\"💯\"this. Also: this is why meditation is so important. (Or at least some ritual where you quiet your mind & baseline on what you genuinely want, filtering all the noise from signal in your head.) Additionally: this is why forming the right habits are critical. The idea is to get to a place where you 24/7 leverage your own limited perception & human biases in your favor. So your narrow cone of perception then synchronizes between your \"internal state\" & \"the external world\".\n\nWhen this happens, every \"setback\" in the external world will be exactly that in your mind: in air quotes. Your mind will interpret every setback as a lesson or opportunity. And every gift or door that opens will feel divinely ordained, feeding your confirmation bias that you're \"on the right path\".\n\nRelated: on X, I've noticed that people like to dunk on \"copes\" a lot. And I agree that a rationalization ab something suboptimal can certainly be the first step towards an unhealthy cope. But if that rationalization turns into the basis for action, then you've turned the tables. There's that old line about, \"chips on the shoulder yield chips in the pocket.\" Turn a bad childhood upbringing into a struggle essay that gets you into a selective college. Or use that speeding ticket as a constant reminder that you should drive safer when your kids are in the backseat. Copes can become lemonade if you action on them. Make your copes serve you.\n\nOne final note: someone else in the comments mentioned something ab, \"working hard\". Working hard is not enough. This is the entire idea of \"mind magic\". You need to actually put a destination into the nav system first before you enable autopilot. Otherwise, you will go through life as an NPC."
+  },
+  {
+    "id": 266,
+    "title": "What medium happens next after podcasts?",
+    "dt": "2024-09-08",
+    "url": "https://x.com/robert_gpt/status/1832991003273293863",
+    "img": "https://pbs.twimg.com/media/GW_QQi-aoAA6XA5?format=jpg&name=medium",
+    "tweetText": "What medium happens next after podcasts?"
+  },
+  {
+    "id": 265,
+    "title": "TSMC AZ facility succeeds",
+    "dt": "2024-09-07",
+    "url": "https://x.com/robert_gpt/status/1832289505857937522",
+    "people": [
+      {
+        "name": "Mackenzie Hawkins",
+        "handle": "@mackhawk"
+      }
+    ],
+    "tweetText": "Yay, America! I knew we could do it!! Feels like yesterday I was reading ab how culture differences were causing issues at the TSMC AZ facility & there were doubts if American laborers could achieve parity in quality. Am glad to see the early kinks ironed out!! \"💪\"\n\nLong USA!! \"🇺🇲\""
+  },
+  {
+    "id": 264,
+    "title": "The Gilded Age",
+    "dt": "2024-09-06",
+    "url": "https://x.com/robert_gpt/status/1832230806992871525",
+    "img": "https://pbs.twimg.com/media/GW1jhBsWUAABLOC?format=jpg&name=large",
+    "tweetText": "Just started watching The Gilded Age tonight. Love it!! IMHO, what's incredibly underappreciated is that era, 1869-1901 was ~150 years ago from today. That's about two generations? It's always insane to me when I think ab that. Where will we be in another ~150 years? \"🤔\""
+  },
+  {
+    "id": 263,
+    "title": "Palmer Luckey Interview #2 | Pirate Wires",
+    "dt": "2024-09-05",
+    "url": "https://x.com/robert_gpt/status/1831836695110787315",
+    "people": [
+      {
+        "name": "Pirate Wires",
+        "handle": "@PirateWires"
+      }
+    ],
+    "img": "https://pbs.twimg.com/media/GWpP2a0XwAATXXv?format=jpg&name=medium",
+    "tweetText": "Phenomenal interview. History is actively being rewritten (Black Eyed Peas song, \"Let's Get it Started\" & Lilo & Stitch being re-edited). Loved the insight that historically, since Republicans were the party of small government, that as soon as they ascended to power, they'd actively work towards shrinking their kingdom. (eg. gutting government agencies, disbanding commissions, etc). Whereas when Democrats won, they were interested in growing the government, but with their people.\n\nI do think this has changed though. (The current SCOTUS composition being proof in the pudding.)\n\nFinally, the way Taylor Lorenz is described is fascinating (a \"non-self-preservationist journalist\" \"🤔\"). Idk anything ab her but she's on my radar now. Will be investigating more."
+  },
+  {
+    "id": 262,
+    "title": "More thoughts on 'Founder Mode'",
+    "dt": "2024-09-05",
+    "url": "https://x.com/robert_gpt/status/1831816121537708271",
+    "tweetText": "More thoughts on \"Founder Mode\": to me, the core of the idea is retaining a founder's intensity & focus in the culture as the org scales. Founders set the tone of a company. Traditional b-school models of adding modularity & management layers dilutes a founder's spirit & intentionality. A company dies when it loses its spirit. \"Founder Mode\" is a way to keep that spirit alive by having the founder not just micromanaging but seeming to \"be\" everywhere all the time.\n\nMore specifically, a company doesn't die all at once. It dies gradually. As orgs scale, people stop pushing as hard as they once did. They have families and develop new priorities. Rigor slowly decreases. So forth.\n\nTo fight this organizational calcification requires tremendous intentionality. Founder Mode is a way of keeping one's hand on the rudder for as long as possible as the boat grows and grows, and keeps getting faster."
+  },
+  {
+    "id": 261,
+    "title": "Paul Graham: 'Founder Mode'",
+    "dt": "2024-09-04",
+    "url": "https://x.com/robert_gpt/status/1831452841233543190",
+    "people": [
+      {
+        "name": "Paul Graham",
+        "handle": "@paulg"
+      }
+    ],
+    "tweetText": "A great reminder that conventional wisdom is \"common sense\" until it isn't.\n\nI love how ppl are increasingly finding their own way. Authority figures are not Gods; they are men, just like the rest of us. If something is working for you, keep at it, no matter what experts say. It's your life; not theirs."
+  },
+  {
+    "id": 260,
+    "title": "What all married men know",
+    "dt": "2024-09-03",
+    "url": "https://x.com/robert_gpt/status/1831103790969418041",
+    "people": [
+      {
+        "name": "Jen",
+        "handle": "@brokemycoccyx"
+      }
+    ],
+    "tweetText": "Lol. This is something all men learn in Year 1! \"🙂\""
+  },  
+  {
+    "id": 259,
+    "title": "Ted Chiang: AI can't make real art",
+    "dt": "2024-09-02",
+    "url": "https://x.com/robert_gpt/status/1830807738915389515",
+    "people": [
+      {
+        "name": "The New Yorker",
+        "handle": "@NewYorker"
+      }
+    ],
+    "img": "https://pbs.twimg.com/media/GWU6xpEbQAISp8A?format=jpg&name=large",
+    "tweetText": "I love Ted Chiang & I'm sure I have lots of thoughts ab this piece. This weekend, I've been working on something else though & am realizing now that I literally don't have the mental memory or compute to actually dedicate enough time to thinking ab this as thoroughly as I would want to before writing ab it.\n\nThis is an interesting reminder to myself though: if I am engaging with news & current affairs, it then definitionally means that I am not obsessed w/ something. Bc when I am obsessed with something, I can literally do little else."
+  },
+  {
+    "id": 258,
+    "title": "The Sunday Drive",
+    "dt": "2024-09-01",
+    "url": "https://x.com/robert_gpt/status/1830447800275935412",
+    "tweetText": "One the highest alpha suggestions I have for ppl w/ SOs: make Sunday Drives a recurring habit for the both of you. Nowadays, it's easy for ppl to get sucked into their own lives. (Esp if both of you are working.) Consistently setting aside time every Xth Sunday for a dedicated drive has done wonders for me, personally. There's something ab being stuck in a car for long drives w/ your SO while music is playing & scenery is racing by that inspires convos in unexpected & unexplored territory. (Tactically, I've found ~90 min one-way to be optimal; so ~3 hrs round-trip.) Pick a spot somewhere new on the map to visit. Walk around downtown. Visit a small cafe or shop. Buy a small souvenir. It's like a side-quest both of you get to go on and helps build joint memories. (Gotta keep the firmament strong!!) It also gives opportunity to discuss topics that may not have the space to organically develop during the week."
+  },  
+  {
+    "id": 257,
+    "title": "The fragmentation of social media",
+    "dt": "2024-08-31",
+    "url": "https://x.com/robert_gpt/status/1829941902457897274",
+    "people": [
+      {
+        "name": "Mike Solana",
+        "handle": "@micsolana"
+      }
+    ],
+    "img": "https://pbs.twimg.com/media/GWLglZWakAEFRU8?format=png&name=large",
+    "tweetText": "What we're witnessing is a fracturing & fragmentation of social; everyone is now self-sorting onto their respective platforms that align w/ their values.\n\nBsky land is where feelings reign supreme above all else. eg. feelings are more important than accountability & responsibility. (This maps closely w/ how the physical world has also bifurcated.) There's a subset of ppl in the world who simply dislike negative feelings; they prefer to just not see it rather than to wrestle with certain ideas or feedback. (Brandon's AA example is really apt here; ppl largely attend AA to be affirmed, validated, & boosted. And that's fine! It's an important forum for an important function.)\n\nPersonally, I love getting replies in X though, even more than getting likes. Sure, a like is fine— a dopamine hit of validation. But far more interesting (to me at least) is when someone disagrees & takes the time to at least give a small explanation.\n\nWhat remains to be seen is monetization-wise, will bsky, with its \"feelings-first\" approach be successful? Like with all things, the market will decide!"
+  },
+  {
+    "id": 256,
+    "title": "Huge alpha in just making a decision to avoid getting stuck",
+    "dt": "2024-08-30",
+    "url": "https://x.com/robert_gpt/status/1829692210159501478",
+    "people": [
+      {
+        "name": "Sam Altman",
+        "handle": "@sama"
+      }
+    ],
+    "tweetText": "Huge alpha in just making a decision to avoid getting stuck. The enemy of progress isn't failure (excepting \"one-way door\" existential ones) but stagnation.\n\nEven if you make a move & it's suboptimal, at least you've moved past that potential quagmire. Avoid getting stuck at all costs. Stagnation is death. Movement (even if it's not always forward-movement) is life."
+  },
+  {
+    "id": 255,
+    "title": "A Sinking Tide Lowers All Boats",
+    "dt": "2024-08-29",
+    "url": "https://x.com/robert_gpt/status/1829304580389134557",
+    "people": [
+      {
+        "name": "More Perfect Union",
+        "handle": "@MorePerfectUS"
+      }
+    ],
+    "tweetText": "A Sinking Tide Lowers All Boats\n\nThe idea that taxes on unrealized capital gains for ppl making over $100m won't affect many of us is wrong. Yes, only a tiny fraction would pay this tax. But in order to foot the tax bill every year, the ultra-wealthy would need to come up w/ the cash some way, right? And they'd likely sell stock? Thus, anyone who has a 401k, IRA, or any money invested in the market would also be adversely impacted.\n\nAdditionally, nowadays, more & more ppl are increasingly invested in the equity markets (thanks, Robinhood!) It used to be very gatekept (there were transaction fees on every trade!) but now with commission-free trading, anyone can participate in the spoils of a booming market.\n\nI'm honestly confused by ppl who are advocating for this; taxing unrealized capital gains seems like the exact opposite of a \"rising tide lifts all boats\". Equity markets are one of the few ways for normal people (Main Streeters) to amass great wealth in the US. Why take away this avenue of success from everyone?"
+  },  
+  {
+    "id": 254,
+    "title": "Mark Twain on trouble: 'It ain't what you don't know...'",
+    "dt": "2024-08-28",
+    "url": "https://x.com/robert_gpt/status/1828941035935818042",
+    "img": "https://pbs.twimg.com/media/GWGv8kRXAAA3_SV?format=png&name=900x900",
+    "tweetText": "To quote the legendary Mark Twain:\n\n\"It ain’t what you don’t know that gets you into trouble. It’s what you know for sure that just ain’t so.\"\n\nFor anyone not already playing NYT's Connections, I highly recommend it. What's great ab the game is that it forces a kind of plasticity of mind if you wish to be successful. Meaning: you'll get it into your head that certain words are connected in a specific way. And they are! But they're also connected to other words in other ways that you hadn't initially thought of. And so letting go of your earlier convictions to try new connections in the face of new data becomes critical to winning.\n\nEveryone should play Connections. Fight thought calcification and sclerotic thinking!! \"🧠\"\"💪\""
+  },
+  {
+    "id": 253,
+    "title": "Equality vs Equity + Aleksandr Solzhenitsyn",
+    "dt": "2024-08-27",
+    "url": "https://x.com/robert_gpt/status/1828578694874513562",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Aleksandr_Solzhenitsyn"
+    ],
+    "img": "https://pbs.twimg.com/media/GWBmXhfWcAAcCZZ?format=jpg&name=medium",
+    "tweetText": "I really like this pic of \"equality vs equity\" (much more than the \"baseball fence\" pic) bc it takes into account the dimension of time. I am 100% against \"equality of outcome\". But I'm onboard w/ trying to make the starting line as near as same for all.\n\nIt makes sense to me that in a world where we're all different, that we'll all eventually end up in different places. Some work harder than others & are more ambitious so they'll get ahead. Some are more gifted so they'll have natural advantages in music & sports. Asking everyone to end in the same place is a recipe for disaster & is a tragic world.\n\nIOW, I like the idea that everyone at least has a functioning bike at life's outset. But note this says nothing at all to how far they'll actually get in life. Some will go much farther than others, and that's okay. In fact, I'd wish it no other way."
+  },
+  {
+    "id": 252,
+    "title": "Identify as a professional sleeper",
+    "dt": "2024-08-26",
+    "url": "https://x.com/robert_gpt/status/1828253348484501538",
+    "people": [
+      {
+        "name": "Bryan Johnson /dd",
+        "handle": "@bryan_johnson"
+      }
+    ],
+    "tweetText": "\"Identify as a professional sleeper.\"  —Bryan Johnson\n\nThis is my next project. Everything revolves around sleep & it literally influences everything else in our lives. As goes one of my favorite quotes:\n\n\"The line between genius & madness is a good night's sleep.\""
+  },  
+  {
+    "id": 251,
+    "title": "The Broad and Narrow Way (1883)",
+    "dt": "2024-08-25",
+    "url": "https://x.com/robert_gpt/status/1827734720395833738",
+    "refs": [
+      "https://britishmuseum.org/collection/object/P_1999-0425-13"
+    ],
+    "img": "https://pbs.twimg.com/media/GV1lxTzXUAAqRe_?format=jpg&name=large",
+    "tweetText": "The Broad and Narrow Way (1883)\n\nI love this painting so much & it increasingly resonates as I get older. Its original context is from the bible. But I've personally interpreted the art more as the difference between leading a life w/ specific values versus one without.\n\nLiving a life with rigid values means you will lead a narrower life, one where you meet fewer people & partake in fewer life experiences. But it also means you lead, in a way, an easier life. Your decisions are easier because you have specific values that you can easily fall back on. You're not conflicted bc the way forward is always clear. (The canonical example I always think of are vegetarians: they'll never know what meat tastes like, but they'll always know what they want to eat.)\n\nLiving a life with more relaxed values means the opposite: yes, you'll experience more of what life has to offer. But the tradeoff for that flexibility is that you'll spin a lot of cycles trying to navigate difficult dilemmas and have to proportionately make tougher choices. You'll often be internally conflicted. And you'll often be more lost, bc you've chosen a life that requires more wandering.\n\nTo be clear, there is no right and wrong camp. And it obviously can change too, depending on your life stage. I personally know people in both camps who report and present as perfectly happy. It all just depends on your own specific disposition and most people live on a spectrum somewhere between the two poles.\n\nPersonally, for me: when I was younger, I was definitely more in the \"rigid values\" camp. \"A is A\". Right and wrong were always very clear to me. Then as I got older --specifically, after I got married-- I gave up on many of my values (the old adage about \"you can be principled or you can be married\") and wandered the desert for a while. But now I'm even older and have gotten some time to recalibrate to married life (it's essentially comparable to going from straightforward Euclidean geometry to not just Riemann geometry, but n-th dimensions, seriously), I'm beginning to anchor back to having more rigid values again."
+  },  
+  {
+    "id": 250,
+    "title": "The Brandon Miller story & the Giving Tree",
+    "dt": "2024-08-24",
+    "url": "https://x.com/robert_gpt/status/1827493999902326786",
+    "people": [
+      {
+        "name": "The New York Times",
+        "handle": "@nytimes"
+      }
+    ],
+    "refs": [
+      "https://www.youtube.com/watch?v=-HH-PHw2Uvw",
+      "https://www.nytimes.com/2024/08/08/nyregion/brandon-miller-suicide-debt.html?unlocked_article_code=1.Bk4.2YL4.ovMDyp6S6EHL&smid=nytcore-ios-share&referringSource=articleShare&sgrp=c-cb",
+      "https://www.wsj.com/style/dave-rachel-hollis-disney-1ffac082?st=4xt17o2zjp29b2r&reflink=desktopwebshare_permalink"
+    ],
+    "img": "https://pbs.twimg.com/media/GVyN4AZXIAAfctM?format=jpg&name=medium",
+    "tweetText": "The NYT Brandon Miller story has been on my mind a lot recently. Namely, it made me think of The Giving Tree which I just read (well, listened to) again for the first time in something like 3+ decades. Man, that story is so sad; hits extraordinarily hard as an adult."
+  },  
+  {
+    "id": 249,
+    "title": "Big fan of e-scooters!",
+    "dt": "2024-08-23",
+    "url": "https://x.com/robert_gpt/status/1827193819319726379",
+    "tweetText": "Big fan of e-scooters! Expands one's range & makes it effortless to get around. If you live in an area next to strip malls & plazas, I suggest one. Giant parking lots & asphalt stretches suddenly become your friend! E-scooters are a great way to make an area feel more walkable."
+  },  
+  {
+    "id": 248,
+    "title": "Peter Thiel on the 'Dual Use' problem of nuclear",
+    "dt": "2024-08-22",
+    "url": "https://x.com/robert_gpt/status/1826800684752134579",
+    "people": [
+      {
+        "name": "Disclose.tv",
+        "handle": "@disclosetv"
+      }
+    ],
+    "refs": [
+      "https://en.wikipedia.org/wiki/Smiling_Buddha"
+    ],
+    "tweetText": "Since seeing this a week ago, I'd been puzzled. Lots of ppl on X have been accusing Germany of being \"stupid\". But I don't find that explanation sensible at all.\n\nRather, listening to the Rogan/Thiel interview, Thiel said something that makes much more sense to me.\n\nThiel calls it the \"dual use\" problem. Basically, in 1974, India successfully detonated a nuclear weapon (https://en.wikipedia.org/wiki/Smiling_Buddha…) and it turns out, that'd only been possible bc of technology transfer from the US in order to give nuclear energy to India.\n\nAccording to Thiel, once a country gets nuclear energy, it actually then becomes easy to weaponize an atomic bomb. The thinking is then: since nuclear technology is so dangerous, we need to contain it as much as possible. And that's why there have actively been efforts to limit nuclear as an energy resource and slow its adoption & spread.\n\nHere's the original JRE clip: https://youtube.com/watch?v=klRb0_BAX9g&t=2970s…"
+  },  
+  {
+    "id": 247,
+    "title": "Making sense of 'VCs for Kamala' & Thomas Matthew Crooks",
+    "dt": "2024-08-21",
+    "url": "https://x.com/robert_gpt/status/1826404409481593340",
+    "tweetText": "I’ve been wanting to write more because it helps me process. I spend a ton of time listening to podcasts and reading. But without deliberately setting aside time to synthesize all of the information, the words just all flow through me, unprocessed.\n\nSo moving forward, I’m going to specifically reply to pieces I read as a daily writing exercise. Instead of mindlessly watching something on YouTube or scrolling through X, time to try reading, thinking, and writing."
+  },  
+  {
+    "id": 246,
+    "title": "Cost is why humans stopped building aesthetic wonders",
+    "dt": "2024-08-20",
+    "url": "https://x.com/robert_gpt/status/1826104652447809807",
+    "people": [
+      {
+        "name": "James Lucas",
+        "handle": "@JamesLucasIT"
+      }
+    ],
+    "img": "https://pbs.twimg.com/media/GVW9upGWwAAw0M0?format=jpg&name=large",
+    "tweetText": "I think ab this question a lot. Lots of reasons. Cost, above all, is the main explanation. And also: societal values & priorities are increasingly different nowadays."
+  },  
+  {
+    "id": 245,
+    "title": "Drive to Chillicothe, Ohio",
+    "dt": "2024-08-19",
+    "url": "https://x.com/robert_gpt/status/1825706008628355367",
+    "img": "https://pbs.twimg.com/media/GVY16K3WgAA-Pcm?format=jpg&name=medium",
+    "tweetText": "Sitting here in a parking lot in Chillicothe, Ohio listening to the Thiel/Rogan ep while the car charges for 20min. Driving a Tesla long-distance turns travel into a project similar to traveling by train or bus. You end up building your itinerary around supercharger locations & the towns they're in. Loved exploring Chillicothe! (Ohio's first capital!)\n\nPS. This is the first full Rogan ep I've ever listened to. He's really into the Pyramids!!"
+  },
+  {
+    "id": 244,
+    "title": "Test drove a Tesla",
+    "dt": "2024-08-18",
+    "url": "https://x.com/robert_gpt/status/1825339639483302016",
+    "img": "https://pbs.twimg.com/media/GVToucQWkAAZPqX?format=jpg&name=medium",
+    "tweetText": "Test drove a Tesla today with Full Self Driving. I know I'm late to the game but the hype is real. This is the future of all driving. This is why Tesla's market cap is equal to 9 of the others combined. FSD is a genuine differentiator. It's the real deal. Outside of Waymo (which uses LIDAR & is a totally different approach), no other car company has a comparable product, to my knowledge.\n\nAlso, the ability to watch a review ab a Tesla while sitting in a Tesla... truly next level.\n\nI'm a believer!! \"🚗\""
+  },  
+  {
+    "id": 243,
+    "title": "Do women really want lavish monuments of themselves?🤔",
+    "dt": "2024-08-17",
+    "url": "https://x.com/robert_gpt/status/1824664048660549823",
+    "img": "https://pbs.twimg.com/media/GVKB5vjWYAASzQc?format=jpg&name=900x900",
+    "tweetText": "I have a genuine question for all the women on X out there: would you be honored & proud if your SO built a gigantic & lavish public monument dedicated to you for all to see? Or would you feel it cringe & embarrassing? Am sincerely curious ab the female perspective on this."
+  },  
+  {
+    "id": 242,
+    "title": "Gladiator (2002)",
+    "dt": "2024-08-16",
+    "url": "https://x.com/robert_gpt/status/1824656392726147274",
+    "refs": [
+      "https://youtube.com/watch?v=xjruXRHRpmE"
+    ],
+    "tweetText": "Gladiator (2000)\nhttps://youtube.com/watch?v=xjruXRHRpmE…"
+  },
+  {
+    "id": 241,
+    "title": "Planet Money | PLEASE sell me a home! (March 15, 2021)",
+    "dt": "2024-08-15",
+    "url": "https://x.com/robert_gpt/status/1824270729975656851",
+    "refs": [
+      "https://www.npr.org/2021/03/15/977533022/please-sell-me-a-home"
+    ],
+    "img": "https://pbs.twimg.com/media/GVEcbDqWoAAu07g?format=jpg&name=medium",
+    "tweetText": "Planet Money | PLEASE sell me a home!\nMarch 15, 2021"
+  },
+  {
+    "id": 240,
+    "title": "Eric Schmidt: 'Google is losing bc of work-life balance'",
+    "dt": "2024-08-14",
+    "url": "https://x.com/robert_gpt/status/1823912189738008697",
+    "people": [
+      {
+        "name": "@jason",
+        "handle": "@Jason"
+      }
+    ],
+    "tweetText": "I think it totally depends. Some WFH great; others don't. Also, varies by company, industry, role, etc.\n\nBut yes, for what Schmidt's describing— I agree. For startups, locking everyone in the same room & having them all grind together is invaluable. It's the same reason many of us back in college studied the best at the library where we all suffered & commiserated together when cramming for finals. Misery loves company. But in aggregate, can be a superpower.\n\nEven for more mature companies, speaking personally, I've noticed this of myself: when I'm at the office and am stripped of optionality, I’m more focused because there’s literally nothing else I can do. I enjoy working until a specified a time and even if I finish early, I’ll then fiddle on something else work-related until it’s time to go. When it comes to work, the truth is there’s always more of it."
+  },  
+  {
+    "id": 239,
+    "title": "The real roots of American Exceptionalism",
+    "dt": "2024-08-13",
+    "url": "https://x.com/robert_gpt/status/1823562982854373552",
+    "people": [
+      {
+        "name": "Anatoly Karlin",
+        "handle": "@powerfultakes"
+      }
+    ],
+    "img": "https://pbs.twimg.com/media/GU0BOwsXoAEjrEL?format=jpg&name=small",
+    "tweetText": "\"💯\". I've actually long pondered this but just haven't properly investigated. Generally speaking, all else held equal, do lower env temps lead to more exceptional outcomes vs to higher temps? My gut instinct is, \"yes\". But am genuinely curious if anyone's properly studied this. \"🤔\""
+  },
+  {
+    "id": 238,
+    "title": "Fiction is the future",
+    "dt": "2024-08-12",
+    "url": "https://x.com/robert_gpt/status/1823118315197264304",
+    "people": [
+      {
+        "name": "Steph Smith",
+        "handle": "@stephsmithio"
+      }
+    ],
+    "img": "https://pbs.twimg.com/media/GU0AWGnakAAmheI?format=png&name=medium",
+    "tweetText": "Novel findings indeed \"🙂\"\n\nThis tracks though. Fiction is the future!!"
+  },
+  {
+    "id": 237,
+    "title": "CrowdStrike - 100% ownership + contrition",
+    "dt": "2024-08-11",
+    "url": "https://x.com/robert_gpt/status/1822508754627092599",
+    "people": [
+      {
+        "name": "Dominic White",
+        "handle": "@singe"
+      }
+    ],
+    "tweetText": "Everyone makes mistakes. But most will never make colossal mistakes. Mistakes that should've never happened. But that's the price of doing big things. The bigger the thing, the higher the stakes. Actual stakes.\n\nI love what CrowdStrike did here. 100% ownership & contrition. \"👏\""
+  },
+  {
+    "id": 236,
+    "title": "Sky King",
+    "dt": "2024-08-10",
+    "url": "https://x.com/robert_gpt/status/1822447016372322314",
+    "people": [
+      {
+        "name": "RAW EGG NATIONALIST",
+        "handle": "@Babygravy9"
+      }
+    ],
+    "refs": [
+      "https://en.wikipedia.org/wiki/2018_Horizon_Air_Q400_incident"
+    ],
+    "img": "https://pbs.twimg.com/media/GUqNVmCW8AABcyr?format=png&name=small",
+    "tweetText": "https://en.wikipedia.org/wiki/2018_Horizon_Air_Q400_incident…\n\nTIL ab the \"Sky King\" incident back in Aug 2018. In his final hour before he crashed & died (no one else was hurt), 28-yo Richard Russell also did a barrel roll in the Horizon Air passenger plane.\n\nIdk anything ab Russell other than his Wikipedia but it fascinates me that so many ppl have emotionally connected w/ this incident & celebrate the man for \"rebelling against the system\". To my knowledge, we don't know his specific state of mind or motivations. (His wiki entry suggests he may have suffered concussions from his years playing football in HS & college.)\n\nMore generally, these incidents — something inscrutable happens that is just so outside the standard experience — are Rorschach tests. How ppl react to them & their own personal interpretations tell us more ab them than they do ab Russell."
+  },
+  {
+    "id": 235,
+    "title": "Desjardins Odyssey Lounge - Montreal Intl (YUL)",
+    "dt": "2024-08-09",
+    "url": "https://x.com/robert_gpt/status/1822037030999880106",
+    "refs": [
+      "https://global.americanexpress.com/lounge-access/the-platinum-card"
+    ],
+    "tweetText": "PSA: A reminder to update your mental maps when underlying facts ab your life situation change. Today was my first time flying out of YUL (Montreal Intl). Out of habit, I checked my Priority Pass app for lounge access bc for years I had the CSR & equated PP w/ lounges.\n\nStarting last year though, I switched over to Amex which also has *non-PP* lounges (in addition to its own Centurion network).\n\nSo I totally missed out on \"Desjardins Odyssey Lounge\" \"🤦‍♂️\"\n\nThis was just an expensive reminder that heuristics work until they don't. As a student, you pay for mistakes by getting a worse grade. As an adult, mistakes cost you time and/or money.\n\nIf you use Amex, always just directly check its site for lounge access: https://global.americanexpress.com/lounge-access/the-platinum-card…\n\nPS. One other thing I learned ab YUL today: this airport has three terminals! Domestic, International, & Trans-Border (a terminal dedicated to America!! \"🇺🇲\") This is the first airport I've visited that offers \"pre-clearance\". Basically, went through US CBP here in Montreal!"
+  },
+  {
+    "id": 234,
+    "title": "Fireworks in Quebec City",
+    "dt": "2024-08-09",
+    "url": "https://x.com/robert_gpt/status/1821955976645271862",
+    "refs": [
+      "https://quebec-cite.com/en/what-to-do-quebec-city/events/grands-feux-loto-quebec"
+    ],
+    "img": "https://pbs.twimg.com/media/GUjjTSWWoAAL9qR?format=jpg&name=large",
+    "tweetText": "Every Tue & Thu at 10p in Aug, the ppl of Quebec City get a free fireworks show! It's 20min long & bigger than many of the Jul 4 shows I've seen in the US. Happens over the St. Lawrence River.\n\nApparently, it's funded by the CAD government, mostly from lottery funds.\n\nIt's been fun visiting another country & seeing how they prioritize different societal values. By offering a free communal event like this biweekly in Aug, it incentives folks to get out, hang out in a public space, & then spend money in the local economy (restaurants, pubs, cafes) beforehand.\n\nPpl often talk a lot ab \"building community\". But to do that, you need social infrastructure to weave the communal fabric.\n\nhttps://quebec-cite.com/en/what-to-do-quebec-city/events/grands-feux-loto-quebec…"
+  },
+  {
+    "id": 233,
+    "title": "Por una cabeza",
+    "dt": "2024-08-08",
+    "url": "https://x.com/robert_gpt/status/1821724404952260909",
+    "refs": [
+      "https://m.youtube.com/watch?v=goNq0a4H8DM"
+    ],
+    "tweetText": "How many famous non-American songs do Americans only know bc they're in American movies?\n\nWhen it comes to discovery, before Spotify & YouTube's algorithmic discovery systems, movies were largely the only way I'd learned ab new music\n https://m.youtube.com/watch?v=goNq0a4H8DM…\n\nAnyone else similar?"
+  },
+  {
+    "id": 232,
+    "title": "On the road to Quebec City!! 🚌",
+    "dt": "2024-08-08",
+    "url": "https://x.com/robert_gpt/status/1821534020662096063",
+    "img": "https://pbs.twimg.com/media/GUdjg4KaUAAK2tQ?format=jpg&name=medium",
+    "tweetText": "On the road to Quebec City!! \"🚌\""
+  },
+  {
+    "id": 231,
+    "title": "Micro vs macro",
+    "dt": "2024-08-07",
+    "url": "https://x.com/robert_gpt/status/1821225693143007659",
+    "people": [
+      {
+        "name": "Gad Saad",
+        "handle": "@GadSaad"
+      }
+    ],
+    "tweetText": "IMHO, this is a wrong take. This is an example where what's good at the micro level is not applicable at the macro level. (Another example is debt. What works at a national level isn't advisable at a household level, for various reasons bc what you're optimizing for at each level is different.)\n\nI agree that for roommates & marriages, sharing common core values is paramount. \"✅\"\n\nBut when it comes to society (& here, I'm thinking ab the US, specifically), the ability to agree to disagree is critical, while still working together on other things. We must be able to get along, at least in common spaces & at the workplace.\n\nWhat religions ppl celebrate at home is their own business. But when they show up for their job at the office (or WFH when they hop on Zoom or deliver work), then it's mission-first for whatever is best for the company. (Personal values are subservient to company values at the workplace. If you don't like your company's values, don't work there.)\n\nSame goes for public spaces. In public spaces, there must be a minimum code. The great thing ab America is that these codes differ *a lot* state-by-state.\n\nIf you are more liberal & like paying higher taxes, then move to SF & CA. If you're more conservative, move to a red state. And even within states, there are huge differences too. (eg. I live in Cincinnati & we have an area called Indian Hills where the wealthy residents have their own police force & gated park. But then there are other parts of Ohio that are definitely more collective & communal. In Mason, for example, there is a huge Indian enclave. (When I lived in NJ, it was like this too. Huge Indian enclaves!) And in CA, there are also entire areas where the signage is all in Chinese. No English in sight! In America!)\n\nAmerica is vibrant & strong bc we're able to harness the best from all cultures, religions, & backgrounds. The diversity is real, not just lip service, & we ought celebrate that. (Just look at the ethnicities of many of the American athletes competing at the Olympics right now.) We have 50 states. Move to the one that most shares your values. There's enough room for all of us here."
+  },
+  {
+    "id": 230,
+    "title": "How travling has chnaged now I'm old",
+    "dt": "2024-08-06",
+    "url": "https://x.com/robert_gpt/status/1820796351476899955",
+    "img": "https://pbs.twimg.com/media/GUTEoAoWsAAEJAK?format=jpg&name=medium",
+    "tweetText": "It's been a while since I've traveled. One obs: when I was younger, I enjoyed planning the trip probably as much as taking the trip. Using points to book hotels for a good deal, figuring out all the Byzantine rules ab car rentals, planning the itinerary.\n\nNow I'm old, I hate the planning. I just want to enjoy the experience. I want to simply be in the place, seeing the things, soaking it all in.\n\nWhen you're young, the world is still novel. You're learning everything w/ fresh eyes & still building corpus. You're also still not committed to a project yet.\n\nOnce I got old though, my mind is often elsewhere. A passage I'm trying to write. Or a new project I'm thinking ab starting."
+  },
+  {
+    "id": 229,
+    "title": "Montreal in the rain - touch grass",
+    "dt": "2024-08-05",
+    "url": "https://x.com/robert_gpt/status/1820670698118930471",
+    "img": "https://pbs.twimg.com/media/GURSWgEXMAAaFoI?format=jpg&name=medium",
+    "tweetText": "Walked the streets of Montreal today in the rain. Sometimes, it's good to touch grass. \"👍\""
+  },
+  {
+    "id": 228,
+    "title": "Novak Djokavic. Age 37. Legend. 🥇🎾💪",
+    "dt": "2024-08-04",
+    "url": "https://x.com/robert_gpt/status/1820231775588942136",
+    "img": "https://pbs.twimg.com/media/GULDIzZawAAc4RU?format=jpg&name=medium",
+    "tweetText": "Age 37. Legend. \"🥇\"\"🎾\"\"💪\""
+  },
+  {
     "id": 227,
     "title": "Training for the Olympics is a lifestyle",
     "dt": "2024-08-03",
     "url": "https://x.com/robert_gpt/status/1819843718691873238",
-    "refs": [
-      "https://r002.github.io"
-    ],
     "tweetText": "Watching the Olympics this past week has reminded me to appreciate the difference between an activity & a lifestyle. For most of us, sports are just hobbies; passing activities we do in our free time, in an isolated context. But for professionals, their sports are lifestyles. Their sleeping patterns, diets, & every waking moment of their day center around their sport.\n\nIf you wish to be the very best in something, it means throwing balance out & going for the extreme. By definition, excellence is not achieved by normal & balanced ppl. Excellence is achieved by extremists obsessed w/ their craft & pursing being the absolute best. Training & competing at the expense of just ab all else.\n\nSometimes, I wonder: if you took that same fanaticism & discipline that professional athletes commit to their sports, but applied it to something else (coding, writing, drawing, etc), what results would that yield?"
   },
   {
