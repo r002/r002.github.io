@@ -45,7 +45,21 @@ a:active {
 }
 
 .header {
-  /* height: 70px; */
+  padding-top: 20px;
+  padding-bottom: 17px;
+  box-sizing: border-box;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: white;
+  text-align: center;
+  border-bottom: gainsboro 1px solid;
+}
+
+.headerfixed {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  margin: 0 auto;
   padding-top: 20px;
   padding-bottom: 17px;
   box-sizing: border-box;
@@ -57,6 +71,11 @@ a:active {
 }
 
 .header a {
+  color: #4A4A46;
+  text-decoration: none;
+}
+
+.headerfixed a {
   color: #4A4A46;
   text-decoration: none;
 }

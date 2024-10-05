@@ -1,5 +1,13 @@
 [
   {
+    "dt": "2024-10-04",
+    "version": "1.4.12",
+    "notes": [
+      "scrolling now only scrolls the `timestream` center pane",
+      "update tweets"
+    ]
+  },
+  {
     "dt": "2024-10-01",
     "version": "1.4.11",
     "notes": [

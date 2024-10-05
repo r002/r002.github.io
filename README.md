@@ -68,7 +68,7 @@ Onward and upward!! Accelerate!! 🌎🚀✨
 - [ ] write pre-commit hook to ensure metadata integrity
 - [ ] add the `this is an educational resource` badge to topbar
 - [ ] create `links` section on XNA page
-- [ ] scrolling should only scroll the `timestream` center pane
+- [x] scrolling should only scroll the `timestream` center pane
 - [x] separate `timestream` by `week # divider`
 - [x] create `books` section on XNA page
 - [x] add `bad movie club` page

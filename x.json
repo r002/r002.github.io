@@ -1,5 +1,45 @@
 [
   {
+    "id": 292,
+    "title": "CJ on Elon: 'No one will ever be dunked on that hard, from now until the end of time'",
+    "dt": "2024-10-04",
+    "url": "https://x.com/robert_gpt/status/1842208192396140594",
+    "people": [
+      {
+        "name": "Casey Handmer, PhD",
+        "handle": "@CJHandmer"
+      },
+      {
+        "name": "near",
+        "handle": "@nearcyan"
+      }
+    ],
+    "img": "https://pbs.twimg.com/media/GZDVvQSXsAAAFHF?format=png&name=small",
+    "tweetText": "On the resiliency of Elon Musk by @CJHandmer: \n\n\"Yet somehow the commentariat thinks that if they can just dunk on him hard enough he’ll give up and go home. They do not understand. Elon never gives up. His rocket company was dunked on, in front of Congress, by Neil Armstrong! No-one has ever or will ever be dunked on that hard, from now until the end of time.\""
+  },
+  {
+    "id": 291,
+    "title": "JD Vance is Lelouch Lamperouge",
+    "dt": "2024-10-03",
+    "url": "https://x.com/robert_gpt/status/1842035659898245294",
+    "img": "https://pbs.twimg.com/media/GZA2JxwWUAArVAZ?format=png&name=900x900",
+    "tweetText": "I've been studying up on Vance as much as I can, preparing for Nov 5, reading & listening to everything I can find. And after a ton of careful & diligent study, this is the only conclusion that makes sense to me.\"🤔\"\n\nIf you have articles or pod eps you rec re Vance, pls lmk. TIA!"
+  },  
+  {
+    "id": 290,
+    "title": "AI can only train on exteriority",
+    "dt": "2024-10-02",
+    "url": "https://x.com/robert_gpt/status/1841680768273088947",
+    "people": [
+      {
+        "name": "Ben Hunt",
+        "handle": "@EpsilonTheory"
+      }
+    ],
+    "img": "https://pbs.twimg.com/media/GY7qsMtWIAAxKxL?format=png&name=900x900",
+    "tweetText": "So I've thought ab this before. And while I'm willing to try it out (pls do share the 100 open-ended Qs, Ben!), I am skeptical bc I believe that for all ppl, even prolific writers w/ the fecundity of DFW across all domains & formats (magazine spreads, novels, personal letters) that so much of what makes us, us, is still captured in unstructured memories & experiences that are only in our latent consciousness.\n\nNotably, this is completely different than simply \"jogging\" a memory. The reason jogging a memory works is bc you have the fundamental, original memory to return to. And AI will not have that; AI only has whatever you trained it on. So whatever \"resurrection\" you may conjure will always be a poor facsimile, unable to fully capture the fidelity of the original.\n\nNow: if AI wearables/apps (Friend pendant, Rewind app, Meta Raybans, the cowboy hats in Westworld) catch on and the AIs start recording everything in your life experience from birth, then we're closer. But even then, the question now turns into a BF Skinner behaviorism question. Is the sum of a person everything you can simply observe via their exteriority? Or is there some interiority —some part of the human soul— that is always hidden, never outwardly observable?"
+  },
+  {
     "id": 289,
     "title": "Steve Jobs: 'Real artists ship'",
     "dt": "2024-10-01",

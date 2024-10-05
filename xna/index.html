@@ -11,111 +11,114 @@
 </head>
 
 <body>
-  <section class="header">
-    <a href=".">Robert Lin • XNA</a><br />
-    <div class="subheader">
-      <a href="../maze">Curiosity Maze</a> • 
-      <a href="../bmc">BMC</a> • 
-      <a href="https://github.com/r002/r002.github.io?tab=readme-ov-file#xna-help-your-people-find-you-">Readme</a> • 
-      <a href="https://github.com/r002/r002.github.io">Source</a> • 
-      <a href="../x.json">Thought supply chain</a>
-    </div>
-    <div id="releasenotes" class="version" title=""></div>
+    <section class="headerfixed">
+      <a href=".">Robert Lin • XNA</a><br />
+      <div class="subheader">
+        <a href="../maze">Curiosity Maze</a> • 
+        <a href="../bmc">BMC</a> • 
+        <a href="https://github.com/r002/r002.github.io?tab=readme-ov-file#xna-help-your-people-find-you-">Readme</a> • 
+        <a href="https://github.com/r002/r002.github.io">Source</a> • 
+        <a href="../x.json">Thought supply chain</a>
+      </div>
+      <div id="releasenotes" class="version" title=""></div>
+    </section>
+
+  <section id="xnabody">
+    <section id="xnacontent">
+      <div class="yearwrapper">
+        <div id="titleyear" class="paneheader"
+          title="2024: year of creation 📗🎨">
+            2024 | "Year of Creation"
+        </div>
+        <div class="year">
+          <div class="quarter">
+            <div id="2024-01" class="month"></div>
+            <div id="2024-02" class="month"></div>
+            <div id="2024-03" class="month"></div>
+          </div>
+          <div class="quarter">
+            <div id="2024-04" class="month"></div>
+            <div id="2024-05" class="month"></div>
+            <div id="2024-06" class="month"></div>
+          </div>
+          <div class="quarter">
+            <div id="2024-07" class="month"></div>
+            <div id="2024-08" class="month"></div>
+            <div id="2024-09" class="month"></div>
+          </div>
+          <div class="quarter">
+            <div id="2024-10" class="month"></div>
+            <div id="2024-11" class="month"></div>
+            <div id="2024-12" class="month"></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="searchcontent">
+        <div id="searchmsg">
+          🚧👨‍🍳
+          <em>
+            Note: <strong>Search</strong> currently only works for <strong>people</strong> & <strong>some tags</strong>; I'm still cooking!!
+          </em>
+          👨‍🍳🚧
+        </div>
+        <input id="search" type="text" placeholder="*" onkeyup="renderstream()" />
+        <br /><br /><br />
+        <div id="titletimestream" class="paneheader">Tweet Timestream</div>
+        <div id="searchresult">
+        </div>
+      </div>
+
+      <div id="categorieswrapper">
+        <div id="categoriescontent">
+        <div id="titlepeople" class="paneheader"
+            title="🧑 interesting people">
+          People
+        </div>
+        <span id="togglechronological" class="toggle sel"
+          onclick="rendermeta('revchrono'); toggle(this);"
+          title="People I've most recently interacted with">Reverse-Chronological</span> | 
+        <span id="togglefrequency" class="toggle"
+          onclick="rendermeta('frequency'); toggle(this);"
+          title="People who've most influenced me">Frequency</span>
+        <br /><br />
+        <div id="people" class="avatargrid"></div>
+        <br />
+
+        <div id="titleorgs" class="paneheader"
+            title="🏛 organizations that inspire wonder">
+          Organizations
+        </div>
+        <div id="orgs" class="avatargrid"></div>
+        <br />
+        
+        <div id="titlemedia" class="paneheader"
+            title="📺 cool media">
+          TV + Movies
+        </div>
+        <div id="media" class="avatargrid"></div>
+        <br />
+
+        <div id="titlebooks" class="paneheader"
+            title="📚 life-changing books">
+          Books
+        </div>
+        <div id="books" class="avatargrid"></div>
+        <br />
+
+        <h2>Ballistic Rants</h2>
+        🚧👨‍🍳 <em>Still cooking!!</em> 👨‍🍳🚧
+        <br /><br />
+
+        <h2>Beliefs</h2>
+        🚧👨‍🍳 <em>Still cooking!!</em> 👨‍🍳🚧
+        <br /><br />
+
+        </div>
+      </div>
+
+    </section>
   </section>
-
-  <section id="xnacontent">
-    <div class="yearwrapper">
-      <div id="titleyear" class="paneheader"
-        title="2024: year of connection 🤵💃">
-          2024 | "Year of Connection"
-      </div>
-      <div class="year">
-        <div class="quarter">
-          <div id="2024-01" class="month"></div>
-          <div id="2024-02" class="month"></div>
-          <div id="2024-03" class="month"></div>
-        </div>
-        <div class="quarter">
-          <div id="2024-04" class="month"></div>
-          <div id="2024-05" class="month"></div>
-          <div id="2024-06" class="month"></div>
-        </div>
-        <div class="quarter">
-          <div id="2024-07" class="month"></div>
-          <div id="2024-08" class="month"></div>
-          <div id="2024-09" class="month"></div>
-        </div>
-        <div class="quarter">
-          <div id="2024-10" class="month"></div>
-          <div id="2024-11" class="month"></div>
-          <div id="2024-12" class="month"></div>
-        </div>
-      </div>
-    </div>
-
-    <div id="searchcontent">
-      <div id="searchmsg">
-        🚧👨‍🍳
-        <em>
-          Note: <strong>Search</strong> currently only works for <strong>people</strong> & <strong>some tags</strong>; I'm still cooking!!
-        </em>
-        👨‍🍳🚧
-      </div>
-      <input id="search" type="text" placeholder="*" onkeyup="renderstream()" />
-      <br /><br /><br />
-      <div id="titletimestream" class="paneheader">Tweet Timestream</div>
-      <div id="searchresult">
-      </div>
-    </div>
-
-    <div id="categoriescontent">
-      <div id="titlepeople" class="paneheader"
-           title="🧑 interesting people">
-        People
-      </div>
-      <span id="togglechronological" class="toggle sel"
-        onclick="rendermeta('revchrono'); toggle(this);"
-        title="People I've most recently interacted with">Reverse-Chronological</span> | 
-      <span id="togglefrequency" class="toggle"
-        onclick="rendermeta('frequency'); toggle(this);"
-        title="People who've most influenced me">Frequency</span>
-      <br /><br />
-      <div id="people" class="avatargrid"></div>
-      <br />
-
-      <div id="titleorgs" class="paneheader"
-          title="🏛 organizations that inspire wonder">
-        Organizations
-      </div>
-      <div id="orgs" class="avatargrid"></div>
-      <br />
-      
-      <div id="titlemedia" class="paneheader"
-          title="📺 cool media">
-        TV + Movies
-      </div>
-      <div id="media" class="avatargrid"></div>
-      <br />
-
-      <div id="titlebooks" class="paneheader"
-          title="📚 life-changing books">
-        Books
-      </div>
-      <div id="books" class="avatargrid"></div>
-      <br />
-
-      <h2>Ballistic Rants</h2>
-      🚧👨‍🍳 <em>Still cooking!!</em> 👨‍🍳🚧
-      <br /><br />
-
-      <h2>Beliefs</h2>
-      🚧👨‍🍳 <em>Still cooking!!</em> 👨‍🍳🚧
-      <br /><br />
-
-    </div>
-
-  </section>
-
 </body>
 
 </html>

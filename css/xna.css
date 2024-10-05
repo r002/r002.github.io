@@ -7,7 +7,13 @@ html {
     background: transparent; /* make scrollbar transparent */
 }
 
+#categorieswrapper {
+  position: absolute;
+  left: 1140px;
+}
+
 #categoriescontent {
+  position: fixed;
   width: 500px;
   /* background-color: yellow; */
   margin-top: 50px;
@@ -15,13 +21,15 @@ html {
 }
 
 #searchcontent {
-    /* margin: 0px auto; */
-    margin-top: 50px;
-    margin-left: 100px;
-    /* background-color: yellow; */
-    width: fit-content;
-    /* background-color: pink; */
-    /* box-sizing: border-box; */
+  /* margin: 0px auto; */
+  position: absolute;
+  left: 400px;
+  margin-top: 50px;
+  margin-left: 100px;
+  /* background-color: yellow; */
+  width: fit-content;
+  /* background-color: pink; */
+  /* box-sizing: border-box; */
 }
 
 #searchmsg {
@@ -42,11 +50,20 @@ html {
     margin-top: 20px;
 }
 
+#xnabody {
+  position: absolute;
+  top: 119px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 #xnacontent {
+  position: relative;
   display: flex;
   flex-flow: row;
-  /* background-color: yellow; */
-  width: fit-content;
+  background-color: yellow;
+  /* width: fit-content; */
+  width: 1700px;
   margin: 0 auto;
   /* border: 1px black solid; */
 }
@@ -61,7 +78,7 @@ html {
 
 .avatargrid {
   display: grid;
-  grid-template-columns: repeat(8, 42px);
+  grid-template-columns: repeat(12, 42px);
   grid-gap: 0px;
   background-color: #fafafa;
   color: #444;

@@ -203,7 +203,7 @@ function rendermeta(mode) {
   document.getElementById("titleorgs").innerHTML = `Organizations (${orgscount})`;
   document.getElementById("titlemedia").innerHTML = `TV + Movies (${mediacount})`;
   document.getElementById("titlebooks").innerHTML = `Books (${bookscount})`;
-  document.getElementById("titleyear").innerHTML = `2024 | "Year of Connection" (${arrDATES.length})`;
+  document.getElementById("titleyear").innerHTML = `2024 | "Year of Creation" (${arrDATES.length})`;
 }
 
 function genavatar(pid) { // pid is a person's handle, but just lowercase
