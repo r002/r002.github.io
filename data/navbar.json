@@ -1,0 +1,34 @@
+[
+    {
+        "url": "../z",
+        "path": "/z/",
+        "title": "Zeitgeist"
+    },
+    {
+        "url": "../xna",
+        "path": "/xna/",
+        "title": "XNA"
+    },
+    {
+        "url": "../maze",
+        "path": "/maze/",
+        "title": "Curiosity Maze"
+    },
+    {
+        "url": "../bmc",
+        "path": "/bmc/",
+        "title": "BMC"
+    },
+    {
+        "url": "https://github.com/r002/r002.github.io?tab=readme-ov-file#xna-help-your-people-find-you-",
+        "title": "Readme"
+    },
+    {
+        "url": "https://github.com/r002/r002.github.io",
+        "title": "Source"
+    },
+    {
+        "url": "../x.json",
+        "title": "Thought supply chain"
+    }
+]

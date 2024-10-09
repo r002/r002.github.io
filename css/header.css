@@ -44,6 +44,13 @@ a:active {
   color: black;
 }
 
+.contentbody {
+  position: absolute;
+  top: 119px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .header {
   padding-top: 20px;
   padding-bottom: 17px;
@@ -58,6 +65,7 @@ a:active {
 .headerfixed {
   position: fixed;
   z-index: 999;
+  top: 0;
   width: 100%;
   margin: 0 auto;
   padding-top: 20px;

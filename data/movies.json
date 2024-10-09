@@ -1,5 +1,26 @@
 [
   {
+    "title": "Beatlejuice Beatlejuice",
+    "yearMonth": "2024-09",
+    "ticketCost": 5,
+    "month": "September",
+    "year": 2024
+  },
+  {
+    "title": "Deadpool & Wolverine",
+    "yearMonth": "2024-08",
+    "ticketCost": 5,
+    "month": "August",
+    "year": 2024
+  },
+  {
+    "title": "Fly me to the Moon",
+    "yearMonth": "2024-07",
+    "ticketCost": 5,
+    "month": "July",
+    "year": 2024
+  },
+  {
     "title": "Bad Boys: Ride or Die",
     "yearMonth": "2024-06",
     "ticketCost": 5,

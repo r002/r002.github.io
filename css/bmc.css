@@ -1,7 +1,3 @@
-#id {
-  margin-top: 50px;
-}
-
 .yearmovies {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;

@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>    
+  <meta charset="UTF-8">
   <title>Robert Lin | Curiosity Maze</title>
   <link rel="stylesheet" href="../css/header.css">
   <link rel="stylesheet" href="../css/index.css">
+  <script type="text/javascript" src="../js/navbar.js"></script>
   <script type="text/javascript" src="../js/changelog.js"></script>
   <script type="module">
     import { route } from '../js/index.js';
@@ -16,19 +18,13 @@
 </head>
 
 <body>
-  <section class="header">
+  <section class="headerfixed">
     <a href=".">Robert Lin • Curiosity Maze</a><br />
-    <div class="subheader">
-      <a href="../xna">XNA</a> • 
-      <a href="../bmc">BMC</a> • 
-      <a href="https://github.com/r002/r002.github.io?tab=readme-ov-file#roberts-curiosity-maze-%EF%B8%8F">Readme</a> • 
-      <a href="https://github.com/r002/r002.github.io">Source</a> • 
-      <a href="../x.json">Thought supply chain</a>
-    </div>
+    <div id="navbar" class="subheader"></div>
     <div id="releasenotes" class="version" title=""></div>
   </section>
 
-  <section id="mazecontent">
+  <section id="mazecontent" class="contentbody">
     <div id="postnavbar">
     </div>
     <div id="maincontent">
