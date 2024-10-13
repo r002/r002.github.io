@@ -1,0 +1,87 @@
+.contentcontainer {
+  position: relative;
+  display: flex;
+  flex-flow: row;
+  background-color: yellow;
+  /* width: fit-content; */
+  width: 1700px;
+  margin: 0 auto;
+  /* border: 1px black solid; */
+}
+
+.leftpane {
+  position: absolute;
+  /* background-color: aqua; */
+}
+
+#fixedwrapper {
+  position: absolute;
+  left: 1000px;
+}
+
+.rightpane {
+  position: fixed;
+  /* left: 800px; */
+  /* right: 0; */
+  margin-top: 50px;
+  /* margin-right: 50px; */
+  /* margin-left: 100px; */
+  /* width: fit-content; */
+  width: 700px;
+  background-color: pink;
+}
+
+.monthnews {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 12px;
+    width: 840px;
+    margin: 0 auto;
+}
+  
+.itemcontainer {
+  display: flex;
+  flex-direction: column; 
+  /* height: 370px; */
+  /* background-color: yellow; */
+}
+
+.itemtitle {
+  text-align: center;
+  background-color: #0ABAB5;
+  border: 1px solid gainsboro;
+  color: black;
+  text-transform: uppercase;
+  width: 100%;
+  padding-top: 7px;
+  box-sizing: border-box;
+}
+  
+.itemtitle:hover {
+  background-color: yellow;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.poster {
+  position:relative; 
+  background-size: cover;
+  background-color: #fafafa;
+  /* border: 1px solid gainsboro; */
+  border-top: 2px solid #fafafa;
+  box-sizing: border-box;
+  min-width: 200px;
+  min-height: 300px;
+  max-height: 300px;
+  margin-top: 5px;
+}
+
+.yearheader {
+  /* background-color: yellow; */
+  font-weight: bold;
+  font-size: 25px;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}

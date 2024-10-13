@@ -50,13 +50,6 @@ html {
     margin-top: 20px;
 }
 
-#xnabody {
-  position: absolute;
-  top: 119px;
-  width: 100%;
-  margin: 0 auto;
-}
-
 #xnacontent {
   position: relative;
   display: flex;

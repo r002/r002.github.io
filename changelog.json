@@ -1,9 +1,16 @@
 [
   {
+    "dt": "2024-10-12",
+    "version": "1.5.1",
+    "notes": [
+      "start building `zeitgeist` page"
+    ]
+  },
+  {
     "dt": "2024-10-08",
     "version": "1.5.0",
     "notes": [
-      "add `zeitgeist` page",
+      "add `zeitgeist` placeholder page",
       "add data-driven navbar",
       "update movies"
     ]
