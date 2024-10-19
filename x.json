@@ -1,7 +1,213 @@
 [
   {
+    "id": 307,
+    "title": "How will Bluesky monetize?",
+    "dt": "2024-10-18",
+    "url": "https://x.com/robert_gpt/status/1847283325049663925",
+    "tweetText": "Aggregation platforms like FB/IG/X make their money by lifting the toll \"one layer up\". ie. inserting ads into feeds. Essentially, this is the \"price\" they charge users in return for hosting/aggregating/distributing UGC.\n\nThe bsky model (for now) gives away those services for free. I've recently been thinking a lot ab what are other ways that bsky could monetize? \"🤔\""
+  },
+  {
+    "id": 306,
+    "title": "Jay Graber: 'Social is stagnating... users are locked in; developers locked out'",
+    "dt": "2024-10-17",
+    "url": "https://x.com/robert_gpt/status/1847083071247732862",
+    "people": [
+      {
+        "name": "Jay Graber",
+        "handle": "@arcalinea"
+      },
+      {
+        "name": "Mike McCue",
+        "handle": "@mmccue"
+      }
+    ],
+    "tweetText": "\"Social is really starting to stagnate bc we're in this trap where users are locked in and developers are locked out. And we need to open that up again. Then we'll see new companies & more innovation; a new era of fun experimentation.\" -- @arcalinea (in conversation w/ @mmccue)"
+  },
+  {
+    "id": 305,
+    "title": "Human-World Fit (HWF)",
+    "dt": "2024-10-16",
+    "url": "https://x.com/robert_gpt/status/1846710008530309511",
+    "tweetText": "We talk a lot ab \"Product-Market-Fit\". But what I think is equally important is \"Human-World-Fit\". Basically, existing a certain way in the world that makes you happy. Just like PMF, HWF requires enduring many failures. Keep trying new behaviors & values until you find your fit."
+  },
+  {
+    "id": 304,
+    "title": "Molly White: 'The web is still just a substrate on which anything can be built'",
+    "dt": "2024-10-15",
+    "url": "https://x.com/robert_gpt/status/1846359058351087764",
+    "people": [
+      {
+        "name": "Molly White",
+        "handle": "@molly0xFFF"
+      }
+    ],
+    "refs": [
+      "https://www.youtube.com/watch?v=MTaeVVAvk-c"
+    ],
+    "img": "https://pbs.twimg.com/media/GZ-UBnUXoAAzZU4?format=jpg&name=small",
+    "tweetText": "\"What really sucks about the web these days, what has us feeling despair & anger, has everything to do with the industry that has formed around the web, but not the web itself.\n\n\"The web is still just a substrate on which anything can be built. Most importantly, the web is the people who use it, not the companies that have established themselves around it.\" -- @molly0xFFF"
+  },
+  {
+    "id": 303,
+    "title": "POSSE: Publish Own Site, Syndicate Elsewhere",
+    "dt": "2024-10-14",
+    "url": "https://x.com/robert_gpt/status/1846008771757154508",
+    "refs": [
+      "https://indieweb.org/POSSE"
+    ],
+    "img": "https://pbs.twimg.com/media/GZ5TsuNWwAE2npt?format=jpg&name=small",
+    "tweetText": "Recently stumbled across this great idea on IndieWeb called POSSE: Publish Own Site, Syndicate Elsewhere\n\nThe idea is you should own your data (tweets, blog posts) & then simply use platforms like X or bsky for syndication, distribution, & discovery\n\n\"💯\" recommend. Own your data!!"
+  },
+  {
+    "id": 302,
+    "title": "Elon caught the rocket! 🌎🚀✨",
+    "dt": "2024-10-13",
+    "url": "https://x.com/robert_gpt/status/1845638114410135833",
+    "people": [
+      {
+        "name": "Elon Musk",
+        "handle": "@elonmusk"
+      }
+    ],
+    "tweetText": "\"🌎\"\"🚀\"\"✨\""
+  },  
+  {
+    "id": 301,
+    "title": "Lack of pain/pressure",
+    "dt": "2024-10-13",
+    "url": "https://x.com/robert_gpt/status/1845619471232196631",
+    "people": [
+      {
+        "name": "kasey",
+        "handle": "@kaseyklimes"
+      }
+    ],
+    "tweetText": "Lack of pain/pressure.\n\nAs I've aged, I've found that I've generally mellowed. The drive & ambition of my younger years have greatly diminished & I've largely come to peace w/ who I am & am mostly content/happy w/ life.\n\nIdk if this is true, but I feel if I were less content & more uncertain of myself & what I wanted from life, then I'd be more agentic.\n\nIn other words, I think when you're at 50% happiness, it's relatively easy to summon the discipline & drive to get to 90% happiness. But once you're at 90% (for me at least), summoning the agency to go the last 10% just hasn't been there."
+  },
+  {
+    "id": 300,
+    "title": "Pieter Levels | Lex Fridman Podcast #440 - Part II",
+    "dt": "2024-10-12",
+    "url": "https://x.com/robert_gpt/status/1845245905055764795",
+    "people": [
+      {
+        "name": "Ryan Bulcher",
+        "handle": "@ryan_bulcher"
+      }
+    ],
+    "img": "https://pbs.twimg.com/media/GZpwA2bW0AEWbtH?format=jpg&name=medium",
+    "tweetText": "Also, from this great ep:\n- When the GF is home, Pieter goes to sleep at 2a. But when she's not, he reverts to his natural state & sleeps at 4a. For all ppl in a relationship: your SO should disappear a few weeks every quarter. That's when you build new things!\n\ncc: @ryan_bulcher"
+  },
+  {
+    "id": 299,
+    "title": "Pieter Levels | Lex Fridman Podcast #440 - Part I",
+    "dt": "2024-10-11",
+    "url": "https://x.com/robert_gpt/status/1844913014769647976",
+    "people": [
+      {
+        "name": "Lex Fridman",
+        "handle": "@lexfridman"
+      },
+      {
+        "name": "@levelsio",
+        "handle": "@levelsio"
+      }
+    ],
+    "refs": [
+      "https://www.youtube.com/watch?v=oFtjKbXKqbg"
+    ],
+    "img": "https://pbs.twimg.com/media/GZpwA2bW0AEWbtH?format=jpg&name=medium",
+    "tweetText": "This ep of @lexfridman talking w/ @levelsio for ~4hrs is a must-listen for any aspiring dev who wishes to one day make a living indie hacking\n\nKey insights:\n-Push straight to PROD\n-Dev frameworks are a scam (the \"VC-funded dev-industrial complex\")\n-If you're depressed, just build"
+  },
+  {
+    "id": 298,
+    "title": "A quick primer on me",
+    "dt": "2024-10-10",
+    "url": "https://x.com/robert_gpt/status/1844571075062988877",
+    "tweetText": "Hi!\"🙋‍♂️\"\n\nTY for stopping by! A quick primer on me:\n\nFav \"📚\":\nTomorrow, & Tomorrow, & Tomorrow - Zevin\nThe Magicians - Grossman\n\nFav trilogy:\nBefore Sunrise, Before Sunset, Before Midnight - Linklater\n\nFav movie:\nArmageddon (1998)\n\nFav film franchise:\nThe Fast & the Furious\n\nFav \"🖼\":"
+  },
+  {
+    "id": 297,
+    "title": "The Past is Not True | Derek Sivers",
+    "dt": "2024-10-09",
+    "url": "https://x.com/robert_gpt/status/1844210606024356092",
+    "people": [
+      {
+        "name": "Derek Sivers",
+        "handle": "@sivers"
+      },
+      {
+        "name": "anu",
+        "handle": "@anuatluru"
+      }
+    ],
+    "refs": [
+      "https://sive.rs/pnt"
+    ],
+    "img": "https://pbs.twimg.com/media/GZfydEeX0AU5Bft?format=png&name=900x900",
+    "tweetText": "\"🔥\" advice. Reminds me of this classic from  @sivers too: The Past is Not True\n\nIn general, this is part of his philosophy of \"Useful Not True\" which I've grown to increasingly adopt as I've aged. When it comes to our own mythologies, useful>true.\n\nSource: https://sive.rs/pnt"
+  },
+  {
+    "id": 296,
+    "title": "Hara Tanzan 'Muddy Road' Parable",
+    "dt": "2024-10-08",
+    "url": "https://x.com/robert_gpt/status/1843771336776397019",
+    "people": [
+      {
+        "name": "Josiah Hawthorne",
+        "handle": "@JosiahHawthorne"
+      }
+    ],
+    "img": "https://pbs.twimg.com/media/GZZjSlXXoAAVa2h?format=png&name=small",
+    "tweetText": "Never heard of the Hara Tanzan \"Muddy Road\" parable until I found it on X. So good. There's so much truth here: the stuff ppl are most vocal ab are often the stuff they're, deep inside, actually most unsure ab. Like Pirsig says: \"No one shouts ab the sun rising in the east.\""
+  },
+  {
+    "id": 295,
+    "title": "Nobody Cares | Grant Slatton",
+    "dt": "2024-10-07",
+    "url": "https://x.com/robert_gpt/status/1843155648055300581",
+    "people": [
+      {
+        "name": "Grant Slatton",
+        "handle": "@GrantSlatton"
+      }
+    ],
+    "refs": [
+      "https://grantslatton.com/nobody-cares"
+    ],
+    "tweetText": "Hi @GrantSlatton - I just read your great rant at https://grantslatton.com/nobody-cares & wanted to TY for sharing. If you ever start your utopian society, pls lmk; I'd love to apply to join. As someone who once cared very deeply but has since been whittled down, your post deeply resonated. One other note, btw: your observations ab Japan are spot-on; it's definitely a cultural thing and Japan has only been able to maintain that culture bc they're so culturally homogenous.\n\nIn a land like the US where we have ppl from all over, it becomes a much more difficult project. It's like you noted towards the end: I think all people hate \"being the sucker\". Like, it's very difficult to continue going above & beyond when you see everyone around you not upholding the same standard. So then, over time, you too will then stop installing dog bag dispensers & so forth.\n\nAnyway, TY for fighting the good fight. \"🫡\""
+  },
+  {
+    "id": 294,
+    "title": "Return to Bluesky",
+    "dt": "2024-10-06",
+    "url": "https://x.com/robert_gpt/status/1842998271431557155",
+    "people": [
+      {
+        "name": "Tom Critchlow",
+        "handle": "@tomcritchlow"
+      }
+    ],
+    "img": "https://pbs.twimg.com/media/GZOkG7QWIAAU0VP?format=png&name=small",
+    "tweetText": "I started posting & replying on bsky yesterday (after an 8mo hiatus) & wow: that site is totally the opposite of my X exp. 1) Though I'm only following 7ppl, my feed is definitely much more liberal & 2) Ppl engage way more! Some are ad hominem (but I just insta-block them) but others are thoughtful ppl who take the time to reply w/ useful info. This is in stark contrast to X where I basically get no replies ever. (But X is still enormously useful as a public recording platform.)\n\nAnyway, I'll keep experimenting with bsky. One really cool thing ab that platform is that API integration is *super-easy*. ie. It's very simple to programmatically post (w/ images) to the platform. I'm going to play around w/ this more. But basically, I think there's value in being able to \"write once & post everywhere\". X & Bsky are essentially increasingly the \"messaging busses\" of humanity.\n\nProps to what @aworkinglibrary wrote: I really encourage folks to try distributing snippets of their writing on the different major social platforms. There is definitely something fertile & promising to be explored w/ this means of distribution."
+  },  
+  {
+    "id": 293,
+    "title": "Power vs Force",
+    "dt": "2024-10-05",
+    "url": "https://x.com/robert_gpt/status/1842577563786383787",
+    "people": [
+      {
+        "name": "Jash Dholani",
+        "handle": "@oldbooksguy"
+      }
+    ],
+    "img": "https://pbs.twimg.com/media/GZESsyKX0AAfjmX?format=png&name=small",
+    "tweetText": "Power vs Force\nLove this framing; Huxley nailed it. This day & age, \"flooding the zone\" has achieved far better results re controlling the thought space of the polity than censorship ever could have. When we can believe everything, it's most difficult to believe anything."
+  },
+  {
     "id": 292,
-    "title": "CJ on Elon: 'No one will ever be dunked on that hard, from now until the end of time'",
+    "title": "CJH on Elon: 'No one will ever be dunked on that hard, from now until the end of time'",
     "dt": "2024-10-04",
     "url": "https://x.com/robert_gpt/status/1842208192396140594",
     "people": [
@@ -27,7 +233,7 @@
   },  
   {
     "id": 290,
-    "title": "AI can only train on exteriority",
+    "title": "AI trains only on exteriority + Every man's secret heart",
     "dt": "2024-10-02",
     "url": "https://x.com/robert_gpt/status/1841680768273088947",
     "people": [
