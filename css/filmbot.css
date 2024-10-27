@@ -1,0 +1,49 @@
+#filmbotcontent {
+  margin-top: 100px;
+}
+
+#leaderboard {
+  display: grid;
+  grid-template-columns: 30px 210px 1fr;
+  gap: 2px;
+  margin-top: 18px;
+  width: 360px;
+}
+
+#leaderboard, .card a {
+  /* color: blue; */
+  text-decoration: none;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* top:50px;
+  left:0; */
+  background-color: white;
+  box-sizing: border-box;
+  width: 1000px;
+  /* width: 630px; */
+  /* height: 200px; */
+  padding: 0;
+  margin: 0 auto;
+  border: gainsboro 1px solid;
+  opacity: 1;
+  /* display: none; */
+  transition: 1s;
+  /* text-align: center; */
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.scene {
+  background-size: cover;
+  width: 500px;
+  height: 220px;
+}

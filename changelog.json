@@ -1,5 +1,12 @@
 [
   {
+    "dt": "2024-10-26",
+    "version": "1.6.0",
+    "notes": [
+      "start building `filmbot` page"
+    ]
+  },
+  {
     "dt": "2024-10-19",
     "version": "1.5.2",
     "notes": [

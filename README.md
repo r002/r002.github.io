@@ -47,7 +47,10 @@ Onward and upward!! Accelerate!! 🌎🚀✨
 **
 
 ## TODO
-- [ ] fix `[Missed Day]` calendar issue - `#219: July 26`
+- [x] Add the Bluesky `Filmbot 🍿` leaderboard
+- [ ] add  `writing` page to host all my blog posts
+- [ ] fix `[Missed Day]` calendar issue - `#219: July 26, 2024`
+- [ ] fix `double header` bug - `#301: Oct 13, 2024`
 - [ ] research `blueskey` and `x` apis for simultaneous posting
   - [ ] build a central GUI that posts to both simultaneously?
   - [ ] research how to bring `analytics counts` to `bluesky` (see how many impressions/clicks each post got)
@@ -59,7 +62,7 @@ Onward and upward!! Accelerate!! 🌎🚀✨
 - [ ] build `wheel` page
   - [ ] track every week's pick
   - [ ] render histogram of everyone's who's been picked
-- [ ] add  `writing` page
+- [ ] add  `writer` page
   - [ ] add `start` and `stop` timer buttons
   - [ ] the page will track time (in increments of 15min blocks) spent writing that day (record timestamps?)
     - [ ] writing should be intentional, focused, measured, delivery-oriented
