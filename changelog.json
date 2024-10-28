@@ -1,5 +1,12 @@
 [
   {
+    "dt": "2024-10-27",
+    "version": "1.6.1",
+    "notes": [
+      "move all js code to load at end of page lifecycle"
+    ]
+  },
+  {
     "dt": "2024-10-26",
     "version": "1.6.0",
     "notes": [
