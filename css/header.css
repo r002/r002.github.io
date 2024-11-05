@@ -78,6 +78,24 @@ a:active {
   border-bottom: gainsboro 1px solid;
 }
 
+#buildinpublic {
+  position: fixed;
+  /* top: 35px;
+  right: 150px; */
+  top: 0;
+  right: 150px;
+  font-size: 15px;
+  border-left: 1px gainsboro solid;
+  border-right: 1px gainsboro solid;
+  border-bottom: 1px gainsboro solid;
+  background-color: #fafafa;
+  padding: 10px;
+}
+
+#buildinpublic:hover {
+  background-color: yellow;
+}
+
 .header a {
   color: #4A4A46;
   text-decoration: none;

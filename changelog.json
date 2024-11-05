@@ -1,5 +1,12 @@
 [
   {
+    "dt": "2024-11-04",
+    "version": "1.6.2",
+    "notes": [
+      "add `#buildinpublic` badge to site header"
+    ]
+  },
+  {
     "dt": "2024-10-27",
     "version": "1.6.1",
     "notes": [
