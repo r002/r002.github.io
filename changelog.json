@@ -1,5 +1,12 @@
 [
   {
+    "dt": "2024-11-10",
+    "version": "1.6.3",
+    "notes": [
+      "update tweets through `10/21/24`"
+    ]
+  },
+  {
     "dt": "2024-11-04",
     "version": "1.6.2",
     "notes": [

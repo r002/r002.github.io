@@ -1,5 +1,40 @@
 [
   {
+    "id": 310,
+    "title": "Today is my final tweet on X",
+    "dt": "2024-10-21",
+    "url": "https://x.com/robert_gpt/status/1848512921841619253",
+    "tweetText": "Today is my final tweet on X. I may still use X in a readonly kind of way. But despite posting literally every day on X for the past ten months, I've barely gotten any engagement compared to the past two weeks on bsky. I think Elon has done great things w/ Tesla & SpaceX. But when it comes to social, I firmly believe in the open social web that bsky is championing. If you're still doubting, join us over in bsky! (It's really picked up a lot of steam this past week! At ~13m now!) Hopefully, see you over there! 🙋‍♂️\n\nSource: https://bsky.jazco.dev/stats",
+    "refs": [
+      "https://bsky.jazco.dev/stats"
+    ],
+    "img": "https://pbs.twimg.com/media/Gac8U7BXYAAVRTJ?format=jpg&name=large"
+  },
+  {
+    "id": 309,
+    "title": "Everyone should build their own homelab",
+    "dt": "2024-10-20",
+    "url": "https://x.com/robert_gpt/status/1848166022068470150",
+    "tweetText": "Everyone should build their own homelab! I have an old 7yr ThinkPad I've repurposed into a home server. It's humble, but a step in the right dir! No more ☁ functions & ☁ scheduler jobs! It all just runs on my own metal in my basement now.\n\nBring everything back to local-first! Nature is healing! ✊",
+    "img": "https://pbs.twimg.com/media/GaYA_NmWgAAGi2m?format=jpg&name=large"
+  },
+  {
+    "id": 308,
+    "title": "File over app",
+    "dt": "2024-10-19",
+    "url": "https://x.com/robert_gpt/status/1847786091803529410",
+    "tweetText": "File over app\n\nThis is a philosophy I also share! This is why I store all of the data on my site in vanilla JSON files. As much as possible, I've tried to stay away from dbs (eg. Postgres, Firebase). Obviously, there's a time & place for such industrial-grade tools. But your personal site is likely not one of them.",
+    "people": [
+      {
+        "name": "kepano",
+        "handle": "@kepano"
+      }
+    ],
+    "refs": [
+      "https://x.com/kepano/status/1675626836821409792"
+    ]
+  },
+  {
     "id": 307,
     "title": "How will Bluesky monetize?",
     "dt": "2024-10-18",
@@ -93,6 +128,14 @@
       {
         "name": "Ryan Bulcher",
         "handle": "@ryan_bulcher"
+      },
+      {
+        "name": "Lex Fridman",
+        "handle": "@lexfridman"
+      },
+      {
+        "name": "@levelsio",
+        "handle": "@levelsio"
       }
     ],
     "img": "https://pbs.twimg.com/media/GZpwA2bW0AEWbtH?format=jpg&name=medium",
@@ -218,6 +261,10 @@
       {
         "name": "near",
         "handle": "@nearcyan"
+      },
+      {
+        "name": "Elon Musk",
+        "handle": "@elonmusk"
       }
     ],
     "img": "https://pbs.twimg.com/media/GZDVvQSXsAAAFHF?format=png&name=small",
