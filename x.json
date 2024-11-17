@@ -1,5 +1,33 @@
 [
   {
+    "id": 311,
+    "title": "Mastodon's opt-in only 5-6%: Ryan Barrett | Dot Social",
+    "dt": "2024-10-23T01:25:30.572Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3l75f3k4spn2w",
+    "tweetText": "A great convo btwn @mmccue.bsky.social & @snarfed.org - what struck me was a stat that Ryan shared: On Mastodon, despite a huge PR & outreach campaign, only 5-6% ppl ultimately opted into full-text search. This \"cold start\" problem is fascinating.\n\nI ♥ how ATProto makes everything public by default!",
+    "people": [
+      {
+        "handle": "@mmccue.bsky.social",
+        "did": "did:plc:6nkng5626orolzuyvuzocl4e",
+        "name": "Mike McCue"
+      },
+      {
+        "handle": "@snarfed.org",
+        "did": "did:plc:fdme4gb7mu7zrie7peay7tst",
+        "name": "Ryan"
+      },
+      {
+        "name": "Flipboard",
+        "handle": "@flipboard.com",
+        "did": "did:plc:6q2thhy2ohzog26mmqm4pffk"
+      }
+    ],
+    "refs": [
+      "https://bsky.app/profile/did:plc:6q2thhy2ohzog26mmqm4pffk/post/3krgy24ueqk2r"
+    ],
+    "img": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5wlpm2j3d6can6quf5hotdcc/bafkreiejcm7vpxsnnp5ivs2ed6za7vrbp42g7mqqi7fykgb5c4qjkdhsae@jpeg"
+  },
+  {
     "id": 310,
     "title": "Today is my final tweet on X",
     "dt": "2024-10-21",

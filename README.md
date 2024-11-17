@@ -47,7 +47,8 @@ Onward and upward!! Accelerate!! 🌎🚀✨
 **
 
 ## TODO
-- [x] Add the Bluesky `Filmbot 🍿` leaderboard
+- [ ] build the `bsky degree of decentralization index (BSKY DoDI)` page
+  - [ ] if t-rexes in F-14s suddenly launched sidewinders at all existing bsky infra, what would happen?
 - [ ] add  `writing` page to host all my blog posts
 - [ ] fix `[Missed Day]` calendar issue - `#219: July 26, 2024`
 - [ ] fix `double header` bug - `#301: Oct 13, 2024`
@@ -69,8 +70,9 @@ Onward and upward!! Accelerate!! 🌎🚀✨
 - [ ] write script to generate metadata
   - [ ] calculate number of weeks that have elapsed
 - [ ] write pre-commit hook to ensure metadata integrity
-- [ ] add the `this is an educational resource` badge to topbar
 - [ ] create `links` section on XNA page
+- [x] Add the Bluesky `Filmbot 🍿` leaderboard
+- [x] add the `this is an educational resource` badge to topbar
 - [x] scrolling should only scroll the `timestream` center pane
 - [x] separate `timestream` by `week # divider`
 - [x] create `books` section on XNA page

@@ -1,5 +1,12 @@
 [
   {
+    "dt": "2024-11-17",
+    "version": "1.6.4",
+    "notes": [
+      "support bsky posts"
+    ]
+  },
+  {
     "dt": "2024-11-10",
     "version": "1.6.3",
     "notes": [

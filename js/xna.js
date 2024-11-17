@@ -302,8 +302,13 @@ function genenhancedtip(tweetArr) {
 }
 
 function genprettydate(dt, fmt) {
-  const dateParts = dt.split("-");
-  const dateObject = new Date(dateParts[0], dateParts[1] - 1, dateParts[2]);
+  let dateObject;
+  if (!dt.includes('Z')) {
+    const dateParts = dt.split("-");
+    dateObject = new Date(dateParts[0], dateParts[1] - 1, dateParts[2]);
+  } else {
+    dateObject = new Date(dt);
+  }
   const options = { year: 'numeric', month: 'short', day: 'numeric', weekday: 'long' };
   const formattedDate = new Intl.DateTimeFormat('en-US', options).format(dateObject);
   const parts = formattedDate.split(", ");
@@ -355,7 +360,8 @@ function genweektitle(weekNo, weekstartdt, weekenddt) {
   }
   if (startparts[1]===endparts[1]) {
     const startdt = genprettydate(weekstartdt,"short");
-    return `Week #${weekNo}: ${startdt}-${endparts[2].replace(/^0+/, '')}`;
+    const enddt = genprettydate(weekenddt,"short");
+    return `Week #${weekNo}: ${startdt}-${enddt}`;
   }
   return `Week #${weekNo}: ${genprettydate(weekstartdt,"short")}-${genprettydate(weekenddt,"short")}`;
 }
