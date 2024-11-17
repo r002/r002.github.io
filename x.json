@@ -7,18 +7,18 @@
     "tweetText": "A great convo btwn @mmccue.bsky.social & @snarfed.org - what struck me was a stat that Ryan shared: On Mastodon, despite a huge PR & outreach campaign, only 5-6% ppl ultimately opted into full-text search. This \"cold start\" problem is fascinating.\n\nI ♥ how ATProto makes everything public by default!",
     "people": [
       {
-        "handle": "@mmccue.bsky.social",
+        "handle": "mmccue.bsky.social",
         "did": "did:plc:6nkng5626orolzuyvuzocl4e",
         "name": "Mike McCue"
       },
       {
-        "handle": "@snarfed.org",
+        "handle": "snarfed.org",
         "did": "did:plc:fdme4gb7mu7zrie7peay7tst",
         "name": "Ryan"
       },
       {
         "name": "Flipboard",
-        "handle": "@flipboard.com",
+        "handle": "flipboard.com",
         "did": "did:plc:6q2thhy2ohzog26mmqm4pffk"
       }
     ],
@@ -55,7 +55,7 @@
     "people": [
       {
         "name": "kepano",
-        "handle": "@kepano"
+        "handle": "kepano"
       }
     ],
     "refs": [
@@ -77,11 +77,11 @@
     "people": [
       {
         "name": "Jay Graber",
-        "handle": "@arcalinea"
+        "handle": "arcalinea"
       },
       {
         "name": "Mike McCue",
-        "handle": "@mmccue"
+        "handle": "mmccue"
       }
     ],
     "tweetText": "\"Social is really starting to stagnate bc we're in this trap where users are locked in and developers are locked out. And we need to open that up again. Then we'll see new companies & more innovation; a new era of fun experimentation.\" -- @arcalinea (in conversation w/ @mmccue)"
@@ -101,7 +101,7 @@
     "people": [
       {
         "name": "Molly White",
-        "handle": "@molly0xFFF"
+        "handle": "molly0xFFF"
       }
     ],
     "refs": [
@@ -129,7 +129,7 @@
     "people": [
       {
         "name": "Elon Musk",
-        "handle": "@elonmusk"
+        "handle": "elonmusk"
       }
     ],
     "tweetText": "\"🌎\"\"🚀\"\"✨\""
@@ -142,7 +142,7 @@
     "people": [
       {
         "name": "kasey",
-        "handle": "@kaseyklimes"
+        "handle": "kaseyklimes"
       }
     ],
     "tweetText": "Lack of pain/pressure.\n\nAs I've aged, I've found that I've generally mellowed. The drive & ambition of my younger years have greatly diminished & I've largely come to peace w/ who I am & am mostly content/happy w/ life.\n\nIdk if this is true, but I feel if I were less content & more uncertain of myself & what I wanted from life, then I'd be more agentic.\n\nIn other words, I think when you're at 50% happiness, it's relatively easy to summon the discipline & drive to get to 90% happiness. But once you're at 90% (for me at least), summoning the agency to go the last 10% just hasn't been there."
@@ -155,15 +155,15 @@
     "people": [
       {
         "name": "Ryan Bulcher",
-        "handle": "@ryan_bulcher"
+        "handle": "ryan_bulcher"
       },
       {
         "name": "Lex Fridman",
-        "handle": "@lexfridman"
+        "handle": "lexfridman"
       },
       {
         "name": "@levelsio",
-        "handle": "@levelsio"
+        "handle": "levelsio"
       }
     ],
     "img": "https://pbs.twimg.com/media/GZpwA2bW0AEWbtH?format=jpg&name=medium",
@@ -177,11 +177,11 @@
     "people": [
       {
         "name": "Lex Fridman",
-        "handle": "@lexfridman"
+        "handle": "lexfridman"
       },
       {
         "name": "@levelsio",
-        "handle": "@levelsio"
+        "handle": "levelsio"
       }
     ],
     "refs": [
@@ -205,11 +205,11 @@
     "people": [
       {
         "name": "Derek Sivers",
-        "handle": "@sivers"
+        "handle": "sivers"
       },
       {
         "name": "anu",
-        "handle": "@anuatluru"
+        "handle": "anuatluru"
       }
     ],
     "refs": [
@@ -226,7 +226,7 @@
     "people": [
       {
         "name": "Josiah Hawthorne",
-        "handle": "@JosiahHawthorne"
+        "handle": "JosiahHawthorne"
       }
     ],
     "img": "https://pbs.twimg.com/media/GZZjSlXXoAAVa2h?format=png&name=small",
@@ -240,7 +240,7 @@
     "people": [
       {
         "name": "Grant Slatton",
-        "handle": "@GrantSlatton"
+        "handle": "GrantSlatton"
       }
     ],
     "refs": [
@@ -256,7 +256,7 @@
     "people": [
       {
         "name": "Tom Critchlow",
-        "handle": "@tomcritchlow"
+        "handle": "tomcritchlow"
       }
     ],
     "img": "https://pbs.twimg.com/media/GZOkG7QWIAAU0VP?format=png&name=small",
@@ -270,7 +270,7 @@
     "people": [
       {
         "name": "Jash Dholani",
-        "handle": "@oldbooksguy"
+        "handle": "oldbooksguy"
       }
     ],
     "img": "https://pbs.twimg.com/media/GZESsyKX0AAfjmX?format=png&name=small",
@@ -284,15 +284,15 @@
     "people": [
       {
         "name": "Casey Handmer, PhD",
-        "handle": "@CJHandmer"
+        "handle": "CJHandmer"
       },
       {
         "name": "near",
-        "handle": "@nearcyan"
+        "handle": "nearcyan"
       },
       {
         "name": "Elon Musk",
-        "handle": "@elonmusk"
+        "handle": "elonmusk"
       }
     ],
     "img": "https://pbs.twimg.com/media/GZDVvQSXsAAAFHF?format=png&name=small",
@@ -314,7 +314,7 @@
     "people": [
       {
         "name": "Ben Hunt",
-        "handle": "@EpsilonTheory"
+        "handle": "EpsilonTheory"
       }
     ],
     "img": "https://pbs.twimg.com/media/GY7qsMtWIAAxKxL?format=png&name=900x900",
@@ -328,7 +328,7 @@
     "people": [
       {
         "name": "Tyger Cho",
-        "handle": "@tyger_cho"
+        "handle": "tyger_cho"
       }
     ],
     "img": "https://pbs.twimg.com/media/GY16SkfXsAAz9U6?format=jpg&name=medium",
@@ -367,7 +367,7 @@
     "people": [
       {
         "name": "Bianca Leigh",
-        "handle": "@biancaleighw"
+        "handle": "biancaleighw"
       }
     ],
     "tweetText": "\"What's past is prologue.\"\n~Shakespeare, The Tempest"
@@ -391,7 +391,7 @@
     "people": [
       {
         "name": "Jojo Mojo",
-        "handle": "@jojoxcvii"
+        "handle": "jojoxcvii"
       }
     ],
     "tweetText": "\"Studies have shown that even just having a friend who you can talk sh*t about your partner to —which is healthy, btw— actually improves the chances of staying with your partner.\"  —@Trevornoah"
@@ -411,11 +411,11 @@
     "people": [
       {
         "name": "Paul Millerd",
-        "handle": "@p_millerd"
+        "handle": "p_millerd"
       },
       {
         "name": "David Perell",
-        "handle": "@david_perell"
+        "handle": "david_perell"
       }
     ],
     "refs": [
@@ -432,11 +432,11 @@
     "people": [
       {
         "name": "Edge City",
-        "handle": "@JoinEdgeCity"
+        "handle": "JoinEdgeCity"
       },
       {
         "name": "timour kosters",
-        "handle": "@timourxyz"
+        "handle": "timourxyz"
       }
     ],
     "refs": [
@@ -453,7 +453,7 @@
     "people": [
       {
         "name": "Mark Nelson",
-        "handle": "@energybants"
+        "handle": "energybants"
       }
     ],
     "tweetText": "A reminder that the grass is greener wherever you water. I'm personally \"💯\" on the American side but also understand the nostalgic & safety/fear-driven desire to turn back the clock. The good news is Earth is large enough for all views. Germany is tearing down its nuclear plants & America is restarting theirs (so Microsoft can power AI). Fitting bookends that describe the current global state of play today. 2024 summer will be known in the future as the moment in history when the destinies of countries diverged bc of their nuclear policies."
@@ -466,7 +466,7 @@
     "people": [
       {
         "name": "Ulkar",
-        "handle": "@ulkar_aghayeva"
+        "handle": "ulkar_aghayeva"
       }
     ],
     "tweetText": "I'm also fascinated with biographical stories of rivals. The four that come to mind:\n- Pirates of Silicon Valley (1999) - The Steve Jobs vs Bill Gates story\n- 61* (2001) - The 1961 season where Roger Maris & Mickey Mantle faced off to break Babe Ruth's 1927 single-season home run record\n- Rush (2013) - The F1 rivalry between Briton James Hunt vs Austrian Niki Lauda that covers the 1976 motor-racing season\n- The Current War (2017) - Thomas Edison vs George Westinghouse over the US's electric power delivery system\n\nDoes anyone else have recommendations? Love this genre."
@@ -479,11 +479,11 @@
     "people": [
       {
         "name": "Noah Feldman",
-        "handle": "@NoahRFeldman"
+        "handle": "NoahRFeldman"
       },
       {
         "name": "Andy Hall",
-        "handle": "@ahall_research"
+        "handle": "ahall_research"
       }
     ],
     "refs": [
@@ -500,7 +500,7 @@
     "people": [
       {
         "name": "John McBride",
-        "handle": "@johncodezzz"
+        "handle": "johncodezzz"
       }
     ],
     "tweetText": "I love this Amazon 5d RTO take, especially highlighting all the reasons cities give such massive tax breaks for office HQs.\n\nWhile I totally understand why ppl like WFH & avoiding 1-2 hour commutes, at the day's end I'm a collectivist on this. We all worked 5d a week at the office before. We can certainly do it again. Yes, individuals (especially parents of young children) may struggle more. And yes, I even grant some of you may be *less* productive at the office. But in my mind, all the benefits to the *surrounding office areas* are worth it. More money for small businesses like cafes and restaurants. More people doing stuff outside together after work bc they're already out. More foot traffic revitalizing our downtown urban cores or even the areas surrounding office parks. The list goes on and on.\n\nUltimately, I just don't want to live in a dystopian world where everyone's WFH and society is atomized. I want a society that is vibrant, connected, and alive! Not just with everyone stuck in their own individual bubbles at home all the time.\n\nI'm \"💯\" with Jassy on this one."
@@ -513,7 +513,7 @@
     "people": [
       {
         "name": "Max Barry",
-        "handle": "@MaxBarry"
+        "handle": "MaxBarry"
       }
     ],
     "tweetText": "One of my favorite authors, @MaxBarry has a great tip for aspiring writers: instead of trying to hit a daily word count (say, 500 words), pretend instead you have a daily word max. And you're only allowed to record 500 of your best words for that day. This is something that's helped me a lot. Spewing quantity to reach a daily count just means there's more chaff to have to sort through later. \"🙄\" #WritingCommunity"
@@ -533,7 +533,7 @@
     "people": [
       {
         "name": "Tom Hatfield",
-        "handle": "@WordMercenary"
+        "handle": "WordMercenary"
       }
     ],
     "refs": [
@@ -550,7 +550,7 @@
     "people": [
       {
         "name": "Visakan Veerasamy",
-        "handle": "@visakanv"
+        "handle": "visakanv"
       }
     ],
     "tweetText": "Right now we're watching Castle, the series that aired 8 seasons from 2009-2016. (Just started s3!) First, huge alpha in watching TV shows w/ the SO! That's definitely one of the highest leverage ways to build joint memories & convo topics. \"👍\" To this day, we still talk ab scenes from Mad Men, which we'd first watched during COVID.\n\nWatching Castle for us is funny though. I love the series bc I love watching Fillion and Katic. Will they or won't they? And I'm super-invested with every turn in that relationship. The plot of each ep, honestly at this point just breezes over me. Sometimes, I feel too tired to even follow what's going on.\n\nWhereas, she only watches for the murder mystery & Fillion annoys her to no end. \"😅\""
@@ -563,7 +563,7 @@
     "people": [
       {
         "name": "Casey Newton",
-        "handle": "@CaseyNewton"
+        "handle": "CaseyNewton"
       }
     ],
     "refs": [
@@ -580,7 +580,7 @@
     "people": [
       {
         "name": "evelyn",
-        "handle": "@evelynjunn"
+        "handle": "evelynjunn"
       }
     ],
     "tweetText": "\"💯\" true. Additionally, a corollary:\n\nIf you have a `builder side` and you don't build, you'll also literally go insane.\n\nNot all building is necessarily creative. For example, think of a carpenter building a chair. He's probably built a hundred chairs, each identical. But there's still a ton of craftmanship & attention to detail that's the fun part.\n\n(Incidentally, coding is much the same way too. I honestly think of coders more as craftsmen. You're not doing anything groundbreaking per se. But there's still a fine precision and technique to the craft which is what makes it enjoyable.)"
@@ -593,7 +593,7 @@
     "people": [
       {
         "name": "Henrik Karlsson",
-        "handle": "@phokarlsson"
+        "handle": "phokarlsson"
       }
     ],
     "img": "https://pbs.twimg.com/media/GXPRJVOXkAA1XF6?format=png&name=900x900",
@@ -607,7 +607,7 @@
     "people": [
       {
         "name": "Black Hole",
-        "handle": "@konstructivizm"
+        "handle": "konstructivizm"
       }
     ],
     "img": "https://pbs.twimg.com/media/GVB4h6MXwAA8UoY?format=jpg&name=medium",
@@ -621,7 +621,7 @@
     "people": [
       {
         "name": "Isabel",
-        "handle": "@isabelunraveled"
+        "handle": "isabelunraveled"
       }
     ],
     "tweetText": "\"💯\"this. Also: this is why meditation is so important. (Or at least some ritual where you quiet your mind & baseline on what you genuinely want, filtering all the noise from signal in your head.) Additionally: this is why forming the right habits are critical. The idea is to get to a place where you 24/7 leverage your own limited perception & human biases in your favor. So your narrow cone of perception then synchronizes between your \"internal state\" & \"the external world\".\n\nWhen this happens, every \"setback\" in the external world will be exactly that in your mind: in air quotes. Your mind will interpret every setback as a lesson or opportunity. And every gift or door that opens will feel divinely ordained, feeding your confirmation bias that you're \"on the right path\".\n\nRelated: on X, I've noticed that people like to dunk on \"copes\" a lot. And I agree that a rationalization ab something suboptimal can certainly be the first step towards an unhealthy cope. But if that rationalization turns into the basis for action, then you've turned the tables. There's that old line about, \"chips on the shoulder yield chips in the pocket.\" Turn a bad childhood upbringing into a struggle essay that gets you into a selective college. Or use that speeding ticket as a constant reminder that you should drive safer when your kids are in the backseat. Copes can become lemonade if you action on them. Make your copes serve you.\n\nOne final note: someone else in the comments mentioned something ab, \"working hard\". Working hard is not enough. This is the entire idea of \"mind magic\". You need to actually put a destination into the nav system first before you enable autopilot. Otherwise, you will go through life as an NPC."
@@ -642,7 +642,7 @@
     "people": [
       {
         "name": "Mackenzie Hawkins",
-        "handle": "@mackhawk"
+        "handle": "mackhawk"
       }
     ],
     "tweetText": "Yay, America! I knew we could do it!! Feels like yesterday I was reading ab how culture differences were causing issues at the TSMC AZ facility & there were doubts if American laborers could achieve parity in quality. Am glad to see the early kinks ironed out!! \"💪\"\n\nLong USA!! \"🇺🇲\""
@@ -663,7 +663,7 @@
     "people": [
       {
         "name": "Pirate Wires",
-        "handle": "@PirateWires"
+        "handle": "PirateWires"
       }
     ],
     "img": "https://pbs.twimg.com/media/GWpP2a0XwAATXXv?format=jpg&name=medium",
@@ -684,7 +684,7 @@
     "people": [
       {
         "name": "Paul Graham",
-        "handle": "@paulg"
+        "handle": "paulg"
       }
     ],
     "tweetText": "A great reminder that conventional wisdom is \"common sense\" until it isn't.\n\nI love how ppl are increasingly finding their own way. Authority figures are not Gods; they are men, just like the rest of us. If something is working for you, keep at it, no matter what experts say. It's your life; not theirs."
@@ -697,7 +697,7 @@
     "people": [
       {
         "name": "Jen",
-        "handle": "@brokemycoccyx"
+        "handle": "brokemycoccyx"
       }
     ],
     "tweetText": "Lol. This is something all men learn in Year 1! \"🙂\""
@@ -710,7 +710,7 @@
     "people": [
       {
         "name": "The New Yorker",
-        "handle": "@NewYorker"
+        "handle": "NewYorker"
       }
     ],
     "img": "https://pbs.twimg.com/media/GWU6xpEbQAISp8A?format=jpg&name=large",
@@ -731,7 +731,7 @@
     "people": [
       {
         "name": "Mike Solana",
-        "handle": "@micsolana"
+        "handle": "micsolana"
       }
     ],
     "img": "https://pbs.twimg.com/media/GWLglZWakAEFRU8?format=png&name=large",
@@ -745,7 +745,7 @@
     "people": [
       {
         "name": "Sam Altman",
-        "handle": "@sama"
+        "handle": "sama"
       }
     ],
     "tweetText": "Huge alpha in just making a decision to avoid getting stuck. The enemy of progress isn't failure (excepting \"one-way door\" existential ones) but stagnation.\n\nEven if you make a move & it's suboptimal, at least you've moved past that potential quagmire. Avoid getting stuck at all costs. Stagnation is death. Movement (even if it's not always forward-movement) is life."
@@ -758,7 +758,7 @@
     "people": [
       {
         "name": "More Perfect Union",
-        "handle": "@MorePerfectUS"
+        "handle": "MorePerfectUS"
       }
     ],
     "tweetText": "A Sinking Tide Lowers All Boats\n\nThe idea that taxes on unrealized capital gains for ppl making over $100m won't affect many of us is wrong. Yes, only a tiny fraction would pay this tax. But in order to foot the tax bill every year, the ultra-wealthy would need to come up w/ the cash some way, right? And they'd likely sell stock? Thus, anyone who has a 401k, IRA, or any money invested in the market would also be adversely impacted.\n\nAdditionally, nowadays, more & more ppl are increasingly invested in the equity markets (thanks, Robinhood!) It used to be very gatekept (there were transaction fees on every trade!) but now with commission-free trading, anyone can participate in the spoils of a booming market.\n\nI'm honestly confused by ppl who are advocating for this; taxing unrealized capital gains seems like the exact opposite of a \"rising tide lifts all boats\". Equity markets are one of the few ways for normal people (Main Streeters) to amass great wealth in the US. Why take away this avenue of success from everyone?"
@@ -790,7 +790,7 @@
     "people": [
       {
         "name": "Bryan Johnson /dd",
-        "handle": "@bryan_johnson"
+        "handle": "bryan_johnson"
       }
     ],
     "tweetText": "\"Identify as a professional sleeper.\"  —Bryan Johnson\n\nThis is my next project. Everything revolves around sleep & it literally influences everything else in our lives. As goes one of my favorite quotes:\n\n\"The line between genius & madness is a good night's sleep.\""
@@ -814,7 +814,7 @@
     "people": [
       {
         "name": "The New York Times",
-        "handle": "@nytimes"
+        "handle": "nytimes"
       }
     ],
     "refs": [
@@ -840,7 +840,7 @@
     "people": [
       {
         "name": "Disclose.tv",
-        "handle": "@disclosetv"
+        "handle": "disclosetv"
       }
     ],
     "refs": [
@@ -863,7 +863,7 @@
     "people": [
       {
         "name": "James Lucas",
-        "handle": "@JamesLucasIT"
+        "handle": "JamesLucasIT"
       }
     ],
     "img": "https://pbs.twimg.com/media/GVW9upGWwAAw0M0?format=jpg&name=large",
@@ -922,7 +922,7 @@
     "people": [
       {
         "name": "@jason",
-        "handle": "@Jason"
+        "handle": "Jason"
       }
     ],
     "tweetText": "I think it totally depends. Some WFH great; others don't. Also, varies by company, industry, role, etc.\n\nBut yes, for what Schmidt's describing— I agree. For startups, locking everyone in the same room & having them all grind together is invaluable. It's the same reason many of us back in college studied the best at the library where we all suffered & commiserated together when cramming for finals. Misery loves company. But in aggregate, can be a superpower.\n\nEven for more mature companies, speaking personally, I've noticed this of myself: when I'm at the office and am stripped of optionality, I’m more focused because there’s literally nothing else I can do. I enjoy working until a specified a time and even if I finish early, I’ll then fiddle on something else work-related until it’s time to go. When it comes to work, the truth is there’s always more of it."
@@ -935,7 +935,7 @@
     "people": [
       {
         "name": "Anatoly Karlin",
-        "handle": "@powerfultakes"
+        "handle": "powerfultakes"
       }
     ],
     "img": "https://pbs.twimg.com/media/GU0BOwsXoAEjrEL?format=jpg&name=small",
@@ -949,7 +949,7 @@
     "people": [
       {
         "name": "Steph Smith",
-        "handle": "@stephsmithio"
+        "handle": "stephsmithio"
       }
     ],
     "img": "https://pbs.twimg.com/media/GU0AWGnakAAmheI?format=png&name=medium",
@@ -963,7 +963,7 @@
     "people": [
       {
         "name": "Dominic White",
-        "handle": "@singe"
+        "handle": "singe"
       }
     ],
     "tweetText": "Everyone makes mistakes. But most will never make colossal mistakes. Mistakes that should've never happened. But that's the price of doing big things. The bigger the thing, the higher the stakes. Actual stakes.\n\nI love what CrowdStrike did here. 100% ownership & contrition. \"👏\""
@@ -976,7 +976,7 @@
     "people": [
       {
         "name": "RAW EGG NATIONALIST",
-        "handle": "@Babygravy9"
+        "handle": "Babygravy9"
       }
     ],
     "refs": [
@@ -1032,7 +1032,7 @@
     "people": [
       {
         "name": "Gad Saad",
-        "handle": "@GadSaad"
+        "handle": "GadSaad"
       }
     ],
     "tweetText": "IMHO, this is a wrong take. This is an example where what's good at the micro level is not applicable at the macro level. (Another example is debt. What works at a national level isn't advisable at a household level, for various reasons bc what you're optimizing for at each level is different.)\n\nI agree that for roommates & marriages, sharing common core values is paramount. \"✅\"\n\nBut when it comes to society (& here, I'm thinking ab the US, specifically), the ability to agree to disagree is critical, while still working together on other things. We must be able to get along, at least in common spaces & at the workplace.\n\nWhat religions ppl celebrate at home is their own business. But when they show up for their job at the office (or WFH when they hop on Zoom or deliver work), then it's mission-first for whatever is best for the company. (Personal values are subservient to company values at the workplace. If you don't like your company's values, don't work there.)\n\nSame goes for public spaces. In public spaces, there must be a minimum code. The great thing ab America is that these codes differ *a lot* state-by-state.\n\nIf you are more liberal & like paying higher taxes, then move to SF & CA. If you're more conservative, move to a red state. And even within states, there are huge differences too. (eg. I live in Cincinnati & we have an area called Indian Hills where the wealthy residents have their own police force & gated park. But then there are other parts of Ohio that are definitely more collective & communal. In Mason, for example, there is a huge Indian enclave. (When I lived in NJ, it was like this too. Huge Indian enclaves!) And in CA, there are also entire areas where the signage is all in Chinese. No English in sight! In America!)\n\nAmerica is vibrant & strong bc we're able to harness the best from all cultures, religions, & backgrounds. The diversity is real, not just lip service, & we ought celebrate that. (Just look at the ethnicities of many of the American athletes competing at the Olympics right now.) We have 50 states. Move to the one that most shares your values. There's enough room for all of us here."
@@ -1086,7 +1086,7 @@
     "people": [
       {
         "name": "Itsme",
-        "handle": "@itsme_urstruly"
+        "handle": "itsme_urstruly"
       }
     ],
     "refs": [
@@ -1113,7 +1113,7 @@
     "people": [
       {
         "name": "Dan Hightower",
-        "handle": "@DanHightowerJr"
+        "handle": "DanHightowerJr"
       }
     ],
     "refs": [
@@ -1130,7 +1130,7 @@
     "people": [
       {
         "name": "sam carter | 현준",
-        "handle": "@samuelhcarter"
+        "handle": "samuelhcarter"
       }
     ],
     "refs": [
@@ -1157,7 +1157,7 @@
     "people": [
       {
         "name": "molson",
-        "handle": "@Molson_Hart"
+        "handle": "Molson_Hart"
       }
     ],
     "refs": [
@@ -1201,11 +1201,11 @@
     "people": [
       {
         "name": "Linda Yaccarino",
-        "handle": "@lindayaX"
+        "handle": "lindayaX"
       },
       {
         "name": "Joe Biden",
-        "handle": "@JoeBiden"
+        "handle": "JoeBiden"
       }
     ],
     "refs": [
@@ -1230,7 +1230,7 @@
     "people": [
       {
         "name": "Joe Biden",
-        "handle": "@JoeBiden"
+        "handle": "JoeBiden"
       }
     ],
     "refs": [
@@ -1320,7 +1320,7 @@
     "people": [
       {
         "name": "sankalp",
-        "handle": "@dejavucoder"
+        "handle": "dejavucoder"
       }
     ],
     "refs": [
@@ -1337,7 +1337,7 @@
     "people": [
       {
         "name": "Pat Walls",
-        "handle": "@thepatwalls"
+        "handle": "thepatwalls"
       }
     ],
     "refs": [
@@ -1365,7 +1365,7 @@
     "people": [
       {
         "name": "White Teeth",
-        "handle": "@ZadieSmith"
+        "handle": "ZadieSmith"
       }
     ],
     "refs": [
@@ -1382,7 +1382,7 @@
     "people": [
       {
         "name": "Maggie Appleton",
-        "handle": "@Mappletons"
+        "handle": "Mappletons"
       }
     ],
     "img": "https://pbs.twimg.com/media/GSGPSI-WwAA1a6I?format=jpg&name=medium",
@@ -1411,7 +1411,7 @@
     "people": [
       {
         "name": "Rothmus",
-        "handle": "@Rothmus"
+        "handle": "Rothmus"
       }
     ],
     "img": "https://pbs.twimg.com/media/GR3Gz1jXQAAftGN?format=jpg&name=900x900",
@@ -1425,11 +1425,11 @@
     "people": [
       {
         "name": "Michael Nielsen",
-        "handle": "@michael_nielsen"
+        "handle": "michael_nielsen"
       },
       {
         "name": "Lev Grossman",
-        "handle": "@leverus"
+        "handle": "leverus"
       }
     ],
     "img": "https://pbs.twimg.com/media/GR6MZLVagAAaTWm?format=jpg&name=medium",
@@ -1457,7 +1457,7 @@
     "people": [
       {
         "name": "spor",
-        "handle": "@sporadicalia"
+        "handle": "sporadicalia"
       }
     ],
     "refs": [
@@ -1475,7 +1475,7 @@
     "people": [
       {
         "name": "Paul Graham",
-        "handle": "@paulg"
+        "handle": "paulg"
       }
     ],
     "tweetText": "I'm tweeting just to manifest it: this Aug we'll get a contested convention in Chicago for the DNC. It'll be the finale of West Wing - S6. Ppl will absolutely be glued to their TVs & social media watching it unfold. This is a once-in-a-lifetime opportunity for the history books!!"
@@ -1495,7 +1495,7 @@
     "people": [
       {
         "name": "FORTUNE",
-        "handle": "@FortuneMagazine"
+        "handle": "FortuneMagazine"
       }
     ],
     "refs": [
@@ -1511,7 +1511,7 @@
     "people": [
       {
         "name": "Ben Hunt",
-        "handle": "@EpsilonTheory"
+        "handle": "EpsilonTheory"
       }
     ],
     "tweetText": "\"The Great Ravine\" - Epsilon Theory\n\nA great read. Never heard of \"The Great Ravine\" until today but it resonates. There's a definite vibe shift. I agree w/ what Ben's writing ab but now my question: \"What do I do next in my own personal life to adapt to what's ab to happen?\" \"🤔\""
@@ -1531,7 +1531,7 @@
     "people": [
       {
         "name": "Tibo",
-        "handle": "@tibo_maker"
+        "handle": "tibo_maker"
       }
     ],
     "tweetText": "https://superx.so\n\n\"🔥\"!!"
@@ -1551,7 +1551,7 @@
     "people": [
       {
         "name": "The New York Times",
-        "handle": "@nytimes"
+        "handle": "nytimes"
       }
     ],
     "tweetText": "Just started playing NYT Connections; friends from work got me into it!\n\nReally fun game. If folks aren't already playing, I highly recommend it. \n\nA random thought I've been pondering: is the way ppl solve Connections puzzles a proxy for any kind of larger personality trait? \"🤔\""
@@ -1578,11 +1578,11 @@
     "people": [
       {
         "name": "kate lindsay",
-        "handle": "@kathrynfiona"
+        "handle": "kathrynfiona"
       },
       {
         "name": "GQ Magazine",
-        "handle": "@GQMagazine"
+        "handle": "GQMagazine"
       }
     ],
     "refs": [
@@ -1599,7 +1599,7 @@
     "people": [
       {
         "name": "Ana Mostarac",
-        "handle": "@anammostarac"
+        "handle": "anammostarac"
       }
     ],
     "refs": [
@@ -1616,7 +1616,7 @@
     "people": [
       {
         "name": "Greg Brockman",
-        "handle": "@gdb"
+        "handle": "gdb"
       }
     ],
     "refs": [
@@ -1640,7 +1640,7 @@
     "people": [
       {
         "name": "SNL",
-        "handle": "@nbcsnl"
+        "handle": "nbcsnl"
       }
     ],
     "refs": [
@@ -1655,11 +1655,11 @@
     "people": [
       {
         "name": "Sierra Greer",
-        "handle": "@SierraGreer87"
+        "handle": "SierraGreer87"
       },
       {
         "name": "Annie Bot",
-        "handle": "@AnnieBot"
+        "handle": "AnnieBot"
       }
     ],
     "refs": [
@@ -1675,11 +1675,11 @@
     "people": [
       {
         "name": "Mike Solana",
-        "handle": "@micsolana"
+        "handle": "micsolana"
       },
       {
         "name": "Pirate Wires",
-        "handle": "@PirateWires"
+        "handle": "PirateWires"
       }
     ],
     "refs": [
@@ -1712,15 +1712,15 @@
     "people": [
       {
         "name": "Amber Sparks",
-        "handle": "@ambernoelle"
+        "handle": "ambernoelle"
       },
       {
         "name": "Grazie Sophia Christie",
-        "handle": "@graziemana"
+        "handle": "graziemana"
       },
       {
         "name": "The Cut",
-        "handle": "@TheCut"
+        "handle": "TheCut"
       }
     ],
     "refs": [
@@ -1737,7 +1737,7 @@
     "people": [
       {
         "name": "NEOM",
-        "handle": "@NEOM"
+        "handle": "NEOM"
       }
     ],
     "refs": [
@@ -1759,7 +1759,7 @@
     "people": [
       {
         "name": "Casey Handmer, PhD",
-        "handle": "@CJHandmer"
+        "handle": "CJHandmer"
       }
     ],
     "refs": [
@@ -1775,7 +1775,7 @@
     "people": [
       {
         "name": "Elon Musk",
-        "handle": "@elonmusk"
+        "handle": "elonmusk"
       }
     ],
     "refs": [
@@ -1791,7 +1791,7 @@
     "people": [
       {
         "name": "Mozhi Rinpoche",
-        "handle": "@MozhiRinpoche"
+        "handle": "MozhiRinpoche"
       }
     ],
     "refs": [
@@ -1808,11 +1808,11 @@
     "people": [
       {
         "name": "Solo Leveling:ARISE | Official Page",
-        "handle": "@Sololv_ARISE_GL"
+        "handle": "Sololv_ARISE_GL"
       },
       {
         "name": "KAIJU NO. 8",
-        "handle": "@KaijuNo8_O_EN"
+        "handle": "KaijuNo8_O_EN"
       }
     ]
   },
@@ -1824,7 +1824,7 @@
     "people": [
       {
         "name": "Shogun",
-        "handle": "@shogunfx"
+        "handle": "shogunfx"
       }
     ]
   },
@@ -1836,7 +1836,7 @@
     "people": [
       {
         "name": "Shogun",
-        "handle": "@shogunfx"
+        "handle": "shogunfx"
       }
     ]
   },
@@ -1848,7 +1848,7 @@
     "people": [
       {
         "name": "zed",
-        "handle": "@zmkzmkz"
+        "handle": "zmkzmkz"
       }
     ],
     "refs": [
@@ -1863,7 +1863,7 @@
     "people": [
       {
         "name": "Tim Urban",
-        "handle": "@waitbutwhy"
+        "handle": "waitbutwhy"
       }
     ],
     "refs": [
@@ -1887,7 +1887,7 @@
     "people": [
       {
         "name": "Shogun",
-        "handle": "@shogunfx"
+        "handle": "shogunfx"
       }
     ],
     "refs": [
@@ -1911,7 +1911,7 @@
     "people": [
       {
         "name": "jason liu",
-        "handle": "@jxnlco"
+        "handle": "jxnlco"
       }
     ],
     "refs": [
@@ -1926,7 +1926,7 @@
     "people": [
       {
         "name": "Edge City",
-        "handle": "@JoinEdgeCity"
+        "handle": "JoinEdgeCity"
       }
     ],
     "refs": [
@@ -1941,7 +1941,7 @@
     "people": [
       {
         "name": "The Other Zoey",
-        "handle": "@The_Other_Zoey"
+        "handle": "The_Other_Zoey"
       }
     ],
     "refs": [
@@ -1956,7 +1956,7 @@
     "people": [
       {
         "name": "Past Lives",
-        "handle": "@pastlivesmovie"
+        "handle": "pastlivesmovie"
       }
     ],
     "refs": [
@@ -1971,7 +1971,7 @@
     "people": [
       {
         "name": "dan",
-        "handle": "@mynamebedan"
+        "handle": "mynamebedan"
       }
     ],
     "refs": [
@@ -1986,11 +1986,11 @@
     "people": [
       {
         "name": "Ryan Gosling",
-        "handle": "@RyanGosling"
+        "handle": "RyanGosling"
       },
       {
         "name": "The Fall Guy",
-        "handle": "@TheFallGuyMovie"
+        "handle": "TheFallGuyMovie"
       }
     ],
     "refs": [
@@ -2006,11 +2006,11 @@
     "people": [
       {
         "name": "The Fall Guy",
-        "handle": "@TheFallGuyMovie"
+        "handle": "TheFallGuyMovie"
       },
       {
         "name": "Devon Zuegel",
-        "handle": "@devonzuegel"
+        "handle": "devonzuegel"
       }
     ],
     "refs": [
@@ -2025,11 +2025,11 @@
     "people": [
       {
         "name": "Canva",
-        "handle": "@canva"
+        "handle": "canva"
       },
       {
         "name": "Google",
-        "handle": "@Google"
+        "handle": "Google"
       }
     ],
     "refs": [
@@ -2045,11 +2045,11 @@
     "people": [
       {
         "name": "Ethan Hawke",
-        "handle": "@ethanhawke"
+        "handle": "ethanhawke"
       },
       {
         "name": "TED Talks",
-        "handle": "@TEDTalks"
+        "handle": "TEDTalks"
       }
     ],
     "refs": [
@@ -2064,11 +2064,11 @@
     "people": [
       {
         "name": "Amanda Overton",
-        "handle": "@leeloo104"
+        "handle": "leeloo104"
       },
       {
         "name": "Arcane",
-        "handle": "@arcaneshow"
+        "handle": "arcaneshow"
       }
     ],
     "refs": [
@@ -2083,7 +2083,7 @@
     "people": [
       {
         "name": "Arcane",
-        "handle": "@arcaneshow"
+        "handle": "arcaneshow"
       }
     ],
     "refs": [
@@ -2110,7 +2110,7 @@
     "people": [
       {
         "name": "Levi",
-        "handle": "@leviremmick"
+        "handle": "leviremmick"
       }
     ],
     "refs": [
@@ -2137,7 +2137,7 @@
     "people": [
       {
         "name": "Arcane",
-        "handle": "@arcaneshow"
+        "handle": "arcaneshow"
       }
     ]
   },
@@ -2149,15 +2149,15 @@
     "people": [
       {
         "name": "Tim Gallwey",
-        "handle": "@the_innergame"
+        "handle": "the_innergame"
       },
       {
         "name": "The Inner Game of Tennis",
-        "handle": "@InnerGameTennis"
+        "handle": "InnerGameTennis"
       },
       {
         "name": "Tyler Cho",
-        "handle": "@TheTylerCho"
+        "handle": "TheTylerCho"
       }
     ]
   },
@@ -2169,7 +2169,7 @@
     "people": [
       {
         "name": "Her",
-        "handle": "@herthemovie"
+        "handle": "herthemovie"
       }
     ]
   },
@@ -2181,7 +2181,7 @@
     "people": [
       {
         "name": "Tim Ferriss",
-        "handle": "@tferriss"
+        "handle": "tferriss"
       }
     ]
   },
@@ -2193,7 +2193,7 @@
     "people": [
       {
         "name": "TikTok US",
-        "handle": "@tiktok_us"
+        "handle": "tiktok_us"
       }
     ],
     "refs": [
@@ -2209,11 +2209,11 @@
     "people": [
       {
         "name": "Flo Crivello",
-        "handle": "@Altimor"
+        "handle": "Altimor"
       },
       {
         "name": "Uber Eats",
-        "handle": "@UberEats"
+        "handle": "UberEats"
       }
     ],
     "refs": [
@@ -2228,15 +2228,15 @@
     "people": [
       {
         "name": "Scott Galloway",
-        "handle": "@profgalloway"
+        "handle": "profgalloway"
       },
       {
         "name": "TED Talks",
-        "handle": "@TEDTalks"
+        "handle": "TEDTalks"
       },
       {
         "name": "Rae",
-        "handle": "@raechellambert"
+        "handle": "raechellambert"
       }
     ],
     "refs": [
@@ -2252,11 +2252,11 @@
     "people": [
       {
         "name": "martin_casado",
-        "handle": "@martin_casado"
+        "handle": "martin_casado"
       },
       {
         "name": "a16z",
-        "handle": "@a16z"
+        "handle": "a16z"
       }
     ],
     "refs": [
@@ -2272,7 +2272,7 @@
     "people": [
       {
         "name": "The Atlantic",
-        "handle": "@TheAtlantic"
+        "handle": "TheAtlantic"
       }
     ],
     "refs": [
@@ -2287,7 +2287,7 @@
     "people": [
       {
         "name": "Computerphile",
-        "handle": "@computer_phile"
+        "handle": "computer_phile"
       }
     ],
     "refs": [
@@ -2303,7 +2303,7 @@
     "people": [
       {
         "name": "shoku",
-        "handle": "@sershokunin"
+        "handle": "sershokunin"
       }
     ],
     "refs": [
@@ -2318,15 +2318,15 @@
     "people": [
       {
         "name": "jack",
-        "handle": "@jack"
+        "handle": "jack"
       },
       {
         "name": "Mike Solana",
-        "handle": "@micsolana"
+        "handle": "micsolana"
       },
       {
         "name": "Pirate Wires",
-        "handle": "@PirateWires"
+        "handle": "PirateWires"
       }
     ],
     "refs": [
@@ -2341,7 +2341,7 @@
     "people": [
       {
         "name": "Clearcode",
-        "handle": "@clearcodehq"
+        "handle": "clearcodehq"
       }
     ],
     "refs": [
@@ -2362,7 +2362,7 @@
     "people": [
       {
         "name": "Gary Bernhardt",
-        "handle": "@garybernhardt"
+        "handle": "garybernhardt"
       }
     ],
     "refs": [
@@ -2377,15 +2377,15 @@
     "people": [
       {
         "name": "Tim Gallwey",
-        "handle": "@the_innergame"
+        "handle": "the_innergame"
       },
       {
         "name": "The Inner Game of Tennis",
-        "handle": "@InnerGameTennis"
+        "handle": "InnerGameTennis"
       },
       {
         "name": "Tyler Cho",
-        "handle": "@TheTylerCho"
+        "handle": "TheTylerCho"
       }
     ],
     "refs": [
@@ -2400,15 +2400,15 @@
     "people": [
       {
         "name": "Apple",
-        "handle": "@Apple"
+        "handle": "Apple"
       },
       {
         "name": "Palak Zatakia",
-        "handle": "@palakzat"
+        "handle": "palakzat"
       },
       {
         "name": "Kumar Satish",
-        "handle": "@krsatish047"
+        "handle": "krsatish047"
       }
     ],
     "refs": [
@@ -2424,15 +2424,15 @@
     "people": [
       {
         "name": "Mark Manson",
-        "handle": "@IAmMarkManson"
+        "handle": "IAmMarkManson"
       },
       {
         "name": "FS",
-        "handle": "@farnamstreet"
+        "handle": "farnamstreet"
       },
       {
         "name": "mekalav",
-        "handle": "@mekalav"
+        "handle": "mekalav"
       }
     ],
     "refs": [
@@ -2454,7 +2454,7 @@
     "people": [
       {
         "name": "The Verge",
-        "handle": "@verge"
+        "handle": "verge"
       }
     ],
     "refs": [
@@ -2469,7 +2469,7 @@
     "people": [
       {
         "name": "The Imitation Game",
-        "handle": "@ImitationGame"
+        "handle": "ImitationGame"
       }
     ],
     "refs": [
@@ -2484,7 +2484,7 @@
     "people": [
       {
         "name": "Up in the Air",
-        "handle": "@UpInTheAir"
+        "handle": "UpInTheAir"
       }
     ],
     "refs": [
@@ -2499,7 +2499,7 @@
     "people": [
       {
         "name": "The West Wing",
-        "handle": "@WestWingShow"
+        "handle": "WestWingShow"
       }
     ],
     "refs": [
@@ -2514,11 +2514,11 @@
     "people": [
       {
         "name": "Lee Pace",
-        "handle": "@leepace"
+        "handle": "leepace"
       },
       {
         "name": "Foundation",
-        "handle": "@Foundation_"
+        "handle": "Foundation_"
       }
     ],
     "refs": [
@@ -2533,7 +2533,7 @@
     "people": [
       {
         "name": "Jack Forge",
-        "handle": "@TheJackForge"
+        "handle": "TheJackForge"
       }
     ],
     "refs": [
@@ -2548,7 +2548,7 @@
     "people": [
       {
         "name": "lina",
-        "handle": "@linaeons"
+        "handle": "linaeons"
       }
     ],
     "refs": [
@@ -2563,23 +2563,23 @@
     "people": [
       {
         "name": "anu",
-        "handle": "@anuatluru"
+        "handle": "anuatluru"
       },
       {
         "name": "Tyler Cho",
-        "handle": "@TheTylerCho"
+        "handle": "TheTylerCho"
       },
       {
         "name": "Rae",
-        "handle": "@raechellambert"
+        "handle": "raechellambert"
       },
       {
         "name": "jack",
-        "handle": "@jack"
+        "handle": "jack"
       },
       {
         "name": "X",
-        "handle": "@X"
+        "handle": "X"
       }
     ],
     "refs": [
@@ -2597,11 +2597,11 @@
     "people": [
       {
         "name": "Tim Ferriss",
-        "handle": "@tferriss"
+        "handle": "tferriss"
       },
       {
         "name": "Kevin Rose",
-        "handle": "@kevinrose"
+        "handle": "kevinrose"
       }
     ],
     "refs": [
@@ -2616,15 +2616,15 @@
     "people": [
       {
         "name": "Tim Ferriss",
-        "handle": "@tferriss"
+        "handle": "tferriss"
       },
       {
         "name": "Rae",
-        "handle": "@raechellambert"
+        "handle": "raechellambert"
       },
       {
         "name": "River",
-        "handle": "@getriver_io"
+        "handle": "getriver_io"
       }
     ],
     "refs": [
@@ -2639,15 +2639,15 @@
     "people": [
       {
         "name": "Tim Ferriss",
-        "handle": "@tferriss"
+        "handle": "tferriss"
       },
       {
         "name": "Peter Thiel",
-        "handle": "@peterthiel"
+        "handle": "peterthiel"
       },
       {
         "name": "Palantir",
-        "handle": "@PalantirTech"
+        "handle": "PalantirTech"
       }
     ],
     "refs": [
@@ -2662,11 +2662,11 @@
     "people": [
       {
         "name": "Tim Ferriss",
-        "handle": "@tferriss"
+        "handle": "tferriss"
       },
       {
         "name": "Paul Graham",
-        "handle": "@paulg"
+        "handle": "paulg"
       }
     ],
     "refs": [
@@ -2681,7 +2681,7 @@
     "people": [
       {
         "name": "Edge City",
-        "handle": "@JoinEdgeCity"
+        "handle": "JoinEdgeCity"
       }
     ],
     "refs": [
@@ -2696,27 +2696,27 @@
     "people": [
       {
         "name": "Tim Ferriss",
-        "handle": "@tferriss"
+        "handle": "tferriss"
       },
       {
         "name": "Arnold",
-        "handle": "@Schwarzenegger"
+        "handle": "Schwarzenegger"
       },
       {
         "name": "Derek Sivers",
-        "handle": "@sivers"
+        "handle": "sivers"
       },
       {
         "name": "Brené Brown",
-        "handle": "@BreneBrown"
+        "handle": "BreneBrown"
       },
       {
         "name": "Rae",
-        "handle": "@raechellambert"
+        "handle": "raechellambert"
       },
       {
         "name": "River",
-        "handle": "@getriver_io"
+        "handle": "getriver_io"
       }
     ],
     "refs": [
@@ -2733,7 +2733,7 @@
     "people": [
       {
         "name": "Indiana Jones",
-        "handle": "@IndianaJones"
+        "handle": "IndianaJones"
       }
     ],
     "refs": [
@@ -2748,7 +2748,7 @@
     "people": [
       {
         "name": "Greyhound Bus",
-        "handle": "@GreyhoundBus"
+        "handle": "GreyhoundBus"
       }
     ]
   },
@@ -2769,7 +2769,7 @@
     "people": [
       {
         "name": "Randall Munroe",
-        "handle": "@xkcd"
+        "handle": "xkcd"
       }
     ],
     "refs": [
@@ -2784,7 +2784,7 @@
     "people": [
       {
         "name": "Avatar: The Last Airbender",
-        "handle": "@AvatarNetflix"
+        "handle": "AvatarNetflix"
       }
     ],
     "refs": [
@@ -2799,23 +2799,23 @@
     "people": [
       {
         "name": "California Forever",
-        "handle": "@CAForever"
+        "handle": "CAForever"
       },
       {
         "name": "Paul Graham",
-        "handle": "@paulg"
+        "handle": "paulg"
       },
       {
         "name": "Palmer Luckey",
-        "handle": "@PalmerLuckey"
+        "handle": "PalmerLuckey"
       },
       {
         "name": "Mike Solana",
-        "handle": "@micsolana"
+        "handle": "micsolana"
       },
       {
         "name": "Pirate Wires",
-        "handle": "@PirateWires"
+        "handle": "PirateWires"
       }
     ]
   },
@@ -2827,15 +2827,15 @@
     "people": [
       {
         "name": "Elon Musk",
-        "handle": "@elonmusk"
+        "handle": "elonmusk"
       },
       {
         "name": "rick branson",
-        "handle": "@rbranson"
+        "handle": "rbranson"
       },
       {
         "name": "Rick Rubin",
-        "handle": "@RickRubin"
+        "handle": "RickRubin"
       }
     ],
     "refs": [
@@ -2851,7 +2851,7 @@
     "people": [
       {
         "name": "James Clear",
-        "handle": "@JamesClear"
+        "handle": "JamesClear"
       }
     ]
   },
@@ -2863,7 +2863,7 @@
     "people": [
       {
         "name": "Amber Illig",
-        "handle": "@AmberIllig"
+        "handle": "AmberIllig"
       }
     ],
     "refs": [
@@ -2890,27 +2890,27 @@
     "people": [
       {
         "name": "X",
-        "handle": "@X"
+        "handle": "X"
       },
       {
         "name": "Edge City",
-        "handle": "@JoinEdgeCity"
+        "handle": "JoinEdgeCity"
       },
       {
         "name": "Visakan Veerasamy",
-        "handle": "@visakanv"
+        "handle": "visakanv"
       },
       {
         "name": "Tyler Cho",
-        "handle": "@TheTylerCho"
+        "handle": "TheTylerCho"
       },
       {
         "name": "David Perell",
-        "handle": "@david_perell"
+        "handle": "david_perell"
       },
       {
         "name": "Tim Ferriss",
-        "handle": "@tferriss"
+        "handle": "tferriss"
       }
     ],
     "refs": [
@@ -2925,7 +2925,7 @@
     "people": [
       {
         "name": "Visakan Veerasamy",
-        "handle": "@visakanv"
+        "handle": "visakanv"
       }
     ],
     "refs": [
@@ -2940,7 +2940,7 @@
     "people": [
       {
         "name": "Visakan Veerasamy",
-        "handle": "@visakanv"
+        "handle": "visakanv"
       }
     ],
     "refs": [
@@ -2955,7 +2955,7 @@
     "people": [
       {
         "name": "Grant",
-        "handle": "@granawkins"
+        "handle": "granawkins"
       }
     ],
     "refs": [
@@ -2973,7 +2973,7 @@
     "people": [
       {
         "name": "Resend",
-        "handle": "@resend"
+        "handle": "resend"
       }
     ],
     "refs": [
@@ -2988,11 +2988,11 @@
     "people": [
       {
         "name": "Rae",
-        "handle": "@raechellambert"
+        "handle": "raechellambert"
       },
       {
         "name": "Scott Galloway",
-        "handle": "@profgalloway"
+        "handle": "profgalloway"
       }
     ],
     "refs": [
@@ -3007,7 +3007,7 @@
     "people": [
       {
         "name": "Tomorrow, and Tomorrow, and Tomorrow",
-        "handle": "@tomorrow3"
+        "handle": "tomorrow3"
       }
     ]
   },
@@ -3019,7 +3019,7 @@
     "people": [
       {
         "name": "Avatar: The Last Airbender",
-        "handle": "@AvatarNetflix"
+        "handle": "AvatarNetflix"
       }
     ]
   },
@@ -3031,7 +3031,7 @@
     "people": [
       {
         "name": "Itay Dreyfus",
-        "handle": "@itaydre"
+        "handle": "itaydre"
       }
     ],
     "refs": [
@@ -3046,11 +3046,11 @@
     "people": [
       {
         "name": "River",
-        "handle": "@getriver_io"
+        "handle": "getriver_io"
       },
       {
         "name": "Edge City",
-        "handle": "@JoinEdgeCity"
+        "handle": "JoinEdgeCity"
       }
     ],
     "refs": [
@@ -3065,7 +3065,7 @@
     "people": [
       {
         "name": "Cam",
-        "handle": "@ordinosaurs"
+        "handle": "ordinosaurs"
       }
     ],
     "refs": [
@@ -3080,7 +3080,7 @@
     "people": [
       {
         "name": "Tyler Cho",
-        "handle": "@TheTylerCho"
+        "handle": "TheTylerCho"
       }
     ],
     "refs": [
@@ -3100,7 +3100,7 @@
     "people": [
       {
         "name": "CodeNewbie",
-        "handle": "@CodeNewbies"
+        "handle": "CodeNewbies"
       }
     ],
     "refs": [
@@ -3115,7 +3115,7 @@
     "people": [
       {
         "name": "Steph Smith",
-        "handle": "@stephsmithio"
+        "handle": "stephsmithio"
       }
     ],
     "refs": [
@@ -3130,35 +3130,35 @@
     "people": [
       {
         "name": "X",
-        "handle": "@X"
+        "handle": "X"
       },
       {
         "name": "Reddit",
-        "handle": "@Reddit"
+        "handle": "Reddit"
       },
       {
         "name": "Nabeel S. Qureshi",
-        "handle": "@nabeelqu"
+        "handle": "nabeelqu"
       },
       {
         "name": "Ava",
-        "handle": "@noampomsky"
+        "handle": "noampomsky"
       },
       {
         "name": "Edge City",
-        "handle": "@JoinEdgeCity"
+        "handle": "JoinEdgeCity"
       },
       {
         "name": "Devon Zuegel",
-        "handle": "@devonzuegel"
+        "handle": "devonzuegel"
       },
       {
         "name": "Gary Sheng",
-        "handle": "@garysheng"
+        "handle": "garysheng"
       },
       {
         "name": "Alexandra Allen",
-        "handle": "@AlexandraAllen_"
+        "handle": "AlexandraAllen_"
       }
     ],
     "refs": [
@@ -3178,15 +3178,15 @@
     "people": [
       {
         "name": "Tim Ferriss",
-        "handle": "@tferriss"
+        "handle": "tferriss"
       },
       {
         "name": "Rae",
-        "handle": "@raechellambert"
+        "handle": "raechellambert"
       },
       {
         "name": "River",
-        "handle": "@getriver_io"
+        "handle": "getriver_io"
       }
     ],
     "refs": [
@@ -3202,7 +3202,7 @@
     "people": [
       {
         "name": "Paige",
-        "handle": "@climatepaige"
+        "handle": "climatepaige"
       }
     ],
     "refs": [
@@ -3217,11 +3217,11 @@
     "people": [
       {
         "name": "Brandon Beylo",
-        "handle": "@marketplunger1"
+        "handle": "marketplunger1"
       },
       {
         "name": "Robert Charles Wilson",
-        "handle": "@RobertCWilson"
+        "handle": "RobertCWilson"
       }
     ],
     "refs": [
@@ -3236,11 +3236,11 @@
     "people": [
       {
         "name": "Kevin Cannon",
-        "handle": "@multikev"
+        "handle": "multikev"
       },
       {
         "name": "Zac Jones",
-        "handle": "@zacjones93"
+        "handle": "zacjones93"
       }
     ],
     "refs": [
@@ -3255,7 +3255,7 @@
     "people": [
       {
         "name": "Tim Ferriss",
-        "handle": "@tferriss"
+        "handle": "tferriss"
       }
     ],
     "refs": [
@@ -3276,7 +3276,7 @@
     "people": [
       {
         "name": "anna",
-        "handle": "@annaarthoe"
+        "handle": "annaarthoe"
       }
     ],
     "refs": [
@@ -3291,7 +3291,7 @@
     "people": [
       {
         "name": "Kendall",
-        "handle": "@Kenny___Rose"
+        "handle": "Kenny___Rose"
       }
     ],
     "refs": [
@@ -3306,23 +3306,23 @@
     "people": [
       {
         "name": "X",
-        "handle": "@X"
+        "handle": "X"
       },
       {
         "name": "Maggie Appleton",
-        "handle": "@Mappletons"
+        "handle": "Mappletons"
       },
       {
         "name": "Amelia Wattenberger",
-        "handle": "@Wattenberger"
+        "handle": "Wattenberger"
       },
       {
         "name": "Anne-Laure Le Cunff",
-        "handle": "@neuranne"
+        "handle": "neuranne"
       },
       {
         "name": "Andy Matuschak",
-        "handle": "@andy_matuschak"
+        "handle": "andy_matuschak"
       }
     ],
     "refs": [
@@ -3338,7 +3338,7 @@
     "people": [
       {
         "name": "DHH",
-        "handle": "@dhh"
+        "handle": "dhh"
       }
     ],
     "refs": [
@@ -3353,7 +3353,7 @@
     "people": [
       {
         "name": "Brigitte Kratz",
-        "handle": "@BrigitteKratz"
+        "handle": "BrigitteKratz"
       }
     ],
     "refs": [
@@ -3368,11 +3368,11 @@
     "people": [
       {
         "name": "British Museum",
-        "handle": "@britishmuseum"
+        "handle": "britishmuseum"
       },
       {
         "name": "Cambridge University",
-        "handle": "@Cambridge_Uni"
+        "handle": "Cambridge_Uni"
       }
     ],
     "refs": [
@@ -3388,7 +3388,7 @@
     "people": [
       {
         "name": "Charles Marohn",
-        "handle": "@clmarohn"
+        "handle": "clmarohn"
       }
     ],
     "refs": [
@@ -3403,7 +3403,7 @@
     "people": [
       {
         "name": "Devon Zuegel",
-        "handle": "@devonzuegel"
+        "handle": "devonzuegel"
       }
     ],
     "refs": [
@@ -3419,7 +3419,7 @@
     "people": [
       {
         "name": "mathurah",
-        "handle": "@mathurahravi"
+        "handle": "mathurahravi"
       }
     ],
     "refs": [
@@ -3435,7 +3435,7 @@
     "people": [
       {
         "name": "ash",
-        "handle": "@ashleyyjoelle"
+        "handle": "ashleyyjoelle"
       }
     ],
     "refs": [
@@ -3459,11 +3459,11 @@
     "people": [
       {
         "name": "David Schaengold",
-        "handle": "@DavidSchaengold"
+        "handle": "DavidSchaengold"
       },
       {
         "name": "COMPACT",
-        "handle": "@compactmag_"
+        "handle": "compactmag_"
       }
     ],
     "refs": [
@@ -3478,7 +3478,7 @@
     "people": [
       {
         "name": "Mike Higgins",
-        "handle": "@meetmikehiggins"
+        "handle": "meetmikehiggins"
       }
     ],
     "refs": [
@@ -3493,15 +3493,15 @@
     "people": [
       {
         "name": "Devon",
-        "handle": "@devonzuegel"
+        "handle": "devonzuegel"
       },
       {
         "name": "Culdesac",
-        "handle": "@culdesac"
+        "handle": "culdesac"
       },
       {
         "name": "Waymo",
-        "handle": "@Waymo"
+        "handle": "Waymo"
       }
     ],
     "refs": [
@@ -3518,7 +3518,7 @@
     "people": [
       {
         "name": "Grand Canyon NPS",
-        "handle": "@GrandCanyonNPS"
+        "handle": "GrandCanyonNPS"
       }
     ],
     "refs": [
@@ -3533,7 +3533,7 @@
     "people": [
       {
         "name": "Grand Canyon NPS",
-        "handle": "@GrandCanyonNPS"
+        "handle": "GrandCanyonNPS"
       }
     ],
     "refs": [
@@ -3557,7 +3557,7 @@
     "people": [
       {
         "name": "Arches National Park",
-        "handle": "@ArchesNPS"
+        "handle": "ArchesNPS"
       }
     ],
     "refs": [
@@ -3572,11 +3572,11 @@
     "people": [
       {
         "name": "Riva Tez",
-        "handle": "@rivatez"
+        "handle": "rivatez"
       },
       {
         "name": "David Perell",
-        "handle": "@david_perell"
+        "handle": "david_perell"
       }
     ],
     "refs": [
@@ -3597,7 +3597,7 @@
     "people": [
       {
         "name": "X",
-        "handle": "@X"
+        "handle": "X"
       }
     ]
   },
@@ -3609,11 +3609,11 @@
     "people": [
       {
         "name": "Greg McKeown",
-        "handle": "@GregoryMcKeown"
+        "handle": "GregoryMcKeown"
       },
       {
         "name": "Tim Ferriss",
-        "handle": "@tferriss"
+        "handle": "tferriss"
       }
     ],
     "refs": [
@@ -3635,7 +3635,7 @@
     "people": [
       {
         "name": "Visakan Veerasamy",
-        "handle": "@visakanv"
+        "handle": "visakanv"
       }
     ],
     "refs": [
@@ -3650,15 +3650,15 @@
     "people": [
       {
         "name": "Patricia Mou",
-        "handle": "@patriciamou_"
+        "handle": "patriciamou_"
       },
       {
         "name": "Cal Newport",
-        "handle": "@Calnewport_"
+        "handle": "Calnewport_"
       },
       {
         "name": "Tim Ferriss",
-        "handle": "@tferriss"
+        "handle": "tferriss"
       }
     ]
   },
@@ -3670,7 +3670,7 @@
     "people": [
       {
         "name": "Cartoons Hate Her!",
-        "handle": "@CartoonsHateHer"
+        "handle": "CartoonsHateHer"
       }
     ],
     "refs": [
@@ -3686,7 +3686,7 @@
     "people": [
       {
         "name": "Fernando",
-        "handle": "@zetalyrae"
+        "handle": "zetalyrae"
       }
     ],
     "refs": [
@@ -3701,15 +3701,15 @@
     "people": [
       {
         "name": "Patricia Mou",
-        "handle": "@patriciamou_"
+        "handle": "patriciamou_"
       },
       {
         "name": "The Commons",
-        "handle": "@thesfcommons"
+        "handle": "thesfcommons"
       },
       {
         "name": "Seb",
-        "handle": "@SebCuadros"
+        "handle": "SebCuadros"
       }
     ],
     "refs": [
@@ -3731,19 +3731,19 @@
     "people": [
       {
         "name": "Google",
-        "handle": "@Google"
+        "handle": "Google"
       },
       {
         "name": "X",
-        "handle": "@X"
+        "handle": "X"
       },
       {
         "name": "Sundar Pichai",
-        "handle": "@sundarpichai"
+        "handle": "sundarpichai"
       },
       {
         "name": "Elon Musk",
-        "handle": "@elonmusk"
+        "handle": "elonmusk"
       }
     ],
     "refs": [
@@ -3758,11 +3758,11 @@
     "people": [
       {
         "name": "Tim Ferriss",
-        "handle": "@tferriss"
+        "handle": "tferriss"
       },
       {
         "name": "lina",
-        "handle": "@linaeons"
+        "handle": "linaeons"
       }
     ],
     "refs": [
@@ -3779,19 +3779,19 @@
     "people": [
       {
         "name": "Sydney Sweeney",
-        "handle": "@sydney_sweeney"
+        "handle": "sydney_sweeney"
       },
       {
         "name": "Glen Powell",
-        "handle": "@glenpowell"
+        "handle": "glenpowell"
       },
       {
         "name": "Caitlin Cook",
-        "handle": "@DeadCaitBounce"
+        "handle": "DeadCaitBounce"
       },
       {
         "name": "swoph",
-        "handle": "@swoph"
+        "handle": "swoph"
       }
     ],
     "refs": [
@@ -3806,11 +3806,11 @@
     "people": [
       {
         "name": "Paul Ford",
-        "handle": "@ftrain"
+        "handle": "ftrain"
       },
       {
         "name": "Timothy McSweeney",
-        "handle": "@mcsweeneys"
+        "handle": "mcsweeneys"
       }
     ],
     "refs": [
@@ -3826,7 +3826,7 @@
     "people": [
       {
         "name": "University of Austin",
-        "handle": "@uaustinorg"
+        "handle": "uaustinorg"
       }
     ],
     "refs": [
@@ -3843,7 +3843,7 @@
     "people": [
       {
         "name": "Julia M. Rosedale",
-        "handle": "@JuliaRosedale"
+        "handle": "JuliaRosedale"
       }
     ],
     "refs": [
@@ -3861,7 +3861,7 @@
     "people": [
       {
         "name": "Devon Zuegel",
-        "handle": "@devonzuegel"
+        "handle": "devonzuegel"
       }
     ],
     "refs": [
@@ -3885,7 +3885,7 @@
     "people": [
       {
         "name": "Dunkin'",
-        "handle": "@dunkindonuts"
+        "handle": "dunkindonuts"
       }
     ],
     "refs": [
@@ -3906,7 +3906,7 @@
     "people": [
       {
         "name": "Devon Zuegel",
-        "handle": "@devonzuegel"
+        "handle": "devonzuegel"
       }
     ],
     "refs": [
@@ -3932,11 +3932,11 @@
     "people": [
       {
         "name": "Jimmy Soni",
-        "handle": "@jimmyasoni"
+        "handle": "jimmyasoni"
       },
       {
         "name": "David Perell",
-        "handle": "@david_perell"
+        "handle": "david_perell"
       }
     ],
     "url": "https://x.com/robert_gpt/status/1755396114805612775",
@@ -3951,15 +3951,15 @@
     "people": [
       {
         "name": "Chris Dixon",
-        "handle": "@cdixon"
+        "handle": "cdixon"
       },
       {
         "name": "David Perell",
-        "handle": "@david_perell"
+        "handle": "david_perell"
       },
       {
         "name": "a16z",
-        "handle": "@a16z"
+        "handle": "a16z"
       }
     ],
     "url": "https://x.com/robert_gpt/status/1754858908231852370",
@@ -3974,15 +3974,15 @@
     "people": [
       {
         "name": "Chris Dixon",
-        "handle": "@cdixon"
+        "handle": "cdixon"
       },
       {
         "name": "David Perell",
-        "handle": "@david_perell"
+        "handle": "david_perell"
       },
       {
         "name": "a16z",
-        "handle": "@a16z"
+        "handle": "a16z"
       }
     ],
     "url": "https://x.com/robert_gpt/status/1754685020474654959",
@@ -3997,11 +3997,11 @@
     "people": [
       {
         "name": "Ava",
-        "handle": "@noampomsky"
+        "handle": "noampomsky"
       },
       {
         "name": "Chuck Palahniuk",
-        "handle": "@chuckpalahniuk"
+        "handle": "chuckpalahniuk"
       }
     ],
     "url": "https://x.com/robert_gpt/status/1754336981226492387",
@@ -4022,7 +4022,7 @@
     "people": [
       {
         "name": "Eugene Wei",
-        "handle": "@eugenewei"
+        "handle": "eugenewei"
       }
     ],
     "url": "https://x.com/robert_gpt/status/1753620711480918317",
@@ -4039,11 +4039,11 @@
     "people": [
       {
         "name": "Tetris Championship",
-        "handle": "@ClassicTetris"
+        "handle": "ClassicTetris"
       },
       {
         "name": "CodeNewbie",
-        "handle": "@CodeNewbies"
+        "handle": "CodeNewbies"
       }
     ],
     "url": "https://x.com/robert_gpt/status/1753236086577414612",
@@ -4058,15 +4058,15 @@
     "people": [
       {
         "name": "Jason Fried",
-        "handle": "@jasonfried"
+        "handle": "jasonfried"
       },
       {
         "name": "DHH",
-        "handle": "@dhh"
+        "handle": "dhh"
       },
       {
         "name": "37signals",
-        "handle": "@37signals"
+        "handle": "37signals"
       }
     ],
     "url": "https://x.com/robert_gpt/status/1752917139038626067"
@@ -4078,19 +4078,19 @@
     "people": [
       {
         "name": "James Clear",
-        "handle": "@JamesClear"
+        "handle": "JamesClear"
       },
       {
         "name": "Tim Ferriss",
-        "handle": "@tferriss"
+        "handle": "tferriss"
       },
       {
         "name": "Shane Parrish",
-        "handle": "@ShaneAParrish"
+        "handle": "ShaneAParrish"
       },
       {
         "name": "Derek Sivers",
-        "handle": "@sivers"
+        "handle": "sivers"
       }
     ],
     "url": "https://x.com/robert_gpt/status/1752495447942328522"
@@ -4102,11 +4102,11 @@
     "people": [
       {
         "name": "NPR's Planet Money",
-        "handle": "@planetmoney"
+        "handle": "planetmoney"
       },
       {
         "name": "Jeff Guo",
-        "handle": "@_jeffguo"
+        "handle": "_jeffguo"
       }
     ],
     "url": "https://x.com/robert_gpt/status/1752128027541073963"
@@ -4118,7 +4118,7 @@
     "people": [
       {
         "name": "Matthew Yglesias",
-        "handle": "@mattyglesias"
+        "handle": "mattyglesias"
       }
     ],
     "url": "https://x.com/robert_gpt/status/1751788405887840734",
@@ -4134,11 +4134,11 @@
     "people": [
       {
         "name": "Grant Slatton",
-        "handle": "@GrantSlatton"
+        "handle": "GrantSlatton"
       },
       {
         "name": "Nabeel S. Qureshi",
-        "handle": "@nabeelqu"
+        "handle": "nabeelqu"
       }
     ],
     "url": "https://x.com/robert_gpt/status/1751402799860978131",
@@ -4184,7 +4184,7 @@
     "people": [
       {
         "name": "Maya Angelou",
-        "handle": "@DrMayaAngelou"
+        "handle": "DrMayaAngelou"
       }
     ],
     "url": "https://x.com/robert_gpt/status/1749615759116898674",
@@ -4199,7 +4199,7 @@
     "people": [
       {
         "name": "Lev Grossman",
-        "handle": "@leverus"
+        "handle": "leverus"
       }
     ],
     "url": "https://x.com/robert_gpt/status/1749252158195732560"
@@ -4218,11 +4218,11 @@
     "people": [
       {
         "name": "Mithi Sevilla",
-        "handle": "@ihtimx"
+        "handle": "ihtimx"
       },
       {
         "name": "GitHub",
-        "handle": "@github"
+        "handle": "github"
       }
     ],
     "refs": [
@@ -4237,11 +4237,11 @@
     "people": [
       {
         "name": "Wesley Morris",
-        "handle": "@Wesley_Morris"
+        "handle": "Wesley_Morris"
       },
       {
         "name": "Justin Lin",
-        "handle": "@justinlin"
+        "handle": "justinlin"
       }
     ],
     "url": "https://x.com/robert_gpt/status/1748160392755294604"
@@ -4253,7 +4253,7 @@
     "people": [
       {
         "name": "Kae Tempest",
-        "handle": "@kaetempest"
+        "handle": "kaetempest"
       }
     ],
     "url": "https://x.com/robert_gpt/status/1747789550808637643"
@@ -4271,7 +4271,7 @@
     "people": [
       {
         "name": "Robb Allen",
-        "handle": "@ItsRobbAllen"
+        "handle": "ItsRobbAllen"
       }
     ],
     "url": "https://x.com/robert_gpt/status/1746905805570425120"
@@ -4283,7 +4283,7 @@
     "people": [
       {
         "name": "Nikita Bier",
-        "handle": "@nikitabier"
+        "handle": "nikitabier"
       }
     ],
     "url": "https://x.com/robert_gpt/status/1746588165664591966"
@@ -4295,7 +4295,7 @@
     "people": [
       {
         "name": "Sonal Chokshi",
-        "handle": "@smc90"
+        "handle": "smc90"
       }
     ],
     "url": "https://x.com/robert_gpt/status/1746158756793024551"
@@ -4307,7 +4307,7 @@
     "people": [
       {
         "name": "John Green",
-        "handle": "@johngreen"
+        "handle": "johngreen"
       }
     ],
     "url": "https://x.com/robert_gpt/status/1745945783914975514"
@@ -4320,11 +4320,11 @@
     "people": [
       {
         "name": "Armageddon",
-        "handle": "@Armageddon"
+        "handle": "Armageddon"
       },
       {
         "name": "-",
-        "handle": "@computerpersons"
+        "handle": "computerpersons"
       }
     ]
   },
@@ -4335,7 +4335,7 @@
     "people": [
       {
         "name": "Torrey Dawley",
-        "handle": "@torreydawley"
+        "handle": "torreydawley"
       }
     ],
     "url": "https://x.com/robert_gpt/status/1745253532947587226"
@@ -4347,15 +4347,15 @@
     "people": [
       {
         "name": "Jason Fried",
-        "handle": "@jasonfried"
+        "handle": "jasonfried"
       },
       {
         "name": "DHH",
-        "handle": "@dhh"
+        "handle": "dhh"
       },
       {
         "name": "37signals",
-        "handle": "@37signals"
+        "handle": "37signals"
       }
     ],
     "url": "https://x.com/robert_gpt/status/1744922931325534531"
@@ -4367,7 +4367,7 @@
     "people": [
       {
         "name": "Bill Ackman",
-        "handle": "@BillAckman"
+        "handle": "BillAckman"
       }
     ],
     "url": "https://x.com/robert_gpt/status/1744534544676479443"
@@ -4379,11 +4379,11 @@
     "people": [
       {
         "name": "John Scalzi",
-        "handle": "@scalzi"
+        "handle": "scalzi"
       },
       {
         "name": "Maggie Appleton",
-        "handle": "@Mappletons"
+        "handle": "Mappletons"
       }
     ],
     "url": "https://x.com/robert_gpt/status/1744061409531458023",
@@ -4399,15 +4399,15 @@
     "people": [
       {
         "name": "swyx",
-        "handle": "@swyx"
+        "handle": "swyx"
       },
       {
         "name": "Andy Matuschak",
-        "handle": "@andy_matuschak"
+        "handle": "andy_matuschak"
       },
       {
         "name": "Robin Sloan",
-        "handle": "@robinsloan"
+        "handle": "robinsloan"
       }
     ],
     "url": "https://x.com/robert_gpt/status/1743505266031612090",
@@ -4423,7 +4423,7 @@
     "people": [
       {
         "name": "Maggie Appleton",
-        "handle": "@Mappletons"
+        "handle": "Mappletons"
       }
     ],
     "url": "https://x.com/robert_gpt/status/1743260658185945308",
@@ -4439,7 +4439,7 @@
     "people": [
       {
         "name": "Tony Zhang",
-        "handle": "@apexlearn_org"
+        "handle": "apexlearn_org"
       }
     ],
     "url": "https://x.com/robert_gpt/status/1742781536049549410"
@@ -4451,11 +4451,11 @@
     "people": [
       {
         "name": "Jon Erlichman",
-        "handle": "@JonErlichman"
+        "handle": "JonErlichman"
       },
       {
         "name": "J.K. Rowling",
-        "handle": "@jk_rowling"
+        "handle": "jk_rowling"
       }
     ],
     "url": "https://x.com/robert_gpt/status/1742697068420813241"
@@ -4467,7 +4467,7 @@
     "people": [
       {
         "name": "Oliver Burkeman",
-        "handle": "@oliverburkeman"
+        "handle": "oliverburkeman"
       }
     ],
     "url": "https://x.com/robert_gpt/status/1742404478270132553",
@@ -4486,7 +4486,7 @@
     "people": [
       {
         "name": "X",
-        "handle": "@X"
+        "handle": "X"
       }
     ],
     "url": "https://x.com/robert_gpt/status/1742031082495549650",

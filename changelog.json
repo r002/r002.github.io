@@ -1,8 +1,9 @@
 [
   {
     "dt": "2024-11-17",
-    "version": "1.6.4",
+    "version": "1.6.5",
     "notes": [
+      "remove `@` from all handles in db",
       "support bsky posts"
     ]
   },

@@ -52,9 +52,9 @@ function indexDB(dbArr, orgsArr, mediaArr, booksArr) {
   dbPPL = new Map();
   mapDATE = new Map();
   mapTIDS = new Map();
-  setORGS = new Set(orgsArr.map(o=>o.substr(1).toLowerCase()));
-  setMEDIA = new Set(mediaArr.map(o=>o.substr(1).toLowerCase()));
-  setBOOKS = new Set(booksArr.map(o=>o.substr(1).toLowerCase()));
+  setORGS = new Set(orgsArr.map(o=>o.toLowerCase()));
+  setMEDIA = new Set(mediaArr.map(o=>o.toLowerCase()));
+  setBOOKS = new Set(booksArr.map(o=>o.toLowerCase()));
 
   for (let t of dbArr) {
     // Index tweets by tid
@@ -70,7 +70,7 @@ function indexDB(dbArr, orgsArr, mediaArr, booksArr) {
     // Index people
     if (t.people) {
       for (const person of t.people.reverse()) {
-        const handle = person.handle.substr(1).toLowerCase();
+        const handle = person.handle.toLowerCase();
         dbPPL.set(handle, person);
         if(!mapPPL.has(handle)){
           mapPPL.set(handle, [t.id]);
@@ -208,11 +208,11 @@ function rendermeta(mode) {
 
 function genavatar(pid) { // pid is a person's handle, but just lowercase
   return `<div class="person" id="${pid}"
-          title="${dbPPL.get(pid).handle}"
+          title="@${dbPPL.get(pid).handle}"
           onmouseover="highltperson('${pid}')"
           onmouseout="unhighltperson()"
           onclick="selectperson('${pid}')"
-          style='background-image: url("../img/pfp/${dbPPL.get(pid).handle.substr(1)}.jpg")'></div>`;
+          style='background-image: url("../img/pfp/${dbPPL.get(pid).handle}.jpg")'></div>`;
 }
 
 function toggle(el) {
@@ -345,7 +345,7 @@ function highltppl(tidArr) {
     const t = mapTIDS.get(tid);
     if (t.people) {
       // console.log(t.people.map(p=>p.handle));
-      t.people.forEach(p=>document.getElementById(p.handle.substr(1).toLowerCase()).classList.remove("dim"));
+      t.people.forEach(p=>document.getElementById(p.handle.toLowerCase()).classList.remove("dim"));
     }
   }
 }
@@ -465,7 +465,7 @@ function renderstream() {
             const t = mapTIDS.get(tid);
             document.getElementById(`${t.dt}`).classList.add("selected");
             if (t.people) {
-              t.people.forEach(p=>document.getElementById(p.handle.substr(1).toLowerCase()).classList.remove("dim"));
+              t.people.forEach(p=>document.getElementById(p.handle.toLowerCase()).classList.remove("dim"));
             }
         }
     }
