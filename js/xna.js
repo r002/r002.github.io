@@ -38,7 +38,7 @@ async function fetchdata() {
 
   arrTIDS = tweets.map(t=>t.id);
   arrTWEET = tweets.reverse();
-  arrDATES = Array.from(new Set(tweets.map(t=>t.dt)));
+  arrDATES = Array.from(new Set(tweets.map(t=>genprettydate(t.dt, "yearMonthDay"))));
 
   indexDB(arrTWEET, orgs, media, books);
   rendercalendar();
@@ -61,10 +61,11 @@ function indexDB(dbArr, orgsArr, mediaArr, booksArr) {
     mapTIDS.set(t.id, t);
 
     // Index tweets by date
-    if(mapDATE.has(t.dt)) {
-      mapDATE.get(t.dt).push(t);
+    const dt = genprettydate(t.dt, "yearMonthDay");
+    if(mapDATE.has(dt)) {
+      mapDATE.get(dt).push(t);
     } else {
-      mapDATE.set(t.dt, [t]);
+      mapDATE.set(dt, [t]);
     }
 
     // Index people
@@ -240,7 +241,7 @@ function rendermonth(startday, daycount) {
     const dt = arrDATES[dayNo-1];
     const tweetArr = mapDATE.get(dt);
     if (tweetArr) {
-      s += `<div id="${dt}" class="day ${getgreenintensity(tweetArr.length)}"
+      s += `<div id="${dt}" class="day ${getintensity(tweetArr.length, dayNo)}"
             title="${genenhancedtip(tweetArr)}"
             onmouseover="rendertweets([${tweetArr.map(t=>t.id)}]);highltppl([${tweetArr.map(t=>t.id)}], false);"
             onmouseout="renderstream();resetppl();"
@@ -254,11 +255,21 @@ function rendermonth(startday, daycount) {
   return s;
 }
 
-function getgreenintensity(tweetcount) {
-  if (tweetcount<3){
-    return `past${tweetcount}`;
+function getintensity(tweetcount, dayNo) {
+  // For all days past day #295, render blue for bsky posts
+  if (dayNo>295) {
+    if (tweetcount<3){
+      return `past${tweetcount}`;
+    }
+    return `past3`;
   }
-  return `past3`;
+  // Else render green for X posts
+  else {
+    if (tweetcount<3){
+      return `pastx${tweetcount}`;
+    }
+    return `pastx3`;
+  }
 }
 
 function rendercalendar() {
@@ -317,6 +328,12 @@ function genprettydate(dt, fmt) {
       return `${parts[1]}, ${parts[2]} - ${parts[0]}`;
     case "short":
       return `${parts[1]}`;
+    case "yearMonthDay":
+      const year = dateObject.getFullYear(); 
+      const month = String(dateObject.getMonth() + 1).padStart(2, '0'); // Months are zero-based 
+      const day = String(dateObject.getDate()).padStart(2, '0');
+      const ymd = `${year}-${month}-${day}`;
+      return ymd;
   }
 }
 
@@ -327,14 +344,14 @@ function goto(dt) {
 
 function highltdays(tidArr) {
   for (dayNo of tidArr) {
-    const dt = mapTIDS.get(dayNo).dt;
+    const dt = genprettydate(mapTIDS.get(dayNo).dt, "yearMonthDay");
     document.getElementById(dt).classList.add("selected");
   }
 }
 
 function unhighltdays(tidArr) {
   for (dayNo of tidArr) {
-    const dt = mapTIDS.get(dayNo).dt;
+    const dt = genprettydate(mapTIDS.get(dayNo).dt, "yearMonthDay");
     document.getElementById(dt).classList.remove("selected");
   }
 }
@@ -371,7 +388,7 @@ function rendertweets(tidArr, all) {
   tidArr.sort((a, b) => a - b); // sort smallest to largest
   // console.log(tidArr);
   let sArr = [];
-  let weekNo = 0;
+  let weekNo = 1;
   const days = ['Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat'];
   let weekstartdt = arrTWEET[0].dt;
   let weekenddt, weektitle, d;
@@ -387,20 +404,34 @@ function rendertweets(tidArr, all) {
     // console.log(t.dt, t.title);
 
     if (all) {
-      d = new Date(t.dt);  // This creates date obj in UTC
+      d = new Date(genprettydate(t.dt, "yearMonthDay"));  // This creates date obj in UTC
       d.setHours(d.getHours()+5); // Convert the UTC date to ET
-      // console.log(d, d.getUTCDay(), days[d.getUTCDay()]);
 
       if ("Sat"===days[d.getUTCDay()]) {
-        weekenddt = t.dt;
-        weektitle = genweektitle(++weekNo, weekstartdt, weekenddt);
+        weekenddt = genprettydate(t.dt, "yearMonthDay");
+        weektitle = genweektitle(weekNo, weekstartdt, weekenddt);
       } else if("Sun"===days[d.getUTCDay()]) {
           // console.log(`\t>>> ${weektitle} <<<`);
-          sArr.push(`<div class="tweetresult" style="text-align:center;background-color:#fafafa;
-                        border-top:1px dotted gainsboro;border-bottom:1px dotted gainsboro;">
-                        ${weektitle}
-                    </div>`);
-          weekstartdt = t.dt;
+
+          // let tmrDay = null;
+          // // Still trying to fix the "Double Sunday" bug 😭 - 11/17/24
+          // if (arrTWEET[t.id+1]) {
+          //   const tweetTmr = arrTWEET[t.id+1];
+          //   const tmrDt = new Date(genprettydate(tweetTmr.dt, "yearMonthDay"));
+          //   tmrDt.setHours(d.getHours()+5); // Convert the UTC date to ET
+          //   tmrDay = days[tmrDt.getUTCDay()];
+          //   console.log(">>", t.id, t.dt, tmrDay);
+          //   dTmr = days[d.getUTCDay()];
+          // }
+
+          // if (tmrDay!=="Sun") {  // Should === "Mon" to indicate the start of a new week
+            sArr.push(`<div class="tweetresult" style="text-align:center;background-color:#fafafa;
+                          border-top:1px dotted gainsboro;border-bottom:1px dotted gainsboro;">
+                          ${weektitle}
+                      </div>`);
+            weekstartdt = genprettydate(t.dt, "yearMonthDay");
+            weekNo++;
+          // }
       }
     }
 
@@ -414,19 +445,19 @@ function rendertweets(tidArr, all) {
   }
 
   if (all) {
-      d = new Date(t.dt);  // This creates date obj in UTC
+      d = new Date(genprettydate(t.dt, "yearMonthDay"));  // This creates date obj in UTC
       d.setHours(d.getHours()+5); // Convert the UTC date to ET
       if ("Sat"===days[d.getUTCDay()]) {
         weekNo--; // Decrement one because we already incremented above without painting on Sat
       }
       // console.log(`\t>>> ${weektitle} <<<`);
-      weekenddt = t.dt;
+      weekenddt = genprettydate(t.dt, "yearMonthDay");
       weektitle = genweektitle(++weekNo, weekstartdt, weekenddt);
       sArr.push(`<div class="tweetresult" style="text-align:center;background-color:#fafafa;
                     border-top:1px dotted gainsboro;border-bottom:1px dotted gainsboro;">
                     ${weektitle}
                 </div>`);
-      weekstartdt = t.dt;
+      weekstartdt = genprettydate(t.dt, "yearMonthDay");
   }
   sArr.reverse();
   document.getElementById("searchresult").innerHTML = sArr.join("\n");

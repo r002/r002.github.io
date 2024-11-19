@@ -1,5 +1,670 @@
 [
   {
+    "id": 351,
+    "title": "Mike Masnick: Is social media a public social good?",
+    "dt": "2024-11-16T14:06:50.568Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lb32sydqes22",
+    "tweetText": "1/2 Can't remember which TechDirt ep it was (I've been binging them all & they've all blurred together😅), but @mmasnick.bsky.social recently had someone on & they were talking ab thinking of social media as a \"public social good\". The analogy was: \"You don't fault B&N for not being a library.\"",
+    "people": [
+      {
+        "handle": "mmasnick.bsky.social",
+        "did": "did:plc:cak4klqoj3bqgk5rj6b4f5do",
+        "name": "Mike Masnick"
+      }
+    ]
+  },
+  {
+    "id": 350,
+    "title": "There are at least four ways to embed an image in bsky",
+    "dt": "2024-11-16T03:37:20.812Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lazxnecbz222",
+    "tweetText": "PSA #atproto #atdev - I kid you not, there are at least four different ways an image can be embedded to a post. I'm sure there's some rhyme or reason to it all, but I have no idea what it is.🤷‍♂️ But via sheer brute force & trial+error, I think I got them all tonight!!🥳\n\n#fridaynightfun #buildinpublic",
+    "img": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5wlpm2j3d6can6quf5hotdcc/bafkreifse4ywjyfnt32yt7duro66jdmdmt7n3utbg6w5rnsh7tq44i6wi4@jpeg"
+  },
+  {
+    "id": 349,
+    "title": "Bsky - 1mil new people in a single day!",
+    "dt": "2024-11-15T21:46:54.300Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3laze2pu2v22k",
+    "tweetText": "1 mil new people in a single day! Incredible! A warm welcome to all the new people!!🤗\n\nI've seen a few posts saying they're here bc they're fleeing X's new data training policy. Just a heads-up: here on bsky, all your posts/likes/blocks are public *too*. Anyone can scrape the data. It's an open web.",
+    "people": [
+      {
+        "name": "Rose 🌹",
+        "handle": "rose.bsky.team",
+        "did": "did:plc:qjeavhlw222ppsre4rscd3n2"
+      }
+    ],
+    "refs": [
+      "https://bsky.app/profile/did:plc:qjeavhlw222ppsre4rscd3n2/post/3jw47oliist2x"
+    ]
+  },
+  {
+    "id": 348,
+    "title": "Paul & Rose do the Bluesky FAQ",
+    "dt": "2024-11-15T02:07:28.709Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3laxc5qk33227",
+    "tweetText": "Paul & Rose doing the Bluesky FAQ - Paul is real! 😀\n\nThanks, guys, for doing the Twitch stream tonight! The Jake Tapper story that Rose shared is hilarious. You guys are making history! Keep up the great work!! We're all rooting for you!! 🦋",
+    "people": [
+      {
+        "name": "Paul Frazee",
+        "handle": "pfrazee.com",
+        "did": "did:plc:ragtjsm2j2vknwkz3zp4oxrd"
+      },
+      {
+        "name": "Rose 🌹",
+        "handle": "rose.bsky.team",
+        "did": "did:plc:qjeavhlw222ppsre4rscd3n2"
+      }
+    ],
+    "refs": [
+      "https://bsky.app/profile/did:plc:ragtjsm2j2vknwkz3zp4oxrd/post/3lawr4y3myk2n"
+    ],
+    "img": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5wlpm2j3d6can6quf5hotdcc/bafkreigzi2ykajdcomy6mvh7ks5zbbuob5jemogxoyfkrzlehkyrwmcjv4@jpeg"
+  },
+  {
+    "id": 347,
+    "title": "Jay's Chinese name is 蓝天",
+    "dt": "2024-11-13T19:26:32.866Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lau3bvmsak2n",
+    "tweetText": "Sometimes, the fact that it's all a simulation is just so clear 🙂",
+    "people": [
+      {
+        "name": "Jay 🦋",
+        "handle": "jay.bsky.team",
+        "did": "did:plc:oky5czdrnfjpqslsw2a5iclo"
+      }
+    ],
+    "refs": [
+      "https://bsky.app/profile/did:plc:oky5czdrnfjpqslsw2a5iclo/post/3jt2ws7oy552h"
+    ]
+  },
+  {
+    "id": 346,
+    "title": "'Skeets' or 'posts'? Mike & Jay's opposite takes!",
+    "dt": "2024-11-13T00:52:09.177Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3las4z7gxwk2m",
+    "tweetText": "1/2 Sincere Q: I only joined bsky this past Feb so I don't have context to the lore. I always called them posts bc I saw Jay's msg imploring ppl to not call them \"skeets\". I figured since she's the CEO, sure\n\nBut now, Mike, who's on the board, calls them \"skeets\"\n\nWhat's the official bsky position?🤔",
+    "people": [
+      {
+        "name": "Mike Masnick",
+        "handle": "mmasnick.bsky.social",
+        "did": "did:plc:cak4klqoj3bqgk5rj6b4f5do"
+      }
+    ],
+    "refs": [
+      "https://bsky.app/profile/did:plc:cak4klqoj3bqgk5rj6b4f5do/post/3laryilxkw22x"
+    ],
+    "img": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5wlpm2j3d6can6quf5hotdcc/bafkreiax6jpzgthchnyvg6x3lzmsjdn72qfknbhcxg3q477hrgrgphymja@jpeg"
+  },
+  {
+    "id": 345,
+    "title": "It's good bsky doesn't support animated gifs; the web must evolve",
+    "dt": "2024-11-12T13:50:19.135Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3laqxzqym3k23",
+    "tweetText": "I ❤️ that bsky doesn't natively support animated gifs. Yes, it's a bit annoying, but paradigm shifts always are. The web's evolving & it's important we evolve w/ it! TY, bsky, for being a leading light!\n\nIt's reminiscent to me of the moment Jobs got on stage & showed the NYT homepage w/ broken Flash.",
+    "people": [
+      {
+        "name": "Hopscorch",
+        "handle": "hopscor.ch",
+        "did": "did:plc:tb6tmawakzog636h5izajw7p"
+      }
+    ],
+    "refs": [
+      "https://bsky.app/profile/did:plc:tb6tmawakzog636h5izajw7p/post/3laqpongnws2l"
+    ]
+  },
+  {
+    "id": 344,
+    "title": "Bsky core team dev blogs",
+    "dt": "2024-11-12T02:13:09.432Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lapr353eqs2o",
+    "tweetText": "Quoting this just for posterity, so it's in my TL.\n\nOne thing I love ab bsky is that the core team openly shares updates & their thinkings behind the scenes on how bsky works under the hood, technically.\n\nSome bsky core team dev blogs:\nwww.pfrazee.com\njazco.dev\nbnewbold.net\n\nRead, learn, build!! 👨‍💻👩‍💻",
+    "people": [
+      {
+        "name": "Paul Frazee",
+        "handle": "pfrazee.com",
+        "did": "did:plc:ragtjsm2j2vknwkz3zp4oxrd"
+      }
+    ],
+    "refs": [
+      "https://www.pfrazee.com/",
+      "https://jazco.dev/",
+      "https://bnewbold.net/",
+      "https://bsky.app/profile/did:plc:ragtjsm2j2vknwkz3zp4oxrd/post/3l6xwi52zti2y"
+    ]
+  },
+  {
+    "id": 343,
+    "title": "Democratic Design for Online Spaces | Nathan Schneider",
+    "dt": "2024-11-10T22:13:14.770Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lamt77sgmk2b",
+    "tweetText": "www.techdirt.com/2024/04/09/t...\n\nGreat ep— @mmasnick.bsky.social talks w/ @ntnsndr.in ab \"Democratic Design for Online Spaces\". Nathan makes many thoughtful points:\n\n- Historically, protocols have often been captured by capital-rich players\n- Centralization is *required* for decentralization\n\n🔥🎧!!",
+    "people": [
+      {
+        "handle": "mmasnick.bsky.social",
+        "did": "did:plc:cak4klqoj3bqgk5rj6b4f5do",
+        "name": "Mike Masnick"
+      },
+      {
+        "handle": "ntnsndr.in",
+        "did": "did:plc:nlrncf6r6vdli2annk4ggve2",
+        "name": "Nathan Schneider"
+      },
+      {
+        "name": "Robert Lin",
+        "handle": "robertlin.bsky.social",
+        "did": "did:plc:5wlpm2j3d6can6quf5hotdcc"
+      }
+    ],
+    "refs": [
+      "https://www.techdirt.com/2024/04/09/techdirt-podcast-episode-386-democratic-design-for-online-spaces/",
+      "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lamoxvsatk2w"
+    ]
+  },
+  {
+    "id": 342,
+    "title": "Bsky API quirks with embeds",
+    "dt": "2024-11-10T18:13:12.760Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lamfryychs2g",
+    "tweetText": "Hi #atproto #atdev! Hope everyone's having fun building on ATP!! Was just playing around more this AM & stumbled upon something that (to me at least) was quirky. The path for a quote is *different* if the post has an image attached. It changes from `p.embed?.record` to `p.embed?.record?.record`:",
+    "img": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5wlpm2j3d6can6quf5hotdcc/bafkreickxau44mtzreh4esxtgu74c6znmedsj6mxzgmoqntgelcw2phwne@jpeg"
+  },
+  {
+    "id": 341,
+    "title": "Bsky lore: The Stovey Threshold",
+    "dt": "2024-11-10T04:28:05.926Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lakxollc5k26",
+    "tweetText": "It's awesome learning ab all this bsky lore. This must have been what it kinda felt like when America landed a man on the moon. Or when the country first built the transcontinental railroad. Really feels like we're watching history in the making!!",
+    "people": [
+      {
+        "name": "Jaz",
+        "handle": "jaz.bsky.social",
+        "did": "did:plc:q6gjnaw2blty4crticxkmujt"
+      }
+    ],
+    "refs": [
+      "https://bsky.app/profile/did:plc:q6gjnaw2blty4crticxkmujt/post/3k54fw6ovkn2q"
+    ]
+  },
+  {
+    "id": 340,
+    "title": "Figuring out the `listRecords(...)` bsky API",
+    "dt": "2024-11-09T23:12:51.293Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lakg2v6iuc2p",
+    "tweetText": "Hi #atproto #atdev looking for some help🙏\n\nAm trying to scrape other ppl's favs (for example, I'd like to see favs of everyone who I follow). Theoretically, this should be doable w/ listRecords (which doesn't req auth)\n\neg. this should work: public.api.bsky.app/xrpc/com.atp...\n\nBut I get an err?",
+    "people": [
+      {
+        "name": "saferblue",
+        "handle": "saferblue.bsky.social",
+        "did": "did:plc:c4bcykzqagq4eh2qpewximos"
+      }
+    ],
+    "refs": [
+      "https://public.api.bsky.app/xrpc/com.atproto.repo.listRecords?repo=did:plc:5wlpm2j3d6can6quf5hotdcc&collection=app.bsky.feed.like",
+      "https://bsky.app/profile/did:plc:c4bcykzqagq4eh2qpewximos/post/3kpkxbkcwaw2e"
+    ],
+    "img": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5wlpm2j3d6can6quf5hotdcc/bafkreiefpnmkej5ave3cq5vfii7yezpq73uhpps2to6cgjgcxjw7md2req@jpeg"
+  },
+  {
+    "id": 339,
+    "title": "Bsky's 'like' is too overloaded",
+    "dt": "2024-11-09T15:56:57.840Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lajnphcggs2e",
+    "tweetText": "I'm playing around w/ bsky data right now & one challenge trying to run ML on user posts is that the \"like\" signal is too overloaded rn. Ppl use \"like\" to indicate too many diff things: read receipt, to revisit, endorsement, & \"I actually ❤\".\n\nIt'd be helpful if bsky added emoji reactions to posts.🤔"
+  },
+  {
+    "id": 338,
+    "title": "Synchronicity: There are signs everywhere for all with eyes to see",
+    "dt": "2024-11-09T14:16:30.213Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3laji3sy47k23",
+    "tweetText": "Synchronicity\n\nHung out with my awesome neighbors last night. We set up a new firepit to all gather around.\n\nIt was dark and cold out, and the future uncertain, but the fire kept us warm, cozy, and connected.\n\nLo and behold: there are signs everywhere in the Universe for all with eyes to see 🤗",
+    "img": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5wlpm2j3d6can6quf5hotdcc/bafkreiba5aoqhexq5oa6bavozbec2o2suvjw3p7q6rnsii7npirapud3ia@jpeg"
+  },
+  {
+    "id": 337,
+    "title": "Mary and Dan release thread composer!!",
+    "dt": "2024-11-08T19:08:30.100Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lahhwzq75k2x",
+    "tweetText": "TY, @mary.my.id and @danabra.mov!! You guys are amazing!! 🙇‍♂️🙇‍♀️🙇‍♂️🙇‍♀️🙇‍♂️🙇‍♀️🙇‍♂️🙇‍♀️\n\n(Jack-- not just mobile, either. The web client also has Thread composer too!! Yay!! 🥳)",
+    "people": [
+      {
+        "handle": "mary.my.id",
+        "did": "did:plc:ia76kvnndjutgedggx2ibrem",
+        "name": "mary🐇"
+      },
+      {
+        "handle": "danabra.mov",
+        "did": "did:plc:fpruhuo22xkm5o7ttr2ktxdo",
+        "name": "dan"
+      },
+      {
+        "name": "jack",
+        "handle": "jglypt.net",
+        "did": "did:plc:4hawmtgzjx3vclfyphbhfn7v"
+      }
+    ],
+    "refs": [
+      "https://bsky.app/profile/did:plc:4hawmtgzjx3vclfyphbhfn7v/post/3lahexoge3k2e"
+    ],
+    "img": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5wlpm2j3d6can6quf5hotdcc/bafkreiessanivy5fskvybakf3sbyqyok7jre3iraecxd7stsng4rfboq3y@jpeg"
+  },
+  {
+    "id": 336,
+    "title": "Daniel Hückmann: 'Why Bluesky?'",
+    "dt": "2024-11-08T03:42:29.429Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lafu7a3kby2z",
+    "tweetText": "This🧵 by Daniel is 💯. Def worth your time. I am also posting on bsky & building on ATP for the same reasons. For any builders who have been looking for \"the next big thing\", I strongly believe ATP is it. It's a bold experiment that opens an entirely new design space.\n\nThe soul of social is at stake.",
+    "people": [
+      {
+        "name": "📷 Daniel Hückmann",
+        "handle": "danielhuckmann.com",
+        "did": "did:plc:fubs4myinjuxmwlgqrhr6a7o"
+      }
+    ],
+    "refs": [
+      "https://bsky.app/profile/did:plc:fubs4myinjuxmwlgqrhr6a7o/post/3lad6srsfn42f"
+    ]
+  },
+  {
+    "id": 335,
+    "title": "Wreck-It Ralph: 'I'm bad and that's good.'",
+    "dt": "2024-11-08T02:29:52.899Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lafq5fcyhu22",
+    "tweetText": "Feeling super-nostalgic & OLD tonight. Like, geriatric, ANCIENT old. I'm at an age now that I just get random headaches. All of you Bluesky youngsters out there— omg, enjoy your gift of youth while you have it. In celebration of old ppl, here's my fav animated clip ever:\n\nyoutu.be/ClNTCYkZI2s?...",
+    "refs": [
+      "https://youtu.be/ClNTCYkZI2s?si=MCRRu0n4siCjhNVZ"
+    ]
+  },
+  {
+    "id": 334,
+    "title": "I guess I just expected a little more from this country (Nov 2020) | McSweeney's Publishing",
+    "dt": "2024-11-07T02:39:03.081Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lada6twfci23",
+    "tweetText": "This is an old Nov 2020 article by @mcsweeneys.bsky.social but one of my absolute favorites. I periodically reread it, time to time. For anyone struggling to understand, I suggest giving it a gander:\n\nwww.mcsweeneys.net/articles/i-g...",
+    "people": [
+      {
+        "handle": "mcsweeneys.bsky.social",
+        "did": "did:plc:wf24ok2liiyzb633fe34dsel",
+        "name": "McSweeney's Publishing"
+      }
+    ],
+    "refs": [
+      "https://www.mcsweeneys.net/articles/i-guess-i-just-expected-a-little-more-from-this-country"
+    ],
+    "img": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5wlpm2j3d6can6quf5hotdcc/bafkreic2rxmbng3y6vlyrk42ijxagqf3zmdgft2bz7nmvxrilk6t26tkte@jpeg"
+  },
+  {
+    "id": 333,
+    "title": "Distribution is everything + What will ATProto's killer app be?",
+    "dt": "2024-11-06T03:32:44.280Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3laaspx64wr2a",
+    "tweetText": "This epitomizes the old saying that's so true:\n\nFirst-time founders are obsessed w/ product.\nSecond-time founders are obsessed w/ distribution.\n\nYou can build the best product in the world. But if it never gets into the hands of actual users, it's all for naught\n\nWhat will ATProto's \"killer app\" be?",
+    "people": [
+      {
+        "name": "austin",
+        "handle": "aparker.io",
+        "did": "did:plc:gttrfs4hfmrclyxvwkwcgpj7"
+      }
+    ],
+    "refs": [
+      "https://bsky.app/profile/did:plc:gttrfs4hfmrclyxvwkwcgpj7/post/3la2f4p5tyo2i"
+    ]
+  },
+  {
+    "id": 332,
+    "title": "Mubs created a bsky starter pack directory!",
+    "dt": "2024-11-05T02:41:23.040Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3la67f647ck22",
+    "tweetText": "There is a bsky starter pack directory!! Yes!! 🥳",
+    "people": [
+      {
+        "name": "Mubashar “Mubs” Iqbal",
+        "handle": "mubashariqbal.com",
+        "did": "did:plc:cofmcscsguqskfiyrieo7tpf"
+      }
+    ],
+    "refs": [
+      "https://bsky.app/profile/did:plc:cofmcscsguqskfiyrieo7tpf/post/3la66zhee3r2l"
+    ]
+  },
+  {
+    "id": 331,
+    "title": "#buildinpublic starter pack",
+    "dt": "2024-11-05T01:52:29.516Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3la64nqncss27",
+    "tweetText": "Created a new #buildinpublic starter pack!\n\n(I honestly looked for one but couldn't find any. Bsky needs a searchable Starter Pack directory!)\n\nIf you want to be added, please reply to this thread w/ your website url! \n\nTime to build!! 🚧🏗👷‍♀️👷‍♂️\n\ngo.bsky.app/Bs14SEw",
+    "refs": [
+      "https://go.bsky.app/Bs14SEw"
+    ]
+  },
+  {
+    "id": 330,
+    "title": "BskyPBC is currently the only one composing",
+    "dt": "2024-11-04T01:19:45.510Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3la3kebqhr42v",
+    "tweetText": "1/2 I agree Cory's onto something ab bsky in its current state. The underlying infra is virtually still all essentially bsky atm. Not just PDSs, but all of it. The relays, firehose, etc. Bsky's network arch may be composable, but the current reality is that the only one composing atm is BskyPBC. eg:",
+    "people": [
+      {
+        "name": "Paul Frazee",
+        "handle": "pfrazee.com",
+        "did": "did:plc:ragtjsm2j2vknwkz3zp4oxrd"
+      }
+    ],
+    "refs": [
+      "https://bsky.app/profile/did:plc:ragtjsm2j2vknwkz3zp4oxrd/post/3l7yfwyd5vs2q"
+    ],
+    "img": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5wlpm2j3d6can6quf5hotdcc/bafkreiazoecefnvua5d7kasq7oitir2bgdc7ijxphdypdakttnho7pc37y@jpeg"
+  },
+  {
+    "id": 329,
+    "title": "did:plc question that Tom helpfully answered!",
+    "dt": "2024-11-03T02:45:35.044Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3l7z6otvhtl26",
+    "tweetText": "Hi @tom.frontpage.team! TY for building the ATProto Browser!🙏\n\nQQ: W/ users who have did:web identifiers (eg. atproto-browser.vercel.app/at/did:web:j...) how are you getting their PDS serviceEndpoints? If it's someone on did:plc, I can use `https://plc.directory/<DID>`. But how ab everyone not? TIA!",
+    "people": [
+      {
+        "handle": "tom.frontpage.team",
+        "did": "did:plc:2xau7wbgdq4phuou2ypwuen7",
+        "name": "Tom Sherman"
+      }
+    ],
+    "refs": [
+      "https://atproto-browser.vercel.app/at/did:web:joncaruana.com"
+    ],
+    "img": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5wlpm2j3d6can6quf5hotdcc/bafkreigg3ptg5ssilyq2xvguj3fwgs5wdfzeoygmfjsvbgwovjl6oa4k24@jpeg"
+  },
+  {
+    "id": 328,
+    "title": "Bsky's $15mil won't last forever! Idea for monetization",
+    "dt": "2024-11-03T00:15:49.682Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3l7ywd2sm4s2f",
+    "tweetText": "Chat, who's working on this?\n\nThe 15mil won't last forever!!\n\nWe're in an urgent race against time to figure out monetization so the #atproto dream can stay alive!!\n\nNeed to pay for staff + infra somehow (PDSs, relays, firehose, etc) & need the ATP ecosystem to take flight before the money runs out!",
+    "people": [
+      {
+        "name": "Robert Lin",
+        "handle": "robertlin.bsky.social",
+        "did": "did:plc:5wlpm2j3d6can6quf5hotdcc"
+      }
+    ],
+    "refs": [
+      "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3l7yvyylese26"
+    ]
+  },
+  {
+    "id": 327,
+    "title": "Domain verification via /.well-known/ pattern",
+    "dt": "2024-11-02T03:14:46.625Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3l7wpu4rrha2q",
+    "tweetText": "This is so cool.  There are TWO ways to do domain verification with #atproto:\n\n1. By DNS\nOR\n2. By uploading your did to `https://<YOUR-DOMAIN>/.well-known/atproto-did`\n\nIt works! (Haha, this is why you should always read the docs 😅)\n\nTY, @lepahc.com & @edavis.dev for teaching me this!! 🙏",
+    "people": [
+      {
+        "handle": "lepahc.com",
+        "did": "did:plc:zqduigrgzgbxnhhnwujnpzo2",
+        "name": "chapel"
+      },
+      {
+        "handle": "edavis.dev",
+        "did": "did:plc:4nsduwlpivpuur4mqkbfvm6a",
+        "name": "Eric"
+      }
+    ],
+    "img": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5wlpm2j3d6can6quf5hotdcc/bafkreifisbooy3n3uvolwuzyanrar7mtyxsdbxwembn2hkwje4bcng5cda@jpeg"
+  },
+  {
+    "id": 326,
+    "title": "Coders who blog with sublime zest (Starter Pack)",
+    "dt": "2024-11-01T22:12:52.344Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3l7w6ybvmwp2i",
+    "tweetText": "1/X Hi friends!🙋‍♂️\nMade my first Starter Pack!\n\nThis is an SP of some of my fav coders who also blog. Some are ppl I've followed since yrs ago. Some are newer, ppl I just discovered this yr!\n\nBelow is a🧵of my fav pieces they've written\n\n(Pls reply w/ links to your favs & I'll add!)\ngo.bsky.app/FYjVVoP",
+    "refs": [
+      "https://go.bsky.app/FYjVVoP"
+    ]
+  },
+  {
+    "id": 325,
+    "title": "Will GitHub one day host PDSs?",
+    "dt": "2024-11-01T03:50:21.223Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3l7ubesyhnx2l",
+    "tweetText": "Hi #atproto #atdev - could something like this theoretically work? The motivation is I love hosting my personal site on my github.io subdomain & would love if I could somehow have r002.github.io *also* be my ATProto handle.\n\nIf @github.com did some wizardry on their side, could this be possible?",
+    "people": [
+      {
+        "handle": "github.com",
+        "did": "did:plc:sydgpvanh46u766n536r33oa",
+        "name": "GitHub"
+      },
+      {
+        "name": "Robert Lin",
+        "handle": "robertlin.bsky.social",
+        "did": "did:plc:5wlpm2j3d6can6quf5hotdcc"
+      }
+    ],
+    "refs": [
+      "https://github.io",
+      "https://r002.github.io",
+      "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3l7ub336kn32l"
+    ]
+  },
+  {
+    "id": 324,
+    "title": "Starter Pack Creation Bug Workaround!",
+    "dt": "2024-10-31T03:43:04.524Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3l7rqiwmscn25",
+    "tweetText": "PSA: For anyone getting a \"Failed to create starter pack\" error message, there is an INVISIBLE character limit you need to stay under in your starter pack descriptions!!",
+    "people": [
+      {
+        "name": "Robert Lin",
+        "handle": "robertlin.bsky.social",
+        "did": "did:plc:5wlpm2j3d6can6quf5hotdcc"
+      }
+    ],
+    "refs": [
+      "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3l7rq6x4eql2r"
+    ]
+  },
+  {
+    "id": 323,
+    "title": "Democratising publishing | John O'Nolan",
+    "dt": "2024-10-30T23:54:38.123Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3l7rdqgnwvs2d",
+    "tweetText": "Love this from @johnonolan.bsky.social: \n\n\"For about 10 years or so I've been telling anyone who will listen that we don't want to grow a giant company that we control, we want to grow a giant ecosystem that we support.\"\n👏👏👏\n\nAlso, the point about what it means to be a \"non-profit\" is illuminating!",
+    "people": [
+      {
+        "name": "John O'Nolan",
+        "handle": "johnonolan.bsky.social",
+        "did": "did:plc:6kq5mzgsrjxaethpddkfynpt"
+      }
+    ],
+    "refs": [
+      "https://bsky.app/profile/did:plc:6kq5mzgsrjxaethpddkfynpt/post/3l7qbnyfgcc2h"
+    ],
+    "img": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5wlpm2j3d6can6quf5hotdcc/bafkreih4cmmjxo6dizjhkjbjt6vt5tu7dne5yqs34pq7xylutq6u26lpli@jpeg"
+  },
+  {
+    "id": 322,
+    "title": "Starter Pack Creation Bug in Bsky",
+    "dt": "2024-10-30T22:10:32.944Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3l7r5wcpu2x2j",
+    "tweetText": "I tried to create my first starter pack but was deemed unworthy. 😭😭😭\n\nHas anyone else encountered this issue before and know how to fix it (or why it happens)?\n\n#atproto #atdev #bluesky",
+    "img": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5wlpm2j3d6can6quf5hotdcc/bafkreihulnexinrqy2av3nsqgpxlb4pb6e6hl6y4kt4i3bpo3s2mom33fm@jpeg"
+  },
+  {
+    "id": 321,
+    "title": "Born too late... born too early... born just in time...",
+    "dt": "2024-10-30T03:56:39.009Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3l7pas7ymy327",
+    "tweetText": "Born too late to be there for the start of the internet. Born too early to see humans colonize the stars.\n\nBorn just in time to see the Renaissance of social and decentralized web. What a time to be alive!!",
+    "people": [
+      {
+        "name": "willow",
+        "handle": "dreary.dev",
+        "did": "did:plc:hx53snho72xoj7zqt5uice4u"
+      }
+    ],
+    "refs": [
+      "https://bsky.app/profile/did:plc:hx53snho72xoj7zqt5uice4u/post/3l7p4b2k2s72g"
+    ]
+  },
+  {
+    "id": 320,
+    "title": "Paul Frazee on Schema Negotiation: 'Maintain Intent'",
+    "dt": "2024-10-29T12:22:44.283Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3l7nmmb73kx25",
+    "tweetText": "Hi @pfrazee.com - Re \"maintaining intent\" on www.pfrazee.com/blog/why-fac... - would this work?\n\nPS. Btw, TY for sharing your Schema Negotiation vid! archive.org/details/27-0...\n\nIt's fun watching you guys grapple w/ these big Qs & build (hopefully!) the future of the internet! Am rooting for ATP!!🥳",
+    "people": [
+      {
+        "handle": "pfrazee.com",
+        "did": "did:plc:ragtjsm2j2vknwkz3zp4oxrd",
+        "name": "Paul Frazee"
+      }
+    ],
+    "refs": [
+      "https://www.pfrazee.com/blog/why-facets",
+      "https://archive.org/details/27-09-45_schema_negotiation.qt"
+    ],
+    "img": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5wlpm2j3d6can6quf5hotdcc/bafkreihkinnslhhojpk6gnvtufnuxjhnx7qjkglslax33u4ifuif6saptu@jpeg"
+  },
+  {
+    "id": 319,
+    "title": "Link Rot: What if ephemerality is fine?",
+    "dt": "2024-10-29T04:21:32.436Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3l7mrptbjlv2k",
+    "tweetText": "Read this great thread on link rot today. Got me thinking. Ppl seem to have a propensity to archive & save, esp if the comm is recorded. Like, we may toss physical paper but feel compelled to save that old 250gb hd from 10yrs ago.\n\nWhat if ephemerality is fine? What if not everything needed saving?",
+    "people": [
+      {
+        "name": "Altmetric",
+        "handle": "altmetric.com",
+        "did": "did:plc:lf4a2b6djtuv5l3lz7ffsyv4"
+      }
+    ],
+    "refs": [
+      "https://bsky.app/profile/did:plc:lf4a2b6djtuv5l3lz7ffsyv4/post/3l7lje377q72m"
+    ]
+  },
+  {
+    "id": 318,
+    "title": "I have a dream...",
+    "dt": "2024-10-28T21:42:13.377Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3l7m3fsazq22w",
+    "tweetText": "\"So even though we face the difficulties of today and tomorrow, I still have a dream. It is a dream deeply rooted in the American dream. I have a dream that one day every entity across all the land will be on ATProto. Every government org, every place of business, every library, every school...\""
+  },
+  {
+    "id": 317,
+    "title": "John O'Nolan on ActivityPub & Ghost | Ahrefs Podcast",
+    "dt": "2024-10-28T19:02:53.159Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3l7lsiuxakz2g",
+    "tweetText": "1/ A great listen! My fav part is~1:17 where Tim is struggling to understand why ActivityPub matters. John tries his best but I honestly think Tim's response will be common.\n\n@mmccue.bsky.social & @mmasnick.bsky.social actually talk ab this: \"What's the terminal value?\" Decentralization is *not* the",
+    "people": [
+      {
+        "handle": "mmccue.bsky.social",
+        "did": "did:plc:6nkng5626orolzuyvuzocl4e",
+        "name": "Mike McCue"
+      },
+      {
+        "handle": "mmasnick.bsky.social",
+        "did": "did:plc:cak4klqoj3bqgk5rj6b4f5do",
+        "name": "Mike Masnick"
+      },
+      {
+        "name": "John O'Nolan",
+        "handle": "johnonolan.bsky.social",
+        "did": "did:plc:6kq5mzgsrjxaethpddkfynpt"
+      }
+    ],
+    "refs": [
+      "https://bsky.app/profile/did:plc:6kq5mzgsrjxaethpddkfynpt/post/3l6kduw2krf2n"
+    ],
+    "img": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5wlpm2j3d6can6quf5hotdcc/bafkreidbrd3e4nge54wbgvbecfioolghyvsxf2co2hjem5acbk5af3tbey@jpeg"
+  },
+  {
+    "id": 316,
+    "title": "Bsky's Race Against Time",
+    "dt": "2024-10-27T14:22:00.378Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3l7isdnhnt32z",
+    "tweetText": "So my understanding is essentially it's a race against time atm, correct? Basically, will enough other ppl run their own PDSs, relays, & the did:plc directory service *before* bsky (possibly)enshitifies?\n\nRn the future of ATproto *literally* lies in the hands of the community.\n\nThe great race is on!",
+    "people": [
+      {
+        "name": "jack",
+        "handle": "jglypt.net",
+        "did": "did:plc:4hawmtgzjx3vclfyphbhfn7v"
+      }
+    ],
+    "refs": [
+      "https://bsky.app/profile/did:plc:4hawmtgzjx3vclfyphbhfn7v/post/3l7inpqtiy424"
+    ]
+  },
+  {
+    "id": 315,
+    "title": "Home-Cooked Software and Barefoot Developers | Maggie Appleton",
+    "dt": "2024-10-26T14:44:38.661Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3l7gd5bk4b52r",
+    "tweetText": "Ok, posting my first ever meme on bsky! Have been reflecting on my own journey as a dev & where I am now. (Currently in the \"local-first\" stage of my anime arc. 🙂)\n\nApropos is this great talk by @maggieappleton.com on \"Home-Cooked Software and Barefoot Developers\"\n\nmaggieappleton.com/home-cooked-...",
+    "people": [
+      {
+        "handle": "maggieappleton.com",
+        "did": "did:plc:zos5kmlm4vle7b4xntem6sat",
+        "name": "Maggie Appleton"
+      }
+    ],
+    "refs": [
+      "https://maggieappleton.com/home-cooked-software"
+    ],
+    "img": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5wlpm2j3d6can6quf5hotdcc/bafkreieo4xubuqvhix5plrgnc6ndqkcp25x67blirh7ssxmn2335sr7qcy@jpeg"
+  },
+  {
+    "id": 314,
+    "title": "University tuition should cost expected value of avg salary",
+    "dt": "2024-10-25T23:58:58.326Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3l7ernjviin25",
+    "tweetText": "Nicely put by @mikemakowsky.bsky.social. Idk if I agree but I enjoy thinking ab it. One other idea is to make university tuition costs proportional to the expected value of the salaries of graduates of programs.\n\nBtw, discovering this kinda content on bsky was an awesome surprise today. Love it!! 📚",
+    "people": [
+      {
+        "name": "Mike Makowsky",
+        "handle": "mikemakowsky.bsky.social",
+        "did": "did:plc:537kkknajve6t4r45ippsehr"
+      }
+    ],
+    "refs": [
+      "https://bsky.app/profile/did:plc:537kkknajve6t4r45ippsehr/post/3kmdgbqwpb52f"
+    ],
+    "img": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5wlpm2j3d6can6quf5hotdcc/bafkreiat4wocidxojxebs62zyedffgi4hqlhfsx4eqcovgufbxsnojixvi@jpeg"
+  },
+  {
+    "id": 313,
+    "title": "Bsky gets $15mil Series A from Blockchain Capital",
+    "dt": "2024-10-25T02:16:07.451Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3l7cituwoj72w",
+    "tweetText": "A monumental achievement! A huge congrats to the entire bsky team for getting us here. 👏 Very much looking forward to building on ATProto & continuing to meet amazing ppl on bsky.\n\nLet's build the next generation of social web! 👩‍💻\n\nRltd:\nen.wikipedia.org/wiki/Blockch...\nwww.blockchaincapital.com/team",
+    "people": [
+      {
+        "name": "Bluesky",
+        "handle": "bsky.app",
+        "did": "did:plc:z72i7hdynmk6r22z27h6tvur"
+      }
+    ],
+    "refs": [
+      "https://en.wikipedia.org/wiki/Blockchain_Capital",
+      "https://www.blockchaincapital.com/team",
+      "https://bsky.app/profile/did:plc:z72i7hdynmk6r22z27h6tvur/post/3l7bie3qmil2t"
+    ]
+  },
+  {
+    "id": 312,
+    "title": "10 TV shows to get to know me!",
+    "dt": "2024-10-23T22:42:06.660Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3l77mgcngu62w",
+    "tweetText": "10 TV shows to get to know me!\n(Ranked in order of pref)\n\n1. The West Wing\n2. Mad Men\n3. Shōgun (2024)\n4. Billions\n5. The Good Place\n6. Westworld S1\n7. Arcane\n8. Code Geass: Lelouch of the Rebellion R2\n9. Bakuman\n10. Rick & Morty\n\n(Honorable mentions: Battlestar Galactica S1+S2, The Newsroom, Andor)",
+    "people": [
+      {
+        "name": "Cassidy",
+        "handle": "cassidoo.co",
+        "did": "did:plc:bhdap3w2bseikypfnjmaskzf"
+      }
+    ],
+    "refs": [
+      "https://bsky.app/profile/did:plc:bhdap3w2bseikypfnjmaskzf/post/3l76mxzjs5c2s"
+    ]
+  },
+  {
     "id": 311,
     "title": "Mastodon's opt-in only 5-6%: Ryan Barrett | Dot Social",
     "dt": "2024-10-23T01:25:30.572Z",

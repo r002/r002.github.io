@@ -49,14 +49,27 @@
 }
 
 .past1 {
-  background-color: green;
+  /* background-color: rgb(0, 0, 255); */
+  background-color: blue;
 }
 
 .past2 {
-  background-color: rgb(0, 201, 0);
+  background-color: rgb(69, 88, 255);
 }
 
 .past3 {
+  background-color: rgb(0, 204, 255);
+}
+
+.pastx1 {
+  background-color: green;
+}
+
+.pastx2 {
+  background-color: rgb(0, 201, 0);
+}
+
+.pastx3 {
   background-color: rgb(0, 255, 0);
 }
 

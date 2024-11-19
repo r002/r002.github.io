@@ -1,5 +1,19 @@
 [
   {
+    "dt": "2024-11-18",
+    "version": "1.6.6",
+    "notes": [
+      "update posts through `11/16/24`",
+      "show blue intensities for bsky posts in calendar",
+      "add `did` to `people` entity in `x.json`",
+      "list `bugs` in `changelog`"
+    ],
+    "bugs": [
+      "if ∃ multiple posts on sunday, weekly headers will duplicate",
+      "sunday bug also causes week # count to be wrong"
+    ]
+  },
+  {
     "dt": "2024-11-17",
     "version": "1.6.5",
     "notes": [
