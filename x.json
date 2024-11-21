@@ -1,5 +1,59 @@
 [
   {
+    "id": 355,
+    "title": "Bryan's #atproto app ideas: Time to Build!! 🚧🔧🔨",
+    "dt": "2024-11-19T23:53:40.855Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lbdmz3uobk2f",
+    "tweetText": "Time to build!! 🚧🏗👷‍♀️👷‍♂️\n\nThe long-term success of #atproto & bsky hinges on a thriving dev ecosys of diverse apps! I'm personally someone who'd only started using social media this year & had missed out on Twitter's heyday.\n\nNow we have a rare 2nd chance to reimagine what social could be! Let's build!!",
+    "people": [
+      {
+        "name": "bryan newbold",
+        "handle": "bnewbold.net",
+        "did": "did:plc:44ybard66vv44zksje25o7dz"
+      }
+    ],
+    "refs": [
+      "https://bsky.app/profile/did:plc:44ybard66vv44zksje25o7dz/post/3lbdg6k7w6k2z"
+    ]
+  },
+  {
+    "id": 354,
+    "title": "v.1.6.6 of r002.github.io released 💻🎉",
+    "dt": "2024-11-19T03:55:58.406Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lbbk3gj4622k",
+    "tweetText": "v.1.6.6 of r002.github.io is out!!\n\nThrilled w/ this release! In this build:\n- The cal now shows 🟦 for bsky posts!\n- Changed internals to now integrate w/ bsky instead of X🙌\n\nAlso, an exhortation: Include release notes & list bugs in every release! Show build#s (eg. x.x.x) on the GUI! #buildinpublic",
+    "refs": [
+      "https://r002.github.io"
+    ],
+    "img": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5wlpm2j3d6can6quf5hotdcc/bafkreib7lc466twjqjjffbmvtc2ahm7of3ehecjhytdjzfocmeyrsmdtn4@jpeg"
+  },
+  {
+    "id": 353,
+    "title": "bsky: the unofficial comic - 01. how emily joined bsky",
+    "dt": "2024-11-17T17:17:28.846Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lb5vws74o22l",
+    "tweetText": "bsky: the unofficial comic\u000b\ntales from around the bsky office - 01. how emily joined bsky",
+    "people": [
+      {
+        "name": "Emily",
+        "handle": "emilyliu.me",
+        "did": "did:plc:vjug55kidv6sye7ykr5faxxn"
+      }
+    ],
+    "refs": [
+      "https://bsky.app/profile/did:plc:vjug55kidv6sye7ykr5faxxn/post/3laxrbbsrwk2e"
+    ],
+    "img": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5wlpm2j3d6can6quf5hotdcc/bafkreickkcmae6amtpynabzfef36wqk3tt3yywixn7a77v4hsfvsxp3ts4@jpeg"
+  },
+  {
+    "id": 352,
+    "title": "Make your projects durable - cache aggresively",
+    "dt": "2024-11-17T15:04:22.364Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lb5oiroyuc26",
+    "tweetText": "If you're building a project that aggregates, I highly suggest making it as *durable* as possible. What this means is building an aggressive caching layer in your app. eg. do you grab user pfps? Cache those! Harden your app so it works, even in airplane mode. Nowadays, space is cheap! #buildinpublic",
+    "img": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5wlpm2j3d6can6quf5hotdcc/bafkreibd72es3dpm7gfrhbp2tpzpaaef7ycxaeeklxfcwqmkvcbtrkq5mi@jpeg"
+  },
+  {
     "id": 351,
     "title": "Mike Masnick: Is social media a public social good?",
     "dt": "2024-11-16T14:06:50.568Z",

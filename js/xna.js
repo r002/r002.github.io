@@ -306,8 +306,8 @@ function genenhancedtip(tweetArr) {
   }
   const tooltip = [];
   for (t of tweetArr) {
-    const ppl = t.people != null ? `       | ${t.people.map(p=>p.name).reverse().join(", ")}` : "";
-    tooltip.push(`${leftpad(t.id)} | ${genprettydate(t.dt, "long")}\n       | ${t.title}\n${ppl}`);
+    const ppl = t.people != null ? `\n       | ${t.people.map(p=>p.name).reverse().join(", ")}` : "";
+    tooltip.push(`${leftpad(t.id)} | ${genprettydate(t.dt, "long")}\n       | ${t.title}${ppl}`);
   }
   return tooltip.reverse().join("\n");
 }
@@ -393,10 +393,11 @@ function rendertweets(tidArr, all) {
   let weekstartdt = arrTWEET[0].dt;
   let weekenddt, weektitle, d;
   let t;
+
   for (const id of tidArr) {
     t = arrTWEET[id-1];
 
-    if (!t) {  // Temp fix for the `[Missed Day] bug - 9/26/24
+    if (!t) {  // Temp fix for the `[Missed Day] bug` - 9/26/24
       continue;
     }
 
@@ -412,26 +413,23 @@ function rendertweets(tidArr, all) {
         weektitle = genweektitle(weekNo, weekstartdt, weekenddt);
       } else if("Sun"===days[d.getUTCDay()]) {
           // console.log(`\t>>> ${weektitle} <<<`);
+          let prevDay = null;
+          if (arrTWEET[id-2]) {
+            const prevTweet = arrTWEET[id-2];
+            const prevDt = new Date(genprettydate(prevTweet.dt, "yearMonthDay"));
+            prevDt.setHours(prevDt.getHours()+5); // Convert the UTC date to ET
+            prevDay = days[prevDt.getUTCDay()];
+          }
+          // console.log(">>", t.id, genprettydate(t.dt, "yearMonthDay"), prevDay);
 
-          // let tmrDay = null;
-          // // Still trying to fix the "Double Sunday" bug 😭 - 11/17/24
-          // if (arrTWEET[t.id+1]) {
-          //   const tweetTmr = arrTWEET[t.id+1];
-          //   const tmrDt = new Date(genprettydate(tweetTmr.dt, "yearMonthDay"));
-          //   tmrDt.setHours(d.getHours()+5); // Convert the UTC date to ET
-          //   tmrDay = days[tmrDt.getUTCDay()];
-          //   console.log(">>", t.id, t.dt, tmrDay);
-          //   dTmr = days[d.getUTCDay()];
-          // }
-
-          // if (tmrDay!=="Sun") {  // Should === "Mon" to indicate the start of a new week
+          if (prevDay!=="Sun") {  // Only print a week header if the previous day was not Sunday
             sArr.push(`<div class="tweetresult" style="text-align:center;background-color:#fafafa;
                           border-top:1px dotted gainsboro;border-bottom:1px dotted gainsboro;">
                           ${weektitle}
                       </div>`);
             weekstartdt = genprettydate(t.dt, "yearMonthDay");
             weekNo++;
-          // }
+          }
       }
     }
 
@@ -452,7 +450,7 @@ function rendertweets(tidArr, all) {
       }
       // console.log(`\t>>> ${weektitle} <<<`);
       weekenddt = genprettydate(t.dt, "yearMonthDay");
-      weektitle = genweektitle(++weekNo, weekstartdt, weekenddt);
+      weektitle = genweektitle(weekNo, weekstartdt, weekenddt);
       sArr.push(`<div class="tweetresult" style="text-align:center;background-color:#fafafa;
                     border-top:1px dotted gainsboro;border-bottom:1px dotted gainsboro;">
                     ${weektitle}
