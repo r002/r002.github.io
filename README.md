@@ -47,6 +47,7 @@ Onward and upward!! Accelerate!! 🌎🚀✨
 **
 
 ## TODO
+- [ ] move all data files (`x.json`, `orgs.json`, etc) to `server`; separate from AppView
 - [ ] build the `bsky degree of decentralization index (BSKY DoDI)` page
   - [ ] if t-rexes in F-14s suddenly launched sidewinders at all existing bsky infra, what would happen?
 - [ ] add  `writing` page to host all my blog posts
