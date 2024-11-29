@@ -1,5 +1,207 @@
 [
   {
+    "id": 367,
+    "title": "Johannes Schickling + Kyle Simpson | localfirst.fm",
+    "dt": "2024-11-29T19:03:39.381Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lc4bhp5fbk2v",
+    "tweetText": "schickling.dev taped a🔥ep w/ Kyle Simpson on the 👌 @localfirst.fm pod. Listening to it reaffirmed my commitment to building my own personal site w/ a localfirst bias which means it'll work even when disconnected from the internet. This means the return of automatic evening batch jobs! #buildinpublic",
+    "people": [
+      {
+        "name": "Johannes Schickling",
+        "handle": "schickling.dev",
+        "did": "did:plc:53or656ypxoeh73lwshokzdm"
+      },
+      {
+        "name": "localfirst.fm",
+        "handle": "localfirst.fm",
+        "did": "did:plc:e665x2koblvxo6dj6p5vzi42"
+      }
+    ],
+    "refs": [
+      "https://schickling.dev",
+      "https://bsky.app/profile/did:plc:e665x2koblvxo6dj6p5vzi42/post/3laqw2h7kps2d"
+    ],
+    "img": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5wlpm2j3d6can6quf5hotdcc/bafkreiaffyu4oxswsggzm4oizke7scjjsscdqzsvorn5j4y5444ap7b2ra@jpeg"
+  },
+  {
+    "id": 366,
+    "title": "Three passions have governed my life",
+    "dt": "2024-11-29T15:12:33.200Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lc3ukhd2ws27",
+    "tweetText": "3 passions, simple but overwhelmingly strong, have governed my life.\n\nMy day job, my family, & coding my own pet projects.\n\nJob is sadly non-negotiable. Need to put food on the table.\n\nBut w/ my other blocker, family, I've found this can be unblocked by periodically shipping her abroad.\n\n#priorities",
+    "people": [
+      {
+        "name": "Robert Lin",
+        "handle": "robertlin.bsky.social",
+        "did": "did:plc:5wlpm2j3d6can6quf5hotdcc"
+      }
+    ],
+    "refs": [
+      "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lby3zmnp4k2b"
+    ]
+  },
+  {
+    "id": 365,
+    "title": "How to make @bsky.app a trillion$ Public Benefits Corp",
+    "dt": "2024-11-28T15:02:18.185Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lbzdj7dnbs2k",
+    "tweetText": "How to make @bsky.app a trillion$ Public Benefits Corp:\n\n1.Court the devs (see Ballmer's \"developers!\" speech) & cont encouraging/supporting the dev ecosys\n\n2.Make #atproto the defacto \"social layer\" of the web for identity, payments, & social (eg. merge OpenID, Patreon,& discourse.org)\n\n3.Succeed!🥳",
+    "people": [
+      {
+        "handle": "bsky.app",
+        "did": "did:plc:z72i7hdynmk6r22z27h6tvur",
+        "name": "Bluesky"
+      }
+    ],
+    "refs": [
+      "https://discourse.org"
+    ],
+    "img": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5wlpm2j3d6can6quf5hotdcc/bafkreiao65xbxsusggxrtyug7zrdqpomkfx27iojb4hwf2i3c6mr4nwice@jpeg"
+  },
+  {
+    "id": 364,
+    "title": "Why is `Followers` still a monolithic concept in 2024?🤔",
+    "dt": "2024-11-28T12:55:51.410Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lbz4h3zkfc2y",
+    "tweetText": "💯!! It's honestly a bit silly to me that in 2024, \"followers\" is treated as a single monolithic entity. Like, the AppView can definitely present this in more granular fashion. Eg: a leaderboard of users who reply most to your posts; segmenting followers based on interests (based on what they❤️), etc.",
+    "people": [
+      {
+        "name": "Kris Kashtanova",
+        "handle": "kris.art",
+        "did": "did:plc:54lvyq7dgcahxvabnfaviku6"
+      }
+    ],
+    "refs": [
+      "https://bsky.app/profile/did:plc:54lvyq7dgcahxvabnfaviku6/post/3lbwz2yljc22t"
+    ]
+  },
+  {
+    "id": 363,
+    "title": "Monster Amex MR redemption for DeltaOne w/ SkyMiles",
+    "dt": "2024-11-28T03:15:39.346Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lby3zmnp4k2b",
+    "tweetText": "What I ❤ ab America is that even if you're far from rich, as long as you're willing to hustle, scour FlyerTalk threads, & open CCs for signup bonuses, then you too —can occasionally— live the good life\n\nJust made a monster redemption to ship the SO abroad for the holidays. Time to build! #atproto 😁👨‍💻",
+    "img": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5wlpm2j3d6can6quf5hotdcc/bafkreicruo7untdum7f7i66kakehnptfq3yizmu3uquqhinhr2qh3x6sfy@jpeg"
+  },
+  {
+    "id": 362,
+    "title": "The Eternal Challenge: Problem Selection",
+    "dt": "2024-11-27T03:07:40.512Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lbvl4gk2ss2f",
+    "tweetText": "Problem Selection\n\nChoosing what to work on next is difficult. Like the old adage goes, \"When you can go everywhere, the hardest part is going anywhere.\"\n\n∃ so many #atproto ideas I have rn. The key is picking one I think no one else will do. Also, a project that's only uniquely possible bc of ATP.🤔"
+  },
+  {
+    "id": 361,
+    "title": "Embracing Fun Tribalism on Bsky (Pineapple on Pizza SP)",
+    "dt": "2024-11-25T16:45:13.629Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lbrxuicvf22a",
+    "tweetText": "This is the kinda tribalism I can get behind!🥳 I really enjoy bsky rn bc it honestly just makes social feel *fun*. Like, just funny ppl being good to each other & sharing genuinely useful knowledge. Also, no one pedaling their wares for shameless engagement farming.\n\nI really ❤️ the current culture.🦋",
+    "people": [
+      {
+        "name": "Not Very Good Guy",
+        "handle": "nvgg.online",
+        "did": "did:plc:hkn4oiwj4tc2dvi75azvdgs7"
+      }
+    ],
+    "refs": [
+      "https://bsky.app/profile/did:plc:hkn4oiwj4tc2dvi75azvdgs7/post/3lbq4w5iwtc2r"
+    ]
+  },
+  {
+    "id": 360,
+    "title": "AdSky: Billion-Dollar Opportunity for Bsky Users",
+    "dt": "2024-11-24T15:52:08.497Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lbpegnbnvc2v",
+    "tweetText": "To me, it's inevitable that an AdSky eventually emerges. Bsky users are the ideal TA & there is so much positivity & genuinely good ppl here. This is a billion$ opp on the table for whoever gets here first. If done right, ad revenue could be redistributed to top posters too. So much potential here.",
+    "people": [
+      {
+        "name": "Uai",
+        "handle": "why.bsky.team",
+        "did": "did:plc:vpkhqolt662uhesyj6nxm7ys"
+      }
+    ],
+    "refs": [
+      "https://bsky.app/profile/did:plc:vpkhqolt662uhesyj6nxm7ys/post/3jtrdvx2sq32x"
+    ]
+  },
+  {
+    "id": 359,
+    "title": "Why I Avoid Mastodon: Data Control Concerns",
+    "dt": "2024-11-24T01:42:47.682Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lbnuxvayyk2u",
+    "tweetText": "1/2 For me, this is the kicker & why I'd personally never used Mastodon. The idea of having all of my personal data (eg. every post I ever made) at the sole mercy of some server owner is simply unthinkable. Essentially \"trading one feudal lord for another\". @mmasnick.bsky.social has discussed before",
+    "people": [
+      {
+        "handle": "mmasnick.bsky.social",
+        "did": "did:plc:cak4klqoj3bqgk5rj6b4f5do",
+        "name": "Mike Masnick"
+      },
+      {
+        "name": "Christine Lemmer-Webber",
+        "handle": "dustyweb.bsky.social",
+        "did": "did:plc:dyyvywontyeuaegemczcushz"
+      }
+    ],
+    "refs": [
+      "https://bsky.app/profile/did:plc:dyyvywontyeuaegemczcushz/post/3lbkfcjl4oc24"
+    ]
+  },
+  {
+    "id": 358,
+    "title": "Samuel's book recommendation: Character Limit",
+    "dt": "2024-11-22T12:31:45.279Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lbjyci4p222t",
+    "tweetText": "TY, Samuel, for the rec!! This has been on my radar, ever since @mmasnick.bsky.social's great pod w/ @kateconger.bsky.social (soundcloud.com/techdirt/the...)! Am gonna start it today; couldn't think of a better way to kick off an action-packed weekend!! 🎉📗\n\n(I'll also make sure to unfollow Ryan!!😂)",
+    "people": [
+      {
+        "handle": "mmasnick.bsky.social",
+        "did": "did:plc:cak4klqoj3bqgk5rj6b4f5do",
+        "name": "Mike Masnick"
+      },
+      {
+        "handle": "kateconger.com",
+        "did": "did:plc:5siz7r23475fek2mj6p5zhzw",
+        "name": "kate conger"
+      },
+      {
+        "name": "Samuel",
+        "handle": "samuel.bsky.team",
+        "did": "did:plc:p2cp5gopk7mgjegy6wadk3ep"
+      }
+    ],
+    "refs": [
+      "https://soundcloud.com/techdirt/the-story-of-elon-musks-twitter-takeover",
+      "https://bsky.app/profile/did:plc:p2cp5gopk7mgjegy6wadk3ep/post/3lbhnlafzfk23"
+    ],
+    "img": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5wlpm2j3d6can6quf5hotdcc/bafkreigbdxdcwfmyuje7j25hjqi2d4geuqwtzj7n3gnz7gvxwyisrybi24@jpeg"
+  },
+  {
+    "id": 357,
+    "title": "Taft Museum talk, hosted by Cincy Asian Art Society",
+    "dt": "2024-11-22T01:50:04.445Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lbiuh32olc2b",
+    "tweetText": "Attended this talk at the Taft Museum here in Cincy last mo titled, \"Beauty, Who Needs It?\" by Dr. Peter Doebler that was hosted by the Cincy Asian Art Society. There was coffee & snacks & it was a thoughtful time.\n\nI ❤ the online world but the physical world is great too. Remember to touch grass!!",
+    "img": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5wlpm2j3d6can6quf5hotdcc/bafkreicuttmbk6ac773osobpqv5n5j2rdwdejodzqkkaj35o5gdtag5wpi@jpeg"
+  },
+  {
+    "id": 356,
+    "title": "Recording #buildinpublic videos - integrating my personal site with bsky",
+    "dt": "2024-11-21T03:48:24.104Z",
+    "url": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lbgklq634s2b",
+    "tweetText": "Alright, going to start recording these #buildinpublic videos! (Am hoping it motivates me to code more!😅) Just released v.1.7.0 of r002.github.io 🎉\n\nThis ver now integrates my personal site w/ bsky! Src is completely open👍\n\nWe have a rare SECOND CHANCE to get social right w/ #atproto! Let's build!!🔨",
+    "people": [
+      {
+        "name": "Robert Lin",
+        "handle": "robertlin.bsky.social",
+        "did": "did:plc:5wlpm2j3d6can6quf5hotdcc"
+      }
+    ],
+    "refs": [
+      "https://r002.github.io",
+      "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3l6jdsal3cc2j"
+    ]
+  },
+  {
     "id": 355,
     "title": "Bryan's #atproto app ideas: Time to Build!! 🚧🔧🔨",
     "dt": "2024-11-19T23:53:40.855Z",
@@ -852,7 +1054,7 @@
       }
     ],
     "tweetText": "\"🌎\"\"🚀\"\"✨\""
-  },  
+  },
   {
     "id": 301,
     "title": "Lack of pain/pressure",
@@ -980,7 +1182,7 @@
     ],
     "img": "https://pbs.twimg.com/media/GZOkG7QWIAAU0VP?format=png&name=small",
     "tweetText": "I started posting & replying on bsky yesterday (after an 8mo hiatus) & wow: that site is totally the opposite of my X exp. 1) Though I'm only following 7ppl, my feed is definitely much more liberal & 2) Ppl engage way more! Some are ad hominem (but I just insta-block them) but others are thoughtful ppl who take the time to reply w/ useful info. This is in stark contrast to X where I basically get no replies ever. (But X is still enormously useful as a public recording platform.)\n\nAnyway, I'll keep experimenting with bsky. One really cool thing ab that platform is that API integration is *super-easy*. ie. It's very simple to programmatically post (w/ images) to the platform. I'm going to play around w/ this more. But basically, I think there's value in being able to \"write once & post everywhere\". X & Bsky are essentially increasingly the \"messaging busses\" of humanity.\n\nProps to what @aworkinglibrary wrote: I really encourage folks to try distributing snippets of their writing on the different major social platforms. There is definitely something fertile & promising to be explored w/ this means of distribution."
-  },  
+  },
   {
     "id": 293,
     "title": "Power vs Force",
@@ -1024,7 +1226,7 @@
     "url": "https://x.com/robert_gpt/status/1842035659898245294",
     "img": "https://pbs.twimg.com/media/GZA2JxwWUAArVAZ?format=png&name=900x900",
     "tweetText": "I've been studying up on Vance as much as I can, preparing for Nov 5, reading & listening to everything I can find. And after a ton of careful & diligent study, this is the only conclusion that makes sense to me.\"🤔\"\n\nIf you have articles or pod eps you rec re Vance, pls lmk. TIA!"
-  },  
+  },
   {
     "id": 290,
     "title": "AI trains only on exteriority + Every man's secret heart",
@@ -1070,7 +1272,7 @@
     "dt": "2024-09-29",
     "url": "https://x.com/robert_gpt/status/1840598711358910850",
     "tweetText": "The last 10% is what separates legends from mere mortals."
-  },  
+  },
   {
     "id": 286,
     "title": "Power outage bc of Hurricane Helene",
@@ -1090,7 +1292,7 @@
       }
     ],
     "tweetText": "\"What's past is prologue.\"\n~Shakespeare, The Tempest"
-  },  
+  },
   {
     "id": 284,
     "title": "Planet Money | Money can buy happiness! (Sep 2024)",
@@ -1142,7 +1344,7 @@
     ],
     "img": "https://pbs.twimg.com/media/GYIwPsAW8AAqpPH?format=jpg&name=medium",
     "tweetText": "\"If you want to write, that is a creative act. And a creative act is very hard to do in rational mode.\" \n—@p_millerd\n\nGood writing starts w/ emotional truth. It's a fundamentally different way of operating. The best way I can phrase it: INTJs need to toggle to INFP when writing."
-  },  
+  },
   {
     "id": 280,
     "title": "Janine Leger talking ab Edge City at Network Conference 2024",
@@ -1163,7 +1365,7 @@
     ],
     "img": "https://pbs.twimg.com/media/GYH7gf_XcAAzr7E?format=jpg&name=medium",
     "tweetText": "All the @JoinEdgeCity folks! @timourxyz @JanineLeger @devonzuegel are in this space. The Network State Conference 2024 livestream just dropped too and opened w/ Janine talking ab Edge City. \"👍\"\n\nhttps://youtube.com/watch?v=OWEGg-ZTtSE…"
-  },  
+  },
   {
     "id": 279,
     "title": "Europeans vs Americans re nuclear energy",
@@ -1189,7 +1391,7 @@
       }
     ],
     "tweetText": "I'm also fascinated with biographical stories of rivals. The four that come to mind:\n- Pirates of Silicon Valley (1999) - The Steve Jobs vs Bill Gates story\n- 61* (2001) - The 1961 season where Roger Maris & Mickey Mantle faced off to break Babe Ruth's 1927 single-season home run record\n- Rush (2013) - The F1 rivalry between Briton James Hunt vs Austrian Niki Lauda that covers the 1976 motor-racing season\n- The Current War (2017) - Thomas Edison vs George Westinghouse over the US's electric power delivery system\n\nDoes anyone else have recommendations? Love this genre."
-  },  
+  },
   {
     "id": 277,
     "title": "a16z | Governing democracy on the internet",
@@ -1260,7 +1462,7 @@
     ],
     "img": "https://pbs.twimg.com/media/GXc5EgYWIAA8ggE?format=jpg&name=medium",
     "tweetText": "John Rawls's Veil of Ignorance applies here.\n\nhttps://plato.stanford.edu/entries/original-position/…"
-  },  
+  },
   {
     "id": 272,
     "title": "Castle",
@@ -1317,7 +1519,7 @@
     ],
     "img": "https://pbs.twimg.com/media/GXPRJVOXkAA1XF6?format=png&name=900x900",
     "tweetText": "\"💯\" this.\n\n\"As a rule of thumb, you can only do 1 or 2 things well.\"\n\nAlso:"
-  },  
+  },
   {
     "id": 268,
     "title": "Journey from v1-v3: SpaceX Raptor Rocket",
@@ -1420,7 +1622,7 @@
       }
     ],
     "tweetText": "Lol. This is something all men learn in Year 1! \"🙂\""
-  },  
+  },
   {
     "id": 259,
     "title": "Ted Chiang: AI can't make real art",
@@ -1441,7 +1643,7 @@
     "dt": "2024-09-01",
     "url": "https://x.com/robert_gpt/status/1830447800275935412",
     "tweetText": "One the highest alpha suggestions I have for ppl w/ SOs: make Sunday Drives a recurring habit for the both of you. Nowadays, it's easy for ppl to get sucked into their own lives. (Esp if both of you are working.) Consistently setting aside time every Xth Sunday for a dedicated drive has done wonders for me, personally. There's something ab being stuck in a car for long drives w/ your SO while music is playing & scenery is racing by that inspires convos in unexpected & unexplored territory. (Tactically, I've found ~90 min one-way to be optimal; so ~3 hrs round-trip.) Pick a spot somewhere new on the map to visit. Walk around downtown. Visit a small cafe or shop. Buy a small souvenir. It's like a side-quest both of you get to go on and helps build joint memories. (Gotta keep the firmament strong!!) It also gives opportunity to discuss topics that may not have the space to organically develop during the week."
-  },  
+  },
   {
     "id": 257,
     "title": "The fragmentation of social media",
@@ -1481,7 +1683,7 @@
       }
     ],
     "tweetText": "A Sinking Tide Lowers All Boats\n\nThe idea that taxes on unrealized capital gains for ppl making over $100m won't affect many of us is wrong. Yes, only a tiny fraction would pay this tax. But in order to foot the tax bill every year, the ultra-wealthy would need to come up w/ the cash some way, right? And they'd likely sell stock? Thus, anyone who has a 401k, IRA, or any money invested in the market would also be adversely impacted.\n\nAdditionally, nowadays, more & more ppl are increasingly invested in the equity markets (thanks, Robinhood!) It used to be very gatekept (there were transaction fees on every trade!) but now with commission-free trading, anyone can participate in the spoils of a booming market.\n\nI'm honestly confused by ppl who are advocating for this; taxing unrealized capital gains seems like the exact opposite of a \"rising tide lifts all boats\". Equity markets are one of the few ways for normal people (Main Streeters) to amass great wealth in the US. Why take away this avenue of success from everyone?"
-  },  
+  },
   {
     "id": 254,
     "title": "Mark Twain on trouble: 'It ain't what you don't know...'",
@@ -1513,7 +1715,7 @@
       }
     ],
     "tweetText": "\"Identify as a professional sleeper.\"  —Bryan Johnson\n\nThis is my next project. Everything revolves around sleep & it literally influences everything else in our lives. As goes one of my favorite quotes:\n\n\"The line between genius & madness is a good night's sleep.\""
-  },  
+  },
   {
     "id": 251,
     "title": "The Broad and Narrow Way (1883)",
@@ -1524,7 +1726,7 @@
     ],
     "img": "https://pbs.twimg.com/media/GV1lxTzXUAAqRe_?format=jpg&name=large",
     "tweetText": "The Broad and Narrow Way (1883)\n\nI love this painting so much & it increasingly resonates as I get older. Its original context is from the bible. But I've personally interpreted the art more as the difference between leading a life w/ specific values versus one without.\n\nLiving a life with rigid values means you will lead a narrower life, one where you meet fewer people & partake in fewer life experiences. But it also means you lead, in a way, an easier life. Your decisions are easier because you have specific values that you can easily fall back on. You're not conflicted bc the way forward is always clear. (The canonical example I always think of are vegetarians: they'll never know what meat tastes like, but they'll always know what they want to eat.)\n\nLiving a life with more relaxed values means the opposite: yes, you'll experience more of what life has to offer. But the tradeoff for that flexibility is that you'll spin a lot of cycles trying to navigate difficult dilemmas and have to proportionately make tougher choices. You'll often be internally conflicted. And you'll often be more lost, bc you've chosen a life that requires more wandering.\n\nTo be clear, there is no right and wrong camp. And it obviously can change too, depending on your life stage. I personally know people in both camps who report and present as perfectly happy. It all just depends on your own specific disposition and most people live on a spectrum somewhere between the two poles.\n\nPersonally, for me: when I was younger, I was definitely more in the \"rigid values\" camp. \"A is A\". Right and wrong were always very clear to me. Then as I got older --specifically, after I got married-- I gave up on many of my values (the old adage about \"you can be principled or you can be married\") and wandered the desert for a while. But now I'm even older and have gotten some time to recalibrate to married life (it's essentially comparable to going from straightforward Euclidean geometry to not just Riemann geometry, but n-th dimensions, seriously), I'm beginning to anchor back to having more rigid values again."
-  },  
+  },
   {
     "id": 250,
     "title": "The Brandon Miller story & the Giving Tree",
@@ -1543,14 +1745,14 @@
     ],
     "img": "https://pbs.twimg.com/media/GVyN4AZXIAAfctM?format=jpg&name=medium",
     "tweetText": "The NYT Brandon Miller story has been on my mind a lot recently. Namely, it made me think of The Giving Tree which I just read (well, listened to) again for the first time in something like 3+ decades. Man, that story is so sad; hits extraordinarily hard as an adult."
-  },  
+  },
   {
     "id": 249,
     "title": "Big fan of e-scooters!",
     "dt": "2024-08-23",
     "url": "https://x.com/robert_gpt/status/1827193819319726379",
     "tweetText": "Big fan of e-scooters! Expands one's range & makes it effortless to get around. If you live in an area next to strip malls & plazas, I suggest one. Giant parking lots & asphalt stretches suddenly become your friend! E-scooters are a great way to make an area feel more walkable."
-  },  
+  },
   {
     "id": 248,
     "title": "Peter Thiel on the 'Dual Use' problem of nuclear",
@@ -1566,14 +1768,14 @@
       "https://en.wikipedia.org/wiki/Smiling_Buddha"
     ],
     "tweetText": "Since seeing this a week ago, I'd been puzzled. Lots of ppl on X have been accusing Germany of being \"stupid\". But I don't find that explanation sensible at all.\n\nRather, listening to the Rogan/Thiel interview, Thiel said something that makes much more sense to me.\n\nThiel calls it the \"dual use\" problem. Basically, in 1974, India successfully detonated a nuclear weapon (https://en.wikipedia.org/wiki/Smiling_Buddha…) and it turns out, that'd only been possible bc of technology transfer from the US in order to give nuclear energy to India.\n\nAccording to Thiel, once a country gets nuclear energy, it actually then becomes easy to weaponize an atomic bomb. The thinking is then: since nuclear technology is so dangerous, we need to contain it as much as possible. And that's why there have actively been efforts to limit nuclear as an energy resource and slow its adoption & spread.\n\nHere's the original JRE clip: https://youtube.com/watch?v=klRb0_BAX9g&t=2970s…"
-  },  
+  },
   {
     "id": 247,
     "title": "Making sense of 'VCs for Kamala' & Thomas Matthew Crooks",
     "dt": "2024-08-21",
     "url": "https://x.com/robert_gpt/status/1826404409481593340",
     "tweetText": "I’ve been wanting to write more because it helps me process. I spend a ton of time listening to podcasts and reading. But without deliberately setting aside time to synthesize all of the information, the words just all flow through me, unprocessed.\n\nSo moving forward, I’m going to specifically reply to pieces I read as a daily writing exercise. Instead of mindlessly watching something on YouTube or scrolling through X, time to try reading, thinking, and writing."
-  },  
+  },
   {
     "id": 246,
     "title": "Cost is why humans stopped building aesthetic wonders",
@@ -1587,7 +1789,7 @@
     ],
     "img": "https://pbs.twimg.com/media/GVW9upGWwAAw0M0?format=jpg&name=large",
     "tweetText": "I think ab this question a lot. Lots of reasons. Cost, above all, is the main explanation. And also: societal values & priorities are increasingly different nowadays."
-  },  
+  },
   {
     "id": 245,
     "title": "Drive to Chillicothe, Ohio",
@@ -1603,7 +1805,7 @@
     "url": "https://x.com/robert_gpt/status/1825339639483302016",
     "img": "https://pbs.twimg.com/media/GVToucQWkAAZPqX?format=jpg&name=medium",
     "tweetText": "Test drove a Tesla today with Full Self Driving. I know I'm late to the game but the hype is real. This is the future of all driving. This is why Tesla's market cap is equal to 9 of the others combined. FSD is a genuine differentiator. It's the real deal. Outside of Waymo (which uses LIDAR & is a totally different approach), no other car company has a comparable product, to my knowledge.\n\nAlso, the ability to watch a review ab a Tesla while sitting in a Tesla... truly next level.\n\nI'm a believer!! \"🚗\""
-  },  
+  },
   {
     "id": 243,
     "title": "Do women really want lavish monuments of themselves?🤔",
@@ -1611,7 +1813,7 @@
     "url": "https://x.com/robert_gpt/status/1824664048660549823",
     "img": "https://pbs.twimg.com/media/GVKB5vjWYAASzQc?format=jpg&name=900x900",
     "tweetText": "I have a genuine question for all the women on X out there: would you be honored & proud if your SO built a gigantic & lavish public monument dedicated to you for all to see? Or would you feel it cringe & embarrassing? Am sincerely curious ab the female perspective on this."
-  },  
+  },
   {
     "id": 242,
     "title": "Gladiator (2002)",
@@ -1645,7 +1847,7 @@
       }
     ],
     "tweetText": "I think it totally depends. Some WFH great; others don't. Also, varies by company, industry, role, etc.\n\nBut yes, for what Schmidt's describing— I agree. For startups, locking everyone in the same room & having them all grind together is invaluable. It's the same reason many of us back in college studied the best at the library where we all suffered & commiserated together when cramming for finals. Misery loves company. But in aggregate, can be a superpower.\n\nEven for more mature companies, speaking personally, I've noticed this of myself: when I'm at the office and am stripped of optionality, I’m more focused because there’s literally nothing else I can do. I enjoy working until a specified a time and even if I finish early, I’ll then fiddle on something else work-related until it’s time to go. When it comes to work, the truth is there’s always more of it."
-  },  
+  },
   {
     "id": 239,
     "title": "The real roots of American Exceptionalism",
@@ -1796,7 +1998,7 @@
       "‘Weird’: How an Old Term for Fate Became a Political Slur"
     ],
     "tweetText": "Is it odd to anyone else that the blue party is currently attacking the red party w/ the charge of \"being weird\"? \"🤔\" In my mind, for years now, the left celebrated \"being weird\" as genuine authenticity + individualistic self-expression. But now weirdness is suddenly villainized?"
-  },  
+  },
   {
     "id": 225,
     "title": "Olympic spirit",
@@ -1823,7 +2025,7 @@
       "https://pbs.twimg.com/media/GT3Pj5zXUAA-la-?format=jpg&name=large"
     ],
     "tweetText": "There's so much alpha in consistently setting aside an hour every day to sit down, reflect, & journal. Recently, I've been doing this every morning (I've set up a little workspace on my kitchen table) before my day begins.\n\nThroughout the day, I'm inundated w/ content. Podcasts, articles, conversations. In the evenings, while eating, I may then watch a TV show or some of the Olympics on YT.\n\nAnd all that's fine. But w/o setting time aside to synthesize all that content, it just all washes over me & passes right through my body. That old line ab \"seeing & hearing everything, but retaining nothing\".\n\nThis is a drum I'll beat forever, but the one biggest unlock, IMHO, for everyone is journaling publicly. (I happen to like X, but do it anywhere.) I used to see it as narcissistic & self-involved to microblog, but I've changed my views on that. It's a way to help others discover you by sharing stuff you're thinking ab or working through each & every day. And it also helps mark time, which feels like it's passing faster & faster every year.\n\nPS. Harry birthday, Harry!! \"🎂\""
-  },  
+  },
   {
     "id": 223,
     "title": "'Shit's pretty easy if you just... let it suck'",
@@ -1857,7 +2059,7 @@
     ],
     "img": "https://pbs.twimg.com/media/GTs11RgWQAAuG78?format=jpg&name=small",
     "tweetText": "This is related to something else I've been following since 2021. It's morbid but also fascinating (to me at least): the idea of \"assisted suicide pods\".\n\nI keep seeing many tweets on X ab how ppl are increasingly choosing to be childless. What will happen towards EoL though? For those unable to afford retirement homes, & w/ religion increasingly waning, I really think we're a few decades away from a huge turning point in ppl's attitudes towards assisted dying. Not even necessarily for any specific illness or disability. But just bc one's body finally wears out, everyone you love is gone, and there's just nothing left for you in this mortal world."
-  },  
+  },
   {
     "id": 221,
     "title": "Disney's FastPass: A Complicated History | Defunctland",
@@ -1867,7 +2069,7 @@
       "https://youtube.com/watch?v=9yjZpBq1XBE"
     ],
     "tweetText": "Disney's FastPass: A Complicated History | @Defunctland\n\nhttps://youtube.com/watch?v=9yjZpBq1XBE…"
-  },  
+  },
   {
     "id": 220,
     "title": "America-pilled: Diversity wins on the world stage",
@@ -2019,7 +2221,7 @@
       "https://r002.github.io"
     ],
     "tweetText": "Writing fiction is tough bc you need to figure out both the story & the narrative. Whereas, w/ writing non-fiction, the story already exists, so you're really just crafting the narrative: ie. trying to decide what scenes to include, what ppl & events to focus on, etc. But w/ writing fiction, you need to first create the clay itself before you can sculpt it."
-  },  
+  },
   {
     "id": 207,
     "title": "“Cruelty is a failture of imagination” - Ian McEwan",
@@ -2075,7 +2277,7 @@
     ],
     "img": "https://pbs.twimg.com/media/GSQcKjVX0AAIGSX?format=jpg&name=900x900",
     "tweetText": "I finally installed the last two remaining blinds in my home today. These were tasks on The List! I've literally procrastinated for nine months but today was finally the day!! \"💪\"\n\nWhatever you've been putting off, just do it. One task every day, big or small. It'll set you free!!"
-  },  
+  },
   {
     "id": 203,
     "title": "“That Crafty Feeling” - Zadie Smith (March 24, 2008)",
@@ -2121,7 +2323,7 @@
     "dt": "2024-07-08",
     "url": "https://x.com/robert_gpt/status/1810504161068208389",
     "tweetText": "Everyone has \"The List\". That list of, \"tasks I should do, but don't quite rise to the level of urgent.\" And so this list then just permanently occupies mental space.\n\nStarting tmr, I'm going to knock exactly one item off the list every day this next week.\n\nYou should too. Who's with me?! Let's do it together!\"💪\"\n\n(Tmr, I'm going to finally get a haircut.)"
-  },  
+  },
   {
     "id": 199,
     "title": "Boxer & Biden - Animal Farm",
@@ -2135,7 +2337,7 @@
     ],
     "img": "https://pbs.twimg.com/media/GR3Gz1jXQAAftGN?format=jpg&name=900x900",
     "tweetText": "Boxer. In that scene towards the end where he's being carted away to the slaughterhouse. That's what I kept thinking of when I watched the debate clips last week. Honestly, I blame Biden's team maybe more than I even fault Biden. Ppl around him are not telling him what he needs to hear. And I cannot blame the man for fighting. He's been a public servant just ab his entire adult life. He's a fighter; not a quitter. Never giving up & always trying his best is just who he is. He doesn't know how to quit.\n\nIn any case, this is why you should read the classics. They stay in your head long after you've finished them and give you great shorthand & references when communicating w/ others. It's basically having a whole other shared vernacular w/ ppl who share your preferences in books!"
-  },  
+  },
   {
     "id": 198,
     "title": "“The whole thing was very clinical. Reduced to its technical essence, it was a problem of resource management”",
@@ -2167,7 +2369,7 @@
     "dt": "2024-07-05",
     "url": "https://x.com/robert_gpt/status/1809325486629105889",
     "tweetText": "Idk how other ppl write fiction. But what I've learned ab (trying) to write fiction is that I cannot force it. I may feel like I have some brilliant top-down idea of how I wish for the story to go. But whenever I try to force it, things just don't work. Instead, for me it's become a bottom-up process where I create the \"clay\" on my first pass. And then I use top-down processes later in my second & subsequent passes to mold that clay & stich together what works. Again, maybe there's a better way to do it. But I haven't found it."
-  },  
+  },
   {
     "id": 195,
     "title": "\"If you are tired, do it tired\"",
@@ -2221,7 +2423,7 @@
       "https://www.forbes.com/sites/johnjennings/2024/02/12/money-buys-happiness-after-all/"
     ],
     "tweetText": "https://forbes.com/sites/johnjennings/2024/02/12/money-buys-happiness-after-all/…\n\nI am in the group of ppl for whom increasing money buys increasing happiness with no plateau. A new study in 2023 by Kahneman/Killingsworth found that 80% of ppl are in this \"no plateau\" group.\n\nI know a lot of ppl who still cite the older 2010 Kahneman/Deaton study though that concluded that there was a plateau — time to update on new data!!"
-  },  
+  },
   {
     "id": 191,
     "title": "'The Great Ravine' | Epsilon Theory",
@@ -2254,14 +2456,14 @@
       }
     ],
     "tweetText": "https://superx.so\n\n\"🔥\"!!"
-  },  
+  },
   {
     "id": 188,
     "title": "Know Thyself for Peak Performance",
     "dt": "2024-06-28",
     "url": "https://x.com/robert_gpt/status/1806899413673038151",
     "tweetText": "One of the joys of getting older is finally having accrued sufficient resources to shape my environment & daily routines as I require to be maximally productive/efficient/creative. There is seriously so much alpha in understanding how you work & what you need to operate best. Basically: the minimum & optimum specs you need to run at peak performance."
-  },  
+  },
   {
     "id": 187,
     "title": "NYT Games: Connections",
@@ -2274,7 +2476,7 @@
       }
     ],
     "tweetText": "Just started playing NYT Connections; friends from work got me into it!\n\nReally fun game. If folks aren't already playing, I highly recommend it. \n\nA random thought I've been pondering: is the way ppl solve Connections puzzles a proxy for any kind of larger personality trait? \"🤔\""
-  },  
+  },
   {
     "id": 186,
     "title": "Scooter Speeds: European Mode vs American Mode",
@@ -2288,7 +2490,7 @@
     "dt": "2024-06-25",
     "url": "https://x.com/robert_gpt/status/1805790716594909279",
     "tweetText": "Each and every person has their own unique gradient descent to happiness. Find it and the world is yours."
-  },  
+  },
   {
     "id": 184,
     "title": "'Why Men Are 'Rawdogging' Flights' | GQ",
