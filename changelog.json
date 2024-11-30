@@ -1,5 +1,13 @@
 [
   {
+    "dt": "2024-11-30",
+    "version": "1.7.1",
+    "notes": [
+      "move all data that backs the site to `/server/xna`",
+      "add `last data sync` indicator"
+    ]
+  },
+  {
     "dt": "2024-11-20",
     "version": "1.7.0",
     "notes": [

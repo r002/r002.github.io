@@ -48,12 +48,13 @@ Onward and upward!! Accelerate!! 🌎🚀✨
 
 ## TODO
 - [ ] move all data files (`x.json`, `orgs.json`, etc) to `server`; separate from AppView
+  - [ ] configure cron jobs to run locally so every night, my bsky PDS mirrors into my personal github
 - [ ] build the `bsky degree of decentralization index (BSKY DoDI)` page
   - [ ] if t-rexes in F-14s suddenly launched sidewinders at all existing bsky infra, what would happen?
 - [ ] add  `writing` page to host all my blog posts
 - [ ] fix `[Missed Day]` calendar issue - `#219: July 26, 2024`
 - [ ] fix `double header` bug - `#301: Oct 13, 2024`
-- [ ] research `blueskey` and `x` apis for simultaneous posting
+- [ ] research `bluesky` and `x` apis for simultaneous posting
   - [ ] build a central GUI that posts to both simultaneously?
   - [ ] research how to bring `analytics counts` to `bluesky` (see how many impressions/clicks each post got)
 - [ ] index all tweet titles in the database so they can be searched

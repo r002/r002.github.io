@@ -1,8 +1,15 @@
-// initial load all of my tweets
-const DBURL = "../x.json";
-const ORGSURL = "../data/orgs.json";
-const MEDIAURL = "../data/media.json";
-const BOOKSURL = "../data/books.json";
+// initial load all of my tweets + metadata
+// const DBURL = "../x.json";
+// const ORGSURL = "../data/orgs.json";
+// const MEDIAURL = "../data/media.json";
+// const BOOKSURL = "../data/books.json";
+// const AVATARROOT = "../img/pfp";
+
+const DBURL = "https://r002.github.io/server/xna/x.json";
+const ORGSURL = "https://r002.github.io/server/xna/orgs.json";
+const MEDIAURL = "https://r002.github.io/server/xna/media.json";
+const BOOKSURL = "https://r002.github.io/server/xna/books.json";
+const AVATARROOT = "https://r002.github.io/server/xna/pfp";
 
 let SELECTEDPERSON = "";
 let mapTAG,    // map of tags => [tids]
@@ -213,7 +220,7 @@ function genavatar(pid) { // pid is a person's handle, but just lowercase
           onmouseover="highltperson('${pid}')"
           onmouseout="unhighltperson()"
           onclick="selectperson('${pid}')"
-          style='background-image: url("../img/pfp/${dbPPL.get(pid).handle}.jpg")'></div>`;
+          style='background-image: url("${AVATARROOT}/${dbPPL.get(pid).handle}.jpg")'></div>`;
 }
 
 function toggle(el) {
