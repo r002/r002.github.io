@@ -16,9 +16,9 @@ async function renderDatalog() {
   // console.log(">> latest in ET:", convertToEasternTime(latest));
   
   const d = new Date();
-  const diffHours = calcuHoursDiff(latest, d.toISOString());
+  const freshness = calculateFreshness(latest, d.toISOString());
   const syncTitle = `last data sync\n• ${convertToEasternTime(latest)}`;
-  document.getElementById("releasenotes").innerHTML += ` • <a href="${LATEST_URL}" title="${syncTitle}">${diffHours}h ago</a>`;
+  document.getElementById("releasenotes").innerHTML += ` • <a href="${LATEST_URL}" title="${syncTitle}">${freshness}</a>`;
 }
 
 async function renderChangelog() {
@@ -42,13 +42,31 @@ function convertToEasternTime(utcDateStr) {
   return estDate.toString();
 }
 
-function calcuHoursDiff(dtStr1, dtStr2) {
-  // Convert both dates to milliseconds
+function calculateFreshness(dtStr1, dtStr2) {
   const date1 = new Date(dtStr1);
   const date2 = new Date(dtStr2);
+
+  // Get the difference in milliseconds
   const diffMs = Math.abs(date2 - date1);
 
-  // Convert milliseconds to hours
-  const diffHours = diffMs / (1000 * 60 * 60);
-  return Math.floor(diffHours); // Round down to the nearest integer
+  // Calculate the time components
+  const diffSeconds = Math.floor(diffMs / 1000);
+  const diffMinutes = Math.floor(diffSeconds / 60);
+  const diffHours = Math.floor(diffMinutes / 60);
+  const diffDays = Math.floor(diffHours / 24);
+
+  // Create a readable freshness message
+  let freshness;
+
+  if (diffDays > 0) {
+    freshness = `${diffDays}d ago`;
+  } else if (diffHours > 0) {
+    freshness = `${diffHours}h ago`;
+  } else if (diffMinutes > 0) {
+    freshness = `${diffMinutes}m ago`;
+  } else {
+    freshness = `${diffSeconds}s ago`;
+  }
+
+  return freshness;
 }
