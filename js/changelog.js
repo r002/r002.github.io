@@ -19,16 +19,16 @@ async function renderDatalog() {
   const d = new Date();
   const freshness = calculateFreshness(latest, d.toISOString());
   const syncTitle = `last data sync\n• ${convertToEasternTime(latest)}`;
-  document.getElementById("releasenotes").innerHTML += ` • <a href="${LATEST_URL}" title="${syncTitle}">${freshness}</a>`;
+  document.getElementById("releasenotes").innerHTML += ` &nbsp;∾&nbsp; <a href="${LATEST_URL}" title="${syncTitle}">${freshness}</a>`;
 }
 
 async function renderServerChangelog() {
   const ss = await fetch("https://r002.github.io/server/changelog.json");
   const serverNotes = await ss.json();
   const s = serverNotes[0]; // get the latest server release notes
-  const serverBuildTitle = `build ${s.version}\n${s.notes.map(note=>`• ${note}`).join("\n")}`;
+  const serverBuildTitle = `${s.version} ≋ ${s.dt}\n${s.notes.map(note=>`• ${note}`).join("\n")}`;
 
-  document.getElementById("releasenotes").innerHTML += ` • <a href="https://r002.github.io/server/changelog.json" title="${serverBuildTitle}">${s.version} • ${s.dt}</a>`;
+  document.getElementById("releasenotes").innerHTML += ` &nbsp;∾&nbsp; <a href="https://r002.github.io/server/changelog.json" title="${serverBuildTitle}">${s.version}</a>`;
 }
 
 async function renderClientChangelog() {
@@ -39,8 +39,8 @@ async function renderClientChangelog() {
   if (r.bugs) {
     bugs = `\n\nbugs:\n${r.bugs?.map(bug=>`• ${bug}`).join("\n")}`;
   }
-  const clientBuildTitle = `build ${r.version}\n${r.notes.map(note=>`• ${note}`).join("\n")}${bugs}`;
-  document.getElementById("releasenotes").innerHTML = `<a href="../changelog.json" title="${clientBuildTitle}">${r.version} • ${r.dt}<a/>`;
+  const clientBuildTitle = `${r.version} ≋ ${r.dt}\n${r.notes.map(note=>`• ${note}`).join("\n")}${bugs}`;
+  document.getElementById("releasenotes").innerHTML = `<a href="../changelog.json" title="${clientBuildTitle}">${r.version}<a/>`;
 }
 
 function convertToEasternTime(utcDateStr) {

@@ -1,5 +1,12 @@
 [
   {
+    "dt": "2024-12-22",
+    "version": "client-1.7.5",
+    "notes": [
+      "make small cosmetic changes to changelog subheader"
+    ]
+  },
+  {
     "dt": "2024-12-21",
     "version": "client-1.7.4",
     "notes": [
