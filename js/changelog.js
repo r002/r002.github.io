@@ -5,7 +5,8 @@ renderLogSummary();
 const LATEST_URL = "https://r002.github.io/server/xna/latest.txt";
 
 async function renderLogSummary() {
-  await renderChangelog(); // must happen first!
+  await renderClientChangelog(); // must happen first!
+  await renderServerChangelog();
   renderDatalog();
 }
 
@@ -21,19 +22,25 @@ async function renderDatalog() {
   document.getElementById("releasenotes").innerHTML += ` • <a href="${LATEST_URL}" title="${syncTitle}">${freshness}</a>`;
 }
 
-async function renderChangelog() {
+async function renderServerChangelog() {
+  const ss = await fetch("https://r002.github.io/server/changelog.json");
+  const serverNotes = await ss.json();
+  const s = serverNotes[0]; // get the latest server release notes
+  const serverBuildTitle = `build ${s.version}\n${s.notes.map(note=>`• ${note}`).join("\n")}`;
+
+  document.getElementById("releasenotes").innerHTML += ` • <a href="https://r002.github.io/server/changelog.json" title="${serverBuildTitle}">${s.version} • ${s.dt}</a>`;
+}
+
+async function renderClientChangelog() {
   const rs = await fetch("../changelog.json");
   const releases = await rs.json();
-
-  const r = releases[0]; // get the latest release notes
-
+  const r = releases[0]; // get the latest client release notes
   let bugs = "";
   if (r.bugs) {
     bugs = `\n\nbugs:\n${r.bugs?.map(bug=>`• ${bug}`).join("\n")}`;
   }
-
-  const buildTitle = `build v.${r.version}\n${r.notes.map(note=>`• ${note}`).join("\n")}${bugs}`;
-  document.getElementById("releasenotes").innerHTML = `<a href="../changelog.json" title="${buildTitle}">v.${r.version} • ${r.dt}<a/>`;
+  const clientBuildTitle = `build ${r.version}\n${r.notes.map(note=>`• ${note}`).join("\n")}${bugs}`;
+  document.getElementById("releasenotes").innerHTML = `<a href="../changelog.json" title="${clientBuildTitle}">${r.version} • ${r.dt}<a/>`;
 }
 
 function convertToEasternTime(utcDateStr) {
@@ -61,11 +68,11 @@ function calculateFreshness(dtStr1, dtStr2) {
   if (diffDays > 0) {
     freshness = `${diffDays}d ago`;
   } else if (diffHours > 0) {
-    freshness = `${diffHours}h ago`;
+    freshness = `${diffHours}h ago 🍿`;
   } else if (diffMinutes > 0) {
-    freshness = `${diffMinutes}m ago`;
+    freshness = `${diffMinutes}m ago 🍿`;
   } else {
-    freshness = `${diffSeconds}s ago`;
+    freshness = `${diffSeconds}s ago 🍿`;
   }
 
   return freshness;

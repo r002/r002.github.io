@@ -1,8 +1,9 @@
 [
   {
     "dt": "2024-12-21",
-    "version": "1.7.3",
+    "version": "client-1.7.4",
     "notes": [
+      "update changelog subheader to include server version",
       "configure custom `github actions` build process"
     ]
   },
