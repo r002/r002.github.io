@@ -1,15 +1,11 @@
-// initial load all of my tweets + metadata
-// const DBURL = "../x.json";
-// const ORGSURL = "../data/orgs.json";
-// const MEDIAURL = "../data/media.json";
-// const BOOKSURL = "../data/books.json";
-// const AVATARROOT = "../img/pfp";
+// const ENV = "http://localhost:4000"; // DEV
+const ENV = "https://r002.github.io/server"; // PROD
 
-const DBURL = "https://r002.github.io/server/xna/x.json";
-const ORGSURL = "https://r002.github.io/server/xna/orgs.json";
-const MEDIAURL = "https://r002.github.io/server/xna/media.json";
-const BOOKSURL = "https://r002.github.io/server/xna/books.json";
-const AVATARROOT = "https://r002.github.io/server/xna/pfp";
+const DBURL = `${ENV}/xna/x.json`;
+const ORGSURL = `${ENV}/xna/orgs.json`;
+const MEDIAURL = `${ENV}/xna/media.json`;
+const BOOKSURL = `${ENV}/xna/books.json`;
+const AVATARROOT = `${ENV}/xna/pfp`;
 
 let SELECTEDPERSON = "";
 let mapTAG,    // map of tags => [tids]

@@ -46,6 +46,15 @@ Onward and upward!! Accelerate!! 🌎🚀✨
 
 **
 
+## bsky ideas
+- [ ] `the like summarizer` - summarize your likes and extract all links and images
+
+- [ ] `the robert score` factors. Looking at your past 100 posts:
+  - how many posts with at least one image?
+  - how many posts with at least one link?
+  - how many #buildinpublic videos you've posted (a recording of you showing off something you've built)
+  - if you keep an active blog
+
 ## TODO
 - [ ] move all data files (`x.json`, `orgs.json`, etc) to `server`; separate from AppView
   - [ ] configure cron jobs to run locally so every night, my bsky PDS mirrors into my personal github
@@ -96,7 +105,7 @@ Onward and upward!! Accelerate!! 🌎🚀✨
 
 ## How to run
 ```
-$> browser-sync start --server '.' --files '.'
+$> browser-sync start --server '.' --files '.' --port 5000
 ```
 
 ### References
