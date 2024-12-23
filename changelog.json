@@ -1,8 +1,9 @@
 [
   {
     "dt": "2024-12-22",
-    "version": "client-1.7.5",
+    "version": "client-1.7.6",
     "notes": [
+      "update `thought supply chain` url on navbar",
       "make small cosmetic changes to changelog subheader"
     ]
   },
