@@ -1,5 +1,33 @@
 [
   {
+    "title": "The Lord of the Rings: The War of the Rohirrim",
+    "yearMonth": "2024-12",
+    "ticketCost": 10,
+    "month": "December",
+    "year": 2024
+  },
+  {
+    "title": "No movie",
+    "yearMonth": "2024-11",
+    "ticketCost": 0,
+    "month": "November",
+    "year": 2024
+  },
+  {
+    "title": "No movie",
+    "yearMonth": "2024-11",
+    "ticketCost": 0,
+    "month": "November",
+    "year": 2024
+  },
+  {
+    "title": "Activate",
+    "yearMonth": "2024-10",
+    "ticketCost": 20,
+    "month": "October",
+    "year": 2024
+  },
+  {
     "title": "Beatlejuice Beatlejuice",
     "yearMonth": "2024-09",
     "ticketCost": 5,

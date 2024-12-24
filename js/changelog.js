@@ -15,10 +15,14 @@ async function renderDatalog() {
   const latest = await rs.text();
   // console.log(">> latest:", latest);
   // console.log(">> latest in ET:", convertToEasternTime(latest));
+
+  const ms = await fetch("../data/movies.json");
+  const movieJson = await ms.json();
+  // console.log(movieJson[0].yearMonth);
   
   const d = new Date();
   const freshness = calculateFreshness(latest, d.toISOString());
-  const syncTitle = `last data sync\n• ${convertToEasternTime(latest)}`;
+  const syncTitle = `data freshness:\n• bsky: ${convertToEasternTime(latest)}\n• bmc: ${movieJson[0].yearMonth}`;
   document.getElementById("releasenotes").innerHTML += ` &nbsp;∾&nbsp; <a href="${LATEST_URL}" title="${syncTitle}">${freshness}</a>`;
 }
 

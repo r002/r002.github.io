@@ -1,5 +1,12 @@
 [
   {
+    "dt": "2024-12-24",
+    "version": "client-1.7.7",
+    "notes": [
+      "add `bmc` freshness to changelog subnav"
+    ]
+  },
+  {
     "dt": "2024-12-22",
     "version": "client-1.7.6",
     "notes": [
