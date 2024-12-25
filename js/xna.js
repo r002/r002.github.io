@@ -193,6 +193,9 @@ function rendermeta(mode) {
       } else if (setMEDIA.has(p[0])) {
         media += genavatar(p[0]);
         mediacount++;
+      } else if (setBOOKS.has(p[0])) {
+        books += genavatar(p[0]);
+        bookscount++;
       } else {
         ppl += genavatar(p[0]);
         pplcount++;
