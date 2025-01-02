@@ -1,5 +1,13 @@
 [
   {
+    "dt": "2025-01-01",
+    "version": "client-1.7.9",
+    "notes": [
+      "add `ask` page",
+      "update `BMC` to support 2025"
+    ]
+  },
+  {
     "dt": "2024-12-25",
     "version": "client-1.7.8",
     "notes": [

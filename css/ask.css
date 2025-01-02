@@ -1,0 +1,13 @@
+.askheader {
+  font-weight: bold;
+  font-size: 22px;
+  width: fit-content;
+  /* margin-bottom: 12px; */
+  cursor: pointer;
+  /* background-color: white; */
+  border-bottom: 2px solid #fafafa;
+  /* padding-top: 10px; */
+  /* padding-bottom: 10px; */
+  /* padding-left: 15px;
+  padding-right: 15px; */
+}

@@ -1,13 +1,18 @@
 [
     {
-      "url": "../filmbot",
-      "path": "/filmbot/",
-      "title": "Filmbot"
-    },
-    {
       "url": "../xna",
       "path": "/xna/",
       "title": "XNA"
+    },
+    {
+      "url": "../ask",
+      "path": "/ask/",
+      "title": "Marriage Thesis"
+    },
+    {
+      "url": "../filmbot",
+      "path": "/filmbot/",
+      "title": "Filmbot"
     },
     {
         "url": "../maze",
@@ -18,11 +23,6 @@
         "url": "../bmc",
         "path": "/bmc/",
         "title": "BMC"
-    },
-    {
-      "url": "../z",
-      "path": "/z/",
-      "title": "Zeitgeist"
     },
     {
         "url": "https://github.com/r002/r002.github.io?tab=readme-ov-file#xna-help-your-people-find-you-",

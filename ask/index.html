@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>The Marriage Thesis</title>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (() => {
+                emailjs.init({
+                  publicKey: "b1_3_3yL0yEkqEnWM",
+                });
+            })();
+        </script>
+        <script type="text/javascript">
+            window.onload = () => {
+                document.getElementById('contact-form').addEventListener('submit', function(event) {
+                    event.preventDefault();
+                    emailjs.sendForm('contact_service', 'contact_form', this)
+                        .then(() => {
+                            alert("Your question has been submitted! 👍");
+                            console.log('SUCCESS!');
+                        }, (error) => {
+                            console.log('FAILED...', error);
+                        });
+                });
+            }
+
+            function enableButton() {
+              if(document.getElementById('messageBox').value.trim().length!==0) {
+                document.getElementById('submitBtn').disabled = false;
+              } else {
+                document.getElementById('submitBtn').disabled = true;
+              }
+            }
+        </script>
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/ask.css">
+    </head>
+    <body>
+      <section class="headerfixed">
+        <a href="." title="Contact Page">The Marriage Thesis</a><br />
+        <div id="navbar" class="subheader"></div>
+        <div id="releasenotes" class="version" title=""></div>
+        <div id="buildinpublic">
+          <a href="https://github.com/r002/r002.github.io" title="This site is meant as a learning resource!&#10;It's deliberately deployed with unminified code so you can view source to see how it's built.&#10;All source is also available on GitHub. Learn by building! 👍">#buildinpublic</a>
+        </div>
+      </section>
+
+      <section id="content" class="contentbody">
+        <form id="contact-form">
+          <div style="display: flex; flex-flow: column; width: 600px; margin: 0 auto; align-items: center; padding-top: 40px; line-height: 150%;">
+            <div id="askquestion" class="askheader" style="width: 100%; text-align: center;">
+              Ask relationship question
+            </div>
+            <ul>
+              <li>
+              <strong>Relationships are hard.</strong>
+              </li>
+              <li>
+                Even super-successful people (Bezos, Gates, Musk) <strong>totally failed.</strong>
+              </li>
+              <li>
+                Henry Kissinger, who negotiated <strong>a détente with the USSR</strong> (and arguably prevented <strong>a nuclear holocaust</strong>) got divorced.
+              </li>
+              <li>
+                As did Neil Armstrong, the first man to have ever set foot on the moon.
+              </li>
+              <li>
+                Brittney Spears' first marriage lasted for <strong>55 hours.</strong>
+              </li>
+              <li>
+                I can't promise you <strong>"happily ever after"</strong>, but I can try! <a href="https://bsky.app/search?q=%22The+Marriage+Thesis%22">All replies will be posted to Bluesky.</a> 🦋
+              </li>
+            </ul>
+            <input type="text" name="user_name" style="width: 560px; margin-top: 5px; margin-bottom: 15px; font-size: 15px;" placeholder="Name (optional)" />
+            <textarea id="messageBox" name="message" onkeyup="enableButton()" style="width: 560px; height: 350px; font-size: 15px; font-family: Arial"
+              placeholder="Question (required)&#13;&#10;eg. Do you think it's important both partners work in a relationship?"></textarea>
+            <br />
+            <input id="submitBtn" type="submit" value="Send" disabled>
+          </div>
+        </form>
+
+      </section>
+    </body>
+    <script type="text/javascript" src="../js/navbar.js"></script>
+    <script type="text/javascript" src="../js/changelog.js"></script>
+</html>
