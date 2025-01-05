@@ -1,5 +1,14 @@
 [
   {
+    "dt": "2025-01-04",
+    "version": "client-1.7.10",
+    "notes": [
+      "add `2025 calendar`",
+      "add `deep links` on `/xna` page",
+      "add `subnav` on `/xna` page"
+    ]
+  },
+  {
     "dt": "2025-01-01",
     "version": "client-1.7.9",
     "notes": [

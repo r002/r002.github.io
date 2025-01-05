@@ -46,7 +46,17 @@ async function fetchdata() {
   indexDB(arrTWEET, orgs, media, books);
   rendercalendar();
   rendermeta("revchrono");
+  await populatelinks(tweets);
   renderDefaultStream();
+
+  // Parse the hash
+  const fragment = window.location.hash;
+  const fragmentWithoutHash = fragment.startsWith('#') ? fragment.substring(1) : fragment;
+  if (fragmentWithoutHash) {
+    if (fragmentWithoutHash==="people" || fragmentWithoutHash==="links" || fragmentWithoutHash==="media") {
+      toggletab(fragmentWithoutHash);
+    }
+  }
 }
 
 function indexDB(dbArr, orgsArr, mediaArr, booksArr) {
@@ -122,6 +132,48 @@ function renderDefaultStream() {
   } else {
     rendertweets(mapPPL.get(SELECTEDPERSON), false);
   }
+}
+
+function updateUrl(newFragment) {
+  const newUrl = `/xna/#${newFragment}`;
+  history.pushState({ path: '/xna' }, 'Updated Page', newUrl);
+}
+
+function toggletab(hash) {
+  // console.log(evtsrc.id);
+  document.getElementById(`tabscontent-people`).style.display = "none";
+  document.getElementById(`tabscontent-links`).style.display = "none";
+  document.getElementById(`tabscontent-media`).style.display = "none";
+  document.getElementById(`tabscontent-${hash}`).style.display = "block";
+
+  document.getElementById(`title-people`).classList.add('inactive');
+  document.getElementById(`title-links`).classList.add('inactive');
+  document.getElementById(`title-media`).classList.add('inactive');
+  document.getElementById(`title-${hash}`).classList.remove('inactive');
+
+  updateUrl(hash);
+}
+
+/*
+  Extract all links from my posts and display them in the links pane.
+*/
+async function populatelinks(tweets) { // notes: tweets enter as chronological
+  const tweetsReverseChrono = [...tweets].reverse();
+  // console.log(tweetsReverseChrono);
+  const l = [];
+  for (const t of tweetsReverseChrono) {
+    if (t.refs) {
+      l.push(t.refs.filter(url=>!url.includes('bsky.app'))); // Filter out all retweets
+      // console.log({
+      //   id: t.id,
+      //   title: t.title,
+      //   refs: t.refs
+      // });
+      
+    }
+  }
+  // console.log(l.flat(Infinity));
+  document.getElementById(`tabscontent-links`).innerHTML = l.flat(Infinity).map(l=>`<li><a href='${l}'>${l}</a></li>`).join("");
 }
 
 function highltperson(handle) {
@@ -206,7 +258,7 @@ function rendermeta(mode) {
   document.getElementById("orgs").innerHTML = orgs;
   document.getElementById("media").innerHTML = media;
   document.getElementById("books").innerHTML = books;
-  document.getElementById("titlepeople").innerHTML = `People (${pplcount})`;
+  document.getElementById("title-people").innerHTML = `People (${pplcount})`;
   document.getElementById("titleorgs").innerHTML = `Organizations (${orgscount})`;
   document.getElementById("titlemedia").innerHTML = `TV + Movies (${mediacount})`;
   document.getElementById("titlebooks").innerHTML = `Books (${bookscount})`;
@@ -236,7 +288,7 @@ function toggle(el) {
 }
 
 let dayNo = 1;
-function rendermonth(startday, daycount) {
+function genmonth(startday, daycount) {
   let s = "";
 
   for (let i=0; i<startday; i++) {
@@ -279,31 +331,61 @@ function getintensity(tweetcount, dayNo) {
 }
 
 function rendercalendar() {
-  const jan = rendermonth(1, 31);
-  const feb = rendermonth(4, 29);
-  const mar = rendermonth(5, 31);
-  const apr = rendermonth(1, 30);
-  const may = rendermonth(3, 31);
-  const jun = rendermonth(6, 30);
-  const jul = rendermonth(1, 31);
-  const aug = rendermonth(4, 31);
-  const sep = rendermonth(0, 30);
-  const oct = rendermonth(2, 31);
-  const nov = rendermonth(5, 30);
-  const dec = rendermonth(0, 31);
+  const jan24 = genmonth(1, 31);
+  const feb24 = genmonth(4, 29);
+  const mar24 = genmonth(5, 31);
+  const apr24 = genmonth(1, 30);
+  const may24 = genmonth(3, 31);
+  const jun24 = genmonth(6, 30);
+  const jul24 = genmonth(1, 31);
+  const aug24 = genmonth(4, 31);
+  const sep24 = genmonth(0, 30);
+  const oct24 = genmonth(2, 31);
+  const nov24 = genmonth(5, 30);
+  const dec24 = genmonth(0, 31);
+
+  const jan25 = genmonth(3, 31);
+  const feb25 = genmonth(6, 28);
+  const mar25 = genmonth(6, 31);
+  const apr25 = genmonth(2, 30);
+  const may25 = genmonth(4, 31);
+  const jun25 = genmonth(0, 30);
+  const jul25 = genmonth(2, 31);
+  const aug25 = genmonth(5, 31);
+  const sep25 = genmonth(1, 30);
+  const oct25 = genmonth(3, 31);
+  const nov25 = genmonth(6, 30);
+  const dec25 = genmonth(1, 31);
   
-  document.getElementById("2024-01").innerHTML = jan;
-  document.getElementById("2024-02").innerHTML = feb;
-  document.getElementById("2024-03").innerHTML = mar;
-  document.getElementById("2024-04").innerHTML = apr;
-  document.getElementById("2024-05").innerHTML = may;
-  document.getElementById("2024-06").innerHTML = jun;
-  document.getElementById("2024-07").innerHTML = jul;
-  document.getElementById("2024-08").innerHTML = aug;
-  document.getElementById("2024-09").innerHTML = sep;
-  document.getElementById("2024-10").innerHTML = oct;
-  document.getElementById("2024-11").innerHTML = nov;
-  document.getElementById("2024-12").innerHTML = dec;
+  document.getElementById("2024-01").innerHTML = jan24;
+  document.getElementById("2024-02").innerHTML = feb24;
+  document.getElementById("2024-03").innerHTML = mar24;
+  document.getElementById("2024-04").innerHTML = apr24;
+  document.getElementById("2024-05").innerHTML = may24;
+  document.getElementById("2024-06").innerHTML = jun24;
+  document.getElementById("2024-07").innerHTML = jul24;
+  document.getElementById("2024-08").innerHTML = aug24;
+  document.getElementById("2024-09").innerHTML = sep24;
+  document.getElementById("2024-10").innerHTML = oct24;
+  document.getElementById("2024-11").innerHTML = nov24;
+  document.getElementById("2024-12").innerHTML = dec24;
+
+  document.getElementById("2025-01").innerHTML = jan25;
+  document.getElementById("2025-02").innerHTML = feb25;
+  document.getElementById("2025-03").innerHTML = mar25;
+  document.getElementById("2025-04").innerHTML = apr25;
+  document.getElementById("2025-05").innerHTML = may25;
+  document.getElementById("2025-06").innerHTML = jun25;
+  document.getElementById("2025-07").innerHTML = jul25;
+  document.getElementById("2025-08").innerHTML = aug25;
+  document.getElementById("2025-09").innerHTML = sep25;
+  document.getElementById("2025-10").innerHTML = oct25;
+  document.getElementById("2025-11").innerHTML = nov25;
+  document.getElementById("2025-12").innerHTML = dec25;
+
+  // // This is hack! dayNo is a global variable that is used to track the day number. It is reset here.
+  // // We need to fix it so that it is not a global variable.
+  // dayNo = 1;
 }
 
 function genenhancedtip(tweetArr) {

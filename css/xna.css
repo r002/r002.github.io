@@ -74,8 +74,26 @@ html {
   grid-template-columns: repeat(12, 42px);
   grid-gap: 0px;
   background-color: #fafafa;
+  /* background-color: white; */
   color: #444;
   margin-bottom: 20px;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: white; */
+}
+
+li {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  /* background-color: yellow; */
+}
+
+li a {
+  text-decoration: none;
 }
 
 .paneheader {
@@ -83,6 +101,26 @@ html {
   font-size: 25px;
   width: fit-content;
   margin-bottom: 12px;
+  cursor: pointer;
+  /* background-color: white; */
+  border-bottom: 2px solid #fafafa;
+  /* padding-top: 10px; */
+  /* padding-bottom: 10px; */
+  /* padding-left: 15px;
+  padding-right: 15px; */
+}
+
+.paneheader:hover {
+  opacity: 1;
+  border-bottom: 2px solid #444;
+}
+
+.inactive {
+  opacity: .3;
+}
+
+.hidden {
+  display: none;
 }
 
 .toggle {

@@ -1,6 +1,11 @@
-.yearwrapper {
+.yearwrapper25 {
   position: fixed;
   margin-top: 50px;
+}
+
+.yearwrapper24 {
+  position: fixed;
+  margin-top: 400px;
 }
 
 .year {
