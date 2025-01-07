@@ -1,5 +1,12 @@
 [
   {
+    "dt": "2025-01-06",
+    "version": "client-1.7.11",
+    "notes": [
+      "fix #1: `Week No is duplicated...`"
+    ]
+  },
+  {
     "dt": "2025-01-04",
     "version": "client-1.7.10",
     "notes": [

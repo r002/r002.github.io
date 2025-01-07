@@ -533,10 +533,6 @@ function rendertweets(tidArr, all) {
   if (all) {
       d = new Date(genprettydate(t.dt, "yearMonthDay"));  // This creates date obj in UTC
       d.setHours(d.getHours()+5); // Convert the UTC date to ET
-      if ("Sat"===days[d.getUTCDay()]) {
-        weekNo--; // Decrement one because we already incremented above without painting on Sat
-      }
-      // console.log(`\t>>> ${weektitle} <<<`);
       weekenddt = genprettydate(t.dt, "yearMonthDay");
       weektitle = genweektitle(weekNo, weekstartdt, weekenddt);
       sArr.push(`<div class="tweetresult" style="text-align:center;background-color:#fafafa;
