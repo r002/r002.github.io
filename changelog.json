@@ -1,5 +1,12 @@
 [
   {
+    "dt": "2025-01-11",
+    "version": "client-1.7.12",
+    "notes": [
+      "fix #3: Separate `day counts` into different years"
+    ]
+  },
+  {
     "dt": "2025-01-06",
     "version": "client-1.7.11",
     "notes": [
