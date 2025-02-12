@@ -46,7 +46,7 @@ a:active {
 
 .contentbody {
   position: absolute;
-  top: 119px;
+  top: 145px;
   width: 100%;
   margin: 0 auto;
 }
@@ -62,10 +62,26 @@ a:active {
   border-bottom: gainsboro 1px solid;
 }
 
-.headerfixed {
+.quoteheader {
   position: fixed;
   z-index: 999;
   top: 0;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: italic;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  background-color: #fafafa;
+  color: #4A4A46;
+  /* width: fit-content; */
+  width: 100%;
+}
+
+.headerfixed {
+  position: fixed;
+  z-index: 999;
+  top: 33px;
   width: 100%;
   margin: 0 auto;
   padding-top: 20px;
@@ -75,6 +91,7 @@ a:active {
   font-weight: bold;
   background-color: white;
   text-align: center;
+  border-top: gainsboro 1px solid;
   border-bottom: gainsboro 1px solid;
 }
 

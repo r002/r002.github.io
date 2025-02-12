@@ -1,177 +1,181 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>    
-  <title>Robert Lin | XNA</title>
-  <link rel="stylesheet" href="../css/header.css">
-  <link rel="stylesheet" href="../css/index.css">
-  <link rel="stylesheet" href="../css/xna.css">
-  <link rel="stylesheet" href="../css/calendar.css">
-</head>
+<html lang="en-US">
+  <head>    
+    <title>Robert Lin | XNA</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/xna.css">
+    <link rel="stylesheet" href="../css/calendar.css">
+  </head>
 
-<body>
-  <section class="headerfixed">
-    <a href=".">Robert Lin • XNA</a><br />
-    <div id="navbar" class="subheader"></div>
-    <div id="releasenotes" class="version" title=""></div>
-    <div id="buildinpublic">
-      <a href="https://github.com/r002/r002.github.io" title="This site is meant as a learning resource!&#10;It's deliberately deployed with unminified code so you can view source to see how it's built.&#10;All source is also available on GitHub. Learn by building! 👍">#buildinpublic</a>
-    </div>
-  </section>
+  <body>
 
-  <section id="xnabody" class="contentbody">
-    <section id="xnacontent">
-      <div class="yearwrapper25">
-        <div id="titleyear25" class="paneheader"
-          title="2025: year of connection 🧑🧔">
-            2025 | "Year of Connection"
-        </div>
-        <div class="year">
-          <div class="quarter">
-            <div id="2025-01" class="month"></div>
-            <div id="2025-02" class="month"></div>
-            <div id="2025-03" class="month"></div>
-          </div>
-          <div class="quarter">
-            <div id="2025-04" class="month"></div>
-            <div id="2025-05" class="month"></div>
-            <div id="2025-06" class="month"></div>
-          </div>
-          <div class="quarter">
-            <div id="2025-07" class="month"></div>
-            <div id="2025-08" class="month"></div>
-            <div id="2025-09" class="month"></div>
-          </div>
-          <div class="quarter">
-            <div id="2025-10" class="month"></div>
-            <div id="2025-11" class="month"></div>
-            <div id="2025-12" class="month"></div>
-          </div>
-        </div>
+    <div id="quotebar" class="quoteheader"></div>
+
+    <section class="headerfixed">
+      <a href=".">Robert Lin • XNA</a><br />
+      <div id="navbar" class="subheader"></div>
+      <div id="releasenotes" class="version" title=""></div>
+      <div id="buildinpublic">
+        <a href="https://github.com/r002/r002.github.io" title="This site is meant as a learning resource!&#10;It's deliberately deployed with unminified code so you can view source to see how it's built.&#10;All source is also available on GitHub. Learn by building! 👍">#buildinpublic</a>
       </div>
-
-      <div class="yearwrapper24">
-        <div id="titleyear24" class="paneheader"
-          title="2024: year of creation 📗🎨">
-            2024 | "Year of Creation"
-        </div>
-        <div class="year">
-          <div class="quarter">
-            <div id="2024-01" class="month"></div>
-            <div id="2024-02" class="month"></div>
-            <div id="2024-03" class="month"></div>
-          </div>
-          <div class="quarter">
-            <div id="2024-04" class="month"></div>
-            <div id="2024-05" class="month"></div>
-            <div id="2024-06" class="month"></div>
-          </div>
-          <div class="quarter">
-            <div id="2024-07" class="month"></div>
-            <div id="2024-08" class="month"></div>
-            <div id="2024-09" class="month"></div>
-          </div>
-          <div class="quarter">
-            <div id="2024-10" class="month"></div>
-            <div id="2024-11" class="month"></div>
-            <div id="2024-12" class="month"></div>
-          </div>
-        </div>
-      </div>
-
-      <div id="searchcontent">
-        <div id="searchmsg">
-          🚧👨‍🍳
-          <em>
-            Note: <strong>Search</strong> currently only works for <strong>people</strong> & <strong>some tags</strong>; I'm still cooking!!
-          </em>
-          👨‍🍳🚧
-        </div>
-        <input id="search" type="text" placeholder="*" onkeyup="renderstream()" />
-        <br /><br /><br />
-        <div id="titletimestream" class="paneheader">Tweet Timestream</div>
-        <div id="searchresult">
-        </div>
-      </div>
-
-      <div id="categorieswrapper">
-        <div id="categoriescontent">
-
-          <div class="tabs">
-            <div id="title-people" class="paneheader"
-                onclick="toggletab('people');"
-                title="🧑 interesting people">
-              People
-            </div>
-            <div id="title-links" class="paneheader inactive"
-                onclick="toggletab('links');"
-                title="🔗 interesting links">
-              Links (187)
-            </div>
-            <div id="title-media" class="paneheader inactive"
-                onclick="toggletab('media');"
-                title="🖼 interesting media">
-              Media (22)
-            </div>
-          </div>
-
-          <div id="tabscontent-people">
-            <span id="togglechronological" class="toggle sel"
-              onclick="rendermeta('revchrono'); toggle(this);"
-              title="People I've most recently interacted with">Reverse-Chronological</span> | 
-            <span id="togglefrequency" class="toggle"
-              onclick="rendermeta('frequency'); toggle(this);"
-              title="People who've most influenced me">Frequency</span>
-            <br /><br />
-            <div id="people" class="avatargrid"></div>
-            <br />
-
-            <div id="titleorgs" class="paneheader"
-                title="🏛 organizations that inspire wonder">
-              Organizations
-            </div>
-            <div id="orgs" class="avatargrid"></div>
-            <br />
-            
-            <div id="titlemedia" class="paneheader"
-                title="📺 cool media">
-              TV + Movies
-            </div>
-            <div id="media" class="avatargrid"></div>
-            <br />
-
-            <div id="titlebooks" class="paneheader"
-                title="📚 life-changing books">
-              Books
-            </div>
-            <div id="books" class="avatargrid"></div>
-            <br />
-
-            <h2>Ballistic Rants</h2>
-            🚧👨‍🍳 <em>Still cooking!!</em> 👨‍🍳🚧
-            <br /><br />
-
-            <h2>Beliefs</h2>
-            🚧👨‍🍳 <em>Still cooking!!</em> 👨‍🍳🚧
-            <br /><br />
-          </div>
-
-          <ul>
-            <div id="tabscontent-links" class="hidden">
-              Extracted links from all skoots go here!
-            </div>
-          </ul>
-
-          <div id="tabscontent-media" class="hidden">
-            Extracted media from all skoots go here!
-          </div>
-
-        </div>
-      </div>
-
     </section>
-  </section>
-</body>
-<script type="text/javascript" src="../js/navbar.js"></script>
-<script type="text/javascript" src="../js/changelog.js"></script>
-<script type="text/javascript" src="../js/xna.js"></script>
+
+    <section id="xnabody" class="contentbody">
+      <section id="xnacontent">
+        <div class="yearwrapper25">
+          <div id="titleyear25" class="paneheader"
+            title="2025: year of connection 🧑🧔">
+              2025 | "Year of Connection"
+          </div>
+          <div class="year">
+            <div class="quarter">
+              <div id="2025-01" class="month"></div>
+              <div id="2025-02" class="month"></div>
+              <div id="2025-03" class="month"></div>
+            </div>
+            <div class="quarter">
+              <div id="2025-04" class="month"></div>
+              <div id="2025-05" class="month"></div>
+              <div id="2025-06" class="month"></div>
+            </div>
+            <div class="quarter">
+              <div id="2025-07" class="month"></div>
+              <div id="2025-08" class="month"></div>
+              <div id="2025-09" class="month"></div>
+            </div>
+            <div class="quarter">
+              <div id="2025-10" class="month"></div>
+              <div id="2025-11" class="month"></div>
+              <div id="2025-12" class="month"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="yearwrapper24">
+          <div id="titleyear24" class="paneheader"
+            title="2024: year of creation 📗🎨">
+              2024 | "Year of Creation"
+          </div>
+          <div class="year">
+            <div class="quarter">
+              <div id="2024-01" class="month"></div>
+              <div id="2024-02" class="month"></div>
+              <div id="2024-03" class="month"></div>
+            </div>
+            <div class="quarter">
+              <div id="2024-04" class="month"></div>
+              <div id="2024-05" class="month"></div>
+              <div id="2024-06" class="month"></div>
+            </div>
+            <div class="quarter">
+              <div id="2024-07" class="month"></div>
+              <div id="2024-08" class="month"></div>
+              <div id="2024-09" class="month"></div>
+            </div>
+            <div class="quarter">
+              <div id="2024-10" class="month"></div>
+              <div id="2024-11" class="month"></div>
+              <div id="2024-12" class="month"></div>
+            </div>
+          </div>
+        </div>
+
+        <div id="searchcontent">
+          <div id="searchmsg">
+            🚧👨‍🍳
+            <em>
+              Note: <strong>Search</strong> currently only works for <strong>people</strong> & <strong>some tags</strong>; I'm still cooking!!
+            </em>
+            👨‍🍳🚧
+          </div>
+          <input id="search" type="text" placeholder="*" onkeyup="renderstream()" />
+          <br /><br /><br />
+          <div id="titletimestream" class="paneheader">Tweet Timestream</div>
+          <div id="searchresult">
+          </div>
+        </div>
+
+        <div id="categorieswrapper">
+          <div id="categoriescontent">
+
+            <div class="tabs">
+              <div id="title-people" class="paneheader"
+                  onclick="toggletab('people');"
+                  title="🧑 interesting people">
+                People
+              </div>
+              <div id="title-links" class="paneheader inactive"
+                  onclick="toggletab('links');"
+                  title="🔗 interesting links">
+                Links (187)
+              </div>
+              <div id="title-media" class="paneheader inactive"
+                  onclick="toggletab('media');"
+                  title="🖼 interesting media">
+                Media (22)
+              </div>
+            </div>
+
+            <div id="tabscontent-people">
+              <span id="togglechronological" class="toggle sel"
+                onclick="rendermeta('revchrono'); toggle(this);"
+                title="People I've most recently interacted with">Reverse-Chronological</span> | 
+              <span id="togglefrequency" class="toggle"
+                onclick="rendermeta('frequency'); toggle(this);"
+                title="People who've most influenced me">Frequency</span>
+              <br /><br />
+              <div id="people" class="avatargrid"></div>
+              <br />
+
+              <div id="titleorgs" class="paneheader"
+                  title="🏛 organizations that inspire wonder">
+                Organizations
+              </div>
+              <div id="orgs" class="avatargrid"></div>
+              <br />
+              
+              <div id="titlemedia" class="paneheader"
+                  title="📺 cool media">
+                TV + Movies
+              </div>
+              <div id="media" class="avatargrid"></div>
+              <br />
+
+              <div id="titlebooks" class="paneheader"
+                  title="📚 life-changing books">
+                Books
+              </div>
+              <div id="books" class="avatargrid"></div>
+              <br />
+
+              <h2>Ballistic Rants</h2>
+              🚧👨‍🍳 <em>Still cooking!!</em> 👨‍🍳🚧
+              <br /><br />
+
+              <h2>Beliefs</h2>
+              🚧👨‍🍳 <em>Still cooking!!</em> 👨‍🍳🚧
+              <br /><br />
+            </div>
+
+            <ul>
+              <div id="tabscontent-links" class="hidden">
+                Extracted links from all skoots go here!
+              </div>
+            </ul>
+
+            <div id="tabscontent-media" class="hidden">
+              Extracted media from all skoots go here!
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+    </section>
+  </body>
+  <script type="text/javascript" src="../js/navbar.js"></script>
+  <script type="text/javascript" src="../js/changelog.js"></script>
+  <script type="text/javascript" src="../js/xna.js"></script>
+  <script type="text/javascript" src="../js/quote.js"></script>
 </html>

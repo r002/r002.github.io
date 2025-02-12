@@ -1,45 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>    
-  <meta charset="UTF-8">
-  <title>Robert Lin | Curiosity Maze</title>
-  <link rel="stylesheet" href="../css/header.css">
-  <link rel="stylesheet" href="../css/index.css">
-  <script type="module">
-    import { route } from '../js/index.js';
-  
-    const urlParams = new URLSearchParams(window.location.search);
-    const s = urlParams.get('s') ?? "p0";
-    route(s);
-  </script>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</head>
+<html lang="en-US">
+  <head>    
+    <meta charset="UTF-8">
+    <title>Robert Lin | Curiosity Maze</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <script type="module">
+      import { route } from '../js/index.js';
+    
+      const urlParams = new URLSearchParams(window.location.search);
+      const s = urlParams.get('s') ?? "p0";
+      route(s);
+    </script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </head>
 
-<body>
-  <section class="headerfixed">
-    <a href=".">Robert Lin • Curiosity Maze</a><br />
-    <div id="navbar" class="subheader"></div>
-    <div id="releasenotes" class="version" title=""></div>
-    <div id="buildinpublic">
-      <a href="https://github.com/r002/r002.github.io" title="This site is meant as a learning resource!&#10;It's deliberately deployed with unminified code so you can view source to see how it's built.&#10;All source is also available on GitHub. Learn by building! 👍">#buildinpublic</a>
-    </div>
-  </section>
+  <body>
 
-  <section id="mazecontent" class="contentbody">
-    <div id="postnavbar">
-    </div>
-    <div id="maincontent">
-      <div class="card" id="r95" style="left: 6000px; z-index: 1; opacity: 0;"></div>
-      <div class="card" id="r96" style="left: 6000px; z-index: 1; opacity: 0;"></div>
-      <div class="card" id="r97" style="left: 6000px; z-index: 1; opacity: 0;"></div>
-      <div class="card" id="r98" style="left: 6000px; z-index: 1; opacity: 0;"></div>
-      <div class="card" id="r99" style="left: 6000px; z-index: 1; opacity: 0;"></div>
-      <div class="card" id="r100" style="left: 6000px; z-index: 1; opacity: 0;"></div>
-    </div>
-    <br /><br />
-  </section>
+    <div id="quotebar" class="quoteheader"></div>
 
-</body>
-<script type="text/javascript" src="../js/navbar.js"></script>
-<script type="text/javascript" src="../js/changelog.js"></script>
+    <section class="headerfixed">
+      <a href=".">Robert Lin • Curiosity Maze</a><br />
+      <div id="navbar" class="subheader"></div>
+      <div id="releasenotes" class="version" title=""></div>
+      <div id="buildinpublic">
+        <a href="https://github.com/r002/r002.github.io" title="This site is meant as a learning resource!&#10;It's deliberately deployed with unminified code so you can view source to see how it's built.&#10;All source is also available on GitHub. Learn by building! 👍">#buildinpublic</a>
+      </div>
+    </section>
+
+    <section id="mazecontent" class="contentbody">
+      <div id="postnavbar">
+      </div>
+      <div id="maincontent">
+        <div class="card" id="r95" style="left: 6000px; z-index: 1; opacity: 0;"></div>
+        <div class="card" id="r96" style="left: 6000px; z-index: 1; opacity: 0;"></div>
+        <div class="card" id="r97" style="left: 6000px; z-index: 1; opacity: 0;"></div>
+        <div class="card" id="r98" style="left: 6000px; z-index: 1; opacity: 0;"></div>
+        <div class="card" id="r99" style="left: 6000px; z-index: 1; opacity: 0;"></div>
+        <div class="card" id="r100" style="left: 6000px; z-index: 1; opacity: 0;"></div>
+      </div>
+      <br /><br />
+    </section>
+
+  </body>
+  <script type="text/javascript" src="../js/navbar.js"></script>
+  <script type="text/javascript" src="../js/changelog.js"></script>
+  <script type="text/javascript" src="../js/quote.js"></script>
 </html>

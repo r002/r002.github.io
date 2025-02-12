@@ -1,5 +1,12 @@
 [
   {
+    "dt": "2025-02-11",
+    "version": "client-1.7.13",
+    "notes": [
+      "close #8: create `quote rotator` topbar"
+    ]
+  },
+  {
     "dt": "2025-01-11",
     "version": "client-1.7.12",
     "notes": [
