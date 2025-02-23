@@ -62,28 +62,24 @@ a:active {
   border-bottom: gainsboro 1px solid;
 }
 
-.quoteheader {
-  position: fixed;
-  z-index: 999;
-  top: 0;
+#quotebar {
   font-size: 13px;
   font-weight: normal;
   font-style: italic;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 8px;
-  background-color: #fafafa;
-  color: #4A4A46;
-  /* width: fit-content; */
+  /* display: flex;
+  align-items: right; */
+  text-align: right;
   width: 100%;
+  margin-top: 9px;
+  /* background-color: red; */
 }
 
 .headerfixed {
   position: fixed;
   z-index: 999;
-  top: 33px;
   width: 100%;
   margin: 0 auto;
+  margin-top: 33px;
   padding-top: 20px;
   padding-bottom: 17px;
   box-sizing: border-box;
@@ -95,22 +91,58 @@ a:active {
   border-bottom: gainsboro 1px solid;
 }
 
-#buildinpublic {
+.section {
+  cursor: pointer;
+}
+
+.section:hover {
+  background-color: yellow;
+}
+
+.selectedsection {
+  background-color: yellow;
+  /* text-decoration: underline; */
+}
+
+#titleWrapper {
   position: fixed;
-  /* top: 35px;
-  right: 150px; */
+  z-index: 999;
   top: 0;
-  right: 150px;
-  font-size: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1725px;
+  display: flex;
+  /* align-items: left; */
+  justify-content: left;
+  margin: 0 auto;
+}
+
+#title {
+  display: flex;
+  align-items: left;
+  width: fit-content;
   border-left: 1px gainsboro solid;
   border-right: 1px gainsboro solid;
   border-bottom: 1px gainsboro solid;
+  /* background-color: yellow; */
   background-color: #fafafa;
-  padding: 10px;
+  padding: 12px;
+  padding-right: 25px;
 }
 
-#buildinpublic:hover {
-  background-color: yellow;
+#quoteWrapper {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1800px;
+  height: 33px;
+  display: flex;
+  /* align-items: left; */
+  justify-content: left;
+  margin: 0 auto;
+  background-color: #fafafa;
+  /* background-color: orange; */
 }
 
 .header a {
@@ -127,6 +159,8 @@ a:active {
   font-size: 16px;
   font-weight: normal;
   margin-top: 11px;
+  padding: 10px;
+  /* background-color: lightblue; */
 }
 
 .subheader a {
@@ -139,8 +173,8 @@ a:active {
   font-size: 12px;
   font-weight: normal;
   width: fit-content;
-  margin: 0 auto;
-  margin-top: 8px;
+  /* margin: 0 auto; */
+  margin-top: 10px;
 }
 
 .version a {

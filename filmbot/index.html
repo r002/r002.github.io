@@ -8,15 +8,42 @@
   </head>
 
   <body>
-
-    <div id="quotebar" class="quoteheader"></div>
-
     <section class="headerfixed">
-      <a href=".">Robert Lin | Filmbot</a><br />
-      <div id="navbar" class="subheader"></div>
-      <div id="releasenotes" class="version" title=""></div>
-      <div id="buildinpublic">
-        <a href="https://github.com/r002/r002.github.io" title="This site is meant as a learning resource!&#10;It's deliberately deployed with unminified code so you can view source to see how it's built.&#10;All source is also available on GitHub. Learn by building! 👍">#buildinpublic</a>
+      <span id="blueskySec" class="section selectedsection" 
+        onmouseover="changeNavbar('blueskySec');">
+          bluesky</span> • 
+      <span id="experimentsSec" class="section" 
+        onmouseover="changeNavbar('experimentsSec');">
+          experiments</span> • 
+      <span title="🚧 under construction 🚧">kingdom</span> • 
+      <span id="miscSec" class="section" 
+        onmouseover="changeNavbar('miscSec');">
+          misc</span>
+      <br />
+
+      <div id="navbar" onmouseleave="showDefaultNavbar();">
+        <div id="nav1" class="subheader" style="display: none;">
+            <a href="../xna">xna</a> • <span title="🚧 under construction 🚧">mutuals</span> • <a href="../filmbot">filmbot</a>
+        </div>
+        <div id="nav2" class="subheader" style="display: none;">
+            <a href="../ask">marriage thesis</a> • <a href="../maze">curiosity maze</a> • <a href="../bmc">bmc</a>
+        </div>
+        <div id="nav4" class="subheader" style="display: none;">
+          <a href="https://github.com/r002/r002.github.io?tab=readme-ov-file#xna-help-your-people-find-you-">readme</a> • <a href="https://github.com/r002/r002.github.io">source</a> • <a href="https://r002.github.io/server/xna/x.json">thought supply chain</a>
+        </div>
+
+      </div>
+
+      <div id="titleWrapper">
+        <div id="title">
+          <a href="/" title="Robert Lin">Robert Lin</a>
+          &nbsp;&nbsp;&nbsp;
+          <div id="releasenotes" class="version" title=""></div>
+        </div>
+      </div>
+
+      <div id="quoteWrapper">
+        <div id="quotebar"></div>
       </div>
     </section>
 

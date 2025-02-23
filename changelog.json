@@ -1,5 +1,12 @@
 [
   {
+    "dt": "2025-02-22",
+    "version": "client-1.7.14",
+    "notes": [
+      "close #17: revamp the nav bar"
+    ]
+  },
+  {
     "dt": "2025-02-11",
     "version": "client-1.7.13",
     "notes": [
