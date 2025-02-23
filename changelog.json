@@ -1,5 +1,12 @@
 [
   {
+    "dt": "2025-02-23",
+    "version": "client-1.7.15",
+    "notes": [
+      "close #18: update `Quote Rotator` so only new quotes are displayed"
+    ]
+  },  
+  {
     "dt": "2025-02-22",
     "version": "client-1.7.14",
     "notes": [
