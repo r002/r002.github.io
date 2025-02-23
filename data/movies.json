@@ -1,5 +1,19 @@
 [
   {
+    "title": "A Minecraft Movie",
+    "yearMonth": "2025-04",
+    "ticketCost": 5,
+    "month": "April",
+    "year": 2025
+  },
+  {
+    "title": "Mickey 17",
+    "yearMonth": "2025-03",
+    "ticketCost": 5,
+    "month": "March",
+    "year": 2025
+  },
+  {
     "title": "One of Them Days",
     "yearMonth": "2025-02",
     "ticketCost": 5,
