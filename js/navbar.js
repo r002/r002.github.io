@@ -25,7 +25,7 @@ function changeNavbar(secId) {
 function showDefaultNavbar() {
     // console.log(">> fire showSelectedNavbar", new Date());
     const url = window.location.pathname;
-    if (url.includes("ask") || url.includes("maze") || url.includes("bmc")) {
+    if (url.includes("ask") || url.includes("maze") || url.includes("bmc") || url.includes("gbc")) {
         changeNavbar('experimentsSec');
     } else {
         changeNavbar('blueskySec');

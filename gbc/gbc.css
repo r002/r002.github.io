@@ -1,0 +1,46 @@
+.yearbooks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 12px;
+    width: 840px;
+    margin: 0 auto;
+  }
+  
+  .monthtitle {
+    text-align: center;
+    background-color: #0ABAB5;
+    border: 1px solid gainsboro;
+    color: black;
+    text-transform: uppercase;
+    width: 100%;
+    padding-top: 7px;
+    box-sizing: border-box;
+  }
+  
+  .monthtitle:hover {
+    background-color: yellow;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  
+  .poster {
+    position:relative; 
+    background-size: cover;
+    background-color: #fafafa;
+    /* border: 1px solid gainsboro; */
+    border-top: 2px solid #fafafa;
+    box-sizing: border-box;
+    width: 200px;
+    height: 300px;
+    margin-top: 5px;
+  }
+  
+  .yearheader {
+    /* background-color: yellow; */
+    font-weight: bold;
+    font-size: 25px;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
