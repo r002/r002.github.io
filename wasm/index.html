@@ -1,0 +1,54 @@
+<html>
+    <head>
+      <script src='sql-wasm.js'></script>
+      <script type="module">
+        // Load sqj.js module and database
+        const sqlPromise = initSqlJs({
+          locateFile: file => `./${file}`
+        });
+        const dataPromise = fetch("followers_2025-02-23.db").then(res => res.arrayBuffer());
+        const [SQL, buf] = await Promise.all([sqlPromise, dataPromise])
+        const db = new SQL.Database(new Uint8Array(buf));
+
+        // Grab the table element
+        const table = document.querySelector( "table" );
+        table.innerHTML = `<tr>
+            <th>id</th>
+            <th>did</th>
+            <th>handle</th>
+            <th>displayName</th>
+            <th>avatar</th>
+            <th>createdAt</th>
+            <th>description</th>
+            <th>serviceEndpoint</th>
+        </tr>`;
+      
+        // Prepare a statement
+        var stmt = db.prepare("SELECT * FROM followers WHERE id BETWEEN $start AND $end");
+        stmt.getAsObject({$start:1, $end:1}); // {col1:1, col2:111}
+
+        // Bind new values
+        stmt.bind({$start:2645, $end:2745});
+        while(stmt.step()) { //
+        var row = stmt.getAsObject();
+          table.innerHTML += 
+            `<tr>
+                <td>${row['id']}</td>
+                <td>${row['did']}</td>
+                <td>${row['handle']}</td>
+                <td>${row['displayName']}</td>
+                <td>${row['avatar']}</td>
+                <td>${row['createdAt']}</td>
+                <td>${row['description']}</td>
+                <td>${row['serviceEndpoint']}</td>
+            </tr>`;
+        }
+        console.log( "Done" );
+      </script>
+    </head>
+    <body>
+      <h1>People who have followed me on bsky</h1>
+
+      <table></table>
+    </body>
+  </html>
