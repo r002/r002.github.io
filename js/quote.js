@@ -1,5 +1,19 @@
 const quoteBank = [
     {
+        id: 8,
+        quote: "Man is condemned to be free; because once thrown into the world, he is responsible for everything he does.",
+        author: "Jean-Paul Sartre",
+        source: "https://www.goodreads.com/quotes/148810-man-is-condemned-to-be-free-condemned-because-he-did",
+        dt: "2025-03-02"
+    },
+    {
+        id: 7,
+        quote: "Take the first step in faith. You don't have to see the whole staircase, just take the first step.",
+        author: "Martin Luther King Jr.",
+        source: "https://www.goodreads.com/quotes/199214-take-the-first-step-in-faith-you-don-t-have-to",
+        dt: "2025-03-02"
+    },
+    {
         id: 6,
         quote: "Human beings are born with different capacities. If they are free, they are not equal. And if they are equal, they are not free.",
         author: "Aleksandr Solzhenitsyn",
