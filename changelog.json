@@ -1,5 +1,12 @@
 [
   {
+    "dt": "2025-03-02",
+    "version": "client-1.8.0",
+    "notes": [
+      "add `kingdom` page + footer"
+    ]
+  },
+  {
     "dt": "2025-02-23",
     "version": "client-1.7.16",
     "notes": [
