@@ -1,5 +1,5 @@
 // const ENV = "http://localhost:4000"; // DEV
-const ENV = "https://r002.github.io/server"; // PROD
+const ENV = "https://robertl.in/server"; // PROD
 
 const DBURL = `${ENV}/xna/x.json`;
 const ORGSURL = `${ENV}/xna/orgs.json`;

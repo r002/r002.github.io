@@ -1,7 +1,7 @@
 render();
 
 async function render() {
-  const rs = await fetch("https://r002.github.io/server/data/scenes.json");
+  const rs = await fetch("https://robertl.in/server/data/scenes.json");
   const scenes = await rs.json();
   const s = [];
   const m = new Map();
@@ -41,7 +41,7 @@ async function render() {
     s.push(`
       <div class="card">
         <div class="scene"
-          style='background-image: url("https://r002.github.io/server/data/scenes/${scene.dt}__${scene.id}.jpg");'>
+          style='background-image: url("https://robertl.in/server/data/scenes/${scene.dt}__${scene.id}.jpg");'>
         </div>
         <div style="padding: 10px;">
           <strong>${titleyear}</strong><br /><br />

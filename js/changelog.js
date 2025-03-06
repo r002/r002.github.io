@@ -2,7 +2,7 @@ renderLogSummary();
 
 ///////////////////////////////////////////////////////////////
 
-const LATEST_URL = "https://r002.github.io/server/xna/latest.txt";
+const LATEST_URL = "https://robertl.in/server/xna/latest.txt";
 
 async function renderLogSummary() {
   await renderClientChangelog(); // must happen first!
@@ -27,12 +27,12 @@ async function renderDatalog() {
 }
 
 async function renderServerChangelog() {
-  const ss = await fetch("https://r002.github.io/server/changelog.json");
+  const ss = await fetch("https://robertl.in/server/changelog.json");
   const serverNotes = await ss.json();
   const s = serverNotes[0]; // get the latest server release notes
   const serverBuildTitle = `${s.version} ≋ ${s.dt}\n${s.notes.map(note=>`• ${note}`).join("\n")}`;
 
-  document.getElementById("releasenotes").innerHTML += ` &nbsp;∾&nbsp; <a href="https://r002.github.io/server/changelog.json" title="${serverBuildTitle}">${s.version}</a>`;
+  document.getElementById("releasenotes").innerHTML += ` &nbsp;∾&nbsp; <a href="https://robertl.in/server/changelog.json" title="${serverBuildTitle}">${s.version}</a>`;
 }
 
 async function renderClientChangelog() {
