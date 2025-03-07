@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+  <title>404</title>
+  <script>
+    const shortlinks = {
+      0: "https://bsky.app/profile/robertlin.bsky.social",
+      b0: "https://bsky.app/profile/robertlin.bsky.social",
+      // 1: "https://robertl.in/writing/1-december-january-is-always-when-i-reflect",
+      b1: "https://bsky.app/profile/robertlin.bsky.social/post/3lfcy3lmrhk2j",
+      // 2: "https://robertl.in/writing/2-hyper-personalization",
+      // b2: "https://bsky.app/profile/robertlin.bsky.social/post/3lff67v7z3s2y",
+      // 3: "https://robertl.in/writing/3-small-businesses-are-the-backbone-of-america",
+      // b3: "https://bsky.app/profile/robertlin.bsky.social/post/3lfhqcp645k2r",
+      // 4: "https://robertl.in/writing/4-armageddon-is-my-favorite-movie",
+      // b4: "https://bsky.app/profile/robertlin.bsky.social/post/3lfwqlw44ak2o",
+      // 5: "https://robertl.in/writing/5-will-the-real-zuck-please-stand-up",
+      // b5: "https://bsky.app/profile/robertlin.bsky.social/post/3lfwvimifqc25"
+    };
+
+    // Before rendering 404 page, try to redirect if this is a shortlink
+    const path = window.location.pathname;
+    const regex = /b?\d+/; // \d+ matches one or more digits
+  
+    const match = path.match(regex);
+    if (match) {
+      const id = match[0]; // Extract the matched number
+      console.log("The path contains the number:", id);
+
+      // Redirect if the number is for a valid shortlink
+      if (shortlinks.hasOwnProperty(id)) {
+        console.log("Route to:", shortlinks[id]);
+        window.location.href = `${shortlinks[id]}`;
+      }
+    }
+
+    console.log("The path does not contain a recognized shortlink id.");
+  </script>
+</head>
+
+  <body>
+    <div>
+      <h1>404</h1>
+      <div id="placeholder">
+          <p>Sorry, the page you were looking for could not be found.</p>
+      </div>
+    </div>
+
+  </body>
+</html>
