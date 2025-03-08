@@ -1,8 +1,9 @@
 [
   {
     "dt": "2025-03-08",
-    "version": "client-1.8.1",
+    "version": "client-1.9.0",
     "notes": [
+      "add `writing` section",
       "refactor `navbar` to centrally load"
     ]
   },
@@ -10,7 +11,7 @@
     "dt": "2025-03-02",
     "version": "client-1.8.0",
     "notes": [
-      "add `kingdom` page + footer"
+      "add `kingdom` section + footer"
     ]
   },
   {

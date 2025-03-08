@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>    
+    <meta charset="UTF-8">
+    <title>Robert Lin | Writing</title>
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="writing.css">
+  </head>
+
+  <body>
+    <section id="navbar" class="headerfixed">
+    </section>
+
+
+    <section id="contentwrapper" class="contentbody">
+      <div id="writingcontent">
+        <div id="preface" class="card" style="align-items: center; display: flex; flex-direction: column; line-height: 25px;">
+          <!-- <div class="card-pretitle">
+            Writing
+          </div> -->
+          <p style="text-align: center; margin-bottom: 20px">
+            <img src="img/studio.jpeg" style="width: 50%;" />
+          </p>
+          <div class="card-title" style="margin-bottom: 15px">
+            Writing
+          </div>
+          <div style="text-align: center; font-style: italic; margin-bottom: 25px;">
+            A compedium of my random thoughts, musings, and fascinations
+          </div>
+          <div id="essays" style="text-align: left;">
+            <!-- Essays are rendered here! -->
+          </div>
+        </div>
+
+    </section>
+
+    <section id="footerWrapper">
+      <div id="footer">
+        Copyright © 2025 Robert Lin. All rights reserved.
+      </div>
+    </section>
+
+    <script type="text/javascript" src="../js/navbar.js"></script>
+    <script type="text/javascript" src="../js/changelog.js"></script>
+    <script type="text/javascript" src="../js/quote.js"></script>
+    <script>
+      let s = "";
+      fetch("writing.json").then(rs=>rs.json()).then(essays=>{
+        for (const essay of essays) {
+          // console.log(essay.title);
+          s += `<a href="https://bsky.app/profile/robertlin.bsky.social/post/${essay.b}">#${essay.id}. ${essay.title}</a><br />`;
+        }
+        document.getElementById("essays").innerHTML = s;
+      });
+    </script>
+  </body>
+</html>

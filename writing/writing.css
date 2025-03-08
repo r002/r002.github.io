@@ -1,0 +1,64 @@
+#writingcontent {
+  margin-top: 50px;
+}
+
+p {
+  font-family: "Canela Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  font-size: 24px;
+  line-height: 46px;
+  margin-bottom: 0px;
+  /* background-color: yellow; */
+}
+
+.card-pretitle {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  line-height: 200%;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 26px;
+  text-align: center;
+  line-height: 120%;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* top:50px;
+  left:0; */
+  background-color: white;
+  box-sizing: border-box;
+  width: 1000px;
+  /* width: 630px; */
+  /* height: 200px; */
+  padding: 30px;
+  padding-bottom: 60px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  border: gainsboro 1px solid;
+  opacity: 1;
+  /* display: none; */
+  transition: 1s;
+  /* text-align: center; */
+}
+
+.scene {
+  background-size: cover;
+  width: 500px;
+  height: 220px;
+}
+
+a {
+  text-decoration: none;
+}
