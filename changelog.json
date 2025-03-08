@@ -1,5 +1,12 @@
 [
   {
+    "dt": "2025-03-08",
+    "version": "client-1.8.1",
+    "notes": [
+      "refactor `navbar` to centrally load"
+    ]
+  },
+  {
     "dt": "2025-03-02",
     "version": "client-1.8.0",
     "notes": [

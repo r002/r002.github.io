@@ -16,7 +16,7 @@ async function renderDatalog() {
   // console.log(">> latest:", latest);
   // console.log(">> latest in ET:", convertToEasternTime(latest));
 
-  const ms = await fetch("../data/movies.json");
+  const ms = await fetch("/data/movies.json");
   const movieJson = await ms.json();
   // console.log(movieJson[0].yearMonth);
   
@@ -36,7 +36,7 @@ async function renderServerChangelog() {
 }
 
 async function renderClientChangelog() {
-  const rs = await fetch("../changelog.json");
+  const rs = await fetch("/changelog.json");
   const releases = await rs.json();
   const r = releases[0]; // get the latest client release notes
   let bugs = "";
@@ -44,7 +44,7 @@ async function renderClientChangelog() {
     bugs = `\n\nbugs:\n${r.bugs?.map(bug=>`• ${bug}`).join("\n")}`;
   }
   const clientBuildTitle = `${r.version} ≋ ${r.dt}\n${r.notes.map(note=>`• ${note}`).join("\n")}${bugs}`;
-  document.getElementById("releasenotes").innerHTML = `<a href="../changelog.json" title="${clientBuildTitle}">${r.version}<a/>`;
+  document.getElementById("releasenotes").innerHTML = `<a href="/changelog.json" title="${clientBuildTitle}">${r.version}<a/>`;
 }
 
 function convertToEasternTime(utcDateStr) {
