@@ -6,34 +6,69 @@
     const shortlinks = {
       0: "https://bsky.app/profile/robertlin.bsky.social",
       b0: "https://bsky.app/profile/robertlin.bsky.social",
-      // 1: "https://robertl.in/writing/1-december-january-is-always-when-i-reflect",
-      b1: "https://bsky.app/profile/robertlin.bsky.social/post/3lfcy3lmrhk2j",
-      // 2: "https://robertl.in/writing/2-hyper-personalization",
-      // b2: "https://bsky.app/profile/robertlin.bsky.social/post/3lff67v7z3s2y",
-      // 3: "https://robertl.in/writing/3-small-businesses-are-the-backbone-of-america",
-      // b3: "https://bsky.app/profile/robertlin.bsky.social/post/3lfhqcp645k2r",
-      // 4: "https://robertl.in/writing/4-armageddon-is-my-favorite-movie",
-      // b4: "https://bsky.app/profile/robertlin.bsky.social/post/3lfwqlw44ak2o",
-      // 5: "https://robertl.in/writing/5-will-the-real-zuck-please-stand-up",
-      // b5: "https://bsky.app/profile/robertlin.bsky.social/post/3lfwvimifqc25"
+
+      // 1: "1-december-january-is-always-when-i-reflect",
+      b1: "3lfcy3lmrhk2j",
+
+      // 2: "2-hyper-personalization",
+      b2: "3lff67v7z3s2y",
+
+      // 3: "3-small-businesses-are-the-backbone-of-america",
+      b3: "3lfhqcp645k2r",
+
+      // 4: "4-armageddon-is-my-favorite-movie",
+      b4: "3lfwqlw44ak2o",
+
+      // 5: "5-will-the-real-zuck-please-stand-up",
+      b5: "3lfwvimifqc25",
+
+      b6: "3lfwvimifqc25",
+      b7: "3lfysq62rkc2m",
+      b8: "3lg6q24rfbk2f",
+      b9: "3lggxpsxxrc2l",
+      b10: "3lgnogv5e7c2t"
+      // b11: "",
+      // b12: "",
+      // b13: "",
+      // b14: "",
+      // b15: "",
+      // b16: "",
+      // b17: "",
+      // b18: "",
+      // b19: "",
+      // b20: "",
+      // b21: "",
+      // b22: "",
+      // b23: "",
+      // b24: "",
+      // b25: "",
+      // b26: "",
+      // b27: ""
     };
 
     // Before rendering 404 page, try to redirect if this is a shortlink
-    const path = window.location.pathname;
-    const regex = /b?\d+/; // \d+ matches one or more digits
-  
+    const path = window.location.href;
+    const regex = /robertl\.in\/(b?)(\d+)/;
     const match = path.match(regex);
     if (match) {
-      const id = match[0]; // Extract the matched number
-      console.log("The path contains the number:", id);
-
-      // Redirect if the number is for a valid shortlink
+      const id = `${match[1]}${match[2]}`; // Extract the matched id
+      // Redirect if the id is for a valid shortlink
       if (shortlinks.hasOwnProperty(id)) {
-        console.log("Route to:", shortlinks[id]);
-        window.location.href = `${shortlinks[id]}`;
+
+        // If the redirect is a url, just route to it
+        let url = shortlinks[id];
+        
+        // Else, build the url to route to
+        if (!url.includes("://")) {
+          url = match[1]==="b" ? "https://bsky.app/profile/robertlin.bsky.social/post/" : "https://robertl.in/writing/";
+          url += shortlinks[id];
+        }
+
+        console.log("Route to:", url);
+        window.location.href = url;
       }
     }
-
+    // If no match, log a message
     console.log("The path does not contain a recognized shortlink id.");
   </script>
 </head>
