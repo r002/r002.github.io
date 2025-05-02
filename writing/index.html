@@ -44,12 +44,40 @@
     <script type="text/javascript" src="../js/changelog.js"></script>
     <script type="text/javascript" src="../js/quote.js"></script>
     <script>
-      let s = "";
-      fetch("writing.json").then(rs=>rs.json()).then(essays=>{
+      let groupedEssays = {};
+
+      fetch("writing.json").then(rs => rs.json()).then(essays => {
+        let s = "";
+
+        // Helper function to format "MM" into "Month"
+        function formatMonth(month) {
+          const date = new Date(0, month - 1); // Month is 0-indexed
+          return new Intl.DateTimeFormat("en-US", { month: "long" }).format(date);
+        }
+
+        // Group essays and generate HTML in a single loop
         for (const essay of essays) {
-          // console.log(essay.title);
+          const year = essay.dt.slice(0, 4); // Extract "YYYY" from the dt field
+          const month = essay.dt.slice(5, 7); // Extract "MM" from the dt field
+
+          // Initialize the year group if it doesn't exist
+          if (!groupedEssays[year]) {
+            groupedEssays[year] = {};
+            s += `<h2 style="text-align: center;">${year}</h2>`; // Add a centered header for the year
+          }
+
+          // Initialize the month group within the year if it doesn't exist
+          if (!groupedEssays[year][month]) {
+            groupedEssays[year][month] = [];
+            s += `<h3 style="text-align: center; margin-top: 35px;">${formatMonth(month)}</h3>`; // Add a centered header for the month
+          }
+
+          // Add the essay to the group and generate its HTML
+          groupedEssays[year][month].push(essay);
           s += `<a href="https://bsky.app/profile/robertlin.bsky.social/post/${essay.b}">#${essay.id}. ${essay.title}</a><br />`;
         }
+
+        // Insert the generated HTML into the page
         document.getElementById("essays").innerHTML = s;
       });
     </script>
