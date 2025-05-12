@@ -4,8 +4,8 @@
   <title>404</title>
   <script>
     const shortlinks = {
-      0: "https://bsky.app/profile/robertlin.bsky.social",
-      b0: "https://bsky.app/profile/robertlin.bsky.social",
+      0: "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc",
+      b0: "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc",
       // 1: "1-december-january-is-always-when-i-reflect",
       b1: "3lfcy3lmrhk2j",
       // 2: "2-hyper-personalization",
@@ -98,7 +98,7 @@
         
         // Else, build the url to route to
         if (!url.includes("://")) {
-          url = match[1]==="b" ? "https://bsky.app/profile/robertlin.bsky.social/post/" : "https://robertl.in/writing/";
+          url = match[1]==="b" ? "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/" : "https://robertl.in/writing/";
           url += shortlinks[id];
         }
 
