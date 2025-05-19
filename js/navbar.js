@@ -76,8 +76,12 @@ function renderNavbar() {
 
       <div id="navbar" onmouseleave="showDefaultNavbar();">
         <div id="subnavBluesky" class="subheader" style="display: none;">
-            <a href="/xna">xna</a> • <span title="🚧 under construction 🚧">mutuals</span> • <a href="../filmbot">filmbot</a>
-        </div>
+            <a href="/xna">xna</a> • 
+            <span title="🚧 under construction 🚧">mutuals</span> • 
+            <a href="../filmbot">filmbot</a> • 
+            <a href="../history">history</a> • 
+            <span title="🚧 under construction 🚧">trails</span>
+            </div>
         <div id="subnavExperiments" class="subheader" style="display: none;">
             <a href="/bmc">bmc</a> • 
             <a href="/gbc">gbc</a> • 

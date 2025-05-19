@@ -1,0 +1,50 @@
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+#historyTrail {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.historyRow {
+  display: grid;
+  flex-flow: row;
+  grid-template-columns: 4fr 2fr 1fr;
+  grid-gap: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.grid-item {
+  font-size: 14px;
+  background-color: lightblue;
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+.bottom-row {
+  grid-column: span 4;
+  background-color: lightblue;
+  border: 1px solid black;
+  padding: 5px;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.span-four {
+  grid-column: span 4;
+}
+
+.dateTitle {
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.delete-item {
+  cursor: pointer;
+}

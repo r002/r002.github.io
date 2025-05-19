@@ -1,5 +1,12 @@
 [
   {
+    "dt": "2025-05-19",
+    "version": "client-1.10.0",
+    "notes": [
+      "add `history` section"
+    ]
+  },
+  {
     "dt": "2025-03-08",
     "version": "client-1.9.0",
     "notes": [
