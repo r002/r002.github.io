@@ -9,7 +9,7 @@ async function renderHistory() {
 
   // Render today's date
   let dtCursor = renderPrettyDate(new Date());
-  document.getElementById("historyTrail").innerHTML = `<div class='span-four dateTitle'>${dtCursor}</div>`;
+  document.getElementById("historyTrail").innerHTML = `<div class='span-four boldTitle'>${dtCursor}</div>`;
 
   // Now fetch all of the history items from atproto
   const rs = await fetch(`https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=did:plc:a4dwnxjfvffmmhkmhog3qnlb&filter=posts_no_replies`);
@@ -23,10 +23,10 @@ async function renderHistory() {
       dtCursor = dtCurr;
 
       const lastChild = document.getElementById("historyTrail").lastElementChild;
-      if (lastChild.className==="span-four dateTitle") {
+      if (lastChild.className==="span-four boldTitle") {
         document.getElementById("historyTrail").innerHTML += `<div class='span-four' id='placeholder'>No current history items for today. 🙂</div>`;
       }
-      document.getElementById("historyTrail").innerHTML += `<div class='span-four dateTitle'>${dtCursor}</div>`;
+      document.getElementById("historyTrail").innerHTML += `<div class='span-four boldTitle'>${dtCursor}</div>`;
     }
 
     const url = r.post.record.text.split('\n')[1];

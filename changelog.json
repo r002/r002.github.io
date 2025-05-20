@@ -1,8 +1,9 @@
 [
   {
     "dt": "2025-05-19",
-    "version": "client-1.10.0",
+    "version": "client-1.10.1",
     "notes": [
+      "add `intro` to `history` section",
       "add `history` section"
     ]
   },
