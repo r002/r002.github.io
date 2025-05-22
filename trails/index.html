@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Robert Lin | Trails</title>
+        <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+        <script type="importmap">
+          {
+            "imports": {
+              "three": "https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.module.js",
+              "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.128.0/examples/jsm/"
+            }
+          }
+        </script>
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="trails.css">
+    </head>
+    <body>
+      <section id="navbar" class="headerfixed">
+      </section>
+
+      <section id="trailscontent" class="contentbody">
+        <div id="trails">
+            <div class="controls">
+              <button id="connect">Connect</button>
+              <button id="disconnect">Disconnect</button>
+              <button id="clear">Clear Log</button>
+              <button id="createDonut">createDonut</button>
+              <button id="removeDonut">removeDonut</button>
+          </div>
+      
+          <div class="textarea-container">
+              <h3>Log Output</h3>
+              <textarea id="output" readonly></textarea>
+          </div>
+        </div>
+        <br /><br /><br />
+      </section>
+
+      <section id="footerWrapper">
+        <div id="footer">
+          Copyright © 2025 Robert Lin. All rights reserved.
+        </div>
+      </section>
+    </body>
+    <script type="text/javascript" src="../js/navbar.js"></script>
+    <script type="text/javascript" src="../js/changelog.js"></script>
+    <script type="module" src="trails.js"></script>
+    <script type="text/javascript" src="jetstream.js"></script>
+    <script type="text/javascript" src="../js/quote.js"></script>
+</html>

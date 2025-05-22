@@ -1,5 +1,12 @@
 [
   {
+    "dt": "2025-05-21",
+    "version": "client-1.11.0",
+    "notes": [
+      "add `trails` section"
+    ]
+  },
+  {
     "dt": "2025-05-19",
     "version": "client-1.10.1",
     "notes": [

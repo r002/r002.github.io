@@ -80,7 +80,7 @@ function renderNavbar() {
             <span title="🚧 under construction 🚧">mutuals</span> • 
             <a href="../filmbot">filmbot</a> • 
             <a href="../history">history</a> • 
-            <span title="🚧 under construction 🚧">trails</span>
+            <a href="../trails">trails</a>
             </div>
         <div id="subnavExperiments" class="subheader" style="display: none;">
             <a href="/bmc">bmc</a> • 

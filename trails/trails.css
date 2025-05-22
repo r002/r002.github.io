@@ -1,0 +1,28 @@
+#trails {
+  visibility: hidden;  /* hidden by default - unhide for debugging controls */
+  position: absolute;
+  z-index: 9999;
+  background-color: yellow;
+  top: 0;
+  left: 0;
+}
+
+canvas { 
+  position: absolute;
+  display: block;
+  margin-top: 33px;
+}
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+textarea {
+  width: 500px;
+  height: 200px;
+  margin-top: 10px;
+  padding: 10px;
+  font-family: monospace;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
