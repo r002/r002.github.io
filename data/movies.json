@@ -1,5 +1,19 @@
 [
   {
+    "title": "The Life of Chuck",
+    "yearMonth": "2025-06",
+    "ticketCost": 5,
+    "month": "June",
+    "year": 2025
+  },
+  {
+    "title": "Mission Impossible: The Final Reckoning",
+    "yearMonth": "2025-05",
+    "ticketCost": 5,
+    "month": "May",
+    "year": 2025
+  },
+  {
     "title": "A Minecraft Movie",
     "yearMonth": "2025-04",
     "ticketCost": 5,
