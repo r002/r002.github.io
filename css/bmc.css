@@ -1,8 +1,8 @@
 .yearmovies {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 12px;
-  width: 840px;
+  width: 631px;
   margin: 0 auto;
 }
 

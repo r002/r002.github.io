@@ -1,5 +1,26 @@
 [
   {
+    "title": "The Long Walk",
+    "yearMonth": "2025-09",
+    "ticketCost": 5,
+    "month": "September",
+    "year": 2025
+  },
+  {
+    "title": "Superman",
+    "yearMonth": "2025-08",
+    "ticketCost": 5,
+    "month": "August",
+    "year": 2025
+  },
+  {
+    "title": "F1: The Movie",
+    "yearMonth": "2025-07",
+    "ticketCost": 5,
+    "month": "July",
+    "year": 2025
+  },
+  {
     "title": "The Life of Chuck",
     "yearMonth": "2025-06",
     "ticketCost": 5,

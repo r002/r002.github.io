@@ -1,5 +1,13 @@
 [
   {
+    "dt": "2025-06-21",
+    "version": "client-1.11.1",
+    "notes": [
+      "change `bmc` to display movies by quarter",
+      "add all `bmc` movies for 2025-Q3"
+    ]
+  },
+  {
     "dt": "2025-05-21",
     "version": "client-1.11.0",
     "notes": [
