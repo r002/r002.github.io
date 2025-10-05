@@ -600,6 +600,24 @@ function hydrateRefLabels(refs) {
 }
 
 function showImagePopover(el, imgUrl, w=600, h=600) {
+  // Create or show the dimmed background overlay
+  let overlay = document.getElementById('img-popover-overlay');
+  if (!overlay) {
+    overlay = document.createElement('div');
+    overlay.id = 'img-popover-overlay';
+    overlay.style.position = 'fixed';
+    overlay.style.top = '0';
+    overlay.style.left = '0';
+    overlay.style.width = '100vw';
+    overlay.style.height = '100vh';
+    overlay.style.background = 'rgba(0,0,0,0.7)';
+    overlay.style.zIndex = '9998';
+    overlay.style.pointerEvents = 'none';
+    document.body.appendChild(overlay);
+  }
+  overlay.style.display = 'block';
+
+  // Create or show the popover
   let popover = document.getElementById('img-popover');
   if (!popover) {
     popover = document.createElement('div');
@@ -623,6 +641,10 @@ function hideImagePopover() {
   const popover = document.getElementById('img-popover');
   if (popover) {
     popover.style.display = 'none';
+  }
+  const overlay = document.getElementById('img-popover-overlay');
+  if (overlay) {
+    overlay.style.display = 'none';
   }
 }
 
