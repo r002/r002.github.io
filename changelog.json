@@ -1,5 +1,13 @@
 [
   {
+    "dt": "2025-10-04",
+    "version": "client-1.11.2",
+    "notes": [
+      "make `tids` link to daily news snapshots in Timestream",
+      "introduce `ref labels` for tweets in Timestream (eg. ▶️🦋📰🔗)"
+    ]
+  },
+  {
     "dt": "2025-06-21",
     "version": "client-1.11.1",
     "notes": [

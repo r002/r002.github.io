@@ -401,13 +401,13 @@ function genenhancedtip(tweetArr) {
   return tooltip.reverse().join("\n");
 }
 
-function genprettydate(dt, fmt) {
+function genprettydate(dtISOstr, fmt) {
   let dateObject;
-  if (!dt.includes('Z')) {
-    const dateParts = dt.split("-");
+  if (!dtISOstr.includes('Z')) {
+    const dateParts = dtISOstr.split("-");
     dateObject = new Date(dateParts[0], dateParts[1] - 1, dateParts[2]);
   } else {
-    dateObject = new Date(dt);
+    dateObject = new Date(dtISOstr);
   }
   const options = { year: 'numeric', month: 'short', day: 'numeric', weekday: 'long' };
   const formattedDate = new Intl.DateTimeFormat('en-US', options).format(dateObject);
@@ -522,12 +522,30 @@ function rendertweets(tidArr, all) {
       }
     }
 
-    sArr.push(`<div class="tweetresult" 
+    // Hydrate `tid` if applicable
+    d = new Date(genprettydate(t.dt, "yearMonthDay"));
+    d.setHours(d.getHours()+5); // Convert the UTC date to ET
+    const yyMMdd = genprettydate(d.toISOString(), "yearMonthDay");
+    const newsLink = `https://robertl.in/automations/newsbot/${yyMMdd}.png`;
+    let tidStr = `${leftpad(t.id)}`;
+    if (yyMMdd >= "2025-10-03") {
+      tidStr = `<a href="${newsLink}" target="_blank" title="News | ${genprettydate(yyMMdd, "long")}">${leftpad(t.id)}</a>`;
+    }
+
+    // Hydrate `refs` if applicable
+    refsLinks = hydrateRefLabels(t.refs);
+
+    sArr.push(`<div class="tweetresult" style="display:flex;justify-content:space-between;"
             title="${genenhancedtip([t])}"
             onmouseover="highltdays([${t.id}]);highltppl([${t.id}]);"
             onmouseout="unhighltdays([${t.id}]);resetppl();">
-            ${leftpad(t.id)}: 
-            <a href="${t.url}" target="_blank">${t.title.substr(0,54).trim() + e}</a>
+            <span>
+              ${tidStr} | 
+              <a href="${t.url}" target="_blank">${t.title.substr(0,54).trim() + e}</a>
+            </span>
+            <span>
+              ${refsLinks}
+            </span>
           </div>`);
   }
 
@@ -545,6 +563,27 @@ function rendertweets(tidArr, all) {
   sArr.reverse();
   document.getElementById("searchresult").innerHTML = sArr.join("\n");
   document.getElementById("titletimestream").innerHTML = `Tweet Timestream (${tidArr.length})`;
+}
+
+function hydrateRefLabels(refs) {
+    let refsLinks = "";
+    for (const r of refs || []) {
+      if (r.includes('robertlin.substack.com/p/52-excerpts')) {
+        refsLinks += `<a href="${r}" target="_blank" title="#52 | Excerpts">📖</a>`;
+      } else if (r.includes('bsky.app/profile')) {
+        refsLinks += `<a href="${r}" target="_blank" title="${r}">🦋</a>`;
+      } else if (r.includes('youtube.com') || r.includes('youtu.be')) {
+        refsLinks += `<a href="${r}" target="_blank" title="${r}">▶️</a>`;
+      } else if (r.includes('wsj.com') || r.includes('nytimes.com') || r.includes('theguardian.com') || r.includes('vox.com')) {
+        refsLinks += `<a href="${r}" target="_blank" title="${r}">📰</a>`;
+      } else if (r.includes('x.com')) {
+        refsLinks += `<a href="${r}" target="_blank" title="${r}">𝕏</a>`;
+      } else {
+        refsLinks += `<a href="${r}" target="_blank" title="${r}">🔗</a>`;
+      }
+      break; // Only show the first link for now
+    }
+    return refsLinks;
 }
 
 function leftpad(id){
