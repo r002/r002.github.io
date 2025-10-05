@@ -1,9 +1,10 @@
 [
   {
     "dt": "2025-10-05",
-    "version": "client-1.11.3",
+    "version": "client-1.11.4",
     "notes": [
-      "add `img labels` for tweets in Timestream (eg. 🖼️)"
+      "add `img labels` for tweets in Timestream (eg. 🖼️)",
+      "add popovers for `img+ref labels` in Timestream"
     ]
   },
   {

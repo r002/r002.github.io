@@ -529,7 +529,7 @@ function rendertweets(tidArr, all) {
     const newsLink = `https://robertl.in/automations/newsbot/${yyMMdd}.png`;
     let tidStr = `${leftpad(t.id)}`;
     if (yyMMdd >= "2025-10-03") {
-      tidStr = `<a href="${newsLink}" target="_blank" title="News | ${genprettydate(yyMMdd, "long")}">${leftpad(t.id)}</a>`;
+      tidStr = `<a href="${newsLink}" target="_blank" title="News | ${genprettydate(yyMMdd, "long")}" onmouseover="showImagePopover(this, '${newsLink}', 1200, 1200)" onmouseout="hideImagePopover()">${leftpad(t.id)}</a>`;
     }
 
     // Hydrate `img` if applicable
@@ -572,7 +572,7 @@ function rendertweets(tidArr, all) {
 function hydrateImgLabels(imgs) {
     let imgsLinks = "";
     for (const imgUrl of imgs || []) {
-      imgsLinks += `<a href="${imgUrl}" target="_blank" style="font-size:9px;">🖼️</a>`;
+      imgsLinks += `<a href="${imgUrl}" target="_blank" style="font-size:9px;" onmouseover="showImagePopover(this, '${imgUrl}')" onmouseout="hideImagePopover()">🖼️</a>`;
       break;
     } // Only show the first link for now
     return imgsLinks;
@@ -597,6 +597,33 @@ function hydrateRefLabels(refs) {
       break; // Only show the first link for now
     }
     return refsLinks;
+}
+
+function showImagePopover(el, imgUrl, w=600, h=600) {
+  let popover = document.getElementById('img-popover');
+  if (!popover) {
+    popover = document.createElement('div');
+    popover.id = 'img-popover';
+    popover.style.position = 'absolute';
+    popover.style.zIndex = '9999';
+    popover.style.border = '1px solid #ccc';
+    popover.style.background = '#fff';
+    popover.style.padding = '4px';
+    popover.style.boxShadow = '0 2px 8px rgba(0,0,0,0.15)';
+    document.body.appendChild(popover);
+  }
+  popover.innerHTML = `<img src="${imgUrl}" style="max-width:${w}px;max-height:${h}px;">`;
+  const rect = el.getBoundingClientRect();
+  popover.style.top = `${rect.bottom + window.scrollY + 5}px`;
+  popover.style.left = `${rect.left + window.scrollX}px`;
+  popover.style.display = 'block';
+}
+
+function hideImagePopover() {
+  const popover = document.getElementById('img-popover');
+  if (popover) {
+    popover.style.display = 'none';
+  }
 }
 
 function leftpad(id){
