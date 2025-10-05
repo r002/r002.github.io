@@ -532,20 +532,24 @@ function rendertweets(tidArr, all) {
       tidStr = `<a href="${newsLink}" target="_blank" title="News | ${genprettydate(yyMMdd, "long")}">${leftpad(t.id)}</a>`;
     }
 
+    // Hydrate `img` if applicable
+    const imgLinks = hydrateImgLabels(t.img);
+
     // Hydrate `refs` if applicable
-    refsLinks = hydrateRefLabels(t.refs);
+    const refsLinks = hydrateRefLabels(t.refs);
 
     sArr.push(`<div class="tweetresult" style="display:flex;justify-content:space-between;"
             title="${genenhancedtip([t])}"
             onmouseover="highltdays([${t.id}]);highltppl([${t.id}]);"
             onmouseout="unhighltdays([${t.id}]);resetppl();">
             <span>
-              ${tidStr} | 
+              ${tidStr}: 
               <a href="${t.url}" target="_blank">${t.title.substr(0,54).trim() + e}</a>
             </span>
-            <span>
+            <div style="display:flex;flex-direction:column;">
+              ${imgLinks}
               ${refsLinks}
-            </span>
+            </div>
           </div>`);
   }
 
@@ -565,21 +569,30 @@ function rendertweets(tidArr, all) {
   document.getElementById("titletimestream").innerHTML = `Tweet Timestream (${tidArr.length})`;
 }
 
+function hydrateImgLabels(imgs) {
+    let imgsLinks = "";
+    for (const imgUrl of imgs || []) {
+      imgsLinks += `<a href="${imgUrl}" target="_blank" style="font-size:9px;">🖼️</a>`;
+      break;
+    } // Only show the first link for now
+    return imgsLinks;
+}
+
 function hydrateRefLabels(refs) {
     let refsLinks = "";
     for (const r of refs || []) {
       if (r.includes('robertlin.substack.com/p/52-excerpts')) {
-        refsLinks += `<a href="${r}" target="_blank" title="#52 | Excerpts">📖</a>`;
+        refsLinks += `<a href="${r}" target="_blank" style="font-size:9px;" title="#52 | Excerpts">📖</a>`;
       } else if (r.includes('bsky.app/profile')) {
-        refsLinks += `<a href="${r}" target="_blank" title="${r}">🦋</a>`;
+        refsLinks += `<a href="${r}" target="_blank" style="font-size:9px;" title="${r}">🦋</a>`;
       } else if (r.includes('youtube.com') || r.includes('youtu.be')) {
-        refsLinks += `<a href="${r}" target="_blank" title="${r}">▶️</a>`;
+        refsLinks += `<a href="${r}" target="_blank" style="font-size:9px;" title="${r}">▶️</a>`;
       } else if (r.includes('wsj.com') || r.includes('nytimes.com') || r.includes('theguardian.com') || r.includes('vox.com')) {
-        refsLinks += `<a href="${r}" target="_blank" title="${r}">📰</a>`;
+        refsLinks += `<a href="${r}" target="_blank" style="font-size:9px;" title="${r}">📰</a>`;
       } else if (r.includes('x.com')) {
-        refsLinks += `<a href="${r}" target="_blank" title="${r}">𝕏</a>`;
+        refsLinks += `<a href="${r}" target="_blank" style="font-size:9px;" title="${r}">𝕏</a>`;
       } else {
-        refsLinks += `<a href="${r}" target="_blank" title="${r}">🔗</a>`;
+        refsLinks += `<a href="${r}" target="_blank" style="font-size:9px;" title="${r}">🔗</a>`;
       }
       break; // Only show the first link for now
     }
