@@ -1,8 +1,15 @@
 [
   {
+    "title": "100 Meters",
+    "yearMonth": "2025-10",
+    "ticketCost": 6,
+    "month": "October",
+    "year": 2025
+  },
+  {
     "title": "Demon Slayer: Infinity Castle",
     "yearMonth": "2025-09",
-    "ticketCost": 5,
+    "ticketCost": 12,
     "month": "September",
     "year": 2025
   },
