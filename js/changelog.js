@@ -16,7 +16,7 @@ async function renderDatalog() {
   // console.log(">> latest:", latest);
   // console.log(">> latest in ET:", convertToEasternTime(latest));
 
-  const ms = await fetch("/data/movies.json");
+  const ms = await fetch("/bmc/movies.json");
   const movieJson = await ms.json();
   // console.log(movieJson[0].yearMonth);
   
