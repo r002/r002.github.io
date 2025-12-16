@@ -25,7 +25,7 @@ async function renderpage() {
 }
 
 async function fetchmovies() {
-  const rs = await fetch("../data/movies.json");
+  const rs = await fetch("movies.json");
   const movies = await rs.json();
   movies.sort((a, b) => a.yearMonth.localeCompare(b.yearMonth));
 
@@ -60,7 +60,7 @@ function renderthumbs() {
                 <div id="${yearMonth}" class="monthtitle" title="${review}" ${onclick}>
                   ${m.month}
                   <div class="poster"
-                    style='background-image: url("../img/bmc/${yearMonth}.jpg");'>
+                    style='background-image: url("img/${yearMonth}.jpg");'>
                   </div>
                 </div>
               </div>`;
