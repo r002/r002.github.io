@@ -1,3 +1,35 @@
+.diagonal-split {
+  position: relative;
+  width: 200px;     /* set whatever you want */
+  aspect-ratio: 3/5;  /* set whatever you want */
+  overflow: hidden;
+  border: 1px solid gainsboro;
+  /* border-radius: 12px; */
+  /* margin-top: 20px; */
+}
+
+.diagonal-split img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* use "contain" if you never want cropping */
+  display: block;
+  user-select: none;
+  -webkit-user-drag: none;
+  pointer-events: none;
+}
+
+/* Bottom image shows "lower-left" side by default */
+.diagonal-split .img-b {
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+}
+
+/* Top image shows "upper-right" side by default */
+.diagonal-split .img-a {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+}
+
 .yearmovies {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -9,18 +41,14 @@
 .monthtitle {
   text-align: center;
   background-color: #0ABAB5;
-  border: 1px solid gainsboro;
+  border: 1px solid #0ABAB5;
   color: black;
   text-transform: uppercase;
   width: 100%;
   padding-top: 7px;
+  padding-bottom: 7px;
   box-sizing: border-box;
-}
-
-.monthtitle:hover {
-  background-color: yellow;
-  border: 1px solid black;
-  cursor: pointer;
+  margin-bottom: 3px;
 }
 
 .poster {
@@ -43,4 +71,23 @@
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+.postercontainer {
+  display: flex;
+  flex-direction: column;
+  background-color:white;
+  box-sizing: border-box;
+  border: 1px solid gainsboro;
+}
+
+.postercontainer:hover .monthtitle {
+  background-color: yellow;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.postercontainer:hover .diagonal-split {
+  border: 1px solid black;
+  cursor: pointer;
 }

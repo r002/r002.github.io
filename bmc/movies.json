@@ -2,27 +2,47 @@
   {
     "title": "Die Hard (1988)",
     "yearMonth": "2025-12",
+    "filename": "2025-12b.jpg",
     "ticketCost": 0,
+    "month": "December",
+    "year": 2025
+  },
+  {
+    "title": "JUJUTSU KAISEN: Execution",
+    "yearMonth": "2025-12",
+    "filename": "2025-12a.jpg",
+    "ticketCost": 12,
     "month": "December",
     "year": 2025
   },
   {
     "title": "The Running Man",
     "yearMonth": "2025-11",
+    "filename": "2025-11.jpg",
     "ticketCost": 6,
     "month": "November",
     "year": 2025
   },
   {
+    "title": "Chainsaw Man - The Movie: Reze Arc",
+    "yearMonth": "2025-10",
+    "filename": "2025-10b.jpg",
+    "ticketCost": 12,
+    "month": "October",
+    "year": 2025
+  },
+  {
     "title": "100 Meters",
     "yearMonth": "2025-10",
-    "ticketCost": 6,
+    "filename": "2025-10a.jpg",
+    "ticketCost": 12,
     "month": "October",
     "year": 2025
   },
   {
     "title": "Demon Slayer: Infinity Castle",
     "yearMonth": "2025-09",
+    "filename": "2025-09.jpg",
     "ticketCost": 12,
     "month": "September",
     "year": 2025
@@ -30,6 +50,7 @@
   {
     "title": "Fantastic Four: First Steps",
     "yearMonth": "2025-08",
+    "filename": "2025-08.jpg",
     "ticketCost": 5,
     "month": "August",
     "year": 2025
@@ -37,6 +58,7 @@
   {
     "title": "F1: The Movie",
     "yearMonth": "2025-07",
+    "filename": "2025-07.jpg",
     "ticketCost": 5,
     "month": "July",
     "year": 2025
@@ -44,6 +66,7 @@
   {
     "title": "The Life of Chuck",
     "yearMonth": "2025-06",
+    "filename": "2025-06.jpg",
     "ticketCost": 5,
     "month": "June",
     "year": 2025
@@ -51,6 +74,7 @@
   {
     "title": "Mission Impossible: The Final Reckoning",
     "yearMonth": "2025-05",
+    "filename": "2025-05.jpg",
     "ticketCost": 5,
     "month": "May",
     "year": 2025
@@ -58,6 +82,7 @@
   {
     "title": "A Minecraft Movie",
     "yearMonth": "2025-04",
+    "filename": "2025-04.jpg",
     "ticketCost": 5,
     "month": "April",
     "year": 2025
@@ -65,6 +90,7 @@
   {
     "title": "Mickey 17",
     "yearMonth": "2025-03",
+    "filename": "2025-03.jpg",
     "ticketCost": 5,
     "month": "March",
     "year": 2025
@@ -72,6 +98,7 @@
   {
     "title": "One of Them Days",
     "yearMonth": "2025-02",
+    "filename": "2025-02.jpg",
     "ticketCost": 5,
     "month": "February",
     "year": 2025
@@ -79,6 +106,7 @@
   {
     "title": "Saturday Night",
     "yearMonth": "2025-01",
+    "filename": "2025-01.jpg",
     "ticketCost": 0,
     "month": "January",
     "year": 2025
@@ -86,6 +114,7 @@
   {
     "title": "The Lord of the Rings: The War of the Rohirrim",
     "yearMonth": "2024-12",
+    "filename": "2024-12.jpg",
     "ticketCost": 10,
     "month": "December",
     "year": 2024
@@ -93,13 +122,7 @@
   {
     "title": "No movie",
     "yearMonth": "2024-11",
-    "ticketCost": 0,
-    "month": "November",
-    "year": 2024
-  },
-  {
-    "title": "No movie",
-    "yearMonth": "2024-11",
+    "filename": "2024-11.jpg",
     "ticketCost": 0,
     "month": "November",
     "year": 2024
@@ -107,6 +130,7 @@
   {
     "title": "Activate",
     "yearMonth": "2024-10",
+    "filename": "2024-10.jpg",
     "ticketCost": 20,
     "month": "October",
     "year": 2024
@@ -114,6 +138,7 @@
   {
     "title": "Beatlejuice Beatlejuice",
     "yearMonth": "2024-09",
+    "filename": "2024-09.jpg",
     "ticketCost": 5,
     "month": "September",
     "year": 2024
@@ -121,6 +146,7 @@
   {
     "title": "Deadpool & Wolverine",
     "yearMonth": "2024-08",
+    "filename": "2024-08.jpg",
     "ticketCost": 5,
     "month": "August",
     "year": 2024
@@ -128,6 +154,7 @@
   {
     "title": "Fly me to the Moon",
     "yearMonth": "2024-07",
+    "filename": "2024-07.jpg",
     "ticketCost": 5,
     "month": "July",
     "year": 2024
@@ -135,6 +162,7 @@
   {
     "title": "Bad Boys: Ride or Die",
     "yearMonth": "2024-06",
+    "filename": "2024-06.jpg",
     "ticketCost": 5,
     "month": "June",
     "year": 2024
@@ -142,6 +170,7 @@
   {
     "title": "The Fall Guy",
     "yearMonth": "2024-05",
+    "filename": "2024-05.jpg",
     "ticketCost": 5,
     "month": "May",
     "year": 2024
@@ -149,6 +178,7 @@
   {
     "title": "The Last Airbender (2010)",
     "yearMonth": "2024-04",
+    "filename": "2024-04.jpg",
     "ticketCost": 0,
     "month": "April",
     "year": 2024,
@@ -161,6 +191,7 @@
   {
     "title": "Ghostbusters: Frozen Empire",
     "yearMonth": "2024-03",
+    "filename": "2024-03.jpg",
     "ticketCost": 8,
     "month": "March (XD)",
     "year": 2024,
@@ -169,6 +200,7 @@
   {
     "title": "The Beekeeper",
     "yearMonth": "2024-02",
+    "filename": "2024-02.jpg",
     "ticketCost": 5,
     "month": "February",
     "year": 2024
@@ -176,6 +208,7 @@
   {
     "title": "American Fiction",
     "yearMonth": "2024-01",
+    "filename": "2024-01.jpg",
     "ticketCost": 5,
     "month": "January",
     "year": 2024
@@ -183,6 +216,7 @@
   {
     "title": "Godzilla Minus One",
     "yearMonth": "2023-12",
+    "filename": "2023-12.jpg",
     "ticketCost": 5,
     "month": "December",
     "year": 2023
@@ -190,6 +224,7 @@
   {
     "title": "Ek Tha Tiger (2012)",
     "yearMonth": "2023-11",
+    "filename": "2023-11.jpg",
     "ticketCost": 0,
     "month": "November",
     "year": 2023,
@@ -200,6 +235,7 @@
   {
     "title": "Dumb Money",
     "yearMonth": "2023-10",
+    "filename": "2023-10.jpg",
     "ticketCost": 5,
     "month": "October",
     "year": 2023
@@ -207,6 +243,7 @@
   {
     "title": "Gran Turismo",
     "yearMonth": "2023-09",
+    "filename": "2023-09.jpg",
     "ticketCost": 5,
     "month": "September",
     "year": 2023
@@ -214,6 +251,7 @@
   {
     "title": "Barbie",
     "yearMonth": "2023-08",
+    "filename": "2023-08.jpg",
     "ticketCost": 5,
     "month": "August",
     "year": 2023
@@ -221,6 +259,7 @@
   {
     "title": "Indiana Jones and the Dial of Destiny",
     "yearMonth": "2023-07",
+    "filename": "2023-07.jpg",
     "ticketCost": 5,
     "month": "July",
     "year": 2023,
@@ -233,6 +272,7 @@
   {
     "title": "The Flash",
     "yearMonth": "2023-06",
+    "filename": "2023-06.jpg",
     "ticketCost": 8,
     "month": "June (XD)",
     "year": 2023
@@ -240,6 +280,7 @@
   {
     "title": "Fast X",
     "yearMonth": "2023-05",
+    "filename": "2023-05.jpg",
     "ticketCost": 5,
     "month": "May",
     "year": 2023
@@ -247,6 +288,7 @@
   {
     "title": "Dungeons & Dragons: Honor Among Thieves",
     "yearMonth": "2023-04",
+    "filename": "2023-04.jpg",
     "ticketCost": 5,
     "month": "April",
     "year": 2023
@@ -254,6 +296,7 @@
   {
       "title": "Cocaine Bear",
       "yearMonth": "2023-03",
+      "filename": "2023-03.jpg",
       "ticketCost": 5,
       "month": "March",
       "year": 2023
@@ -261,6 +304,7 @@
   {
     "title": "No movie",
     "yearMonth": "2023-02",
+    "filename": "2023-02.jpg",
     "ticketCost": 0,
     "month": "February",
     "year": 2023
@@ -268,6 +312,7 @@
   {
     "title": "No movie",
     "yearMonth": "2023-01",
+    "filename": "2023-01.jpg",
     "ticketCost": 0,
     "month": "January",
     "year": 2023

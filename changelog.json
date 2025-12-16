@@ -1,5 +1,12 @@
 [
   {
+    "dt": "2025-12-16",
+    "version": "client-1.11.5",
+    "notes": [
+      "enhance `bmc` to support two movie posters per month"
+    ]
+  },
+  {
     "dt": "2025-10-05",
     "version": "client-1.11.4",
     "notes": [

@@ -21,7 +21,7 @@ renderpage();
 
 async function renderpage() {
   await fetchmovies();
-  renderthumbs();
+  await renderthumbs();
 }
 
 async function fetchmovies() {
@@ -44,7 +44,29 @@ async function fetchmovies() {
   }
 }
 
-function renderthumbs() {
+// Adjustable diagonal:
+// p = where the diagonal crosses the TOP edge (0..1)
+// q = where the diagonal crosses the BOTTOM edge (0..1)
+// Example: p=0.25, q=0.75 gives a nice /-style diagonal.
+function setDiagonalClip(container, p = 0.3, q = 0.7) {
+  const imgA = container.querySelector(".img-a"); // top layer
+  const imgB = container.querySelector(".img-b"); // bottom layer
+
+  if (!imgA || !imgB) return;
+
+  const P = (p * 100).toFixed(3) + "%";
+  const Q = (q * 100).toFixed(3) + "%";
+
+  // imgA shows the region above/right of the diagonal
+  // polygon points: top-left, (P, top), (Q, bottom), bottom-left
+  imgA.style.clipPath = `polygon(0% 0%, ${P} 0%, ${Q} 100%, 0% 100%)`;
+
+  // imgB shows the complementary region
+  // polygon points: (P, top), top-right, bottom-right, (Q, bottom)
+  imgB.style.clipPath = `polygon(${P} 0%, 100% 0%, 100% 100%, ${Q} 100%)`;
+}
+
+async function renderthumbs() {
   // console.log(MOVIES.size);
   // console.log(MOVIES);
 
@@ -56,15 +78,34 @@ function renderthumbs() {
         // const cursor = m.refs != null ? `cursor: pointer;` : "";
         // const mt = m.refs != null ? "monthtitleclickable" : "monthtitle";
 
-        s += `<div style='display: flex;flex-direction: column;'>
-                <div id="${yearMonth}" class="monthtitle" title="${review}" ${onclick}>
+        let posterStr = `
+                  <img class="img-b" id="imgB" src="img/${m.yearMonth}.jpg" />
+                  <img class="img-a" id="imgA" src="img/${m.yearMonth}.jpg" />
+        `;
+        if(m.filename.includes("a")) {
+          posterStr = `
+                  <img class="img-b" id="imgB" src="img/${m.yearMonth}b.jpg" />
+                  <img class="img-a" id="imgA" src="img/${m.yearMonth}a.jpg" />
+        `;
+        }
+
+        s += `<div class='postercontainer'>
+                <div id="${m.yearMonth}" class="monthtitle" title="${review}" ${onclick}>
                   ${m.month}
-                  <div class="poster"
-                    style='background-image: url("img/${yearMonth}.jpg");'>
-                  </div>
+                </div>
+                <div class="diagonal-split" id="split" title="${m.title}">
+                  ${posterStr}
                 </div>
               </div>`;
     };
     document.getElementById(o.ID).innerHTML = s;
+
+    for (const [yearMonth, m] of o.DICT.entries()) {
+      try {
+        setDiagonalClip(document.getElementById(`${m.yearMonth}`), 0.3, 0.7);
+      } catch (e) {
+        console.error(`Error setting diagonal clip for ${m.yearMonth}:`, e);
+      }
+    }
   }
 }
