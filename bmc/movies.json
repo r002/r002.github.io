@@ -232,7 +232,7 @@
     "year": 2024
   },
   {
-    "title": "Beatlejuice Beatlejuice",
+    "title": "Beetlejuice Beetlejuice",
     "yearMonth": "2024-09",
     "filename": "2024-09.jpg",
     "ticketCost": 5,
@@ -390,12 +390,12 @@
     "year": 2023
   },
   {
-      "title": "Cocaine Bear",
-      "yearMonth": "2023-03",
-      "filename": "2023-03.jpg",
-      "ticketCost": 5,
-      "month": "March",
-      "year": 2023
+    "title": "Cocaine Bear",
+    "yearMonth": "2023-03",
+    "filename": "2023-03.jpg",
+    "ticketCost": 5,
+    "month": "March",
+    "year": 2023
   },
   {
     "title": "No movie",
