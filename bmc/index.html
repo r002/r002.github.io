@@ -5,12 +5,49 @@
         <title>Bad Movie Club</title>
         <link rel="stylesheet" href="../css/header.css">
         <link rel="stylesheet" href="bmc.css">
+        <style>
+            table {
+                /* width: 1200px; */
+                border-collapse: collapse;
+                margin-bottom: 20px;
+                margin: 0 auto;
+            }
+            th, td {
+                border: 1px solid gainsboro;
+                text-align: center;
+                padding: 5px;
+                font-size: 12px;
+            }
+            th {
+                background-color: #f4f4f4;
+            }
+            td.present {
+                background-color: #d4edda; /* Green for present */
+            }
+            td.absent {
+                background-color: #f8d7da; /* Red for absent */
+            }
+        </style>
     </head>
     <body>
       <section id="navbar" class="headerfixed">
       </section>
 
       <section id="bmccontent" class="contentbody">
+
+        <br /><br />
+        <table id="attendance-table">
+          <thead>
+            <tr>
+              <th>Attendee</th>
+              <!-- Movie columns will be dynamically populated -->
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Rows will be dynamically populated -->
+          </tbody>
+        </table>
+
         <div id="2025">
           <div class="yearheader">
             2025
@@ -33,6 +70,8 @@
           </div>
           <div id="2023content" class="yearmovies"></div>
         </div>
+
+        <br /><br /><br /><br />
       </section>
 
       <section id="footerWrapper">
@@ -45,4 +84,81 @@
     <script type="text/javascript" src="../js/changelog.js"></script>
     <script type="text/javascript" src="bmc.js"></script>
     <script type="text/javascript" src="../js/quote.js"></script>
+
+    <script>
+      function getAttendance (json, length, uId) {
+        const attendanceRecord = json.feed.map(p => p.post.record.text).filter(t => t.startsWith(`${uId}:`));
+        return attendanceRecord[0].split(":")[1].trim().split("").slice(0, length);
+      }
+
+      async function renderAttendanceTable() {
+        const rs = await fetch('movies.json');
+        const movieSlate = (await rs.json()).filter(m => m.year===2025||m.year===2024||m.year===2023).map(m => m.title);
+
+        const rs2 = await fetch(`https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=did:plc:oxo3jwr76q4ohlr2whi6cjcq&filter=posts_no_replies`);
+        const r2json = await rs2.json();
+        
+        const m1Record = getAttendance(r2json, movieSlate.length, "m1");
+        const m2Record = getAttendance(r2json, movieSlate.length, "m2");
+        const m3Record = getAttendance(r2json, movieSlate.length, "m3");
+        const m4Record = getAttendance(r2json, movieSlate.length, "m4");
+        const m5Record = getAttendance(r2json, movieSlate.length, "m5");
+
+        const attendanceData = {
+          movies: movieSlate,
+          attendees: [
+            {
+              name: `Peter (${m2Record.filter(p => p === '1').length})`,
+              attendance: m2Record
+            },
+            {
+              name: `Robert (${m1Record.filter(p => p === '1').length})`,
+              attendance: m1Record
+            },
+            {
+              name: `Ryan (${m3Record.filter(p => p === '1').length})`,
+              attendance: m3Record
+            },
+            {
+              name: `Shruti (${m4Record.filter(p => p === '1').length})`,
+              attendance: m4Record
+            },
+            {
+              name: `Andy (${m5Record.filter(p => p === '1').length})`,
+              attendance: m5Record
+            }
+          ]
+        };
+
+        // Populate the table
+        const table = document.getElementById("attendance-table");
+        const theadRow = table.querySelector("thead tr");
+
+        // Add movie columns
+        attendanceData.movies.forEach(movie => {
+          const th = document.createElement("th");
+          th.textContent = movie;
+          theadRow.appendChild(th);
+        });
+
+        // Add attendee rows
+        const tbody = table.querySelector("tbody");
+        attendanceData.attendees.forEach(attendee => {
+          const row = document.createElement("tr");
+          const nameCell = document.createElement("td");
+          nameCell.textContent = attendee.name;
+          row.appendChild(nameCell);
+
+          attendee.attendance.forEach(isPresent => {
+            const cell = document.createElement("td");
+            cell.className = isPresent === '1' ? "present" : "absent";
+            cell.textContent = isPresent === '1' ? "✔" : "✘";
+            row.appendChild(cell);
+          });
+
+          tbody.appendChild(row);
+        });
+    }
+    renderAttendanceTable();
+    </script>
 </html>
