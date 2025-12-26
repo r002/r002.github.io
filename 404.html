@@ -90,6 +90,35 @@
 
     // Before rendering 404 page, try to redirect if this is a shortlink
     const path = window.location.href;
+
+    // Configure the shortlinks for RL 2025 Christmas Letter
+    const regex25 = /robertl\.in\/(\d+\w)/;
+    const match25 = path.match(regex25);
+    if (match25) {
+      const id25 = match25[1]; // Extract the matched id
+      const shortlinks25 = {
+        "25a": "https://www.aboutamazon.com/about-us/shareholder-letters",
+        "25b": "https://robertlin.substack.com/i/180097867/fairness-following-rules",
+        "25c": "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lxqimjxacc2g",
+        "25d": "https://r002.notion.site/AI-s-Effect-on-Adtech-Martech-and-Where-We-re-Headed-b1f8f6be06bc4daf8b7de3f35b6d414f",
+        "25e": "https://robertlin.substack.com/p/46-outsourcing-all-sustenance-to-ai",
+        "25f": "https://en.wikipedia.org/wiki/Camino_de_Santiago",
+        "25g": "https://jamesvsrobert.com/",
+        "25h": "https://substack.com/@robertlin/note/c-189703593",
+        "25i": "https://substack.com/@itswilliamwillorbilly/note/c-172786389",
+        "25j": "https://x.com/robert_gpt",
+        "25k": "https://bsky.app/profile/robertl.in",
+        "25l": "https://robertlin.substack.com/",
+        "25m": "https://robertlin.substack.com/s/monthly-dispatches",
+        "25n": "https://robertlin.substack.com/p/52-excerpts"
+      };
+      if (shortlinks25.hasOwnProperty(id25)) {
+        const url = shortlinks25[id25];
+        console.log("Route to:", url);
+        window.location.href = url;
+      }
+    }
+
     const regex = /robertl\.in\/(b?)(\d+)/;
     const match = path.match(regex);
     if (match) {
