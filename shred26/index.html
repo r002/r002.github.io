@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAMES v ROBERT | 2026 SHRED CHALLENGE</title>
+    <link rel="stylesheet" href="shred26.css">
+    <style>
+        a {
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="retro-bg"></div>
+    <div class="sun"></div>
+    <div class="grid-container">
+        <div class="retro-grid"></div>
+    </div>
+    <div class="vhs-effect"></div>
+
+    <div class="content">
+        <div class="main-event">
+            <h1 class="event-title">SUMMER SHRED<br>CHALLENGE '26</h1>
+            <p class="subtitle">*** THE BATTLE OF THE CENTURY ***</p>
+            
+            <div class="countdown-container">
+                <div class="countdown-label">>>> CHALLENGE STARTS JUNE 21, 2026 <<<</div>
+                <div class="countdown" id="countdown">
+                    <div class="countdown-item">
+                        <span class="countdown-value" id="days">000</span>
+                        <span class="countdown-unit">Days</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-value" id="hours">00</span>
+                        <span class="countdown-unit">Hours</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-value" id="minutes">00</span>
+                        <span class="countdown-unit">Minutes</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-value" id="seconds">00</span>
+                        <span class="countdown-unit">Seconds</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="challenge-info">
+            <div class="cassette"></div>
+            <h2>*** 90-DAY BATTLE ***</h2>
+            <p><a href="https://www.youtube.com/watch?v=sqcLjcSloXs">THERE CAN BE ONLY ONE</a></p>
+        </div>
+
+        <div class="versus-container">
+            <div class="fighter fighter-left">
+                <div class="fighter-card">
+                    <!-- Image Placeholder for James -->
+                    <img src="james-card.png" alt="James Profile Picture" class="profile-image">
+                    <div class="fighter-number">8</div>
+                    <h2 class="fighter-name">GONZALES</h2>
+                    
+                    <div class="steps-container">
+                        <div class="steps-label">=== TOTAL STEPS ===</div>
+                        <div class="steps-count" id="james-steps">0</div>
+                        <div class="retro-bars">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </div>
+                    </div>
+
+                    <div class="profile-card" id="james-profile">
+                        <h3 class="profile-title">STATS</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vs-divider">
+                <div class="vs-text">VS</div>
+            </div>
+
+            <div class="fighter fighter-right">
+                <div class="fighter-card">
+                    <!-- Image Placeholder for Robert -->
+                    <img src="robert-card.png" alt="Robert Profile Picture" class="profile-image">
+                    <div class="fighter-number">16</div>
+                    <h2 class="fighter-name">LIN</h2>
+                    
+                    <div class="steps-container">
+                        <div class="steps-label">=== TOTAL STEPS ===</div>
+                        <div class="steps-count" id="robert-steps">0</div>
+                        <div class="retro-bars">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </div>
+                    </div>
+
+                    <div class="profile-card" id="robert-profile">
+                        <h3 class="profile-title">STATS</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Fighter Profile Data
+        const jamesProfile = {
+            age: 37,
+            nationality: "🇵🇭 Filipino",
+            hometown: "Malabon City, Philippines",
+            favoriteSport: "Basketball",
+            favoriteAthlete: "LeBron James",
+            knownFor: "3x Shred Champion"
+        };
+
+        const robertProfile = {
+            age: 39,
+            nationality: "🇺🇸 American",
+            hometown: "Bozeman, Montana",
+            favoriteSport: "Tetris",
+            favoriteAthlete: "Deep Blue/AlphaGo",
+            knownFor: "Long Slack messages 😅"
+        };
+
+        // Populate Profile Cards
+        function populateProfile(elementId, profileData) {
+            const container = document.getElementById(elementId);
+            const fields = [
+                { label: "Age", value: profileData.age },
+                { label: "Nationality", value: profileData.nationality },
+                { label: "Hometown", value: profileData.hometown },
+                { label: "Fav Sport", value: profileData.favoriteSport },
+                { label: "Fav Athlete", value: profileData.favoriteAthlete },
+                { label: "Known For", value: profileData.knownFor },
+            ];
+
+            fields.forEach(field => {
+                const row = document.createElement('div');
+                row.className = 'profile-row';
+                row.innerHTML = `
+                    <span class="profile-label">${field.label}</span>
+                    <span class="profile-value">${field.value}</span>
+                `;
+                container.appendChild(row);
+            });
+        }
+
+        // Initialize profiles
+        populateProfile('james-profile', jamesProfile);
+        populateProfile('robert-profile', robertProfile);
+
+        // Countdown Timer
+        function updateCountdown() {
+            const eventDate = new Date('June 21, 2026 00:00:00').getTime();
+            const now = new Date().getTime();
+            const distance = eventDate - now;
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById('days').textContent = String(days).padStart(3, '0');
+            document.getElementById('hours').textContent = String(hours).padStart(2, '0');
+            document.getElementById('minutes').textContent = String(minutes).padStart(2, '0');
+            document.getElementById('seconds').textContent = String(seconds).padStart(2, '0');
+
+            if (distance < 0) {
+                document.getElementById('days').textContent = '000';
+                document.getElementById('hours').textContent = '00';
+                document.getElementById('minutes').textContent = '00';
+                document.getElementById('seconds').textContent = '00';
+            }
+        }
+
+        updateCountdown();
+        setInterval(updateCountdown, 1000);
+
+        // Step counter simulation
+        let jamesSteps = 0;
+        let robertSteps = 0;
+
+        function updateSteps() {
+            jamesSteps += Math.floor(Math.random() * 150) + 50;
+            robertSteps += Math.floor(Math.random() * 150) + 50;
+            
+            document.getElementById('james-steps').textContent = jamesSteps.toLocaleString();
+            document.getElementById('robert-steps').textContent = robertSteps.toLocaleString();
+        }
+
+        setInterval(updateSteps, 3000);
+        updateSteps();
+    </script>
+</body>
+</html>
