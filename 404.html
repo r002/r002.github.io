@@ -3,6 +3,23 @@
 <head>
   <title>404</title>
   <script>
+    // Before rendering 404 page, try to redirect if this is a shortlink
+    const path = window.location.href;
+
+    const shortlinks0 = {
+      x: "https://robertl.in/server/xna/x.json"
+    }
+    const regex0 = /robertl\.in\/(\S+)/;
+    const match0 = path.match(regex0);
+    const id0 = match0[1]; // Extract the matched id
+    if (match0) {
+      if (shortlinks0.hasOwnProperty(id0)) {
+        const url = shortlinks0[id0];
+        console.log("Route to:", url);
+        window.location.href = url;
+      }
+    }
+
     const shortlinks = {
       e0: "https://robertlin.substack.com/",
         b0: "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc",
@@ -104,9 +121,6 @@
       e56: "56-my-core-values",
       e57: "57-bank-of-robertland-2026-ledger"
     };
-
-    // Before rendering 404 page, try to redirect if this is a shortlink
-    const path = window.location.href;
 
     // Configure the shortlinks for RL 2025 Christmas Letter
     const regex25 = /robertl\.in\/(\S+)/;
