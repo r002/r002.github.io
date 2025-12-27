@@ -7,9 +7,10 @@
     const path = window.location.href;
 
     const shortlinks0 = {
-      x: "https://robertl.in/server/xna/x.json"
+      x: "https://robertl.in/server/xna/x.json",
+      a: "https://robertl.in/server/xna/x.json"
     }
-    const regex0 = /robertl\.in\/(\S+)/;
+    const regex0 = /robertl\.in\/(\S)/;
     const match0 = path.match(regex0);
     const id0 = match0[1]; // Extract the matched id
     if (match0) {
