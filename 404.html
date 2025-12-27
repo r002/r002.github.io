@@ -109,7 +109,7 @@
     const path = window.location.href;
 
     // Configure the shortlinks for RL 2025 Christmas Letter
-    const regex25 = /robertl\.in\/(\d+\w)/;
+    const regex25 = /robertl\.in\/(\S+)/;
     const match25 = path.match(regex25);
     if (match25) {
       const id25 = match25[1]; // Extract the matched id
