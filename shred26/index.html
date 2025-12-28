@@ -6,8 +6,98 @@
     <title>JAMES v ROBERT | 2026 SHRED CHALLENGE</title>
     <link rel="stylesheet" href="shred26.css">
     <style>
+        /* Base link styles */
         a {
             color: orange;
+            text-decoration: none;
+            position: relative;
+            transition: color .3s ease, background-color .3s ease, text-shadow .3s ease, letter-spacing .3s ease, transform .25s ease;
+            will-change: transform, text-shadow, background-position;
+        }
+
+        /* Underline */
+        a::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -2px;
+            height: 2px;
+            width: 0;
+            background: linear-gradient(90deg, hotpink, fuchsia, magenta);
+            background-size: 200% 100%;
+            transition: width .35s ease;
+        }
+
+        /* Shine sweep overlay */
+        a::before {
+            content: "";
+            position: absolute;
+            top: -20%;
+            left: -30%;
+            width: 40%;
+            height: 140%;
+            transform: rotate(18deg);
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.25), transparent);
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        /* Super-epic hover/focus */
+        a:hover,
+        a:focus-visible {
+            color: transparent;                 /* reveal animated gradient text */
+            background-color: black;            /* dark neon backdrop */
+            background-image: linear-gradient(90deg, #ff7bd3, #ff00ff, #ff1493, #ff7bd3);
+            background-size: 300% auto;
+            -webkit-background-clip: text;
+            background-clip: text;
+            text-shadow: 0 0 8px hotpink, 0 0 20px rgba(255,105,180,.75), 0 0 32px rgba(255,20,147,.7);
+            letter-spacing: 0.6px;
+            transform: translateY(-1px) scale(1.04) skewX(0.6deg);
+            animation: neonPulse 1.4s ease-in-out infinite alternate, gradientShift 2.8s linear infinite;
+        }
+
+        a:hover::after,
+        a:focus-visible::after {
+            width: 100%;
+            animation: underlineShimmer 1.6s linear infinite;
+        }
+
+        a:hover::before,
+        a:focus-visible::before {
+            opacity: 1;
+            animation: shine 1.2s ease-in-out;
+        }
+
+        a:active {
+            transform: translateY(0) scale(1.02);
+            filter: brightness(1.1);
+        }
+
+        /* Animations */
+        @keyframes neonPulse {
+            0%  { text-shadow: 0 0 6px hotpink, 0 0 14px rgba(255,105,180,.6); }
+            100%{ text-shadow: 0 0 14px hotpink, 0 0 30px rgba(255,105,180,.9); }
+        }
+        @keyframes gradientShift {
+            0%   { background-position: 0% 50%; }
+            100% { background-position: 100% 50%; }
+        }
+        @keyframes underlineShimmer {
+            0%   { background-position: 0% 50%; }
+            100% { background-position: 100% 50%; }
+        }
+        @keyframes shine {
+            0%   { left: -30%; opacity: 0; }
+            40%  { opacity: 1; }
+            100% { left: 130%; opacity: 0; }
+        }
+
+        /* Respect reduced motion */
+        @media (prefers-reduced-motion: reduce) {
+            a { transition: none; }
+            a:hover, a:focus-visible { animation: none; }
+            a::after { transition: none; }
         }
     </style>
 </head>
@@ -21,6 +111,10 @@
 
     <div class="content">
         <div class="main-event">
+
+    <!-- <button id="play-button">Play Music</button>
+    <button id="pause-button">Pause Music</button> -->
+
             <h1 class="event-title">SUMMER SHRED<br>CHALLENGE '26</h1>
             <p class="subtitle">*** THE BATTLE OF THE CENTURY ***</p>
             
@@ -113,51 +207,59 @@
     </div>
 
     <script>
-        // Fighter Profile Data
-        const jamesProfile = {
-            age: 37,
-            nationality: "🇵🇭 Filipino",
-            hometown: "Malabon City, Philippines",
-            favoriteSport: "Basketball",
-            favoriteAthlete: "LeBron James",
-            knownFor: "3x Shred Champion"
-        };
+  // Fighter Profile Data (add optional href per field)
+  const jamesProfile = {
+    age: 37,
+    nationality: { text: "🇵🇭 Filipino", href: "https://en.wikipedia.org/wiki/Philippines" },
+    hometown: { text: "Malabon City, Philippines", href: "https://en.wikipedia.org/wiki/Malabon" },
+    favoriteSport: { text: "Basketball", href: "https://en.wikipedia.org/wiki/Basketball" },
+    favoriteAthlete: { text: "LeBron James", href: "https://en.wikipedia.org/wiki/LeBron_James" },
+    knownFor: "3x Shred Champion"
+  };
 
-        const robertProfile = {
-            age: 39,
-            nationality: "🇺🇸 American",
-            hometown: "Bozeman, Montana",
-            favoriteSport: "Tetris",
-            favoriteAthlete: "Deep Blue/AlphaGo",
-            knownFor: "Long Slack messages 😅"
-        };
+  const robertProfile = {
+    age: 39,
+    nationality: { text: "🇺🇸 American", href: "https://en.wikipedia.org/wiki/United_States" },
+    hometown: { text: "Bozeman, Montana", href: "https://en.wikipedia.org/wiki/Bozeman,_Montana" },
+    favoriteSport: { text: "Tetris", href: "https://en.wikipedia.org/wiki/Tetris" },
+    favoriteAthlete: { text: "Deep Blue/AlphaGo", href: "https://www.youtube.com/watch?v=WXuK6gekU1Y" },
+    knownFor: "Long Slack messages 😅"
+  };
 
-        // Populate Profile Cards
-        function populateProfile(elementId, profileData) {
-            const container = document.getElementById(elementId);
-            const fields = [
-                { label: "Age", value: profileData.age },
-                { label: "Nationality", value: profileData.nationality },
-                { label: "Hometown", value: profileData.hometown },
-                { label: "Fav Sport", value: profileData.favoriteSport },
-                { label: "Fav Athlete", value: profileData.favoriteAthlete },
-                { label: "Known For", value: profileData.knownFor },
-            ];
+  // Populate Profile Cards (wrap value in <a> only if href is provided)
+  function populateProfile(elementId, profileData) {
+    const container = document.getElementById(elementId);
+    const fields = [
+      { label: "Age", value: profileData.age },
+      { label: "Nationality", value: profileData.nationality },
+      { label: "Hometown", value: profileData.hometown },
+      { label: "Fav Sport", value: profileData.favoriteSport },
+      { label: "Fav Athlete", value: profileData.favoriteAthlete },
+      { label: "Known For", value: profileData.knownFor },
+    ];
 
-            fields.forEach(field => {
-                const row = document.createElement('div');
-                row.className = 'profile-row';
-                row.innerHTML = `
-                    <span class="profile-label">${field.label}</span>
-                    <span class="profile-value">${field.value}</span>
-                `;
-                container.appendChild(row);
-            });
-        }
+    fields.forEach(field => {
+      const row = document.createElement('div');
+      row.className = 'profile-row';
 
-        // Initialize profiles
-        populateProfile('james-profile', jamesProfile);
-        populateProfile('robert-profile', robertProfile);
+      // allow value as string or { text, href }
+      const v = field.value;
+      const text = typeof v === 'object' && v !== null ? v.text : v;
+      const href = typeof v === 'object' && v !== null ? v.href : null;
+
+      row.innerHTML = `
+        <span class="profile-label">${field.label}</span>
+        <span class="profile-value">
+          ${href ? `<a href="${href}" target="_blank" rel="noopener noreferrer">${text}</a>` : `${text}`}
+        </span>
+      `;
+      container.appendChild(row);
+    });
+  }
+
+  // Initialize profiles
+  populateProfile('james-profile', jamesProfile);
+  populateProfile('robert-profile', robertProfile);
 
         // Countdown Timer
         function updateCountdown() {
@@ -200,6 +302,17 @@
 
         setInterval(updateSteps, 3000);
         updateSteps();
+
+        // // Audio playback
+        // const audio = new Audio('tiger.mp3');
+
+        // document.getElementById('play-button').addEventListener('click', () => {
+        //     audio.play();
+        // });
+
+        // document.getElementById('pause-button').addEventListener('click', () => {
+        //     audio.pause();
+        // });
     </script>
 </body>
 </html>
