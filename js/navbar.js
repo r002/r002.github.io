@@ -105,7 +105,7 @@ function renderNavbar() {
 
       <div id="titleWrapper">
         <div id="title">
-          <a href="/" title="Robert Lin">Robert Lin</a>
+          <a href="/" title="robertl.in">robertl<span style="background-color: yellow;">.</span>in</a>
           &nbsp;&nbsp;&nbsp;
           <div id="releasenotes" class="version" title=""></div>
         </div>

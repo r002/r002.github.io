@@ -1,5 +1,13 @@
 [
   {
+    "dt": "2026-01-03",
+    "version": "client-1.12.2",
+    "notes": [
+      "add version badge to shred26",
+      "change site title to 'robertl.in'"
+    ]
+  },
+  {
     "dt": "2025-12-18",
     "version": "client-1.11.6",
     "notes": [
