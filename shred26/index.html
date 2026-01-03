@@ -5,101 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JAMES v ROBERT | 2026 SHRED CHALLENGE</title>
     <link rel="stylesheet" href="shred26.css">
-    <style>
-        /* Base link styles */
-        a {
-            color: orange;
-            text-decoration: none;
-            position: relative;
-            transition: color .3s ease, background-color .3s ease, text-shadow .3s ease, letter-spacing .3s ease, transform .25s ease;
-            will-change: transform, text-shadow, background-position;
-        }
-
-        /* Underline */
-        a::after {
-            content: "";
-            position: absolute;
-            left: 0;
-            bottom: -2px;
-            height: 2px;
-            width: 0;
-            background: linear-gradient(90deg, hotpink, fuchsia, magenta);
-            background-size: 200% 100%;
-            transition: width .35s ease;
-        }
-
-        /* Shine sweep overlay */
-        a::before {
-            content: "";
-            position: absolute;
-            top: -20%;
-            left: -30%;
-            width: 40%;
-            height: 140%;
-            transform: rotate(18deg);
-            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.25), transparent);
-            opacity: 0;
-            pointer-events: none;
-        }
-
-        /* Super-epic hover/focus */
-        a:hover,
-        a:focus-visible {
-            color: transparent;                 /* reveal animated gradient text */
-            background-color: black;            /* dark neon backdrop */
-            background-image: linear-gradient(90deg, #ff7bd3, #ff00ff, #ff1493, #ff7bd3);
-            background-size: 300% auto;
-            -webkit-background-clip: text;
-            background-clip: text;
-            text-shadow: 0 0 8px hotpink, 0 0 20px rgba(255,105,180,.75), 0 0 32px rgba(255,20,147,.7);
-            letter-spacing: 0.6px;
-            transform: translateY(-1px) scale(1.04) skewX(0.6deg);
-            animation: neonPulse 1.4s ease-in-out infinite alternate, gradientShift 2.8s linear infinite;
-        }
-
-        a:hover::after,
-        a:focus-visible::after {
-            width: 100%;
-            animation: underlineShimmer 1.6s linear infinite;
-        }
-
-        a:hover::before,
-        a:focus-visible::before {
-            opacity: 1;
-            animation: shine 1.2s ease-in-out;
-        }
-
-        a:active {
-            transform: translateY(0) scale(1.02);
-            filter: brightness(1.1);
-        }
-
-        /* Animations */
-        @keyframes neonPulse {
-            0%  { text-shadow: 0 0 6px hotpink, 0 0 14px rgba(255,105,180,.6); }
-            100%{ text-shadow: 0 0 14px hotpink, 0 0 30px rgba(255,105,180,.9); }
-        }
-        @keyframes gradientShift {
-            0%   { background-position: 0% 50%; }
-            100% { background-position: 100% 50%; }
-        }
-        @keyframes underlineShimmer {
-            0%   { background-position: 0% 50%; }
-            100% { background-position: 100% 50%; }
-        }
-        @keyframes shine {
-            0%   { left: -30%; opacity: 0; }
-            40%  { opacity: 1; }
-            100% { left: 130%; opacity: 0; }
-        }
-
-        /* Respect reduced motion */
-        @media (prefers-reduced-motion: reduce) {
-            a { transition: none; }
-            a:hover, a:focus-visible { animation: none; }
-            a::after { transition: none; }
-        }
-    </style>
 </head>
 <body>
     <div class="retro-bg"></div>
@@ -213,7 +118,7 @@
     nationality: { text: "🇵🇭 Filipino", href: "https://en.wikipedia.org/wiki/Philippines" },
     hometown: { text: "Malabon City, Philippines", href: "https://infotrust.com/articles/foundation-philippines/" },
     favoriteSport: { text: "Basketball", href: "https://en.wikipedia.org/wiki/Basketball" },
-    favoriteAthlete: { text: "LeBron James", href: "https://en.wikipedia.org/wiki/LeBron_James" },
+    favoriteAthlete: { text: "LeBron James", href: "https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/3lhiclzyqns2o" },
     knownFor: "3x Shred Champion",
     hottestTake: "Momoa > The Rock"
   };
