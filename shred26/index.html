@@ -211,19 +211,24 @@
   const jamesProfile = {
     age: 37,
     nationality: { text: "🇵🇭 Filipino", href: "https://en.wikipedia.org/wiki/Philippines" },
-    hometown: { text: "Malabon City, Philippines", href: "https://en.wikipedia.org/wiki/Malabon" },
+    hometown: { text: "Malabon City, Philippines", href: "https://infotrust.com/articles/foundation-philippines/" },
     favoriteSport: { text: "Basketball", href: "https://en.wikipedia.org/wiki/Basketball" },
     favoriteAthlete: { text: "LeBron James", href: "https://en.wikipedia.org/wiki/LeBron_James" },
-    knownFor: "3x Shred Champion"
+    knownFor: "3x Shred Champion",
+    hottestTake: "Momoa > The Rock"
   };
 
   const robertProfile = {
     age: 39,
-    nationality: { text: "🇺🇸 American", href: "https://en.wikipedia.org/wiki/United_States" },
-    hometown: { text: "Bozeman, Montana", href: "https://en.wikipedia.org/wiki/Bozeman,_Montana" },
-    favoriteSport: { text: "Tetris", href: "https://en.wikipedia.org/wiki/Tetris" },
+    nationality: { text: "🇺🇸 American", href: "https://www.youtube.com/shorts/tuTZTOiTW4Y" },
+    hometown: { text: "Bozeman, Montana", href: "https://www.youtube.com/watch?v=LOrkILQmpRk" },
+    favoriteSport: { text: "Tetris", href: "https://www.youtube.com/watch?v=vSkyr_tesmg&t=1239s" },
     favoriteAthlete: { text: "Deep Blue/AlphaGo", href: "https://www.youtube.com/watch?v=WXuK6gekU1Y" },
-    knownFor: "Long Slack messages 😅"
+    knownFor: "Long Slack messages 😅",
+    hottestTake: { text: "AI will end ads", href: "https://r002.notion.site/AI-s-Effect-on-Adtech-Martech-and-Where-We-re-Headed-b1f8f6be06bc4daf8b7de3f35b6d414f" }
+
+    // LinkedIn reply railing against ads:
+    // https://www.linkedin.com/feed/update/urn:li:activity:7406286917924855808?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7406286917924855808%2C7406327514496659457%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287406327514496659457%2Curn%3Ali%3Aactivity%3A7406286917924855808%29
   };
 
   // Populate Profile Cards (wrap value in <a> only if href is provided)
@@ -236,6 +241,7 @@
       { label: "Fav Sport", value: profileData.favoriteSport },
       { label: "Fav Athlete", value: profileData.favoriteAthlete },
       { label: "Known For", value: profileData.knownFor },
+      { label: "Hottest Take", value: profileData.hottestTake }
     ];
 
     fields.forEach(field => {
@@ -250,7 +256,7 @@
       row.innerHTML = `
         <span class="profile-label">${field.label}</span>
         <span class="profile-value">
-          ${href ? `<a href="${href}" target="_blank" rel="noopener noreferrer">${text}</a>` : `${text}`}
+          ${href ? `<a href="${href}">${text}</a>` : `${text}`}
         </span>
       `;
       container.appendChild(row);
