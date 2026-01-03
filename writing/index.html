@@ -74,7 +74,11 @@
 
           // Add the essay to the group and generate its HTML
           groupedEssays[year][month].push(essay);
-          s += `<a href="https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/${essay.b}">#${essay.id}. ${essay.title}</a><br />`;
+          if (essay.b) {
+            s += `<a href="https://bsky.app/profile/did:plc:5wlpm2j3d6can6quf5hotdcc/post/${essay.b}">#${essay.id}. ${essay.title}</a><br />`; 
+          } else {
+            s += `<a href="https://robertlin.substack.com/p/${essay.slug}">#${essay.id}. ${essay.title}</a><br />`; 
+          }
         }
 
         // Insert the generated HTML into the page
