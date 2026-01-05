@@ -264,6 +264,7 @@ function rendermeta(mode) {
   document.getElementById("titlebooks").innerHTML = `Books (${bookscount})`;
   document.getElementById("titleyear24").innerHTML = `2024 | "Year of Creation" (${arrDATES.filter(year=>year.includes("2024")).length})`;
   document.getElementById("titleyear25").innerHTML = `2025 | "Year of Connection" (${arrDATES.filter(year=>year.includes("2025")).length})`;
+  document.getElementById("titleyear26").innerHTML = `2026 | "Year of Fiction" (${arrDATES.filter(year=>year.includes("2026")).length})`;
 }
 
 function genavatar(pid) { // pid is a person's handle, but just lowercase
@@ -357,6 +358,19 @@ function rendercalendar() {
   const oct25 = genmonth(3, 31);
   const nov25 = genmonth(6, 30);
   const dec25 = genmonth(1, 31);
+
+  const jan26 = genmonth(4, 31);
+  const feb26 = genmonth(0, 28);
+  const mar26 = genmonth(0, 31);
+  const apr26 = genmonth(3, 30);
+  const may26 = genmonth(5, 31);
+  const jun26 = genmonth(1, 30);
+  const jul26 = genmonth(3, 31);
+  const aug26 = genmonth(6, 31);
+  const sep26 = genmonth(2, 30);
+  const oct26 = genmonth(4, 31);
+  const nov26 = genmonth(0, 30);
+  const dec26 = genmonth(2, 31);
   
   document.getElementById("2024-01").innerHTML = jan24;
   document.getElementById("2024-02").innerHTML = feb24;
@@ -383,6 +397,19 @@ function rendercalendar() {
   document.getElementById("2025-10").innerHTML = oct25;
   document.getElementById("2025-11").innerHTML = nov25;
   document.getElementById("2025-12").innerHTML = dec25;
+
+  document.getElementById("2026-01").innerHTML = jan26;
+  document.getElementById("2026-02").innerHTML = feb26;
+  document.getElementById("2026-03").innerHTML = mar26;
+  document.getElementById("2026-04").innerHTML = apr26;
+  document.getElementById("2026-05").innerHTML = may26;
+  document.getElementById("2026-06").innerHTML = jun26;
+  document.getElementById("2026-07").innerHTML = jul26;
+  document.getElementById("2026-08").innerHTML = aug26;
+  document.getElementById("2026-09").innerHTML = sep26;
+  document.getElementById("2026-10").innerHTML = oct26;
+  document.getElementById("2026-11").innerHTML = nov26;
+  document.getElementById("2026-12").innerHTML = dec26;
 
   // // This is hack! dayNo is a global variable that is used to track the day number. It is reset here.
   // // We need to fix it so that it is not a global variable.

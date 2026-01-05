@@ -1,8 +1,9 @@
 [
   {
     "dt": "2026-01-04",
-    "version": "client-1.12.3",
+    "version": "client-1.12.4",
     "notes": [
+      "add `2026 calendar`",
       "dynamically read version from changelog.json on /shred26",
       "add null-check when highlighting days in Timestream on /xna"
     ]
