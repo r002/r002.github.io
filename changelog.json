@@ -1,5 +1,12 @@
 [
   {
+    "dt": "2026-01-05",
+    "version": "client-1.12.5",
+    "notes": [
+      "dynamically read annual and quarterly objectives from /data/objectives.json on /xna"
+    ]
+  },
+  {
     "dt": "2026-01-04",
     "version": "client-1.12.4",
     "notes": [

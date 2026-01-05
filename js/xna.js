@@ -39,6 +39,11 @@ async function fetchdata() {
   const books = await bookspayload.json();
   console.log(">> books length:", books.length);
 
+  const objectivespayload = await fetch(`/data/objectives.json`);
+  const objectives = await objectivespayload.json();
+  console.log(">> objectives length:", objectives.length);
+  populateobjectives(objectives);
+
   arrTIDS = tweets.map(t=>t.id);
   arrTWEET = tweets.reverse();
   arrDATES = Array.from(new Set(tweets.map(t=>genprettydate(t.dt, "yearMonthDay"))));
@@ -154,6 +159,19 @@ function toggletab(hash) {
   updateUrl(hash);
 }
 
+function populateobjectives(objectives) {
+  for (const obj of objectives) {
+    const yearWrapper = document.querySelector(`.yearwrapper${obj.year.toString().slice(-2)}`);
+    if (yearWrapper) {
+      const titleYear = yearWrapper.querySelector(`#titleyear${obj.year.toString().slice(-2)}`);
+      if (titleYear) {
+        titleYear.title = obj.desc;
+        titleYear.innerHTML = `${obj.year} | "${obj.theme}"`;
+      }
+    }
+  }
+}
+
 /*
   Extract all links from my posts and display them in the links pane.
 */
@@ -262,9 +280,11 @@ function rendermeta(mode) {
   document.getElementById("titleorgs").innerHTML = `Organizations (${orgscount})`;
   document.getElementById("titlemedia").innerHTML = `TV + Movies (${mediacount})`;
   document.getElementById("titlebooks").innerHTML = `Books (${bookscount})`;
+
+  // TODO: fix this to not be hardcoded one day - 1/5/26
   document.getElementById("titleyear24").innerHTML = `2024 | "Year of Creation" (${arrDATES.filter(year=>year.includes("2024")).length})`;
   document.getElementById("titleyear25").innerHTML = `2025 | "Year of Connection" (${arrDATES.filter(year=>year.includes("2025")).length})`;
-  document.getElementById("titleyear26").innerHTML = `2026 | "Year of Fiction" (${arrDATES.filter(year=>year.includes("2026")).length})`;
+  document.getElementById("titleyear26").innerHTML = `2026 | "Year of Action" (${arrDATES.filter(year=>year.includes("2026")).length})`;
 }
 
 function genavatar(pid) { // pid is a person's handle, but just lowercase
