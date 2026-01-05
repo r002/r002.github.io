@@ -434,14 +434,14 @@ function goto(dt) {
 function highltdays(tidArr) {
   for (dayNo of tidArr) {
     const dt = genprettydate(mapTIDS.get(dayNo).dt, "yearMonthDay");
-    document.getElementById(dt).classList.add("selected");
+    document.getElementById(dt)?.classList.add("selected");
   }
 }
 
 function unhighltdays(tidArr) {
   for (dayNo of tidArr) {
     const dt = genprettydate(mapTIDS.get(dayNo).dt, "yearMonthDay");
-    document.getElementById(dt).classList.remove("selected");
+    document.getElementById(dt)?.classList.remove("selected");
   }
 }
 

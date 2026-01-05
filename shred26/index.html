@@ -22,7 +22,7 @@
   </style>
 </head>
 <body>
-  <div id="version-badge" aria-label="Version"><a href="/">client-1.12.2</a></div>
+  <div id="version-badge" aria-label="Version"></div>
   <div class="retro-bg"></div>
   <div class="sun"></div>
   <div class="grid-container"><div class="retro-grid"></div></div>
@@ -136,6 +136,20 @@
     </div>
 
     <script>
+      async function populateVersionBadge() {
+        const rs = await fetch("/changelog.json");
+        const releases = await rs.json();
+        const r = releases[0]; // get the latest client release notes
+        let bugs = "";
+        if (r.bugs) {
+          bugs = `\n\nbugs:\n${r.bugs?.map(bug=>`• ${bug}`).join("\n")}`;
+        }
+        const clientBuildTitle = `${r.version} ≋ ${r.dt}\n${r.notes.map(note=>`• ${note}`).join("\n")}${bugs}`;
+        document.getElementById("version-badge").innerHTML = `<a href="/" title="${clientBuildTitle}">${r.version}<a/>`;
+      }
+
+      populateVersionBadge();
+
   // Fighter Profile Data (add optional href per field)
   const jamesProfile = {
     age: 37,
