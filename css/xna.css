@@ -171,3 +171,29 @@ li a {
 .tweetresult a {
   text-decoration: none;
 }
+
+.countdownfixed {
+  position: fixed;
+  top: 85px;
+  left: calc(50% + 650px);
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  background-color: white;
+  border: 1px solid gainsboro;
+  padding: 6px 10px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+/* .countdownfixed a {
+  text-decoration: none;
+} */
+
+.boldedYellow {
+  font-weight: bold;
+  background-color: yellow;
+}
+
+.bolded {
+  font-weight: bold;
+}
