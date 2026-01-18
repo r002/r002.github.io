@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <title>fiction/1 redirect</title>
+  <script type="module">
+    const path = window.location.href;
+
+    const u = new URL(path);
+    const p = u.searchParams.get('p');
+    // console.log("target page:", p);
+
+    const j = await fetch("manifest.json");
+    const manifest = await j.json();
+    // console.log("manifest:", manifest);
+
+    const shortlinks = {
+      latest: manifest[manifest.length-1].url
+    }
+
+    if (p) {
+      if (shortlinks.hasOwnProperty(p)) {
+        window.location.href = shortlinks[p];
+      }
+      if (manifest[p]) {
+        window.location.href = manifest[p].url;
+      }
+    }
+  </script>
+</head>
+<body>
+    <!-- <div>
+      <h1>fiction/1 redirect</h1>
+      <div id="placeholder">
+          <p>This is the `fiction/1 redirect` page.</p>
+      </div>
+    </div> -->
+
+</body>
+</html>
