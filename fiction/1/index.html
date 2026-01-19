@@ -6,7 +6,8 @@
     const path = window.location.href;
 
     const u = new URL(path);
-    const p = u.searchParams.get('p');
+    const pageNo = u.searchParams.get('p');
+    const action = u.searchParams.get('a');
     // console.log("target page:", p);
 
     const j = await fetch("manifest.json");
@@ -17,13 +18,27 @@
       latest: manifest[manifest.length-1].url
     }
 
-    if (p) {
-      if (shortlinks.hasOwnProperty(p)) {
-        window.location.href = shortlinks[p];
+    try {
+      if (action === "prev") {
+        // http://localhost:5001/fiction/1?p=1&a=prev
+        const target = manifest[Number(pageNo) - 1];
+        window.location.href = target.url;
       }
-      if (manifest[p]) {
-        window.location.href = manifest[p].url;
+      else if (action === "next") {
+        // http://localhost:5001/fiction/1?p=1&a=next
+        const target = manifest[Number(pageNo) + 1];
+        window.location.href = target.url;
       }
+      else if (shortlinks.hasOwnProperty(pageNo)) {
+        window.location.href = shortlinks[pageNo];
+      }
+      else if (manifest[pageNo]) {
+        window.location.href = manifest[pageNo].url;
+      }
+    } catch (e) {
+      console.error("Redirect error:", e);
+      alert("Sorry! Couldn't find the page you requested. Click OK to redirect back to manifest.");
+      window.location.href = `https://robertlin.substack.com/p/fiction-manifest`;
     }
   </script>
 </head>
