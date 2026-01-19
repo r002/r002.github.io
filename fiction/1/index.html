@@ -15,7 +15,9 @@
     // console.log("manifest:", manifest);
 
     const shortlinks = {
-      latest: manifest[manifest.length-1].url
+      latest: manifest[manifest.length-1].url,
+      first: manifest[1].url,
+      intro: manifest[0].url
     }
 
     try {
