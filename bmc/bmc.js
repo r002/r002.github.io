@@ -1,7 +1,12 @@
+const MOVIES_2026 = new Map();
 const MOVIES_2025 = new Map();
 const MOVIES_2024 = new Map();
 const MOVIES_2023 = new Map();
 const MDB = [
+  { 
+    ID: "2026content",
+    DICT: MOVIES_2026
+  },
   { 
     ID: "2025content",
     DICT: MOVIES_2025
@@ -31,6 +36,9 @@ async function fetchmovies() {
 
   for (const movie of movies) {
     switch(movie.year) {
+      case 2026:
+        MOVIES_2026.set(movie.yearMonth, movie);
+        break;
       case 2025:
         MOVIES_2025.set(movie.yearMonth, movie);
         break;

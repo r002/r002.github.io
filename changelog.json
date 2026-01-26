@@ -1,5 +1,12 @@
 [
  {
+    "dt": "2026-01-26",
+    "version": "client-1.12.7",
+    "notes": [
+      "add `2026 bmc section`"
+    ]
+  },
+ {
     "dt": "2026-01-06",
     "version": "client-1.12.6",
     "notes": [
