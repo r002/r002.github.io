@@ -12,7 +12,7 @@
       e61_2: "https://robertlin.substack.com/p/61-2-economists-who-destroyed-millions",
       e61_3: "https://robertlin.substack.com/p/61-3-state-that-spent-15-billion-over"
     }
-    const regex0 = /robertl\.in\/(\S)/;
+    const regex0 = /robertl\.in\/(\S*)/;
     const match0 = path.match(regex0);
     const id0 = match0[1]; // Extract the matched id
     if (match0) {
