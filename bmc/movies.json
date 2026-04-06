@@ -1,5 +1,21 @@
 [
   {
+    "title": "Project Hail Mary",
+    "yearMonth": "2026-03",
+    "filename": "2026-03.jpg",
+    "ticketCost": 7,
+    "month": "March",
+    "year": 2026
+  },
+  {
+    "title": "Good Luck, Have Fun, Don't Die",
+    "yearMonth": "2026-02",
+    "filename": "2026-02.jpg",
+    "ticketCost": 7,
+    "month": "February",
+    "year": 2026
+  },
+  {
     "title": "Rental Family",
     "yearMonth": "2026-01",
     "filename": "2026-01.jpg",
