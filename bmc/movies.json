@@ -1,5 +1,29 @@
 [
   {
+    "title": "Masters of the Universe",
+    "yearMonth": "2026-06",
+    "filename": "2026-06.jpg",
+    "ticketCost": 7,
+    "month": "June",
+    "year": 2026
+  },
+  {
+    "title": "Mortal Kombat II",
+    "yearMonth": "2026-05",
+    "filename": "2026-05.jpg",
+    "ticketCost": 12,
+    "month": "May",
+    "year": 2026
+  },
+  {
+    "title": "The Devil Wears Prada 2",
+    "yearMonth": "2026-04",
+    "filename": "2026-04.jpg",
+    "ticketCost": 12,
+    "month": "April",
+    "year": 2026
+  },
+  {
     "title": "Project Hail Mary",
     "yearMonth": "2026-03",
     "filename": "2026-03.jpg",
