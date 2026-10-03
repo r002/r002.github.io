@@ -1,5 +1,37 @@
 [
   {
+    "title": "The Social Reckoning",
+    "yearMonth": "2026-10",
+    "filename": "2026-10.jpg",
+    "ticketCost": 7,
+    "month": "October",
+    "year": 2026
+  },
+  {
+    "title": "The End of Oak Street",
+    "yearMonth": "2026-09",
+    "filename": "2026-09.jpg",
+    "ticketCost": 0,
+    "month": "September",
+    "year": 2026
+  },
+  {
+    "title": "Spider-Man: Brand New Day",
+    "yearMonth": "2026-08",
+    "filename": "2026-08.jpg",
+    "ticketCost": 7,
+    "month": "August",
+    "year": 2026
+  },
+  {
+    "title": "The Odyssey",
+    "yearMonth": "2026-07",
+    "filename": "2026-07.jpg",
+    "ticketCost": 8,
+    "month": "July",
+    "year": 2026
+  },
+  {
     "title": "Masters of the Universe",
     "yearMonth": "2026-06",
     "filename": "2026-06.jpg",
