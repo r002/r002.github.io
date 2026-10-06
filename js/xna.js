@@ -632,7 +632,7 @@ function hydrateRefLabels(refs) {
         refsLinks += `<a href="${r}" target="_blank" style="font-size:9px;" title="#52 | Excerpts">📖</a>`;
       } else if (r.includes('bsky.app/profile')) {
         refsLinks += `<a href="${r}" target="_blank" style="font-size:9px;" title="${r}">🦋</a>`;
-      } else if (r.includes('youtube.com') || r.includes('youtu.be')) {
+      } else if (r.includes('youtube.com') || r.includes('youtu.be') || r.includes('.mp4')) {
         refsLinks += `<a href="${r}" target="_blank" style="font-size:9px;" title="${r}">▶️</a>`;
       } else if (r.includes('wsj.com') || r.includes('nytimes.com') || r.includes('theguardian.com') || r.includes('vox.com')) {
         refsLinks += `<a href="${r}" target="_blank" style="font-size:9px;" title="${r}">📰</a>`;
