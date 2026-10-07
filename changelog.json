@@ -1,5 +1,12 @@
 [
  {
+    "dt": "2026-10-07",
+    "version": "client-1.13.0",
+    "notes": [
+      "sync all tweets from DFOSTER starting on day 991/tweet 1281"
+    ]
+ },
+ {
     "dt": "2026-01-26",
     "version": "client-1.12.7",
     "notes": [

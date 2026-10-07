@@ -58,6 +58,7 @@
   cursor: pointer;
 }
 
+/* Color intensities for bsky tweets */
 .past1 {
   background-color: rgb(138, 138, 255);
 }
@@ -70,16 +71,30 @@
   background-color: blue;
 }
 
-.pastx1 {
-  background-color: green;
+/* Color intensities for DFOST tweets */
+.pastd1 {
+  background-color: rgb(94, 255, 94);
 }
 
-.pastx2 {
+.pastd2 {
   background-color: rgb(0, 201, 0);
 }
 
+.pastd3 {
+  background-color: green;
+}
+
+/* Color intensities for bsky tweets */
+.pastx1 {
+  background-color: rgb(255, 145, 145);
+}
+
+.pastx2 {
+  background-color: rgb(255, 43, 43);
+}
+
 .pastx3 {
-  background-color: rgb(0, 255, 0);
+  background-color: rgb(182, 0, 0);
 }
 
 .selected {

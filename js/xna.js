@@ -336,8 +336,14 @@ function genmonth(startday, daycount) {
 }
 
 function getintensity(tweetcount, dayNo) {
-  // For all days past day #295, render blue for bsky posts
-  if (dayNo>295) {
+  console.log(">> dayNo:", dayNo);
+  if (dayNo>990) {  // For all days past day #990/tweet #1280, render green for DFOSTER posts
+    if (tweetcount<3){
+      return `pastd${tweetcount}`;
+    }
+    return `pastd3`;
+  }
+  else if (dayNo>295) { // For all days past day #295, render blue for bsky posts
     if (tweetcount<3){
       return `past${tweetcount}`;
     }
