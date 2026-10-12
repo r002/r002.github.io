@@ -1,9 +1,17 @@
 [
   {
     "title": "The Social Reckoning",
+    "yearMonth": "2026-11",
+    "filename": "2026-11.jpg",
+    "ticketCost": 7,
+    "month": "November",
+    "year": 2026
+  },
+  {
+    "title": "The History of Concrete",
     "yearMonth": "2026-10",
     "filename": "2026-10.jpg",
-    "ticketCost": 7,
+    "ticketCost": 5,
     "month": "October",
     "year": 2026
   },
