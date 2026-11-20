@@ -1,5 +1,12 @@
 [
  {
+    "dt": "2026-11-19",
+    "version": "client-1.13.1",
+    "notes": [
+      "fix the timezone bug: calendar heatmap now renders correctly independent of the user's timezone"
+    ]
+ },
+ {
     "dt": "2026-10-07",
     "version": "client-1.13.0",
     "notes": [

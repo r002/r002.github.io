@@ -336,7 +336,6 @@ function genmonth(startday, daycount) {
 }
 
 function getintensity(tweetcount, dayNo) {
-  console.log(">> dayNo:", dayNo);
   if (dayNo>990) {  // For all days past day #990/tweet #1280, render green for DFOSTER posts
     if (tweetcount<3){
       return `pastd${tweetcount}`;
@@ -455,27 +454,39 @@ function genenhancedtip(tweetArr) {
 }
 
 function genprettydate(dtISOstr, fmt) {
-  let dateObject;
-  if (!dtISOstr.includes('Z')) {
-    const dateParts = dtISOstr.split("-");
-    dateObject = new Date(dateParts[0], dateParts[1] - 1, dateParts[2]);
-  } else {
-    dateObject = new Date(dtISOstr);
-  }
-  const options = { year: 'numeric', month: 'short', day: 'numeric', weekday: 'long' };
-  const formattedDate = new Intl.DateTimeFormat('en-US', options).format(dateObject);
-  const parts = formattedDate.split(", ");
-  switch(fmt) {
+  const dateOnly = /^(\d{4})-(\d{2})-(\d{2})$/.exec(dtISOstr);
+  const dateObject = dateOnly
+    // Keep a date-only value on the same calendar day in every timezone.
+    ? new Date(Date.UTC(+dateOnly[1], +dateOnly[2] - 1, +dateOnly[3], 12))
+    : new Date(dtISOstr);
+
+  const timeZone = "America/New_York";
+  const formattedDate = new Intl.DateTimeFormat("en-US", {
+    timeZone,
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+    weekday: "long"
+  }).format(dateObject);
+  const displayParts = formattedDate.split(", ");
+
+  switch (fmt) {
     case "long":
-      return `${parts[1]}, ${parts[2]} - ${parts[0]}`;
+      return `${displayParts[1]}, ${displayParts[2]} - ${displayParts[0]}`;
     case "short":
-      return `${parts[1]}`;
-    case "yearMonthDay":
-      const year = dateObject.getFullYear(); 
-      const month = String(dateObject.getMonth() + 1).padStart(2, '0'); // Months are zero-based 
-      const day = String(dateObject.getDate()).padStart(2, '0');
-      const ymd = `${year}-${month}-${day}`;
-      return ymd;
+      return displayParts[1];
+    case "yearMonthDay": {
+      const parts = new Intl.DateTimeFormat("en-US", {
+        timeZone,
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit"
+      }).formatToParts(dateObject);
+      const values = Object.fromEntries(
+        parts.filter(part => part.type !== "literal").map(part => [part.type, part.value])
+      );
+      return `${values.year}-${values.month}-${values.day}`;
+    }
   }
 }
 
